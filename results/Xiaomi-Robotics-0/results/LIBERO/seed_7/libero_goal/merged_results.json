@@ -1,0 +1,58 @@
+{
+  "individual_results": [
+    {
+      "task_id": 0,
+      "instruction": "open the middle drawer of the cabinet",
+      "success_rate": 1.0
+    },
+    {
+      "task_id": 1,
+      "instruction": "put the bowl on the stove",
+      "success_rate": 1.0
+    },
+    {
+      "task_id": 2,
+      "instruction": "put the wine bottle on top of the cabinet",
+      "success_rate": 0.96
+    },
+    {
+      "task_id": 3,
+      "instruction": "open the top drawer and put the bowl inside",
+      "success_rate": 0.92
+    },
+    {
+      "task_id": 4,
+      "instruction": "put the bowl on top of the cabinet",
+      "success_rate": 1.0
+    },
+    {
+      "task_id": 5,
+      "instruction": "push the plate to the front of the stove",
+      "success_rate": 0.98
+    },
+    {
+      "task_id": 6,
+      "instruction": "put the cream cheese in the bowl",
+      "success_rate": 1.0
+    },
+    {
+      "task_id": 7,
+      "instruction": "turn on the stove",
+      "success_rate": 1.0
+    },
+    {
+      "task_id": 8,
+      "instruction": "put the bowl on the plate",
+      "success_rate": 1.0
+    },
+    {
+      "task_id": 9,
+      "instruction": "put the wine bottle on the rack",
+      "success_rate": 1.0
+    }
+  ],
+  "summary": {
+    "total_tasks": 10,
+    "overall_success_rate": 0.986
+  }
+}

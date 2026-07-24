@@ -1,0 +1,26 @@
+{
+  "model_name": "Xiaomi-Robotics-0",
+  "model_family": "xiaomi_mot",
+  "seed": 44,
+  "host": "127.0.0.1",
+  "port": 12000,
+  "max_steps": 300,
+  "replan_steps": 10,
+  "bddl_dir": "/mnt/afs/zhengmingkai/raozf/benchmark/LIBERO-Para/libero/libero/bddl_files/libero_para",
+  "total_tasks": 4092,
+  "total_tasks_global": 4092,
+  "num_shards": 8,
+  "shard_index": null,
+  "timestamp": "2026-07-11T09:45:29",
+  "worker_dirs": [
+    "/mnt/afs/zhengmingkai/raozf/benchmark/Xiaomi-Robotics-0/results/libero_para/xiaomi_robotics_0_seed44_8gpu_20260711_093733/workers/rank_0",
+    "/mnt/afs/zhengmingkai/raozf/benchmark/Xiaomi-Robotics-0/results/libero_para/xiaomi_robotics_0_seed44_8gpu_20260711_093733/workers/rank_1",
+    "/mnt/afs/zhengmingkai/raozf/benchmark/Xiaomi-Robotics-0/results/libero_para/xiaomi_robotics_0_seed44_8gpu_20260711_093733/workers/rank_2",
+    "/mnt/afs/zhengmingkai/raozf/benchmark/Xiaomi-Robotics-0/results/libero_para/xiaomi_robotics_0_seed44_8gpu_20260711_093733/workers/rank_3",
+    "/mnt/afs/zhengmingkai/raozf/benchmark/Xiaomi-Robotics-0/results/libero_para/xiaomi_robotics_0_seed44_8gpu_20260711_093733/workers/rank_4",
+    "/mnt/afs/zhengmingkai/raozf/benchmark/Xiaomi-Robotics-0/results/libero_para/xiaomi_robotics_0_seed44_8gpu_20260711_093733/workers/rank_5",
+    "/mnt/afs/zhengmingkai/raozf/benchmark/Xiaomi-Robotics-0/results/libero_para/xiaomi_robotics_0_seed44_8gpu_20260711_093733/workers/rank_6",
+    "/mnt/afs/zhengmingkai/raozf/benchmark/Xiaomi-Robotics-0/results/libero_para/xiaomi_robotics_0_seed44_8gpu_20260711_093733/workers/rank_7"
+  ],
+  "merged_at": "2026-07-11T14:55:37"
+}

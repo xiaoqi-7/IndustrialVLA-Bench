@@ -1,0 +1,123 @@
+{
+  "format": "fastwam-libero-four-task-summary-v1",
+  "status": "complete",
+  "expected_seeds": [
+    1,
+    7,
+    42
+  ],
+  "included_seeds": [
+    1,
+    7,
+    42
+  ],
+  "missing_seeds": [],
+  "aggregation_policy": "Only complete seed summary.json files are included; partial worker outputs are excluded.",
+  "overall": {
+    "mean_success_rate": 0.9655,
+    "pooled_successes": 5793,
+    "pooled_episodes": 6000,
+    "pooled_success_rate": 0.9655
+  },
+  "subtasks": {
+    "libero_spatial": {
+      "seed_rates": {
+        "1": 0.974,
+        "7": 0.968,
+        "42": 0.97
+      },
+      "mean_success_rate": 0.9706666666666667,
+      "pooled_successes": 1456,
+      "pooled_episodes": 1500,
+      "pooled_success_rate": 0.9706666666666667,
+      "status": "complete"
+    },
+    "libero_object": {
+      "seed_rates": {
+        "1": 0.992,
+        "7": 0.992,
+        "42": 0.99
+      },
+      "mean_success_rate": 0.9913333333333334,
+      "pooled_successes": 1487,
+      "pooled_episodes": 1500,
+      "pooled_success_rate": 0.9913333333333333,
+      "status": "complete"
+    },
+    "libero_goal": {
+      "seed_rates": {
+        "1": 0.966,
+        "7": 0.958,
+        "42": 0.97
+      },
+      "mean_success_rate": 0.9646666666666667,
+      "pooled_successes": 1447,
+      "pooled_episodes": 1500,
+      "pooled_success_rate": 0.9646666666666667,
+      "status": "complete"
+    },
+    "libero_10": {
+      "seed_rates": {
+        "1": 0.93,
+        "7": 0.936,
+        "42": 0.94
+      },
+      "mean_success_rate": 0.9353333333333333,
+      "pooled_successes": 1403,
+      "pooled_episodes": 1500,
+      "pooled_success_rate": 0.9353333333333333,
+      "status": "complete"
+    }
+  },
+  "suites": {
+    "libero_spatial": {
+      "seed_rates": {
+        "1": 0.974,
+        "7": 0.968,
+        "42": 0.97
+      },
+      "mean_success_rate": 0.9706666666666667,
+      "pooled_successes": 1456,
+      "pooled_episodes": 1500,
+      "pooled_success_rate": 0.9706666666666667,
+      "status": "complete"
+    },
+    "libero_object": {
+      "seed_rates": {
+        "1": 0.992,
+        "7": 0.992,
+        "42": 0.99
+      },
+      "mean_success_rate": 0.9913333333333334,
+      "pooled_successes": 1487,
+      "pooled_episodes": 1500,
+      "pooled_success_rate": 0.9913333333333333,
+      "status": "complete"
+    },
+    "libero_goal": {
+      "seed_rates": {
+        "1": 0.966,
+        "7": 0.958,
+        "42": 0.97
+      },
+      "mean_success_rate": 0.9646666666666667,
+      "pooled_successes": 1447,
+      "pooled_episodes": 1500,
+      "pooled_success_rate": 0.9646666666666667,
+      "status": "complete"
+    },
+    "libero_10": {
+      "seed_rates": {
+        "1": 0.93,
+        "7": 0.936,
+        "42": 0.94
+      },
+      "mean_success_rate": 0.9353333333333333,
+      "pooled_successes": 1403,
+      "pooled_episodes": 1500,
+      "pooled_success_rate": 0.9353333333333333,
+      "status": "complete"
+    }
+  }
+}
+Resume complete; updated /mnt/afs/zhengmingkai/raozf/benchmark/FastWAM/result/libero_3seeds/20260716_194717/seed42/summary.json and three-seed summaries

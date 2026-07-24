@@ -1,0 +1,58 @@
+{
+  "individual_results": [
+    {
+      "task_id": 0,
+      "instruction": "pick up the alphabet soup and place it in the basket",
+      "success_rate": 1.0
+    },
+    {
+      "task_id": 1,
+      "instruction": "pick up the cream cheese and place it in the basket",
+      "success_rate": 1.0
+    },
+    {
+      "task_id": 2,
+      "instruction": "pick up the salad dressing and place it in the basket",
+      "success_rate": 1.0
+    },
+    {
+      "task_id": 3,
+      "instruction": "pick up the bbq sauce and place it in the basket",
+      "success_rate": 1.0
+    },
+    {
+      "task_id": 4,
+      "instruction": "pick up the ketchup and place it in the basket",
+      "success_rate": 1.0
+    },
+    {
+      "task_id": 5,
+      "instruction": "pick up the tomato sauce and place it in the basket",
+      "success_rate": 1.0
+    },
+    {
+      "task_id": 6,
+      "instruction": "pick up the butter and place it in the basket",
+      "success_rate": 1.0
+    },
+    {
+      "task_id": 7,
+      "instruction": "pick up the milk and place it in the basket",
+      "success_rate": 1.0
+    },
+    {
+      "task_id": 8,
+      "instruction": "pick up the chocolate pudding and place it in the basket",
+      "success_rate": 1.0
+    },
+    {
+      "task_id": 9,
+      "instruction": "pick up the orange juice and place it in the basket",
+      "success_rate": 1.0
+    }
+  ],
+  "summary": {
+    "total_tasks": 10,
+    "overall_success_rate": 1.0
+  }
+}

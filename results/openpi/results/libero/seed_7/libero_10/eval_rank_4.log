@@ -1,0 +1,367 @@
+INFO:root:Task suite: libero_10
+INFO:root:[Eval Split] rank=4, world_size=8, client=127.0.0.1:8004, task_ids=[4]
+INFO:root:Waiting for policy server at ws://127.0.0.1:8004 ...
+INFO:root:Policy server is reachable at ws://127.0.0.1:8004
+INFO:root:[Rank 4] Connecting to policy server 127.0.0.1:8004
+INFO:root:Waiting for server at ws://127.0.0.1:8004...
+[info] using task orders [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+rank4: tasks:   0%|          | 0/1 [00:00<?, ?it/s]
+rank4: task4:   0%|          | 0/50 [00:00<?, ?it/s][AINFO:root:
+Task 4: put the white mug on the left plate and put the yellow and white mug on the right plate
+INFO:root:Starting task=4 episode=1 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 1
+INFO:root:# successes on this rank: 1 (100.0%)
+
+rank4: task4:   2%|▏         | 1/50 [12:29<10:12:00, 749.39s/it][AINFO:root:
+Task 4: put the white mug on the left plate and put the yellow and white mug on the right plate
+INFO:root:Starting task=4 episode=2 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 2
+INFO:root:# successes on this rank: 2 (100.0%)
+
+rank4: task4:   4%|▍         | 2/50 [24:12<9:37:47, 722.25s/it] [AINFO:root:
+Task 4: put the white mug on the left plate and put the yellow and white mug on the right plate
+INFO:root:Starting task=4 episode=3 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 3
+INFO:root:# successes on this rank: 3 (100.0%)
+
+rank4: task4:   6%|▌         | 3/50 [37:01<9:42:24, 743.50s/it][AINFO:root:
+Task 4: put the white mug on the left plate and put the yellow and white mug on the right plate
+INFO:root:Starting task=4 episode=4 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 4
+INFO:root:# successes on this rank: 4 (100.0%)
+
+rank4: task4:   8%|▊         | 4/50 [49:19<9:28:20, 741.32s/it][AINFO:root:
+Task 4: put the white mug on the left plate and put the yellow and white mug on the right plate
+INFO:root:Starting task=4 episode=5 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 5
+INFO:root:# successes on this rank: 5 (100.0%)
+
+rank4: task4:  10%|█         | 5/50 [1:04:38<10:04:01, 805.36s/it][AINFO:root:
+Task 4: put the white mug on the left plate and put the yellow and white mug on the right plate
+INFO:root:Starting task=4 episode=6 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 6
+INFO:root:# successes on this rank: 6 (100.0%)
+
+rank4: task4:  12%|█▏        | 6/50 [1:17:06<9:36:16, 785.82s/it] [AINFO:root:
+Task 4: put the white mug on the left plate and put the yellow and white mug on the right plate
+INFO:root:Starting task=4 episode=7 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 7
+INFO:root:# successes on this rank: 7 (100.0%)
+
+rank4: task4:  14%|█▍        | 7/50 [1:29:49<9:17:58, 778.57s/it][AINFO:root:
+Task 4: put the white mug on the left plate and put the yellow and white mug on the right plate
+INFO:root:Starting task=4 episode=8 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 8
+INFO:root:# successes on this rank: 8 (100.0%)
+
+rank4: task4:  16%|█▌        | 8/50 [1:42:04<8:55:09, 764.52s/it][AINFO:root:
+Task 4: put the white mug on the left plate and put the yellow and white mug on the right plate
+INFO:root:Starting task=4 episode=9 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 9
+INFO:root:# successes on this rank: 9 (100.0%)
+
+rank4: task4:  18%|█▊        | 9/50 [1:54:38<8:40:16, 761.38s/it][AINFO:root:
+Task 4: put the white mug on the left plate and put the yellow and white mug on the right plate
+INFO:root:Starting task=4 episode=10 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 10
+INFO:root:# successes on this rank: 10 (100.0%)
+
+rank4: task4:  20%|██        | 10/50 [2:06:37<8:18:54, 748.37s/it][AINFO:root:
+Task 4: put the white mug on the left plate and put the yellow and white mug on the right plate
+INFO:root:Starting task=4 episode=11 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 11
+INFO:root:# successes on this rank: 11 (100.0%)
+
+rank4: task4:  22%|██▏       | 11/50 [2:19:16<8:08:32, 751.59s/it][AINFO:root:
+Task 4: put the white mug on the left plate and put the yellow and white mug on the right plate
+INFO:root:Starting task=4 episode=12 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 12
+INFO:root:# successes on this rank: 12 (100.0%)
+
+rank4: task4:  24%|██▍       | 12/50 [2:35:45<8:41:45, 823.82s/it][AINFO:root:
+Task 4: put the white mug on the left plate and put the yellow and white mug on the right plate
+INFO:root:Starting task=4 episode=13 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 13
+INFO:root:# successes on this rank: 13 (100.0%)
+
+rank4: task4:  26%|██▌       | 13/50 [2:49:03<8:23:04, 815.80s/it][AINFO:root:
+Task 4: put the white mug on the left plate and put the yellow and white mug on the right plate
+INFO:root:Starting task=4 episode=14 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 14
+INFO:root:# successes on this rank: 14 (100.0%)
+
+rank4: task4:  28%|██▊       | 14/50 [3:01:15<7:54:16, 790.46s/it][AINFO:root:
+Task 4: put the white mug on the left plate and put the yellow and white mug on the right plate
+INFO:root:Starting task=4 episode=15 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 15
+INFO:root:# successes on this rank: 15 (100.0%)
+
+rank4: task4:  30%|███       | 15/50 [3:14:19<7:39:58, 788.52s/it][AINFO:root:
+Task 4: put the white mug on the left plate and put the yellow and white mug on the right plate
+INFO:root:Starting task=4 episode=16 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 16
+INFO:root:# successes on this rank: 16 (100.0%)
+
+rank4: task4:  32%|███▏      | 16/50 [3:27:17<7:25:02, 785.36s/it][AINFO:root:
+Task 4: put the white mug on the left plate and put the yellow and white mug on the right plate
+INFO:root:Starting task=4 episode=17 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 17
+INFO:root:# successes on this rank: 17 (100.0%)
+
+rank4: task4:  34%|███▍      | 17/50 [3:40:54<7:17:15, 795.00s/it][AINFO:root:
+Task 4: put the white mug on the left plate and put the yellow and white mug on the right plate
+INFO:root:Starting task=4 episode=18 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 18
+INFO:root:# successes on this rank: 18 (100.0%)
+
+rank4: task4:  36%|███▌      | 18/50 [3:54:38<7:08:37, 803.69s/it][AINFO:root:
+Task 4: put the white mug on the left plate and put the yellow and white mug on the right plate
+INFO:root:Starting task=4 episode=19 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 19
+INFO:root:# successes on this rank: 19 (100.0%)
+
+rank4: task4:  38%|███▊      | 19/50 [4:07:50<6:53:28, 800.26s/it][AINFO:root:
+Task 4: put the white mug on the left plate and put the yellow and white mug on the right plate
+INFO:root:Starting task=4 episode=20 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 20
+INFO:root:# successes on this rank: 20 (100.0%)
+
+rank4: task4:  40%|████      | 20/50 [4:21:38<6:44:17, 808.59s/it][AINFO:root:
+Task 4: put the white mug on the left plate and put the yellow and white mug on the right plate
+INFO:root:Starting task=4 episode=21 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 21
+INFO:root:# successes on this rank: 21 (100.0%)
+
+rank4: task4:  42%|████▏     | 21/50 [4:35:54<6:37:40, 822.76s/it][AINFO:root:
+Task 4: put the white mug on the left plate and put the yellow and white mug on the right plate
+INFO:root:Starting task=4 episode=22 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 22
+INFO:root:# successes on this rank: 22 (100.0%)
+
+rank4: task4:  44%|████▍     | 22/50 [4:48:03<6:10:50, 794.67s/it][AINFO:root:
+Task 4: put the white mug on the left plate and put the yellow and white mug on the right plate
+INFO:root:Starting task=4 episode=23 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 23
+INFO:root:# successes on this rank: 23 (100.0%)
+
+rank4: task4:  46%|████▌     | 23/50 [5:00:10<5:48:28, 774.40s/it][AINFO:root:
+Task 4: put the white mug on the left plate and put the yellow and white mug on the right plate
+INFO:root:Starting task=4 episode=24 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 24
+INFO:root:# successes on this rank: 24 (100.0%)
+
+rank4: task4:  48%|████▊     | 24/50 [5:13:20<5:37:29, 778.82s/it][AINFO:root:
+Task 4: put the white mug on the left plate and put the yellow and white mug on the right plate
+INFO:root:Starting task=4 episode=25 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 25
+INFO:root:# successes on this rank: 25 (100.0%)
+
+rank4: task4:  50%|█████     | 25/50 [5:26:35<5:26:37, 783.89s/it][AINFO:root:
+Task 4: put the white mug on the left plate and put the yellow and white mug on the right plate
+INFO:root:Starting task=4 episode=26 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 26
+INFO:root:# successes on this rank: 26 (100.0%)
+
+rank4: task4:  52%|█████▏    | 26/50 [5:38:30<5:05:13, 763.06s/it][AINFO:root:
+Task 4: put the white mug on the left plate and put the yellow and white mug on the right plate
+INFO:root:Starting task=4 episode=27 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 27
+INFO:root:# successes on this rank: 27 (100.0%)
+
+rank4: task4:  54%|█████▍    | 27/50 [5:51:48<4:56:35, 773.72s/it][AINFO:root:
+Task 4: put the white mug on the left plate and put the yellow and white mug on the right plate
+INFO:root:Starting task=4 episode=28 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 28
+INFO:root:# successes on this rank: 28 (100.0%)
+
+rank4: task4:  56%|█████▌    | 28/50 [6:05:20<4:47:50, 785.02s/it][AINFO:root:
+Task 4: put the white mug on the left plate and put the yellow and white mug on the right plate
+INFO:root:Starting task=4 episode=29 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 29
+INFO:root:# successes on this rank: 29 (100.0%)
+
+rank4: task4:  58%|█████▊    | 29/50 [6:20:19<4:46:44, 819.27s/it][AINFO:root:
+Task 4: put the white mug on the left plate and put the yellow and white mug on the right plate
+INFO:root:Starting task=4 episode=30 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 30
+INFO:root:# successes on this rank: 30 (100.0%)
+
+rank4: task4:  60%|██████    | 30/50 [6:34:17<4:34:57, 824.89s/it][AINFO:root:
+Task 4: put the white mug on the left plate and put the yellow and white mug on the right plate
+INFO:root:Starting task=4 episode=31 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 31
+INFO:root:# successes on this rank: 31 (100.0%)
+
+rank4: task4:  62%|██████▏   | 31/50 [6:48:12<4:22:09, 827.87s/it][AINFO:root:
+Task 4: put the white mug on the left plate and put the yellow and white mug on the right plate
+INFO:root:Starting task=4 episode=32 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 32
+INFO:root:# successes on this rank: 32 (100.0%)
+
+rank4: task4:  64%|██████▍   | 32/50 [7:02:29<4:11:01, 836.76s/it][AINFO:root:
+Task 4: put the white mug on the left plate and put the yellow and white mug on the right plate
+INFO:root:Starting task=4 episode=33 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 33
+INFO:root:# successes on this rank: 33 (100.0%)
+
+rank4: task4:  66%|██████▌   | 33/50 [7:15:34<3:52:38, 821.10s/it][AINFO:root:
+Task 4: put the white mug on the left plate and put the yellow and white mug on the right plate
+INFO:root:Starting task=4 episode=34 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 34
+INFO:root:# successes on this rank: 34 (100.0%)
+
+rank4: task4:  68%|██████▊   | 34/50 [7:32:06<3:52:40, 872.54s/it][AINFO:root:
+Task 4: put the white mug on the left plate and put the yellow and white mug on the right plate
+INFO:root:Starting task=4 episode=35 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 35
+INFO:root:# successes on this rank: 35 (100.0%)
+
+rank4: task4:  70%|███████   | 35/50 [7:46:48<3:38:50, 875.38s/it][AINFO:root:
+Task 4: put the white mug on the left plate and put the yellow and white mug on the right plate
+INFO:root:Starting task=4 episode=36 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 36
+INFO:root:# successes on this rank: 36 (100.0%)
+
+rank4: task4:  72%|███████▏  | 36/50 [8:01:42<3:25:31, 880.84s/it][AINFO:root:
+Task 4: put the white mug on the left plate and put the yellow and white mug on the right plate
+INFO:root:Starting task=4 episode=37 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 37
+INFO:root:# successes on this rank: 37 (100.0%)
+
+rank4: task4:  74%|███████▍  | 37/50 [8:16:07<3:09:48, 876.06s/it][AINFO:root:
+Task 4: put the white mug on the left plate and put the yellow and white mug on the right plate
+INFO:root:Starting task=4 episode=38 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 38
+INFO:root:# successes on this rank: 38 (100.0%)
+
+rank4: task4:  76%|███████▌  | 38/50 [8:31:21<2:57:29, 887.47s/it][AINFO:root:
+Task 4: put the white mug on the left plate and put the yellow and white mug on the right plate
+INFO:root:Starting task=4 episode=39 ...
+WARNING:root:[Rank 4] client.infer failed, retry=0/2: ConnectionClosedError(None, Close(code=<CloseCode.INTERNAL_ERROR: 1011>, reason='keepalive ping timeout'), None)
+INFO:root:[Rank 4] Connecting to policy server 127.0.0.1:8004
+INFO:root:Waiting for server at ws://127.0.0.1:8004...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 39
+INFO:root:# successes on this rank: 39 (100.0%)
+
+rank4: task4:  78%|███████▊  | 39/50 [8:47:05<2:45:50, 904.56s/it][AINFO:root:
+Task 4: put the white mug on the left plate and put the yellow and white mug on the right plate
+INFO:root:Starting task=4 episode=40 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 40
+INFO:root:# successes on this rank: 40 (100.0%)
+
+rank4: task4:  80%|████████  | 40/50 [9:01:03<2:27:23, 884.40s/it][AINFO:root:
+Task 4: put the white mug on the left plate and put the yellow and white mug on the right plate
+INFO:root:Starting task=4 episode=41 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 41
+INFO:root:# successes on this rank: 41 (100.0%)
+
+rank4: task4:  82%|████████▏ | 41/50 [9:14:50<2:10:06, 867.34s/it][AINFO:root:
+Task 4: put the white mug on the left plate and put the yellow and white mug on the right plate
+INFO:root:Starting task=4 episode=42 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 42
+INFO:root:# successes on this rank: 42 (100.0%)
+
+rank4: task4:  84%|████████▍ | 42/50 [9:28:06<1:52:46, 845.86s/it][AINFO:root:
+Task 4: put the white mug on the left plate and put the yellow and white mug on the right plate
+INFO:root:Starting task=4 episode=43 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 43
+INFO:root:# successes on this rank: 43 (100.0%)
+
+rank4: task4:  86%|████████▌ | 43/50 [9:48:26<1:51:46, 958.02s/it][AINFO:root:
+Task 4: put the white mug on the left plate and put the yellow and white mug on the right plate
+INFO:root:Starting task=4 episode=44 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 44
+INFO:root:# successes on this rank: 44 (100.0%)
+
+rank4: task4:  88%|████████▊ | 44/50 [10:02:41<1:32:42, 927.06s/it][AINFO:root:
+Task 4: put the white mug on the left plate and put the yellow and white mug on the right plate
+INFO:root:Starting task=4 episode=45 ...
+INFO:root:Success: False
+INFO:root:# episodes completed on this rank so far: 45
+INFO:root:# successes on this rank: 44 (97.8%)
+
+rank4: task4:  90%|█████████ | 45/50 [10:31:32<1:37:22, 1168.42s/it][AINFO:root:
+Task 4: put the white mug on the left plate and put the yellow and white mug on the right plate
+INFO:root:Starting task=4 episode=46 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 46
+INFO:root:# successes on this rank: 45 (97.8%)
+
+rank4: task4:  92%|█████████▏| 46/50 [10:44:01<1:09:30, 1042.60s/it][AINFO:root:
+Task 4: put the white mug on the left plate and put the yellow and white mug on the right plate
+INFO:root:Starting task=4 episode=47 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 47
+INFO:root:# successes on this rank: 46 (97.9%)
+
+rank4: task4:  94%|█████████▍| 47/50 [10:56:47<47:58, 959.60s/it]   [AINFO:root:
+Task 4: put the white mug on the left plate and put the yellow and white mug on the right plate
+INFO:root:Starting task=4 episode=48 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 48
+INFO:root:# successes on this rank: 47 (97.9%)
+
+rank4: task4:  96%|█████████▌| 48/50 [11:10:17<30:29, 914.54s/it][AINFO:root:
+Task 4: put the white mug on the left plate and put the yellow and white mug on the right plate
+INFO:root:Starting task=4 episode=49 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 49
+INFO:root:# successes on this rank: 48 (98.0%)
+
+rank4: task4:  98%|█████████▊| 49/50 [11:22:15<14:15, 855.87s/it][AINFO:root:
+Task 4: put the white mug on the left plate and put the yellow and white mug on the right plate
+INFO:root:Starting task=4 episode=50 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 50
+INFO:root:# successes on this rank: 49 (98.0%)
+
+rank4: task4: 100%|██████████| 50/50 [11:35:04<00:00, 829.67s/it][A
+                                                                 [AINFO:root:Current task success rate on rank 4: 0.98
+INFO:root:Current rank success rate: 0.98
+rank4: tasks: 100%|██████████| 1/1 [11:35:23<00:00, 41723.48s/it]rank4: tasks: 100%|██████████| 1/1 [11:35:23<00:00, 41723.48s/it]
+INFO:root:Rank 4 total success rate: 0.98
+INFO:root:Rank 4 total episodes: 50

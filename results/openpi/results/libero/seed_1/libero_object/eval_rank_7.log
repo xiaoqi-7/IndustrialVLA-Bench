@@ -1,0 +1,832 @@
+/root/miniconda3/envs/openpi/lib/python3.12/site-packages/torch/cuda/__init__.py:61: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+  import pynvml  # type: ignore[import]
+INFO:root:Task suite: libero_object
+INFO:root:[Eval Split] rank=4, world_size=5, client=127.0.0.1:6670, task_ids=[4, 9]
+INFO:root:Waiting for policy server at ws://127.0.0.1:6670 ...
+INFO:root:Policy server is reachable at ws://127.0.0.1:6670
+INFO:root:[Rank 4] Connecting to policy server 127.0.0.1:6670
+INFO:root:Waiting for server at ws://127.0.0.1:6670...
+[info] using task orders [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+
+rank4: tasks:   0%|          | 0/2 [00:00<?, ?it/s]/mnt/afs/raozf/openpi/LIBERO/libero/libero/benchmark/__init__.py:164: UserWarning: Environment variable TORCH_FORCE_NO_WEIGHTS_ONLY_LOAD detected, since the`weights_only` argument was not explicitly passed to `torch.load`, forcing weights_only=False.
+  init_states = torch.load(init_states_path)
+
+
+rank4: task4:   0%|          | 0/50 [00:00<?, ?it/s][AINFO:root:
+Task 4: pick up the ketchup and place it in the basket
+INFO:root:Starting task=4 episode=1 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 1
+INFO:root:# successes on this rank: 1 (100.0%)
+
+
+rank4: task4:   2%|▏         | 1/50 [00:27<22:30, 27.56s/it][AINFO:root:
+Task 4: pick up the ketchup and place it in the basket
+INFO:root:Starting task=4 episode=2 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 2
+INFO:root:# successes on this rank: 2 (100.0%)
+
+
+rank4: task4:   4%|▍         | 2/50 [00:54<21:43, 27.16s/it][AINFO:root:
+Task 4: pick up the ketchup and place it in the basket
+INFO:root:Starting task=4 episode=3 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 3
+INFO:root:# successes on this rank: 3 (100.0%)
+
+
+rank4: task4:   6%|▌         | 3/50 [01:20<20:49, 26.58s/it][AINFO:root:
+Task 4: pick up the ketchup and place it in the basket
+INFO:root:Starting task=4 episode=4 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 4
+INFO:root:# successes on this rank: 4 (100.0%)
+
+
+rank4: task4:   8%|▊         | 4/50 [01:48<20:51, 27.20s/it][AINFO:root:
+Task 4: pick up the ketchup and place it in the basket
+INFO:root:Starting task=4 episode=5 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 5
+INFO:root:# successes on this rank: 5 (100.0%)
+
+
+rank4: task4:  10%|█         | 5/50 [02:22<22:13, 29.63s/it][AINFO:root:
+Task 4: pick up the ketchup and place it in the basket
+INFO:root:Starting task=4 episode=6 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 6
+INFO:root:# successes on this rank: 6 (100.0%)
+
+
+rank4: task4:  12%|█▏        | 6/50 [02:48<20:47, 28.35s/it][AINFO:root:
+Task 4: pick up the ketchup and place it in the basket
+INFO:root:Starting task=4 episode=7 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 7
+INFO:root:# successes on this rank: 7 (100.0%)
+
+
+rank4: task4:  14%|█▍        | 7/50 [03:12<19:25, 27.11s/it][AINFO:root:
+Task 4: pick up the ketchup and place it in the basket
+INFO:root:Starting task=4 episode=8 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 8
+INFO:root:# successes on this rank: 8 (100.0%)
+
+
+rank4: task4:  16%|█▌        | 8/50 [03:39<18:56, 27.06s/it][AINFO:root:
+Task 4: pick up the ketchup and place it in the basket
+INFO:root:Starting task=4 episode=9 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 9
+INFO:root:# successes on this rank: 9 (100.0%)
+
+
+rank4: task4:  18%|█▊        | 9/50 [04:06<18:26, 26.98s/it][AINFO:root:
+Task 4: pick up the ketchup and place it in the basket
+INFO:root:Starting task=4 episode=10 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 10
+INFO:root:# successes on this rank: 10 (100.0%)
+
+
+rank4: task4:  20%|██        | 10/50 [04:31<17:39, 26.49s/it][AINFO:root:
+Task 4: pick up the ketchup and place it in the basket
+INFO:root:Starting task=4 episode=11 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 11
+INFO:root:# successes on this rank: 11 (100.0%)
+
+
+rank4: task4:  22%|██▏       | 11/50 [04:58<17:14, 26.53s/it][AINFO:root:
+Task 4: pick up the ketchup and place it in the basket
+INFO:root:Starting task=4 episode=12 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 12
+INFO:root:# successes on this rank: 12 (100.0%)
+
+
+rank4: task4:  24%|██▍       | 12/50 [05:26<16:59, 26.83s/it][AINFO:root:
+Task 4: pick up the ketchup and place it in the basket
+INFO:root:Starting task=4 episode=13 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 13
+INFO:root:# successes on this rank: 13 (100.0%)
+
+
+rank4: task4:  26%|██▌       | 13/50 [05:55<16:57, 27.50s/it][AINFO:root:
+Task 4: pick up the ketchup and place it in the basket
+INFO:root:Starting task=4 episode=14 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 14
+INFO:root:# successes on this rank: 14 (100.0%)
+
+
+rank4: task4:  28%|██▊       | 14/50 [06:31<18:02, 30.06s/it][AINFO:root:
+Task 4: pick up the ketchup and place it in the basket
+INFO:root:Starting task=4 episode=15 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 15
+INFO:root:# successes on this rank: 15 (100.0%)
+
+
+rank4: task4:  30%|███       | 15/50 [07:00<17:29, 29.99s/it][AINFO:root:
+Task 4: pick up the ketchup and place it in the basket
+INFO:root:Starting task=4 episode=16 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 16
+INFO:root:# successes on this rank: 16 (100.0%)
+
+
+rank4: task4:  32%|███▏      | 16/50 [07:29<16:40, 29.43s/it][AINFO:root:
+Task 4: pick up the ketchup and place it in the basket
+INFO:root:Starting task=4 episode=17 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 17
+INFO:root:# successes on this rank: 17 (100.0%)
+
+
+rank4: task4:  34%|███▍      | 17/50 [07:55<15:42, 28.57s/it][AINFO:root:
+Task 4: pick up the ketchup and place it in the basket
+INFO:root:Starting task=4 episode=18 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 18
+INFO:root:# successes on this rank: 18 (100.0%)
+
+
+rank4: task4:  36%|███▌      | 18/50 [08:23<15:07, 28.35s/it][AINFO:root:
+Task 4: pick up the ketchup and place it in the basket
+INFO:root:Starting task=4 episode=19 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 19
+INFO:root:# successes on this rank: 19 (100.0%)
+
+
+rank4: task4:  38%|███▊      | 19/50 [08:48<14:04, 27.24s/it][AINFO:root:
+Task 4: pick up the ketchup and place it in the basket
+INFO:root:Starting task=4 episode=20 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 20
+INFO:root:# successes on this rank: 20 (100.0%)
+
+
+rank4: task4:  40%|████      | 20/50 [09:20<14:20, 28.68s/it][AINFO:root:
+Task 4: pick up the ketchup and place it in the basket
+INFO:root:Starting task=4 episode=21 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 21
+INFO:root:# successes on this rank: 21 (100.0%)
+
+
+rank4: task4:  42%|████▏     | 21/50 [09:45<13:23, 27.69s/it][AINFO:root:
+Task 4: pick up the ketchup and place it in the basket
+INFO:root:Starting task=4 episode=22 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 22
+INFO:root:# successes on this rank: 22 (100.0%)
+
+
+rank4: task4:  44%|████▍     | 22/50 [10:11<12:39, 27.14s/it][AINFO:root:
+Task 4: pick up the ketchup and place it in the basket
+INFO:root:Starting task=4 episode=23 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 23
+INFO:root:# successes on this rank: 23 (100.0%)
+
+
+rank4: task4:  46%|████▌     | 23/50 [10:35<11:47, 26.19s/it][AINFO:root:
+Task 4: pick up the ketchup and place it in the basket
+INFO:root:Starting task=4 episode=24 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 24
+INFO:root:# successes on this rank: 24 (100.0%)
+
+
+rank4: task4:  48%|████▊     | 24/50 [11:00<11:15, 25.97s/it][AINFO:root:
+Task 4: pick up the ketchup and place it in the basket
+INFO:root:Starting task=4 episode=25 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 25
+INFO:root:# successes on this rank: 25 (100.0%)
+
+
+rank4: task4:  50%|█████     | 25/50 [11:29<11:12, 26.88s/it][AINFO:root:
+Task 4: pick up the ketchup and place it in the basket
+INFO:root:Starting task=4 episode=26 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 26
+INFO:root:# successes on this rank: 26 (100.0%)
+
+
+rank4: task4:  52%|█████▏    | 26/50 [11:54<10:25, 26.06s/it][AINFO:root:
+Task 4: pick up the ketchup and place it in the basket
+INFO:root:Starting task=4 episode=27 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 27
+INFO:root:# successes on this rank: 27 (100.0%)
+
+
+rank4: task4:  54%|█████▍    | 27/50 [12:22<10:18, 26.88s/it][AINFO:root:
+Task 4: pick up the ketchup and place it in the basket
+INFO:root:Starting task=4 episode=28 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 28
+INFO:root:# successes on this rank: 28 (100.0%)
+
+
+rank4: task4:  56%|█████▌    | 28/50 [12:49<09:47, 26.72s/it][AINFO:root:
+Task 4: pick up the ketchup and place it in the basket
+INFO:root:Starting task=4 episode=29 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 29
+INFO:root:# successes on this rank: 29 (100.0%)
+
+
+rank4: task4:  58%|█████▊    | 29/50 [13:15<09:19, 26.63s/it][AINFO:root:
+Task 4: pick up the ketchup and place it in the basket
+INFO:root:Starting task=4 episode=30 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 30
+INFO:root:# successes on this rank: 30 (100.0%)
+
+
+rank4: task4:  60%|██████    | 30/50 [13:41<08:49, 26.46s/it][AINFO:root:
+Task 4: pick up the ketchup and place it in the basket
+INFO:root:Starting task=4 episode=31 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 31
+INFO:root:# successes on this rank: 31 (100.0%)
+
+
+rank4: task4:  62%|██████▏   | 31/50 [14:15<09:04, 28.66s/it][AINFO:root:
+Task 4: pick up the ketchup and place it in the basket
+INFO:root:Starting task=4 episode=32 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 32
+INFO:root:# successes on this rank: 32 (100.0%)
+
+
+rank4: task4:  64%|██████▍   | 32/50 [14:44<08:36, 28.69s/it][AINFO:root:
+Task 4: pick up the ketchup and place it in the basket
+INFO:root:Starting task=4 episode=33 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 33
+INFO:root:# successes on this rank: 33 (100.0%)
+
+
+rank4: task4:  66%|██████▌   | 33/50 [15:10<07:53, 27.87s/it][AINFO:root:
+Task 4: pick up the ketchup and place it in the basket
+INFO:root:Starting task=4 episode=34 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 34
+INFO:root:# successes on this rank: 34 (100.0%)
+
+
+rank4: task4:  68%|██████▊   | 34/50 [15:38<07:26, 27.91s/it][AINFO:root:
+Task 4: pick up the ketchup and place it in the basket
+INFO:root:Starting task=4 episode=35 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 35
+INFO:root:# successes on this rank: 35 (100.0%)
+
+
+rank4: task4:  70%|███████   | 35/50 [16:04<06:51, 27.46s/it][AINFO:root:
+Task 4: pick up the ketchup and place it in the basket
+INFO:root:Starting task=4 episode=36 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 36
+INFO:root:# successes on this rank: 36 (100.0%)
+
+
+rank4: task4:  72%|███████▏  | 36/50 [16:29<06:12, 26.60s/it][AINFO:root:
+Task 4: pick up the ketchup and place it in the basket
+INFO:root:Starting task=4 episode=37 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 37
+INFO:root:# successes on this rank: 37 (100.0%)
+
+
+rank4: task4:  74%|███████▍  | 37/50 [16:54<05:42, 26.31s/it][AINFO:root:
+Task 4: pick up the ketchup and place it in the basket
+INFO:root:Starting task=4 episode=38 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 38
+INFO:root:# successes on this rank: 38 (100.0%)
+
+
+rank4: task4:  76%|███████▌  | 38/50 [17:21<05:17, 26.43s/it][AINFO:root:
+Task 4: pick up the ketchup and place it in the basket
+INFO:root:Starting task=4 episode=39 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 39
+INFO:root:# successes on this rank: 39 (100.0%)
+
+
+rank4: task4:  78%|███████▊  | 39/50 [17:47<04:48, 26.24s/it][AINFO:root:
+Task 4: pick up the ketchup and place it in the basket
+INFO:root:Starting task=4 episode=40 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 40
+INFO:root:# successes on this rank: 40 (100.0%)
+
+
+rank4: task4:  80%|████████  | 40/50 [18:15<04:28, 26.87s/it][AINFO:root:
+Task 4: pick up the ketchup and place it in the basket
+INFO:root:Starting task=4 episode=41 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 41
+INFO:root:# successes on this rank: 41 (100.0%)
+
+
+rank4: task4:  82%|████████▏ | 41/50 [18:41<04:00, 26.69s/it][AINFO:root:
+Task 4: pick up the ketchup and place it in the basket
+INFO:root:Starting task=4 episode=42 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 42
+INFO:root:# successes on this rank: 42 (100.0%)
+
+
+rank4: task4:  84%|████████▍ | 42/50 [19:08<03:33, 26.68s/it][AINFO:root:
+Task 4: pick up the ketchup and place it in the basket
+INFO:root:Starting task=4 episode=43 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 43
+INFO:root:# successes on this rank: 43 (100.0%)
+
+
+rank4: task4:  86%|████████▌ | 43/50 [19:40<03:17, 28.28s/it][AINFO:root:
+Task 4: pick up the ketchup and place it in the basket
+INFO:root:Starting task=4 episode=44 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 44
+INFO:root:# successes on this rank: 44 (100.0%)
+
+
+rank4: task4:  88%|████████▊ | 44/50 [20:05<02:44, 27.38s/it][AINFO:root:
+Task 4: pick up the ketchup and place it in the basket
+INFO:root:Starting task=4 episode=45 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 45
+INFO:root:# successes on this rank: 45 (100.0%)
+
+
+rank4: task4:  90%|█████████ | 45/50 [20:33<02:17, 27.57s/it][AINFO:root:
+Task 4: pick up the ketchup and place it in the basket
+INFO:root:Starting task=4 episode=46 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 46
+INFO:root:# successes on this rank: 46 (100.0%)
+
+
+rank4: task4:  92%|█████████▏| 46/50 [21:16<02:08, 32.18s/it][AINFO:root:
+Task 4: pick up the ketchup and place it in the basket
+INFO:root:Starting task=4 episode=47 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 47
+INFO:root:# successes on this rank: 47 (100.0%)
+
+
+rank4: task4:  94%|█████████▍| 47/50 [21:46<01:34, 31.56s/it][AINFO:root:
+Task 4: pick up the ketchup and place it in the basket
+INFO:root:Starting task=4 episode=48 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 48
+INFO:root:# successes on this rank: 48 (100.0%)
+
+
+rank4: task4:  96%|█████████▌| 48/50 [22:13<01:00, 30.07s/it][AINFO:root:
+Task 4: pick up the ketchup and place it in the basket
+INFO:root:Starting task=4 episode=49 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 49
+INFO:root:# successes on this rank: 49 (100.0%)
+
+
+rank4: task4:  98%|█████████▊| 49/50 [22:40<00:29, 29.21s/it][AINFO:root:
+Task 4: pick up the ketchup and place it in the basket
+INFO:root:Starting task=4 episode=50 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 50
+INFO:root:# successes on this rank: 50 (100.0%)
+
+
+rank4: task4: 100%|██████████| 50/50 [23:07<00:00, 28.34s/it][A
+
+                                                             [AINFO:root:Current task success rate on rank 4: 1.0
+INFO:root:Current rank success rate: 1.0
+
+rank4: tasks:  50%|█████     | 1/2 [23:09<23:09, 1389.29s/it]/mnt/afs/raozf/openpi/LIBERO/libero/libero/benchmark/__init__.py:164: UserWarning: Environment variable TORCH_FORCE_NO_WEIGHTS_ONLY_LOAD detected, since the`weights_only` argument was not explicitly passed to `torch.load`, forcing weights_only=False.
+  init_states = torch.load(init_states_path)
+
+
+rank4: task9:   0%|          | 0/50 [00:00<?, ?it/s][AINFO:root:
+Task 9: pick up the orange juice and place it in the basket
+INFO:root:Starting task=9 episode=1 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 51
+INFO:root:# successes on this rank: 51 (100.0%)
+
+
+rank4: task9:   2%|▏         | 1/50 [00:24<19:42, 24.14s/it][AINFO:root:
+Task 9: pick up the orange juice and place it in the basket
+INFO:root:Starting task=9 episode=2 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 52
+INFO:root:# successes on this rank: 52 (100.0%)
+
+
+rank4: task9:   4%|▍         | 2/50 [00:47<19:05, 23.87s/it][AINFO:root:
+Task 9: pick up the orange juice and place it in the basket
+INFO:root:Starting task=9 episode=3 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 53
+INFO:root:# successes on this rank: 53 (100.0%)
+
+
+rank4: task9:   6%|▌         | 3/50 [01:11<18:29, 23.60s/it][AINFO:root:
+Task 9: pick up the orange juice and place it in the basket
+INFO:root:Starting task=9 episode=4 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 54
+INFO:root:# successes on this rank: 54 (100.0%)
+
+
+rank4: task9:   8%|▊         | 4/50 [01:33<17:45, 23.17s/it][AINFO:root:
+Task 9: pick up the orange juice and place it in the basket
+INFO:root:Starting task=9 episode=5 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 55
+INFO:root:# successes on this rank: 55 (100.0%)
+
+
+rank4: task9:  10%|█         | 5/50 [01:58<17:52, 23.83s/it][AINFO:root:
+Task 9: pick up the orange juice and place it in the basket
+INFO:root:Starting task=9 episode=6 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 56
+INFO:root:# successes on this rank: 56 (100.0%)
+
+
+rank4: task9:  12%|█▏        | 6/50 [02:23<17:41, 24.12s/it][AINFO:root:
+Task 9: pick up the orange juice and place it in the basket
+INFO:root:Starting task=9 episode=7 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 57
+INFO:root:# successes on this rank: 57 (100.0%)
+
+
+rank4: task9:  14%|█▍        | 7/50 [02:51<18:17, 25.52s/it][AINFO:root:
+Task 9: pick up the orange juice and place it in the basket
+INFO:root:Starting task=9 episode=8 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 58
+INFO:root:# successes on this rank: 58 (100.0%)
+
+
+rank4: task9:  16%|█▌        | 8/50 [03:15<17:30, 25.01s/it][AINFO:root:
+Task 9: pick up the orange juice and place it in the basket
+INFO:root:Starting task=9 episode=9 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 59
+INFO:root:# successes on this rank: 59 (100.0%)
+
+
+rank4: task9:  18%|█▊        | 9/50 [03:39<16:45, 24.51s/it][AINFO:root:
+Task 9: pick up the orange juice and place it in the basket
+INFO:root:Starting task=9 episode=10 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 60
+INFO:root:# successes on this rank: 60 (100.0%)
+
+
+rank4: task9:  20%|██        | 10/50 [04:02<16:13, 24.33s/it][AINFO:root:
+Task 9: pick up the orange juice and place it in the basket
+INFO:root:Starting task=9 episode=11 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 61
+INFO:root:# successes on this rank: 61 (100.0%)
+
+
+rank4: task9:  22%|██▏       | 11/50 [04:26<15:33, 23.94s/it][AINFO:root:
+Task 9: pick up the orange juice and place it in the basket
+INFO:root:Starting task=9 episode=12 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 62
+INFO:root:# successes on this rank: 62 (100.0%)
+
+
+rank4: task9:  24%|██▍       | 12/50 [04:52<15:37, 24.66s/it][AINFO:root:
+Task 9: pick up the orange juice and place it in the basket
+INFO:root:Starting task=9 episode=13 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 63
+INFO:root:# successes on this rank: 63 (100.0%)
+
+
+rank4: task9:  26%|██▌       | 13/50 [05:27<17:12, 27.89s/it][AINFO:root:
+Task 9: pick up the orange juice and place it in the basket
+INFO:root:Starting task=9 episode=14 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 64
+INFO:root:# successes on this rank: 64 (100.0%)
+
+
+rank4: task9:  28%|██▊       | 14/50 [05:53<16:19, 27.20s/it][AINFO:root:
+Task 9: pick up the orange juice and place it in the basket
+INFO:root:Starting task=9 episode=15 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 65
+INFO:root:# successes on this rank: 65 (100.0%)
+
+
+rank4: task9:  30%|███       | 15/50 [06:19<15:37, 26.77s/it][AINFO:root:
+Task 9: pick up the orange juice and place it in the basket
+INFO:root:Starting task=9 episode=16 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 66
+INFO:root:# successes on this rank: 66 (100.0%)
+
+
+rank4: task9:  32%|███▏      | 16/50 [06:41<14:27, 25.52s/it][AINFO:root:
+Task 9: pick up the orange juice and place it in the basket
+INFO:root:Starting task=9 episode=17 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 67
+INFO:root:# successes on this rank: 67 (100.0%)
+
+
+rank4: task9:  34%|███▍      | 17/50 [07:04<13:39, 24.85s/it][AINFO:root:
+Task 9: pick up the orange juice and place it in the basket
+INFO:root:Starting task=9 episode=18 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 68
+INFO:root:# successes on this rank: 68 (100.0%)
+
+
+rank4: task9:  36%|███▌      | 18/50 [07:30<13:18, 24.95s/it][AINFO:root:
+Task 9: pick up the orange juice and place it in the basket
+INFO:root:Starting task=9 episode=19 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 69
+INFO:root:# successes on this rank: 69 (100.0%)
+
+
+rank4: task9:  38%|███▊      | 19/50 [07:53<12:42, 24.59s/it][AINFO:root:
+Task 9: pick up the orange juice and place it in the basket
+INFO:root:Starting task=9 episode=20 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 70
+INFO:root:# successes on this rank: 70 (100.0%)
+
+
+rank4: task9:  40%|████      | 20/50 [08:18<12:18, 24.62s/it][AINFO:root:
+Task 9: pick up the orange juice and place it in the basket
+INFO:root:Starting task=9 episode=21 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 71
+INFO:root:# successes on this rank: 71 (100.0%)
+
+
+rank4: task9:  42%|████▏     | 21/50 [08:44<12:03, 24.95s/it][AINFO:root:
+Task 9: pick up the orange juice and place it in the basket
+INFO:root:Starting task=9 episode=22 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 72
+INFO:root:# successes on this rank: 72 (100.0%)
+
+
+rank4: task9:  44%|████▍     | 22/50 [09:08<11:31, 24.68s/it][AINFO:root:
+Task 9: pick up the orange juice and place it in the basket
+INFO:root:Starting task=9 episode=23 ...
+INFO:root:Success: False
+INFO:root:# episodes completed on this rank so far: 73
+INFO:root:# successes on this rank: 72 (98.6%)
+
+
+rank4: task9:  46%|████▌     | 23/50 [09:59<14:44, 32.78s/it][AINFO:root:
+Task 9: pick up the orange juice and place it in the basket
+INFO:root:Starting task=9 episode=24 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 74
+INFO:root:# successes on this rank: 73 (98.6%)
+
+
+rank4: task9:  48%|████▊     | 24/50 [10:22<12:54, 29.78s/it][AINFO:root:
+Task 9: pick up the orange juice and place it in the basket
+INFO:root:Starting task=9 episode=25 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 75
+INFO:root:# successes on this rank: 74 (98.7%)
+
+
+rank4: task9:  50%|█████     | 25/50 [10:46<11:39, 27.98s/it][AINFO:root:
+Task 9: pick up the orange juice and place it in the basket
+INFO:root:Starting task=9 episode=26 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 76
+INFO:root:# successes on this rank: 75 (98.7%)
+
+
+rank4: task9:  52%|█████▏    | 26/50 [11:09<10:35, 26.46s/it][AINFO:root:
+Task 9: pick up the orange juice and place it in the basket
+INFO:root:Starting task=9 episode=27 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 77
+INFO:root:# successes on this rank: 76 (98.7%)
+
+
+rank4: task9:  54%|█████▍    | 27/50 [11:33<09:50, 25.66s/it][AINFO:root:
+Task 9: pick up the orange juice and place it in the basket
+INFO:root:Starting task=9 episode=28 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 78
+INFO:root:# successes on this rank: 77 (98.7%)
+
+
+rank4: task9:  56%|█████▌    | 28/50 [11:58<09:20, 25.47s/it][AINFO:root:
+Task 9: pick up the orange juice and place it in the basket
+INFO:root:Starting task=9 episode=29 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 79
+INFO:root:# successes on this rank: 78 (98.7%)
+
+
+rank4: task9:  58%|█████▊    | 29/50 [12:22<08:46, 25.07s/it][AINFO:root:
+Task 9: pick up the orange juice and place it in the basket
+INFO:root:Starting task=9 episode=30 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 80
+INFO:root:# successes on this rank: 79 (98.8%)
+
+
+rank4: task9:  60%|██████    | 30/50 [12:45<08:09, 24.45s/it][AINFO:root:
+Task 9: pick up the orange juice and place it in the basket
+INFO:root:Starting task=9 episode=31 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 81
+INFO:root:# successes on this rank: 80 (98.8%)
+
+
+rank4: task9:  62%|██████▏   | 31/50 [13:10<07:48, 24.66s/it][AINFO:root:
+Task 9: pick up the orange juice and place it in the basket
+INFO:root:Starting task=9 episode=32 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 82
+INFO:root:# successes on this rank: 81 (98.8%)
+
+
+rank4: task9:  64%|██████▍   | 32/50 [13:34<07:21, 24.51s/it][AINFO:root:
+Task 9: pick up the orange juice and place it in the basket
+INFO:root:Starting task=9 episode=33 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 83
+INFO:root:# successes on this rank: 82 (98.8%)
+
+
+rank4: task9:  66%|██████▌   | 33/50 [13:57<06:48, 24.05s/it][AINFO:root:
+Task 9: pick up the orange juice and place it in the basket
+INFO:root:Starting task=9 episode=34 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 84
+INFO:root:# successes on this rank: 83 (98.8%)
+
+
+rank4: task9:  68%|██████▊   | 34/50 [14:19<06:13, 23.37s/it][AINFO:root:
+Task 9: pick up the orange juice and place it in the basket
+INFO:root:Starting task=9 episode=35 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 85
+INFO:root:# successes on this rank: 84 (98.8%)
+
+
+rank4: task9:  70%|███████   | 35/50 [14:43<05:52, 23.48s/it][AINFO:root:
+Task 9: pick up the orange juice and place it in the basket
+INFO:root:Starting task=9 episode=36 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 86
+INFO:root:# successes on this rank: 85 (98.8%)
+
+
+rank4: task9:  72%|███████▏  | 36/50 [15:06<05:26, 23.33s/it][AINFO:root:
+Task 9: pick up the orange juice and place it in the basket
+INFO:root:Starting task=9 episode=37 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 87
+INFO:root:# successes on this rank: 86 (98.9%)
+
+
+rank4: task9:  74%|███████▍  | 37/50 [15:29<05:04, 23.41s/it][AINFO:root:
+Task 9: pick up the orange juice and place it in the basket
+INFO:root:Starting task=9 episode=38 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 88
+INFO:root:# successes on this rank: 87 (98.9%)
+
+
+rank4: task9:  76%|███████▌  | 38/50 [15:53<04:42, 23.53s/it][AINFO:root:
+Task 9: pick up the orange juice and place it in the basket
+INFO:root:Starting task=9 episode=39 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 89
+INFO:root:# successes on this rank: 88 (98.9%)
+
+
+rank4: task9:  78%|███████▊  | 39/50 [16:17<04:19, 23.63s/it][AINFO:root:
+Task 9: pick up the orange juice and place it in the basket
+INFO:root:Starting task=9 episode=40 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 90
+INFO:root:# successes on this rank: 89 (98.9%)
+
+
+rank4: task9:  80%|████████  | 40/50 [16:39<03:51, 23.20s/it][AINFO:root:
+Task 9: pick up the orange juice and place it in the basket
+INFO:root:Starting task=9 episode=41 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 91
+INFO:root:# successes on this rank: 90 (98.9%)
+
+
+rank4: task9:  82%|████████▏ | 41/50 [17:05<03:34, 23.86s/it][AINFO:root:
+Task 9: pick up the orange juice and place it in the basket
+INFO:root:Starting task=9 episode=42 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 92
+INFO:root:# successes on this rank: 91 (98.9%)
+
+
+rank4: task9:  84%|████████▍ | 42/50 [17:32<03:19, 24.88s/it][AINFO:root:
+Task 9: pick up the orange juice and place it in the basket
+INFO:root:Starting task=9 episode=43 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 93
+INFO:root:# successes on this rank: 92 (98.9%)
+
+
+rank4: task9:  86%|████████▌ | 43/50 [17:55<02:50, 24.29s/it][AINFO:root:
+Task 9: pick up the orange juice and place it in the basket
+INFO:root:Starting task=9 episode=44 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 94
+INFO:root:# successes on this rank: 93 (98.9%)
+
+
+rank4: task9:  88%|████████▊ | 44/50 [18:17<02:22, 23.81s/it][AINFO:root:
+Task 9: pick up the orange juice and place it in the basket
+INFO:root:Starting task=9 episode=45 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 95
+INFO:root:# successes on this rank: 94 (98.9%)
+
+
+rank4: task9:  90%|█████████ | 45/50 [18:42<02:00, 24.10s/it][AINFO:root:
+Task 9: pick up the orange juice and place it in the basket
+INFO:root:Starting task=9 episode=46 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 96
+INFO:root:# successes on this rank: 95 (99.0%)
+
+
+rank4: task9:  92%|█████████▏| 46/50 [19:05<01:34, 23.69s/it][AINFO:root:
+Task 9: pick up the orange juice and place it in the basket
+INFO:root:Starting task=9 episode=47 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 97
+INFO:root:# successes on this rank: 96 (99.0%)
+
+
+rank4: task9:  94%|█████████▍| 47/50 [19:29<01:11, 23.76s/it][AINFO:root:
+Task 9: pick up the orange juice and place it in the basket
+INFO:root:Starting task=9 episode=48 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 98
+INFO:root:# successes on this rank: 97 (99.0%)
+
+
+rank4: task9:  96%|█████████▌| 48/50 [20:04<00:54, 27.22s/it][AINFO:root:
+Task 9: pick up the orange juice and place it in the basket
+INFO:root:Starting task=9 episode=49 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 99
+INFO:root:# successes on this rank: 98 (99.0%)
+
+
+rank4: task9:  98%|█████████▊| 49/50 [20:27<00:26, 26.03s/it][AINFO:root:
+Task 9: pick up the orange juice and place it in the basket
+INFO:root:Starting task=9 episode=50 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 100
+INFO:root:# successes on this rank: 99 (99.0%)
+
+
+rank4: task9: 100%|██████████| 50/50 [20:51<00:00, 25.26s/it][A
+
+                                                             [AINFO:root:Current task success rate on rank 4: 0.98
+INFO:root:Current rank success rate: 0.99
+
+rank4: tasks: 100%|██████████| 2/2 [44:02<00:00, 1309.00s/it]
+rank4: tasks: 100%|██████████| 2/2 [44:02<00:00, 1321.04s/it]
+INFO:root:Rank 4 total success rate: 0.99
+INFO:root:Rank 4 total episodes: 100

@@ -1,0 +1,36 @@
+{
+  "model": "FastWAM",
+  "timestamp": "2026-07-20T20:14:56+0800",
+  "gpu": "0",
+  "device": "cuda:0",
+  "task_suite": "libero_spatial",
+  "task_id": 0,
+  "warmup": 2,
+  "samples": 8,
+  "action_horizon": 32,
+  "replan_steps": 10,
+  "num_inference_steps": 10,
+  "dtype": "torch.bfloat16",
+  "task_description": "pick up the black bowl between the plate and the ramekin and place it on the plate",
+  "action_shape": [
+    32,
+    7
+  ],
+  "call_seconds": [
+    0.4499421939253807,
+    0.4471197761595249,
+    0.4651667568832636,
+    0.4481527544558048,
+    0.45691526494920254,
+    0.45348355919122696,
+    0.45320539362728596,
+    0.4526254590600729
+  ],
+  "call_mean_ms": 453.3263947814703,
+  "call_median_ms": 452.9154263436794,
+  "call_p95_ms": 462.2787347063422,
+  "latency_per_executed_step_ms": 45.33263947814703,
+  "latency_per_executed_step_median_ms": 45.29154263436794,
+  "torch_peak_allocated_mib": 23877.8212890625,
+  "torch_peak_reserved_mib": 25996.0
+}

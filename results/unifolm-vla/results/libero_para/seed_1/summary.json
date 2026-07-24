@@ -1,0 +1,274 @@
+{
+  "overall_success_rate": 0.8189149560117303,
+  "total_episodes": 4092,
+  "total_successes": 3351,
+  "per_eval": {
+    "eval0": {
+      "total": 416,
+      "successes": 409,
+      "success_rate": 0.9831730769230769
+    },
+    "eval1": {
+      "total": 410,
+      "successes": 178,
+      "success_rate": 0.43414634146341463
+    },
+    "eval2": {
+      "total": 406,
+      "successes": 264,
+      "success_rate": 0.6502463054187192
+    },
+    "eval3": {
+      "total": 386,
+      "successes": 324,
+      "success_rate": 0.8393782383419689
+    },
+    "eval4": {
+      "total": 403,
+      "successes": 338,
+      "success_rate": 0.8387096774193549
+    },
+    "eval5": {
+      "total": 410,
+      "successes": 349,
+      "success_rate": 0.8512195121951219
+    },
+    "eval6": {
+      "total": 411,
+      "successes": 330,
+      "success_rate": 0.8029197080291971
+    },
+    "eval7": {
+      "total": 413,
+      "successes": 390,
+      "success_rate": 0.9443099273607748
+    },
+    "eval8": {
+      "total": 423,
+      "successes": 379,
+      "success_rate": 0.8959810874704491
+    },
+    "eval9": {
+      "total": 414,
+      "successes": 390,
+      "success_rate": 0.9420289855072463
+    }
+  },
+  "per_category": {
+    "act_lexical_addition_deletion": {
+      "total": 100,
+      "successes": 93,
+      "success_rate": 0.93
+    },
+    "act_lexical_same_polarity_contextual": {
+      "total": 79,
+      "successes": 77,
+      "success_rate": 0.9746835443037974
+    },
+    "act_lexical_same_polarity_habitual": {
+      "total": 74,
+      "successes": 74,
+      "success_rate": 1.0
+    },
+    "act_pragmatical_embedded_imperative": {
+      "total": 93,
+      "successes": 83,
+      "success_rate": 0.8924731182795699
+    },
+    "act_pragmatical_hint": {
+      "total": 88,
+      "successes": 68,
+      "success_rate": 0.7727272727272727
+    },
+    "act_pragmatical_need_statement": {
+      "total": 93,
+      "successes": 89,
+      "success_rate": 0.956989247311828
+    },
+    "act_pragmatical_permission_directive": {
+      "total": 83,
+      "successes": 77,
+      "success_rate": 0.927710843373494
+    },
+    "act_pragmatical_question_directive": {
+      "total": 87,
+      "successes": 62,
+      "success_rate": 0.7126436781609196
+    },
+    "act_structural_coordination": {
+      "total": 98,
+      "successes": 92,
+      "success_rate": 0.9387755102040817
+    },
+    "act_structural_subordination": {
+      "total": 75,
+      "successes": 68,
+      "success_rate": 0.9066666666666666
+    },
+    "comp_lexical+lexical_addition_deletion+addition_deletion": {
+      "total": 100,
+      "successes": 96,
+      "success_rate": 0.96
+    },
+    "comp_lexical+lexical_addition_deletion+same_polarity_contextual": {
+      "total": 100,
+      "successes": 93,
+      "success_rate": 0.93
+    },
+    "comp_lexical+lexical_addition_deletion+same_polarity_habitual": {
+      "total": 100,
+      "successes": 95,
+      "success_rate": 0.95
+    },
+    "comp_lexical+lexical_same_polarity_contextual+addition_deletion": {
+      "total": 100,
+      "successes": 83,
+      "success_rate": 0.83
+    },
+    "comp_lexical+lexical_same_polarity_contextual+same_polarity_contextual": {
+      "total": 100,
+      "successes": 70,
+      "success_rate": 0.7
+    },
+    "comp_lexical+lexical_same_polarity_contextual+same_polarity_habitual": {
+      "total": 100,
+      "successes": 76,
+      "success_rate": 0.76
+    },
+    "comp_lexical+lexical_same_polarity_habitual+addition_deletion": {
+      "total": 100,
+      "successes": 91,
+      "success_rate": 0.91
+    },
+    "comp_lexical+lexical_same_polarity_habitual+same_polarity_contextual": {
+      "total": 98,
+      "successes": 82,
+      "success_rate": 0.8367346938775511
+    },
+    "comp_lexical+lexical_same_polarity_habitual+same_polarity_habitual": {
+      "total": 100,
+      "successes": 82,
+      "success_rate": 0.82
+    },
+    "comp_lexical+pragmatical_addition_deletion+embedded_imperative": {
+      "total": 99,
+      "successes": 94,
+      "success_rate": 0.9494949494949495
+    },
+    "comp_lexical+pragmatical_addition_deletion+hint": {
+      "total": 100,
+      "successes": 71,
+      "success_rate": 0.71
+    },
+    "comp_lexical+pragmatical_addition_deletion+need_statement": {
+      "total": 100,
+      "successes": 90,
+      "success_rate": 0.9
+    },
+    "comp_lexical+pragmatical_addition_deletion+permission_directive": {
+      "total": 99,
+      "successes": 86,
+      "success_rate": 0.8686868686868687
+    },
+    "comp_lexical+pragmatical_addition_deletion+question_directive": {
+      "total": 99,
+      "successes": 80,
+      "success_rate": 0.8080808080808081
+    },
+    "comp_lexical+pragmatical_same_polarity_contextual+embedded_imperative": {
+      "total": 100,
+      "successes": 76,
+      "success_rate": 0.76
+    },
+    "comp_lexical+pragmatical_same_polarity_contextual+hint": {
+      "total": 96,
+      "successes": 44,
+      "success_rate": 0.4583333333333333
+    },
+    "comp_lexical+pragmatical_same_polarity_contextual+need_statement": {
+      "total": 100,
+      "successes": 67,
+      "success_rate": 0.67
+    },
+    "comp_lexical+pragmatical_same_polarity_contextual+permission_directive": {
+      "total": 100,
+      "successes": 62,
+      "success_rate": 0.62
+    },
+    "comp_lexical+pragmatical_same_polarity_contextual+question_directive": {
+      "total": 94,
+      "successes": 48,
+      "success_rate": 0.5106382978723404
+    },
+    "comp_lexical+pragmatical_same_polarity_habitual+embedded_imperative": {
+      "total": 95,
+      "successes": 85,
+      "success_rate": 0.8947368421052632
+    },
+    "comp_lexical+pragmatical_same_polarity_habitual+hint": {
+      "total": 98,
+      "successes": 57,
+      "success_rate": 0.5816326530612245
+    },
+    "comp_lexical+pragmatical_same_polarity_habitual+need_statement": {
+      "total": 100,
+      "successes": 75,
+      "success_rate": 0.75
+    },
+    "comp_lexical+pragmatical_same_polarity_habitual+permission_directive": {
+      "total": 100,
+      "successes": 70,
+      "success_rate": 0.7
+    },
+    "comp_lexical+pragmatical_same_polarity_habitual+question_directive": {
+      "total": 95,
+      "successes": 65,
+      "success_rate": 0.6842105263157895
+    },
+    "comp_lexical+structural_addition_deletion+coordination": {
+      "total": 100,
+      "successes": 99,
+      "success_rate": 0.99
+    },
+    "comp_lexical+structural_addition_deletion+subordination": {
+      "total": 100,
+      "successes": 95,
+      "success_rate": 0.95
+    },
+    "comp_lexical+structural_same_polarity_contextual+coordination": {
+      "total": 100,
+      "successes": 74,
+      "success_rate": 0.74
+    },
+    "comp_lexical+structural_same_polarity_contextual+subordination": {
+      "total": 99,
+      "successes": 73,
+      "success_rate": 0.7373737373737373
+    },
+    "comp_lexical+structural_same_polarity_habitual+coordination": {
+      "total": 97,
+      "successes": 77,
+      "success_rate": 0.7938144329896907
+    },
+    "comp_lexical+structural_same_polarity_habitual+subordination": {
+      "total": 94,
+      "successes": 76,
+      "success_rate": 0.8085106382978723
+    },
+    "obj_lexical_addition_deletion": {
+      "total": 98,
+      "successes": 90,
+      "success_rate": 0.9183673469387755
+    },
+    "obj_lexical_same_polarity_contextual": {
+      "total": 87,
+      "successes": 77,
+      "success_rate": 0.8850574712643678
+    },
+    "obj_lexical_same_polarity_habitual": {
+      "total": 74,
+      "successes": 69,
+      "success_rate": 0.9324324324324325
+    }
+  }
+}

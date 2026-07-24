@@ -1,0 +1,379 @@
+INFO:root:Task suite: libero_10
+INFO:root:[Eval Split] rank=5, world_size=8, client=127.0.0.1:8005, task_ids=[5]
+INFO:root:Waiting for policy server at ws://127.0.0.1:8005 ...
+INFO:root:Policy server is reachable at ws://127.0.0.1:8005
+INFO:root:[Rank 5] Connecting to policy server 127.0.0.1:8005
+INFO:root:Waiting for server at ws://127.0.0.1:8005...
+[info] using task orders [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+rank5: tasks:   0%|          | 0/1 [00:00<?, ?it/s]
+rank5: task5:   0%|          | 0/50 [00:00<?, ?it/s][AINFO:root:
+Task 5: pick up the book and place it in the back compartment of the caddy
+INFO:root:Starting task=5 episode=1 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 1
+INFO:root:# successes on this rank: 1 (100.0%)
+
+rank5: task5:   2%|▏         | 1/50 [08:58<7:19:30, 538.17s/it][AINFO:root:
+Task 5: pick up the book and place it in the back compartment of the caddy
+INFO:root:Starting task=5 episode=2 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 2
+INFO:root:# successes on this rank: 2 (100.0%)
+
+rank5: task5:   4%|▍         | 2/50 [19:00<7:40:31, 575.66s/it][AINFO:root:
+Task 5: pick up the book and place it in the back compartment of the caddy
+INFO:root:Starting task=5 episode=3 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 3
+INFO:root:# successes on this rank: 3 (100.0%)
+
+rank5: task5:   6%|▌         | 3/50 [27:08<6:59:53, 536.03s/it][AINFO:root:
+Task 5: pick up the book and place it in the back compartment of the caddy
+INFO:root:Starting task=5 episode=4 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 4
+INFO:root:# successes on this rank: 4 (100.0%)
+
+rank5: task5:   8%|▊         | 4/50 [50:04<11:05:00, 867.41s/it][AINFO:root:
+Task 5: pick up the book and place it in the back compartment of the caddy
+INFO:root:Starting task=5 episode=5 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 5
+INFO:root:# successes on this rank: 5 (100.0%)
+
+rank5: task5:  10%|█         | 5/50 [1:00:04<9:38:14, 770.99s/it][AINFO:root:
+Task 5: pick up the book and place it in the back compartment of the caddy
+INFO:root:Starting task=5 episode=6 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 6
+INFO:root:# successes on this rank: 6 (100.0%)
+
+rank5: task5:  12%|█▏        | 6/50 [1:12:15<9:15:28, 757.46s/it][AINFO:root:
+Task 5: pick up the book and place it in the back compartment of the caddy
+INFO:root:Starting task=5 episode=7 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 7
+INFO:root:# successes on this rank: 7 (100.0%)
+
+rank5: task5:  14%|█▍        | 7/50 [1:20:57<8:07:37, 680.41s/it][AINFO:root:
+Task 5: pick up the book and place it in the back compartment of the caddy
+INFO:root:Starting task=5 episode=8 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 8
+INFO:root:# successes on this rank: 8 (100.0%)
+
+rank5: task5:  16%|█▌        | 8/50 [1:30:44<7:35:32, 650.77s/it][AINFO:root:
+Task 5: pick up the book and place it in the back compartment of the caddy
+INFO:root:Starting task=5 episode=9 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 9
+INFO:root:# successes on this rank: 9 (100.0%)
+
+rank5: task5:  18%|█▊        | 9/50 [1:39:08<6:53:15, 604.78s/it][AINFO:root:
+Task 5: pick up the book and place it in the back compartment of the caddy
+INFO:root:Starting task=5 episode=10 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 10
+INFO:root:# successes on this rank: 10 (100.0%)
+
+rank5: task5:  20%|██        | 10/50 [1:50:22<6:57:30, 626.27s/it][AINFO:root:
+Task 5: pick up the book and place it in the back compartment of the caddy
+INFO:root:Starting task=5 episode=11 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 11
+INFO:root:# successes on this rank: 11 (100.0%)
+
+rank5: task5:  22%|██▏       | 11/50 [1:59:35<6:32:32, 603.91s/it][AINFO:root:
+Task 5: pick up the book and place it in the back compartment of the caddy
+INFO:root:Starting task=5 episode=12 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 12
+INFO:root:# successes on this rank: 12 (100.0%)
+
+rank5: task5:  24%|██▍       | 12/50 [2:08:54<6:13:48, 590.23s/it][AINFO:root:
+Task 5: pick up the book and place it in the back compartment of the caddy
+INFO:root:Starting task=5 episode=13 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 13
+INFO:root:# successes on this rank: 13 (100.0%)
+
+rank5: task5:  26%|██▌       | 13/50 [2:17:59<5:55:32, 576.56s/it][AINFO:root:
+Task 5: pick up the book and place it in the back compartment of the caddy
+INFO:root:Starting task=5 episode=14 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 14
+INFO:root:# successes on this rank: 14 (100.0%)
+
+rank5: task5:  28%|██▊       | 14/50 [2:30:05<6:12:52, 621.47s/it][AINFO:root:
+Task 5: pick up the book and place it in the back compartment of the caddy
+INFO:root:Starting task=5 episode=15 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 15
+INFO:root:# successes on this rank: 15 (100.0%)
+
+rank5: task5:  30%|███       | 15/50 [2:41:16<6:11:17, 636.50s/it][AINFO:root:
+Task 5: pick up the book and place it in the back compartment of the caddy
+INFO:root:Starting task=5 episode=16 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 16
+INFO:root:# successes on this rank: 16 (100.0%)
+
+rank5: task5:  32%|███▏      | 16/50 [2:57:42<7:00:14, 741.62s/it][AINFO:root:
+Task 5: pick up the book and place it in the back compartment of the caddy
+INFO:root:Starting task=5 episode=17 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 17
+INFO:root:# successes on this rank: 17 (100.0%)
+
+rank5: task5:  34%|███▍      | 17/50 [3:06:10<6:09:16, 671.42s/it][AINFO:root:
+Task 5: pick up the book and place it in the back compartment of the caddy
+INFO:root:Starting task=5 episode=18 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 18
+INFO:root:# successes on this rank: 18 (100.0%)
+
+rank5: task5:  36%|███▌      | 18/50 [3:15:47<5:42:58, 643.06s/it][AINFO:root:
+Task 5: pick up the book and place it in the back compartment of the caddy
+INFO:root:Starting task=5 episode=19 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 19
+INFO:root:# successes on this rank: 19 (100.0%)
+
+rank5: task5:  38%|███▊      | 19/50 [3:26:14<5:29:48, 638.34s/it][AINFO:root:
+Task 5: pick up the book and place it in the back compartment of the caddy
+INFO:root:Starting task=5 episode=20 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 20
+INFO:root:# successes on this rank: 20 (100.0%)
+
+rank5: task5:  40%|████      | 20/50 [3:39:15<5:40:31, 681.04s/it][AINFO:root:
+Task 5: pick up the book and place it in the back compartment of the caddy
+INFO:root:Starting task=5 episode=21 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 21
+INFO:root:# successes on this rank: 21 (100.0%)
+
+rank5: task5:  42%|████▏     | 21/50 [3:57:51<6:32:15, 811.56s/it][AINFO:root:
+Task 5: pick up the book and place it in the back compartment of the caddy
+INFO:root:Starting task=5 episode=22 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 22
+INFO:root:# successes on this rank: 22 (100.0%)
+
+rank5: task5:  44%|████▍     | 22/50 [4:07:47<5:48:36, 747.03s/it][AINFO:root:
+Task 5: pick up the book and place it in the back compartment of the caddy
+INFO:root:Starting task=5 episode=23 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 23
+INFO:root:# successes on this rank: 23 (100.0%)
+
+rank5: task5:  46%|████▌     | 23/50 [4:17:54<5:17:12, 704.90s/it][AINFO:root:
+Task 5: pick up the book and place it in the back compartment of the caddy
+INFO:root:Starting task=5 episode=24 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 24
+INFO:root:# successes on this rank: 24 (100.0%)
+
+rank5: task5:  48%|████▊     | 24/50 [4:28:01<4:52:47, 675.68s/it][AINFO:root:
+Task 5: pick up the book and place it in the back compartment of the caddy
+INFO:root:Starting task=5 episode=25 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 25
+INFO:root:# successes on this rank: 25 (100.0%)
+
+rank5: task5:  50%|█████     | 25/50 [4:38:44<4:37:26, 665.84s/it][AINFO:root:
+Task 5: pick up the book and place it in the back compartment of the caddy
+INFO:root:Starting task=5 episode=26 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 26
+INFO:root:# successes on this rank: 26 (100.0%)
+
+rank5: task5:  52%|█████▏    | 26/50 [4:48:22<4:15:44, 639.36s/it][AINFO:root:
+Task 5: pick up the book and place it in the back compartment of the caddy
+INFO:root:Starting task=5 episode=27 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 27
+INFO:root:# successes on this rank: 27 (100.0%)
+
+rank5: task5:  54%|█████▍    | 27/50 [4:58:45<4:03:12, 634.46s/it][AINFO:root:
+Task 5: pick up the book and place it in the back compartment of the caddy
+INFO:root:Starting task=5 episode=28 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 28
+INFO:root:# successes on this rank: 28 (100.0%)
+
+rank5: task5:  56%|█████▌    | 28/50 [5:09:31<3:53:53, 637.89s/it][AINFO:root:
+Task 5: pick up the book and place it in the back compartment of the caddy
+INFO:root:Starting task=5 episode=29 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 29
+INFO:root:# successes on this rank: 29 (100.0%)
+
+rank5: task5:  58%|█████▊    | 29/50 [5:25:17<4:15:39, 730.45s/it][AINFO:root:
+Task 5: pick up the book and place it in the back compartment of the caddy
+INFO:root:Starting task=5 episode=30 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 30
+INFO:root:# successes on this rank: 30 (100.0%)
+
+rank5: task5:  60%|██████    | 30/50 [5:35:46<3:53:21, 700.07s/it][AINFO:root:
+Task 5: pick up the book and place it in the back compartment of the caddy
+INFO:root:Starting task=5 episode=31 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 31
+INFO:root:# successes on this rank: 31 (100.0%)
+
+rank5: task5:  62%|██████▏   | 31/50 [5:45:04<3:28:06, 657.17s/it][AINFO:root:
+Task 5: pick up the book and place it in the back compartment of the caddy
+INFO:root:Starting task=5 episode=32 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 32
+INFO:root:# successes on this rank: 32 (100.0%)
+
+rank5: task5:  64%|██████▍   | 32/50 [5:57:42<3:26:16, 687.58s/it][AINFO:root:
+Task 5: pick up the book and place it in the back compartment of the caddy
+INFO:root:Starting task=5 episode=33 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 33
+INFO:root:# successes on this rank: 33 (100.0%)
+
+rank5: task5:  66%|██████▌   | 33/50 [6:08:35<3:11:51, 677.14s/it][AINFO:root:
+Task 5: pick up the book and place it in the back compartment of the caddy
+INFO:root:Starting task=5 episode=34 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 34
+INFO:root:# successes on this rank: 34 (100.0%)
+
+rank5: task5:  68%|██████▊   | 34/50 [6:20:00<3:01:14, 679.69s/it][AINFO:root:
+Task 5: pick up the book and place it in the back compartment of the caddy
+INFO:root:Starting task=5 episode=35 ...
+WARNING:root:[Rank 5] client.infer failed, retry=0/2: ConnectionClosedError(None, Close(code=<CloseCode.INTERNAL_ERROR: 1011>, reason='keepalive ping timeout'), None)
+INFO:root:[Rank 5] Connecting to policy server 127.0.0.1:8005
+INFO:root:Waiting for server at ws://127.0.0.1:8005...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 35
+INFO:root:# successes on this rank: 35 (100.0%)
+
+rank5: task5:  70%|███████   | 35/50 [6:31:33<2:50:51, 683.43s/it][AINFO:root:
+Task 5: pick up the book and place it in the back compartment of the caddy
+INFO:root:Starting task=5 episode=36 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 36
+INFO:root:# successes on this rank: 36 (100.0%)
+
+rank5: task5:  72%|███████▏  | 36/50 [6:41:09<2:31:57, 651.27s/it][AINFO:root:
+Task 5: pick up the book and place it in the back compartment of the caddy
+INFO:root:Starting task=5 episode=37 ...
+WARNING:root:[Rank 5] client.infer failed, retry=0/2: ConnectionClosedError(None, Close(code=<CloseCode.INTERNAL_ERROR: 1011>, reason='keepalive ping timeout'), None)
+INFO:root:[Rank 5] Connecting to policy server 127.0.0.1:8005
+INFO:root:Waiting for server at ws://127.0.0.1:8005...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 37
+INFO:root:# successes on this rank: 37 (100.0%)
+
+rank5: task5:  74%|███████▍  | 37/50 [6:54:17<2:30:01, 692.42s/it][AINFO:root:
+Task 5: pick up the book and place it in the back compartment of the caddy
+INFO:root:Starting task=5 episode=38 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 38
+INFO:root:# successes on this rank: 38 (100.0%)
+
+rank5: task5:  76%|███████▌  | 38/50 [7:05:54<2:18:44, 693.69s/it][AINFO:root:
+Task 5: pick up the book and place it in the back compartment of the caddy
+INFO:root:Starting task=5 episode=39 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 39
+INFO:root:# successes on this rank: 39 (100.0%)
+
+rank5: task5:  78%|███████▊  | 39/50 [7:16:14<2:03:08, 671.71s/it][AINFO:root:
+Task 5: pick up the book and place it in the back compartment of the caddy
+INFO:root:Starting task=5 episode=40 ...
+WARNING:root:[Rank 5] client.infer failed, retry=0/2: ConnectionClosedError(None, Close(code=<CloseCode.INTERNAL_ERROR: 1011>, reason='keepalive ping timeout'), None)
+INFO:root:[Rank 5] Connecting to policy server 127.0.0.1:8005
+INFO:root:Waiting for server at ws://127.0.0.1:8005...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 40
+INFO:root:# successes on this rank: 40 (100.0%)
+
+rank5: task5:  80%|████████  | 40/50 [7:27:51<1:53:11, 679.13s/it][AINFO:root:
+Task 5: pick up the book and place it in the back compartment of the caddy
+INFO:root:Starting task=5 episode=41 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 41
+INFO:root:# successes on this rank: 41 (100.0%)
+
+rank5: task5:  82%|████████▏ | 41/50 [7:37:47<1:38:07, 654.15s/it][AINFO:root:
+Task 5: pick up the book and place it in the back compartment of the caddy
+INFO:root:Starting task=5 episode=42 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 42
+INFO:root:# successes on this rank: 42 (100.0%)
+
+rank5: task5:  84%|████████▍ | 42/50 [7:49:52<1:30:02, 675.37s/it][AINFO:root:
+Task 5: pick up the book and place it in the back compartment of the caddy
+INFO:root:Starting task=5 episode=43 ...
+WARNING:root:[Rank 5] client.infer failed, retry=0/2: ConnectionClosedError(None, Close(code=<CloseCode.INTERNAL_ERROR: 1011>, reason='keepalive ping timeout'), None)
+INFO:root:[Rank 5] Connecting to policy server 127.0.0.1:8005
+INFO:root:Waiting for server at ws://127.0.0.1:8005...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 43
+INFO:root:# successes on this rank: 43 (100.0%)
+
+rank5: task5:  86%|████████▌ | 43/50 [8:00:34<1:17:38, 665.56s/it][AINFO:root:
+Task 5: pick up the book and place it in the back compartment of the caddy
+INFO:root:Starting task=5 episode=44 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 44
+INFO:root:# successes on this rank: 44 (100.0%)
+
+rank5: task5:  88%|████████▊ | 44/50 [8:11:32<1:06:18, 663.11s/it][AINFO:root:
+Task 5: pick up the book and place it in the back compartment of the caddy
+INFO:root:Starting task=5 episode=45 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 45
+INFO:root:# successes on this rank: 45 (100.0%)
+
+rank5: task5:  90%|█████████ | 45/50 [8:21:35<53:45, 645.17s/it]  [AINFO:root:
+Task 5: pick up the book and place it in the back compartment of the caddy
+INFO:root:Starting task=5 episode=46 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 46
+INFO:root:# successes on this rank: 46 (100.0%)
+
+rank5: task5:  92%|█████████▏| 46/50 [8:32:03<42:39, 639.95s/it][AINFO:root:
+Task 5: pick up the book and place it in the back compartment of the caddy
+INFO:root:Starting task=5 episode=47 ...
+WARNING:root:[Rank 5] client.infer failed, retry=0/2: ConnectionClosedError(None, Close(code=<CloseCode.INTERNAL_ERROR: 1011>, reason='keepalive ping timeout'), None)
+INFO:root:[Rank 5] Connecting to policy server 127.0.0.1:8005
+INFO:root:Waiting for server at ws://127.0.0.1:8005...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 47
+INFO:root:# successes on this rank: 47 (100.0%)
+
+rank5: task5:  94%|█████████▍| 47/50 [8:42:44<32:00, 640.27s/it][AINFO:root:
+Task 5: pick up the book and place it in the back compartment of the caddy
+INFO:root:Starting task=5 episode=48 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 48
+INFO:root:# successes on this rank: 48 (100.0%)
+
+rank5: task5:  96%|█████████▌| 48/50 [8:51:23<20:07, 603.91s/it][AINFO:root:
+Task 5: pick up the book and place it in the back compartment of the caddy
+INFO:root:Starting task=5 episode=49 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 49
+INFO:root:# successes on this rank: 49 (100.0%)
+
+rank5: task5:  98%|█████████▊| 49/50 [9:01:51<10:11, 611.16s/it][AINFO:root:
+Task 5: pick up the book and place it in the back compartment of the caddy
+INFO:root:Starting task=5 episode=50 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 50
+INFO:root:# successes on this rank: 50 (100.0%)
+
+rank5: task5: 100%|██████████| 50/50 [9:13:31<00:00, 637.89s/it][A
+                                                                [AINFO:root:Current task success rate on rank 5: 1.0
+INFO:root:Current rank success rate: 1.0
+rank5: tasks: 100%|██████████| 1/1 [9:13:48<00:00, 33228.50s/it]rank5: tasks: 100%|██████████| 1/1 [9:13:48<00:00, 33228.50s/it]
+INFO:root:Rank 5 total success rate: 1.0
+INFO:root:Rank 5 total episodes: 50

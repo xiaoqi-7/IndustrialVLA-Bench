@@ -1,0 +1,61 @@
+{
+  "model_name": "Isaac-GR00T-N1.7-LIBERO-goal",
+  "model_family": "gr00t_n1d7",
+  "seed": 0,
+  "global_seed": 0,
+  "server_seed": null,
+  "shard_index": null,
+  "num_shards": 8,
+  "host": "127.0.0.1",
+  "port": 13000,
+  "max_steps": 300,
+  "n_action_steps": 8,
+  "num_steps_wait": 10,
+  "initial_state_index": 0,
+  "bddl_dir": "/mnt/afs/zhengmingkai/raozf/benchmark/LIBERO-Para/libero/libero/bddl_files/libero_para",
+  "total_tasks": 4092,
+  "total_tasks_local": null,
+  "total_tasks_global": 4092,
+  "timestamp": "2026-07-12T16:08:23",
+  "server_seeds": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "server_seed_by_shard": {
+    "0": 0,
+    "1": 1,
+    "2": 2,
+    "3": 3,
+    "4": 4,
+    "5": 5,
+    "6": 6,
+    "7": 7
+  },
+  "ports": [
+    13000,
+    13001,
+    13002,
+    13003,
+    13004,
+    13005,
+    13006,
+    13007
+  ],
+  "worker_dirs": [
+    "/mnt/afs/zhengmingkai/raozf/benchmark/Isaac-GR00T/logs/libero_para/gr00t/gr00t_libero_para_3seeds_20260712_160413/seed0/workers/rank_0",
+    "/mnt/afs/zhengmingkai/raozf/benchmark/Isaac-GR00T/logs/libero_para/gr00t/gr00t_libero_para_3seeds_20260712_160413/seed0/workers/rank_1",
+    "/mnt/afs/zhengmingkai/raozf/benchmark/Isaac-GR00T/logs/libero_para/gr00t/gr00t_libero_para_3seeds_20260712_160413/seed0/workers/rank_2",
+    "/mnt/afs/zhengmingkai/raozf/benchmark/Isaac-GR00T/logs/libero_para/gr00t/gr00t_libero_para_3seeds_20260712_160413/seed0/workers/rank_3",
+    "/mnt/afs/zhengmingkai/raozf/benchmark/Isaac-GR00T/logs/libero_para/gr00t/gr00t_libero_para_3seeds_20260712_160413/seed0/workers/rank_4",
+    "/mnt/afs/zhengmingkai/raozf/benchmark/Isaac-GR00T/logs/libero_para/gr00t/gr00t_libero_para_3seeds_20260712_160413/seed0/workers/rank_5",
+    "/mnt/afs/zhengmingkai/raozf/benchmark/Isaac-GR00T/logs/libero_para/gr00t/gr00t_libero_para_3seeds_20260712_160413/seed0/workers/rank_6",
+    "/mnt/afs/zhengmingkai/raozf/benchmark/Isaac-GR00T/logs/libero_para/gr00t/gr00t_libero_para_3seeds_20260712_160413/seed0/workers/rank_7"
+  ],
+  "merged_at": "2026-07-12T22:47:19"
+}

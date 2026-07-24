@@ -1,0 +1,31 @@
+{
+  "model_name": "UnifoLM-VLA",
+  "model_family": "unifolm_vla",
+  "pretrained_path": "/mnt/afs/zhengmingkai/raozf/models/UnifoLM/UnifoLM-VLA-Libero/checkpoints/pytorch_model.pt",
+  "vlm_pretrained_path": "/mnt/afs/zhengmingkai/raozf/models/UnifoLM/UnifoLM-VLM-Base",
+  "unnorm_key": "libero_goal_no_noops",
+  "seed": 44,
+  "max_steps": 300,
+  "num_steps_wait": 10,
+  "window_size": 2,
+  "replan_steps": 8,
+  "bddl_dir": "/mnt/afs/zhengmingkai/raozf/benchmark/LIBERO-Para/libero/libero/bddl_files/libero_para",
+  "init_dir": "/mnt/afs/zhengmingkai/raozf/benchmark/LIBERO-Para/libero/libero/init_files/libero_para",
+  "goal_bddl_dir": "/mnt/afs/zhengmingkai/raozf/benchmark/LIBERO-Para/libero/libero/bddl_files/libero_goal",
+  "total_tasks": 4092,
+  "total_tasks_global": 4092,
+  "num_shards": 8,
+  "shard_index": null,
+  "timestamp": "2026-07-11T15:48:21",
+  "worker_dirs": [
+    "/mnt/afs/zhengmingkai/raozf/benchmark/unifolm-vla/results/libero_para/unifolm_vla_seed44_8gpu_20260711_154230/workers/rank_0",
+    "/mnt/afs/zhengmingkai/raozf/benchmark/unifolm-vla/results/libero_para/unifolm_vla_seed44_8gpu_20260711_154230/workers/rank_1",
+    "/mnt/afs/zhengmingkai/raozf/benchmark/unifolm-vla/results/libero_para/unifolm_vla_seed44_8gpu_20260711_154230/workers/rank_2",
+    "/mnt/afs/zhengmingkai/raozf/benchmark/unifolm-vla/results/libero_para/unifolm_vla_seed44_8gpu_20260711_154230/workers/rank_3",
+    "/mnt/afs/zhengmingkai/raozf/benchmark/unifolm-vla/results/libero_para/unifolm_vla_seed44_8gpu_20260711_154230/workers/rank_4",
+    "/mnt/afs/zhengmingkai/raozf/benchmark/unifolm-vla/results/libero_para/unifolm_vla_seed44_8gpu_20260711_154230/workers/rank_5",
+    "/mnt/afs/zhengmingkai/raozf/benchmark/unifolm-vla/results/libero_para/unifolm_vla_seed44_8gpu_20260711_154230/workers/rank_6",
+    "/mnt/afs/zhengmingkai/raozf/benchmark/unifolm-vla/results/libero_para/unifolm_vla_seed44_8gpu_20260711_154230/workers/rank_7"
+  ],
+  "merged_at": "2026-07-11T21:21:27"
+}

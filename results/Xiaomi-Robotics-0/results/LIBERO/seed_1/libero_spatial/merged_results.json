@@ -1,0 +1,58 @@
+{
+  "individual_results": [
+    {
+      "task_id": 0,
+      "instruction": "pick up the black bowl between the plate and the ramekin and place it on the plate",
+      "success_rate": 1.0
+    },
+    {
+      "task_id": 1,
+      "instruction": "pick up the black bowl next to the ramekin and place it on the plate",
+      "success_rate": 1.0
+    },
+    {
+      "task_id": 2,
+      "instruction": "pick up the black bowl from table center and place it on the plate",
+      "success_rate": 0.98
+    },
+    {
+      "task_id": 3,
+      "instruction": "pick up the black bowl on the cookie box and place it on the plate",
+      "success_rate": 1.0
+    },
+    {
+      "task_id": 4,
+      "instruction": "pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate",
+      "success_rate": 1.0
+    },
+    {
+      "task_id": 5,
+      "instruction": "pick up the black bowl on the ramekin and place it on the plate",
+      "success_rate": 0.96
+    },
+    {
+      "task_id": 6,
+      "instruction": "pick up the black bowl next to the cookie box and place it on the plate",
+      "success_rate": 1.0
+    },
+    {
+      "task_id": 7,
+      "instruction": "pick up the black bowl on the stove and place it on the plate",
+      "success_rate": 0.96
+    },
+    {
+      "task_id": 8,
+      "instruction": "pick up the black bowl next to the plate and place it on the plate",
+      "success_rate": 1.0
+    },
+    {
+      "task_id": 9,
+      "instruction": "pick up the black bowl on the wooden cabinet and place it on the plate",
+      "success_rate": 0.98
+    }
+  ],
+  "summary": {
+    "total_tasks": 10,
+    "overall_success_rate": 0.9880000000000001
+  }
+}

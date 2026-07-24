@@ -1,0 +1,718 @@
+INFO:root:Task suite: libero_goal
+INFO:root:[Eval Split] rank=1, world_size=5, client=127.0.0.1:8001, task_ids=[1, 6]
+INFO:root:Waiting for policy server at ws://127.0.0.1:8001 ...
+INFO:root:Policy server is reachable at ws://127.0.0.1:8001
+INFO:root:[Rank 1] Connecting to policy server 127.0.0.1:8001
+INFO:root:Waiting for server at ws://127.0.0.1:8001...
+[info] using task orders [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+rank1: tasks:   0%|          | 0/2 [00:00<?, ?it/s]
+rank1: task1:   0%|          | 0/50 [00:00<?, ?it/s][AINFO:root:
+Task 1: put the bowl on the stove
+INFO:root:Starting task=1 episode=1 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 1
+INFO:root:# successes on this rank: 1 (100.0%)
+
+rank1: task1:   2%|▏         | 1/50 [04:22<3:34:19, 262.43s/it][AINFO:root:
+Task 1: put the bowl on the stove
+INFO:root:Starting task=1 episode=2 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 2
+INFO:root:# successes on this rank: 2 (100.0%)
+
+rank1: task1:   4%|▍         | 2/50 [08:41<3:28:17, 260.35s/it][AINFO:root:
+Task 1: put the bowl on the stove
+INFO:root:Starting task=1 episode=3 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 3
+INFO:root:# successes on this rank: 3 (100.0%)
+
+rank1: task1:   6%|▌         | 3/50 [13:29<3:33:47, 272.92s/it][AINFO:root:
+Task 1: put the bowl on the stove
+INFO:root:Starting task=1 episode=4 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 4
+INFO:root:# successes on this rank: 4 (100.0%)
+
+rank1: task1:   8%|▊         | 4/50 [18:15<3:33:23, 278.35s/it][AINFO:root:
+Task 1: put the bowl on the stove
+INFO:root:Starting task=1 episode=5 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 5
+INFO:root:# successes on this rank: 5 (100.0%)
+
+rank1: task1:  10%|█         | 5/50 [22:30<3:22:12, 269.62s/it][AINFO:root:
+Task 1: put the bowl on the stove
+INFO:root:Starting task=1 episode=6 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 6
+INFO:root:# successes on this rank: 6 (100.0%)
+
+rank1: task1:  12%|█▏        | 6/50 [26:45<3:14:14, 264.87s/it][AINFO:root:
+Task 1: put the bowl on the stove
+INFO:root:Starting task=1 episode=7 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 7
+INFO:root:# successes on this rank: 7 (100.0%)
+
+rank1: task1:  14%|█▍        | 7/50 [31:01<3:07:40, 261.87s/it][AINFO:root:
+Task 1: put the bowl on the stove
+INFO:root:Starting task=1 episode=8 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 8
+INFO:root:# successes on this rank: 8 (100.0%)
+
+rank1: task1:  16%|█▌        | 8/50 [35:14<3:01:27, 259.23s/it][AINFO:root:
+Task 1: put the bowl on the stove
+INFO:root:Starting task=1 episode=9 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 9
+INFO:root:# successes on this rank: 9 (100.0%)
+
+rank1: task1:  18%|█▊        | 9/50 [39:31<2:56:31, 258.33s/it][AINFO:root:
+Task 1: put the bowl on the stove
+INFO:root:Starting task=1 episode=10 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 10
+INFO:root:# successes on this rank: 10 (100.0%)
+
+rank1: task1:  20%|██        | 10/50 [44:16<2:57:48, 266.71s/it][AINFO:root:
+Task 1: put the bowl on the stove
+INFO:root:Starting task=1 episode=11 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 11
+INFO:root:# successes on this rank: 11 (100.0%)
+
+rank1: task1:  22%|██▏       | 11/50 [48:48<2:54:17, 268.15s/it][AINFO:root:
+Task 1: put the bowl on the stove
+INFO:root:Starting task=1 episode=12 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 12
+INFO:root:# successes on this rank: 12 (100.0%)
+
+rank1: task1:  24%|██▍       | 12/50 [53:32<2:52:51, 272.92s/it][AINFO:root:
+Task 1: put the bowl on the stove
+INFO:root:Starting task=1 episode=13 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 13
+INFO:root:# successes on this rank: 13 (100.0%)
+
+rank1: task1:  26%|██▌       | 13/50 [57:42<2:44:06, 266.13s/it][AINFO:root:
+Task 1: put the bowl on the stove
+INFO:root:Starting task=1 episode=14 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 14
+INFO:root:# successes on this rank: 14 (100.0%)
+
+rank1: task1:  28%|██▊       | 14/50 [1:01:53<2:36:55, 261.55s/it][AINFO:root:
+Task 1: put the bowl on the stove
+INFO:root:Starting task=1 episode=15 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 15
+INFO:root:# successes on this rank: 15 (100.0%)
+
+rank1: task1:  30%|███       | 15/50 [1:06:08<2:31:29, 259.70s/it][AINFO:root:
+Task 1: put the bowl on the stove
+INFO:root:Starting task=1 episode=16 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 16
+INFO:root:# successes on this rank: 16 (100.0%)
+
+rank1: task1:  32%|███▏      | 16/50 [1:10:41<2:29:25, 263.69s/it][AINFO:root:
+Task 1: put the bowl on the stove
+INFO:root:Starting task=1 episode=17 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 17
+INFO:root:# successes on this rank: 17 (100.0%)
+
+rank1: task1:  34%|███▍      | 17/50 [1:14:59<2:24:03, 261.92s/it][AINFO:root:
+Task 1: put the bowl on the stove
+INFO:root:Starting task=1 episode=18 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 18
+INFO:root:# successes on this rank: 18 (100.0%)
+
+rank1: task1:  36%|███▌      | 18/50 [1:19:17<2:19:04, 260.75s/it][AINFO:root:
+Task 1: put the bowl on the stove
+INFO:root:Starting task=1 episode=19 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 19
+INFO:root:# successes on this rank: 19 (100.0%)
+
+rank1: task1:  38%|███▊      | 19/50 [1:23:39<2:14:52, 261.06s/it][AINFO:root:
+Task 1: put the bowl on the stove
+INFO:root:Starting task=1 episode=20 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 20
+INFO:root:# successes on this rank: 20 (100.0%)
+
+rank1: task1:  40%|████      | 20/50 [1:28:02<2:10:48, 261.63s/it][AINFO:root:
+Task 1: put the bowl on the stove
+INFO:root:Starting task=1 episode=21 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 21
+INFO:root:# successes on this rank: 21 (100.0%)
+
+rank1: task1:  42%|████▏     | 21/50 [1:32:23<2:06:20, 261.40s/it][AINFO:root:
+Task 1: put the bowl on the stove
+INFO:root:Starting task=1 episode=22 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 22
+INFO:root:# successes on this rank: 22 (100.0%)
+
+rank1: task1:  44%|████▍     | 22/50 [1:37:12<2:05:52, 269.72s/it][AINFO:root:
+Task 1: put the bowl on the stove
+INFO:root:Starting task=1 episode=23 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 23
+INFO:root:# successes on this rank: 23 (100.0%)
+
+rank1: task1:  46%|████▌     | 23/50 [1:41:46<2:02:01, 271.16s/it][AINFO:root:
+Task 1: put the bowl on the stove
+INFO:root:Starting task=1 episode=24 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 24
+INFO:root:# successes on this rank: 24 (100.0%)
+
+rank1: task1:  48%|████▊     | 24/50 [1:46:20<1:57:50, 271.93s/it][AINFO:root:
+Task 1: put the bowl on the stove
+INFO:root:Starting task=1 episode=25 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 25
+INFO:root:# successes on this rank: 25 (100.0%)
+
+rank1: task1:  50%|█████     | 25/50 [1:50:53<1:53:23, 272.13s/it][AINFO:root:
+Task 1: put the bowl on the stove
+INFO:root:Starting task=1 episode=26 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 26
+INFO:root:# successes on this rank: 26 (100.0%)
+
+rank1: task1:  52%|█████▏    | 26/50 [1:55:24<1:48:41, 271.72s/it][AINFO:root:
+Task 1: put the bowl on the stove
+INFO:root:Starting task=1 episode=27 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 27
+INFO:root:# successes on this rank: 27 (100.0%)
+
+rank1: task1:  54%|█████▍    | 27/50 [1:59:43<1:42:44, 268.03s/it][AINFO:root:
+Task 1: put the bowl on the stove
+INFO:root:Starting task=1 episode=28 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 28
+INFO:root:# successes on this rank: 28 (100.0%)
+
+rank1: task1:  56%|█████▌    | 28/50 [2:04:04<1:37:30, 265.94s/it][AINFO:root:
+Task 1: put the bowl on the stove
+INFO:root:Starting task=1 episode=29 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 29
+INFO:root:# successes on this rank: 29 (100.0%)
+
+rank1: task1:  58%|█████▊    | 29/50 [2:08:40<1:34:08, 268.97s/it][AINFO:root:
+Task 1: put the bowl on the stove
+INFO:root:Starting task=1 episode=30 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 30
+INFO:root:# successes on this rank: 30 (100.0%)
+
+rank1: task1:  60%|██████    | 30/50 [2:12:44<1:27:10, 261.53s/it][AINFO:root:
+Task 1: put the bowl on the stove
+INFO:root:Starting task=1 episode=31 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 31
+INFO:root:# successes on this rank: 31 (100.0%)
+
+rank1: task1:  62%|██████▏   | 31/50 [2:17:07<1:22:55, 261.86s/it][AINFO:root:
+Task 1: put the bowl on the stove
+INFO:root:Starting task=1 episode=32 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 32
+INFO:root:# successes on this rank: 32 (100.0%)
+
+rank1: task1:  64%|██████▍   | 32/50 [2:21:25<1:18:13, 260.73s/it][AINFO:root:
+Task 1: put the bowl on the stove
+INFO:root:Starting task=1 episode=33 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 33
+INFO:root:# successes on this rank: 33 (100.0%)
+
+rank1: task1:  66%|██████▌   | 33/50 [2:25:44<1:13:46, 260.36s/it][AINFO:root:
+Task 1: put the bowl on the stove
+INFO:root:Starting task=1 episode=34 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 34
+INFO:root:# successes on this rank: 34 (100.0%)
+
+rank1: task1:  68%|██████▊   | 34/50 [2:30:06<1:09:30, 260.67s/it][AINFO:root:
+Task 1: put the bowl on the stove
+INFO:root:Starting task=1 episode=35 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 35
+INFO:root:# successes on this rank: 35 (100.0%)
+
+rank1: task1:  70%|███████   | 35/50 [2:34:30<1:05:27, 261.86s/it][AINFO:root:
+Task 1: put the bowl on the stove
+INFO:root:Starting task=1 episode=36 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 36
+INFO:root:# successes on this rank: 36 (100.0%)
+
+rank1: task1:  72%|███████▏  | 36/50 [2:38:50<1:00:57, 261.25s/it][AINFO:root:
+Task 1: put the bowl on the stove
+INFO:root:Starting task=1 episode=37 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 37
+INFO:root:# successes on this rank: 37 (100.0%)
+
+rank1: task1:  74%|███████▍  | 37/50 [2:43:16<56:52, 262.49s/it]  [AINFO:root:
+Task 1: put the bowl on the stove
+INFO:root:Starting task=1 episode=38 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 38
+INFO:root:# successes on this rank: 38 (100.0%)
+
+rank1: task1:  76%|███████▌  | 38/50 [2:47:36<52:22, 261.91s/it][AINFO:root:
+Task 1: put the bowl on the stove
+INFO:root:Starting task=1 episode=39 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 39
+INFO:root:# successes on this rank: 39 (100.0%)
+
+rank1: task1:  78%|███████▊  | 39/50 [2:53:16<52:16, 285.16s/it][AINFO:root:
+Task 1: put the bowl on the stove
+INFO:root:Starting task=1 episode=40 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 40
+INFO:root:# successes on this rank: 40 (100.0%)
+
+rank1: task1:  80%|████████  | 40/50 [2:58:12<48:04, 288.46s/it][AINFO:root:
+Task 1: put the bowl on the stove
+INFO:root:Starting task=1 episode=41 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 41
+INFO:root:# successes on this rank: 41 (100.0%)
+
+rank1: task1:  82%|████████▏ | 41/50 [3:03:04<43:26, 289.64s/it][AINFO:root:
+Task 1: put the bowl on the stove
+INFO:root:Starting task=1 episode=42 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 42
+INFO:root:# successes on this rank: 42 (100.0%)
+
+rank1: task1:  84%|████████▍ | 42/50 [3:07:30<37:40, 282.58s/it][AINFO:root:
+Task 1: put the bowl on the stove
+INFO:root:Starting task=1 episode=43 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 43
+INFO:root:# successes on this rank: 43 (100.0%)
+
+rank1: task1:  86%|████████▌ | 43/50 [3:12:12<32:56, 282.35s/it][AINFO:root:
+Task 1: put the bowl on the stove
+INFO:root:Starting task=1 episode=44 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 44
+INFO:root:# successes on this rank: 44 (100.0%)
+
+rank1: task1:  88%|████████▊ | 44/50 [3:16:51<28:08, 281.45s/it][AINFO:root:
+Task 1: put the bowl on the stove
+INFO:root:Starting task=1 episode=45 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 45
+INFO:root:# successes on this rank: 45 (100.0%)
+
+rank1: task1:  90%|█████████ | 45/50 [3:21:27<23:18, 279.72s/it][AINFO:root:
+Task 1: put the bowl on the stove
+INFO:root:Starting task=1 episode=46 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 46
+INFO:root:# successes on this rank: 46 (100.0%)
+
+rank1: task1:  92%|█████████▏| 46/50 [3:26:03<18:33, 278.47s/it][AINFO:root:
+Task 1: put the bowl on the stove
+INFO:root:Starting task=1 episode=47 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 47
+INFO:root:# successes on this rank: 47 (100.0%)
+
+rank1: task1:  94%|█████████▍| 47/50 [3:30:27<13:43, 274.37s/it][AINFO:root:
+Task 1: put the bowl on the stove
+INFO:root:Starting task=1 episode=48 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 48
+INFO:root:# successes on this rank: 48 (100.0%)
+
+rank1: task1:  96%|█████████▌| 48/50 [3:34:53<09:03, 271.82s/it][AINFO:root:
+Task 1: put the bowl on the stove
+INFO:root:Starting task=1 episode=49 ...
+INFO:root:Success: False
+INFO:root:# episodes completed on this rank so far: 49
+INFO:root:# successes on this rank: 48 (98.0%)
+
+rank1: task1:  98%|█████████▊| 49/50 [3:50:10<07:45, 465.15s/it][AINFO:root:
+Task 1: put the bowl on the stove
+INFO:root:Starting task=1 episode=50 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 50
+INFO:root:# successes on this rank: 49 (98.0%)
+
+rank1: task1: 100%|██████████| 50/50 [3:54:17<00:00, 399.91s/it][A
+                                                                [AINFO:root:Current task success rate on rank 1: 0.98
+INFO:root:Current rank success rate: 0.98
+rank1: tasks:  50%|█████     | 1/2 [3:54:21<3:54:21, 14061.64s/it]
+rank1: task6:   0%|          | 0/50 [00:00<?, ?it/s][AINFO:root:
+Task 6: put the cream cheese in the bowl
+INFO:root:Starting task=6 episode=1 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 51
+INFO:root:# successes on this rank: 50 (98.0%)
+
+rank1: task6:   2%|▏         | 1/50 [04:54<4:00:14, 294.17s/it][AINFO:root:
+Task 6: put the cream cheese in the bowl
+INFO:root:Starting task=6 episode=2 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 52
+INFO:root:# successes on this rank: 51 (98.1%)
+
+rank1: task6:   4%|▍         | 2/50 [09:39<3:50:58, 288.73s/it][AINFO:root:
+Task 6: put the cream cheese in the bowl
+INFO:root:Starting task=6 episode=3 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 53
+INFO:root:# successes on this rank: 52 (98.1%)
+
+rank1: task6:   6%|▌         | 3/50 [14:46<3:52:42, 297.07s/it][AINFO:root:
+Task 6: put the cream cheese in the bowl
+INFO:root:Starting task=6 episode=4 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 54
+INFO:root:# successes on this rank: 53 (98.1%)
+
+rank1: task6:   8%|▊         | 4/50 [19:12<3:38:36, 285.15s/it][AINFO:root:
+Task 6: put the cream cheese in the bowl
+INFO:root:Starting task=6 episode=5 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 55
+INFO:root:# successes on this rank: 54 (98.2%)
+
+rank1: task6:  10%|█         | 5/50 [23:47<3:30:58, 281.31s/it][AINFO:root:
+Task 6: put the cream cheese in the bowl
+INFO:root:Starting task=6 episode=6 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 56
+INFO:root:# successes on this rank: 55 (98.2%)
+
+rank1: task6:  12%|█▏        | 6/50 [28:04<3:20:16, 273.09s/it][AINFO:root:
+Task 6: put the cream cheese in the bowl
+INFO:root:Starting task=6 episode=7 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 57
+INFO:root:# successes on this rank: 56 (98.2%)
+
+rank1: task6:  14%|█▍        | 7/50 [32:41<3:16:30, 274.20s/it][AINFO:root:
+Task 6: put the cream cheese in the bowl
+INFO:root:Starting task=6 episode=8 ...
+INFO:root:Success: False
+INFO:root:# episodes completed on this rank so far: 58
+INFO:root:# successes on this rank: 56 (96.6%)
+
+rank1: task6:  16%|█▌        | 8/50 [48:04<5:36:37, 480.90s/it][AINFO:root:
+Task 6: put the cream cheese in the bowl
+INFO:root:Starting task=6 episode=9 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 59
+INFO:root:# successes on this rank: 57 (96.6%)
+
+rank1: task6:  18%|█▊        | 9/50 [52:45<4:45:59, 418.51s/it][AINFO:root:
+Task 6: put the cream cheese in the bowl
+INFO:root:Starting task=6 episode=10 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 60
+INFO:root:# successes on this rank: 58 (96.7%)
+
+rank1: task6:  20%|██        | 10/50 [57:52<4:15:56, 383.91s/it][AINFO:root:
+Task 6: put the cream cheese in the bowl
+INFO:root:Starting task=6 episode=11 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 61
+INFO:root:# successes on this rank: 59 (96.7%)
+
+rank1: task6:  22%|██▏       | 11/50 [1:02:32<3:48:56, 352.22s/it][AINFO:root:
+Task 6: put the cream cheese in the bowl
+INFO:root:Starting task=6 episode=12 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 62
+INFO:root:# successes on this rank: 60 (96.8%)
+
+rank1: task6:  24%|██▍       | 12/50 [1:11:35<4:19:50, 410.27s/it][AINFO:root:
+Task 6: put the cream cheese in the bowl
+INFO:root:Starting task=6 episode=13 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 63
+INFO:root:# successes on this rank: 61 (96.8%)
+
+rank1: task6:  26%|██▌       | 13/50 [1:16:27<3:50:46, 374.24s/it][AINFO:root:
+Task 6: put the cream cheese in the bowl
+INFO:root:Starting task=6 episode=14 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 64
+INFO:root:# successes on this rank: 62 (96.9%)
+
+rank1: task6:  28%|██▊       | 14/50 [1:21:03<3:26:46, 344.64s/it][AINFO:root:
+Task 6: put the cream cheese in the bowl
+INFO:root:Starting task=6 episode=15 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 65
+INFO:root:# successes on this rank: 63 (96.9%)
+
+rank1: task6:  30%|███       | 15/50 [1:25:43<3:09:39, 325.12s/it][AINFO:root:
+Task 6: put the cream cheese in the bowl
+INFO:root:Starting task=6 episode=16 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 66
+INFO:root:# successes on this rank: 64 (97.0%)
+
+rank1: task6:  32%|███▏      | 16/50 [1:29:48<2:50:39, 301.15s/it][AINFO:root:
+Task 6: put the cream cheese in the bowl
+INFO:root:Starting task=6 episode=17 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 67
+INFO:root:# successes on this rank: 65 (97.0%)
+
+rank1: task6:  34%|███▍      | 17/50 [1:34:07<2:38:34, 288.32s/it][AINFO:root:
+Task 6: put the cream cheese in the bowl
+INFO:root:Starting task=6 episode=18 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 68
+INFO:root:# successes on this rank: 66 (97.1%)
+
+rank1: task6:  36%|███▌      | 18/50 [1:38:29<2:29:33, 280.42s/it][AINFO:root:
+Task 6: put the cream cheese in the bowl
+INFO:root:Starting task=6 episode=19 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 69
+INFO:root:# successes on this rank: 67 (97.1%)
+
+rank1: task6:  38%|███▊      | 19/50 [1:42:24<2:17:52, 266.84s/it][AINFO:root:
+Task 6: put the cream cheese in the bowl
+INFO:root:Starting task=6 episode=20 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 70
+INFO:root:# successes on this rank: 68 (97.1%)
+
+rank1: task6:  40%|████      | 20/50 [1:46:29<2:10:10, 260.34s/it][AINFO:root:
+Task 6: put the cream cheese in the bowl
+INFO:root:Starting task=6 episode=21 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 71
+INFO:root:# successes on this rank: 69 (97.2%)
+
+rank1: task6:  42%|████▏     | 21/50 [1:50:19<2:01:22, 251.11s/it][AINFO:root:
+Task 6: put the cream cheese in the bowl
+INFO:root:Starting task=6 episode=22 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 72
+INFO:root:# successes on this rank: 70 (97.2%)
+
+rank1: task6:  44%|████▍     | 22/50 [1:54:11<1:54:33, 245.48s/it][AINFO:root:
+Task 6: put the cream cheese in the bowl
+INFO:root:Starting task=6 episode=23 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 73
+INFO:root:# successes on this rank: 71 (97.3%)
+
+rank1: task6:  46%|████▌     | 23/50 [1:58:18<1:50:42, 246.02s/it][AINFO:root:
+Task 6: put the cream cheese in the bowl
+INFO:root:Starting task=6 episode=24 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 74
+INFO:root:# successes on this rank: 72 (97.3%)
+
+rank1: task6:  48%|████▊     | 24/50 [2:02:16<1:45:33, 243.61s/it][AINFO:root:
+Task 6: put the cream cheese in the bowl
+INFO:root:Starting task=6 episode=25 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 75
+INFO:root:# successes on this rank: 73 (97.3%)
+
+rank1: task6:  50%|█████     | 25/50 [2:05:59<1:38:52, 237.30s/it][AINFO:root:
+Task 6: put the cream cheese in the bowl
+INFO:root:Starting task=6 episode=26 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 76
+INFO:root:# successes on this rank: 74 (97.4%)
+
+rank1: task6:  52%|█████▏    | 26/50 [2:10:16<1:37:20, 243.37s/it][AINFO:root:
+Task 6: put the cream cheese in the bowl
+INFO:root:Starting task=6 episode=27 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 77
+INFO:root:# successes on this rank: 75 (97.4%)
+
+rank1: task6:  54%|█████▍    | 27/50 [2:16:16<1:46:36, 278.13s/it][AINFO:root:
+Task 6: put the cream cheese in the bowl
+INFO:root:Starting task=6 episode=28 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 78
+INFO:root:# successes on this rank: 76 (97.4%)
+
+rank1: task6:  56%|█████▌    | 28/50 [2:20:38<1:40:12, 273.30s/it][AINFO:root:
+Task 6: put the cream cheese in the bowl
+INFO:root:Starting task=6 episode=29 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 79
+INFO:root:# successes on this rank: 77 (97.5%)
+
+rank1: task6:  58%|█████▊    | 29/50 [2:24:20<1:30:18, 258.02s/it][AINFO:root:
+Task 6: put the cream cheese in the bowl
+INFO:root:Starting task=6 episode=30 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 80
+INFO:root:# successes on this rank: 78 (97.5%)
+
+rank1: task6:  60%|██████    | 30/50 [2:28:51<1:27:20, 262.01s/it][AINFO:root:
+Task 6: put the cream cheese in the bowl
+INFO:root:Starting task=6 episode=31 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 81
+INFO:root:# successes on this rank: 79 (97.5%)
+
+rank1: task6:  62%|██████▏   | 31/50 [2:32:43<1:20:02, 252.76s/it][AINFO:root:
+Task 6: put the cream cheese in the bowl
+INFO:root:Starting task=6 episode=32 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 82
+INFO:root:# successes on this rank: 80 (97.6%)
+
+rank1: task6:  64%|██████▍   | 32/50 [2:36:50<1:15:21, 251.18s/it][AINFO:root:
+Task 6: put the cream cheese in the bowl
+INFO:root:Starting task=6 episode=33 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 83
+INFO:root:# successes on this rank: 81 (97.6%)
+
+rank1: task6:  66%|██████▌   | 33/50 [2:40:32<1:08:41, 242.47s/it][AINFO:root:
+Task 6: put the cream cheese in the bowl
+INFO:root:Starting task=6 episode=34 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 84
+INFO:root:# successes on this rank: 82 (97.6%)
+
+rank1: task6:  68%|██████▊   | 34/50 [2:44:22<1:03:41, 238.82s/it][AINFO:root:
+Task 6: put the cream cheese in the bowl
+INFO:root:Starting task=6 episode=35 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 85
+INFO:root:# successes on this rank: 83 (97.6%)
+
+rank1: task6:  70%|███████   | 35/50 [2:48:28<1:00:12, 240.86s/it][AINFO:root:
+Task 6: put the cream cheese in the bowl
+INFO:root:Starting task=6 episode=36 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 86
+INFO:root:# successes on this rank: 84 (97.7%)
+
+rank1: task6:  72%|███████▏  | 36/50 [2:52:49<57:35, 246.82s/it]  [AINFO:root:
+Task 6: put the cream cheese in the bowl
+INFO:root:Starting task=6 episode=37 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 87
+INFO:root:# successes on this rank: 85 (97.7%)
+
+rank1: task6:  74%|███████▍  | 37/50 [2:56:27<51:38, 238.37s/it][AINFO:root:
+Task 6: put the cream cheese in the bowl
+INFO:root:Starting task=6 episode=38 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 88
+INFO:root:# successes on this rank: 86 (97.7%)
+
+rank1: task6:  76%|███████▌  | 38/50 [3:00:52<49:15, 246.26s/it][AINFO:root:
+Task 6: put the cream cheese in the bowl
+INFO:root:Starting task=6 episode=39 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 89
+INFO:root:# successes on this rank: 87 (97.8%)
+
+rank1: task6:  78%|███████▊  | 39/50 [3:04:47<44:30, 242.74s/it][AINFO:root:
+Task 6: put the cream cheese in the bowl
+INFO:root:Starting task=6 episode=40 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 90
+INFO:root:# successes on this rank: 88 (97.8%)
+
+rank1: task6:  80%|████████  | 40/50 [3:08:31<39:32, 237.28s/it][AINFO:root:
+Task 6: put the cream cheese in the bowl
+INFO:root:Starting task=6 episode=41 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 91
+INFO:root:# successes on this rank: 89 (97.8%)
+
+rank1: task6:  82%|████████▏ | 41/50 [3:11:56<34:07, 227.49s/it][AINFO:root:
+Task 6: put the cream cheese in the bowl
+INFO:root:Starting task=6 episode=42 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 92
+INFO:root:# successes on this rank: 90 (97.8%)
+
+rank1: task6:  84%|████████▍ | 42/50 [3:15:33<29:55, 224.43s/it][AINFO:root:
+Task 6: put the cream cheese in the bowl
+INFO:root:Starting task=6 episode=43 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 93
+INFO:root:# successes on this rank: 91 (97.8%)
+
+rank1: task6:  86%|████████▌ | 43/50 [3:18:58<25:30, 218.67s/it][AINFO:root:
+Task 6: put the cream cheese in the bowl
+INFO:root:Starting task=6 episode=44 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 94
+INFO:root:# successes on this rank: 92 (97.9%)
+
+rank1: task6:  88%|████████▊ | 44/50 [3:22:26<21:31, 215.26s/it][AINFO:root:
+Task 6: put the cream cheese in the bowl
+INFO:root:Starting task=6 episode=45 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 95
+INFO:root:# successes on this rank: 93 (97.9%)
+
+rank1: task6:  90%|█████████ | 45/50 [3:26:01<17:57, 215.40s/it][AINFO:root:
+Task 6: put the cream cheese in the bowl
+INFO:root:Starting task=6 episode=46 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 96
+INFO:root:# successes on this rank: 94 (97.9%)
+
+rank1: task6:  92%|█████████▏| 46/50 [3:29:17<13:58, 209.51s/it][AINFO:root:
+Task 6: put the cream cheese in the bowl
+INFO:root:Starting task=6 episode=47 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 97
+INFO:root:# successes on this rank: 95 (97.9%)
+
+rank1: task6:  94%|█████████▍| 47/50 [3:32:39<10:21, 207.26s/it][AINFO:root:
+Task 6: put the cream cheese in the bowl
+INFO:root:Starting task=6 episode=48 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 98
+INFO:root:# successes on this rank: 96 (98.0%)
+
+rank1: task6:  96%|█████████▌| 48/50 [3:36:40<07:14, 217.21s/it][AINFO:root:
+Task 6: put the cream cheese in the bowl
+INFO:root:Starting task=6 episode=49 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 99
+INFO:root:# successes on this rank: 97 (98.0%)
+
+rank1: task6:  98%|█████████▊| 49/50 [3:40:08<03:34, 214.57s/it][AINFO:root:
+Task 6: put the cream cheese in the bowl
+INFO:root:Starting task=6 episode=50 ...
+INFO:root:Success: False
+INFO:root:# episodes completed on this rank so far: 100
+INFO:root:# successes on this rank: 97 (97.0%)
+
+rank1: task6: 100%|██████████| 50/50 [3:51:29<00:00, 354.40s/it][A
+                                                                [AINFO:root:Current task success rate on rank 1: 0.96
+INFO:root:Current rank success rate: 0.97
+rank1: tasks: 100%|██████████| 2/2 [7:45:53<00:00, 13962.04s/it]  rank1: tasks: 100%|██████████| 2/2 [7:45:53<00:00, 13976.98s/it]
+INFO:root:Rank 1 total success rate: 0.97
+INFO:root:Rank 1 total episodes: 100

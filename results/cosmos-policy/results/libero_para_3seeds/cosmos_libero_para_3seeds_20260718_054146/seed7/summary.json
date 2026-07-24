@@ -1,0 +1,83 @@
+{
+  "seed": 7,
+  "total_tasks": 4092,
+  "successes": 2870,
+  "success_rate": 0.7013685239491692,
+  "success_rate_percent": 70.13685239491691,
+  "per_eval": {
+    "eval0": {
+      "total": 416,
+      "successes": 363,
+      "success_rate": 0.8725961538461539
+    },
+    "eval1": {
+      "total": 410,
+      "successes": 379,
+      "success_rate": 0.9243902439024391
+    },
+    "eval2": {
+      "total": 406,
+      "successes": 288,
+      "success_rate": 0.7093596059113301
+    },
+    "eval3": {
+      "total": 386,
+      "successes": 385,
+      "success_rate": 0.9974093264248705
+    },
+    "eval4": {
+      "total": 403,
+      "successes": 340,
+      "success_rate": 0.8436724565756824
+    },
+    "eval5": {
+      "total": 410,
+      "successes": 242,
+      "success_rate": 0.5902439024390244
+    },
+    "eval6": {
+      "total": 411,
+      "successes": 123,
+      "success_rate": 0.29927007299270075
+    },
+    "eval7": {
+      "total": 413,
+      "successes": 281,
+      "success_rate": 0.6803874092009685
+    },
+    "eval8": {
+      "total": 423,
+      "successes": 374,
+      "success_rate": 0.8841607565011821
+    },
+    "eval9": {
+      "total": 414,
+      "successes": 95,
+      "success_rate": 0.22946859903381642
+    }
+  },
+  "per_type": {
+    "act": {
+      "total": 870,
+      "successes": 763,
+      "success_rate": 0.8770114942528736
+    },
+    "comp": {
+      "total": 2963,
+      "successes": 1879,
+      "success_rate": 0.6341545730678366
+    },
+    "obj": {
+      "total": 259,
+      "successes": 228,
+      "success_rate": 0.8803088803088803
+    }
+  },
+  "rank_files": [
+    "/mnt/afs/raozf/cosmos-policy/results/libero_para_3seeds/cosmos_libero_para_3seeds_20260718_054146/seed7/rank0.json",
+    "/mnt/afs/raozf/cosmos-policy/results/libero_para_3seeds/cosmos_libero_para_3seeds_20260718_054146/seed7/rank1.json",
+    "/mnt/afs/raozf/cosmos-policy/results/libero_para_3seeds/cosmos_libero_para_3seeds_20260718_054146/seed7/rank2.json",
+    "/mnt/afs/raozf/cosmos-policy/results/libero_para_3seeds/cosmos_libero_para_3seeds_20260718_054146/seed7/rank3.json",
+    "/mnt/afs/raozf/cosmos-policy/results/libero_para_3seeds/cosmos_libero_para_3seeds_20260718_054146/seed7/rank4.json"
+  ]
+}

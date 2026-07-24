@@ -1,0 +1,728 @@
+INFO:root:Task suite: libero_goal
+INFO:root:[Eval Split] rank=4, world_size=4, client=127.0.0.1:8009, task_ids=[4, 8]
+INFO:root:Waiting for policy server at ws://127.0.0.1:8009 ...
+INFO:root:Policy server is reachable at ws://127.0.0.1:8009
+INFO:root:[Rank 4] Connecting to policy server 127.0.0.1:8009
+INFO:root:Waiting for server at ws://127.0.0.1:8009...
+[info] using task orders [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+rank4: tasks:   0%|          | 0/2 [00:00<?, ?it/s][Warning]: datasets path /mnt/afs/wuzhongbo/project_teamwork/RoboMemArena/evaluation_benchmark/libero_fork/libero/../datasets does not exist!
+[Warning]: datasets path /mnt/afs/wuzhongbo/project_teamwork/RoboMemArena/evaluation_benchmark/libero_fork/libero/../datasets does not exist!
+
+rank4: task4:   0%|          | 0/50 [00:00<?, ?it/s][AINFO:root:
+Task 4: put the bowl on top of the cabinet
+INFO:root:Starting task=4 episode=1 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 1
+INFO:root:# successes on this rank: 1 (100.0%)
+
+rank4: task4:   2%|▏         | 1/50 [06:58<5:41:24, 418.05s/it][AINFO:root:
+Task 4: put the bowl on top of the cabinet
+INFO:root:Starting task=4 episode=2 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 2
+INFO:root:# successes on this rank: 2 (100.0%)
+
+rank4: task4:   4%|▍         | 2/50 [13:16<5:15:34, 394.47s/it][AINFO:root:
+Task 4: put the bowl on top of the cabinet
+INFO:root:Starting task=4 episode=3 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 3
+INFO:root:# successes on this rank: 3 (100.0%)
+
+rank4: task4:   6%|▌         | 3/50 [18:50<4:47:31, 367.05s/it][AINFO:root:
+Task 4: put the bowl on top of the cabinet
+INFO:root:Starting task=4 episode=4 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 4
+INFO:root:# successes on this rank: 4 (100.0%)
+
+rank4: task4:   8%|▊         | 4/50 [25:18<4:47:41, 375.25s/it][AINFO:root:
+Task 4: put the bowl on top of the cabinet
+INFO:root:Starting task=4 episode=5 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 5
+INFO:root:# successes on this rank: 5 (100.0%)
+
+rank4: task4:  10%|█         | 5/50 [30:40<4:27:12, 356.27s/it][AINFO:root:
+Task 4: put the bowl on top of the cabinet
+INFO:root:Starting task=4 episode=6 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 6
+INFO:root:# successes on this rank: 6 (100.0%)
+
+rank4: task4:  12%|█▏        | 6/50 [36:19<4:16:58, 350.43s/it][AINFO:root:
+Task 4: put the bowl on top of the cabinet
+INFO:root:Starting task=4 episode=7 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 7
+INFO:root:# successes on this rank: 7 (100.0%)
+
+rank4: task4:  14%|█▍        | 7/50 [41:59<4:08:38, 346.95s/it][AINFO:root:
+Task 4: put the bowl on top of the cabinet
+INFO:root:Starting task=4 episode=8 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 8
+INFO:root:# successes on this rank: 8 (100.0%)
+
+rank4: task4:  16%|█▌        | 8/50 [48:11<4:08:17, 354.70s/it][AINFO:root:
+Task 4: put the bowl on top of the cabinet
+INFO:root:Starting task=4 episode=9 ...
+WARNING:root:[Rank 4] client.infer failed, retry=0/2: ConnectionClosedError(None, Close(code=<CloseCode.INTERNAL_ERROR: 1011>, reason='keepalive ping timeout'), None)
+INFO:root:[Rank 4] Connecting to policy server 127.0.0.1:8009
+INFO:root:Waiting for server at ws://127.0.0.1:8009...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 9
+INFO:root:# successes on this rank: 9 (100.0%)
+
+rank4: task4:  18%|█▊        | 9/50 [54:41<4:09:57, 365.80s/it][AINFO:root:
+Task 4: put the bowl on top of the cabinet
+INFO:root:Starting task=4 episode=10 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 10
+INFO:root:# successes on this rank: 10 (100.0%)
+
+rank4: task4:  20%|██        | 10/50 [1:01:18<4:10:19, 375.48s/it][AINFO:root:
+Task 4: put the bowl on top of the cabinet
+INFO:root:Starting task=4 episode=11 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 11
+INFO:root:# successes on this rank: 11 (100.0%)
+
+rank4: task4:  22%|██▏       | 11/50 [1:08:20<4:13:17, 389.67s/it][AINFO:root:
+Task 4: put the bowl on top of the cabinet
+INFO:root:Starting task=4 episode=12 ...
+WARNING:root:[Rank 4] client.infer failed, retry=0/2: ConnectionClosedError(None, Close(code=<CloseCode.INTERNAL_ERROR: 1011>, reason='keepalive ping timeout'), None)
+INFO:root:[Rank 4] Connecting to policy server 127.0.0.1:8009
+INFO:root:Waiting for server at ws://127.0.0.1:8009...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 12
+INFO:root:# successes on this rank: 12 (100.0%)
+
+rank4: task4:  24%|██▍       | 12/50 [1:15:20<4:12:38, 398.92s/it][AINFO:root:
+Task 4: put the bowl on top of the cabinet
+INFO:root:Starting task=4 episode=13 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 13
+INFO:root:# successes on this rank: 13 (100.0%)
+
+rank4: task4:  26%|██▌       | 13/50 [1:21:02<3:55:20, 381.64s/it][AINFO:root:
+Task 4: put the bowl on top of the cabinet
+INFO:root:Starting task=4 episode=14 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 14
+INFO:root:# successes on this rank: 14 (100.0%)
+
+rank4: task4:  28%|██▊       | 14/50 [1:25:24<3:27:16, 345.47s/it][AINFO:root:
+Task 4: put the bowl on top of the cabinet
+INFO:root:Starting task=4 episode=15 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 15
+INFO:root:# successes on this rank: 15 (100.0%)
+
+rank4: task4:  30%|███       | 15/50 [1:33:20<3:44:32, 384.93s/it][AINFO:root:
+Task 4: put the bowl on top of the cabinet
+INFO:root:Starting task=4 episode=16 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 16
+INFO:root:# successes on this rank: 16 (100.0%)
+
+rank4: task4:  32%|███▏      | 16/50 [1:38:29<3:25:06, 361.94s/it][AINFO:root:
+Task 4: put the bowl on top of the cabinet
+INFO:root:Starting task=4 episode=17 ...
+INFO:root:Success: False
+INFO:root:# episodes completed on this rank so far: 17
+INFO:root:# successes on this rank: 16 (94.1%)
+
+rank4: task4:  34%|███▍      | 17/50 [1:55:18<5:06:06, 556.55s/it][AINFO:root:
+Task 4: put the bowl on top of the cabinet
+INFO:root:Starting task=4 episode=18 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 18
+INFO:root:# successes on this rank: 17 (94.4%)
+
+rank4: task4:  36%|███▌      | 18/50 [2:00:12<4:14:48, 477.77s/it][AINFO:root:
+Task 4: put the bowl on top of the cabinet
+INFO:root:Starting task=4 episode=19 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 19
+INFO:root:# successes on this rank: 18 (94.7%)
+
+rank4: task4:  38%|███▊      | 19/50 [2:05:19<3:40:23, 426.57s/it][AINFO:root:
+Task 4: put the bowl on top of the cabinet
+INFO:root:Starting task=4 episode=20 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 20
+INFO:root:# successes on this rank: 19 (95.0%)
+
+rank4: task4:  40%|████      | 20/50 [2:10:44<3:17:58, 395.94s/it][AINFO:root:
+Task 4: put the bowl on top of the cabinet
+INFO:root:Starting task=4 episode=21 ...
+INFO:root:Success: False
+INFO:root:# episodes completed on this rank so far: 21
+INFO:root:# successes on this rank: 19 (90.5%)
+
+rank4: task4:  42%|████▏     | 21/50 [2:27:28<4:39:40, 578.63s/it][AINFO:root:
+Task 4: put the bowl on top of the cabinet
+INFO:root:Starting task=4 episode=22 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 22
+INFO:root:# successes on this rank: 20 (90.9%)
+
+rank4: task4:  44%|████▍     | 22/50 [2:32:16<3:49:17, 491.32s/it][AINFO:root:
+Task 4: put the bowl on top of the cabinet
+INFO:root:Starting task=4 episode=23 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 23
+INFO:root:# successes on this rank: 21 (91.3%)
+
+rank4: task4:  46%|████▌     | 23/50 [2:37:07<3:13:59, 431.11s/it][AINFO:root:
+Task 4: put the bowl on top of the cabinet
+INFO:root:Starting task=4 episode=24 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 24
+INFO:root:# successes on this rank: 22 (91.7%)
+
+rank4: task4:  48%|████▊     | 24/50 [2:42:00<2:48:50, 389.64s/it][AINFO:root:
+Task 4: put the bowl on top of the cabinet
+INFO:root:Starting task=4 episode=25 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 25
+INFO:root:# successes on this rank: 23 (92.0%)
+
+rank4: task4:  50%|█████     | 25/50 [2:46:29<2:27:20, 353.63s/it][AINFO:root:
+Task 4: put the bowl on top of the cabinet
+INFO:root:Starting task=4 episode=26 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 26
+INFO:root:# successes on this rank: 24 (92.3%)
+
+rank4: task4:  52%|█████▏    | 26/50 [2:51:55<2:18:06, 345.28s/it][AINFO:root:
+Task 4: put the bowl on top of the cabinet
+INFO:root:Starting task=4 episode=27 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 27
+INFO:root:# successes on this rank: 25 (92.6%)
+
+rank4: task4:  54%|█████▍    | 27/50 [2:57:00<2:07:43, 333.20s/it][AINFO:root:
+Task 4: put the bowl on top of the cabinet
+INFO:root:Starting task=4 episode=28 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 28
+INFO:root:# successes on this rank: 26 (92.9%)
+
+rank4: task4:  56%|█████▌    | 28/50 [3:01:52<1:57:38, 320.86s/it][AINFO:root:
+Task 4: put the bowl on top of the cabinet
+INFO:root:Starting task=4 episode=29 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 29
+INFO:root:# successes on this rank: 27 (93.1%)
+
+rank4: task4:  58%|█████▊    | 29/50 [3:07:16<1:52:34, 321.64s/it][AINFO:root:
+Task 4: put the bowl on top of the cabinet
+INFO:root:Starting task=4 episode=30 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 30
+INFO:root:# successes on this rank: 28 (93.3%)
+
+rank4: task4:  60%|██████    | 30/50 [3:12:24<1:45:50, 317.53s/it][AINFO:root:
+Task 4: put the bowl on top of the cabinet
+INFO:root:Starting task=4 episode=31 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 31
+INFO:root:# successes on this rank: 29 (93.5%)
+
+rank4: task4:  62%|██████▏   | 31/50 [3:17:45<1:40:55, 318.72s/it][AINFO:root:
+Task 4: put the bowl on top of the cabinet
+INFO:root:Starting task=4 episode=32 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 32
+INFO:root:# successes on this rank: 30 (93.8%)
+
+rank4: task4:  64%|██████▍   | 32/50 [3:22:17<1:31:22, 304.57s/it][AINFO:root:
+Task 4: put the bowl on top of the cabinet
+INFO:root:Starting task=4 episode=33 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 33
+INFO:root:# successes on this rank: 31 (93.9%)
+
+rank4: task4:  66%|██████▌   | 33/50 [3:27:04<1:24:50, 299.44s/it][AINFO:root:
+Task 4: put the bowl on top of the cabinet
+INFO:root:Starting task=4 episode=34 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 34
+INFO:root:# successes on this rank: 32 (94.1%)
+
+rank4: task4:  68%|██████▊   | 34/50 [3:32:14<1:20:38, 302.43s/it][AINFO:root:
+Task 4: put the bowl on top of the cabinet
+INFO:root:Starting task=4 episode=35 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 35
+INFO:root:# successes on this rank: 33 (94.3%)
+
+rank4: task4:  70%|███████   | 35/50 [3:37:05<1:14:45, 299.01s/it][AINFO:root:
+Task 4: put the bowl on top of the cabinet
+INFO:root:Starting task=4 episode=36 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 36
+INFO:root:# successes on this rank: 34 (94.4%)
+
+rank4: task4:  72%|███████▏  | 36/50 [3:41:54<1:09:06, 296.17s/it][AINFO:root:
+Task 4: put the bowl on top of the cabinet
+INFO:root:Starting task=4 episode=37 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 37
+INFO:root:# successes on this rank: 35 (94.6%)
+
+rank4: task4:  74%|███████▍  | 37/50 [3:46:47<1:03:58, 295.25s/it][AINFO:root:
+Task 4: put the bowl on top of the cabinet
+INFO:root:Starting task=4 episode=38 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 38
+INFO:root:# successes on this rank: 36 (94.7%)
+
+rank4: task4:  76%|███████▌  | 38/50 [3:51:56<59:51, 299.32s/it]  [AINFO:root:
+Task 4: put the bowl on top of the cabinet
+INFO:root:Starting task=4 episode=39 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 39
+INFO:root:# successes on this rank: 37 (94.9%)
+
+rank4: task4:  78%|███████▊  | 39/50 [3:56:46<54:23, 296.64s/it][AINFO:root:
+Task 4: put the bowl on top of the cabinet
+INFO:root:Starting task=4 episode=40 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 40
+INFO:root:# successes on this rank: 38 (95.0%)
+
+rank4: task4:  80%|████████  | 40/50 [4:01:10<47:47, 286.77s/it][AINFO:root:
+Task 4: put the bowl on top of the cabinet
+INFO:root:Starting task=4 episode=41 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 41
+INFO:root:# successes on this rank: 39 (95.1%)
+
+rank4: task4:  82%|████████▏ | 41/50 [4:08:10<49:00, 326.71s/it][AINFO:root:
+Task 4: put the bowl on top of the cabinet
+INFO:root:Starting task=4 episode=42 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 42
+INFO:root:# successes on this rank: 40 (95.2%)
+
+rank4: task4:  84%|████████▍ | 42/50 [4:12:37<41:10, 308.79s/it][AINFO:root:
+Task 4: put the bowl on top of the cabinet
+INFO:root:Starting task=4 episode=43 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 43
+INFO:root:# successes on this rank: 41 (95.3%)
+
+rank4: task4:  86%|████████▌ | 43/50 [4:17:26<35:20, 302.95s/it][AINFO:root:
+Task 4: put the bowl on top of the cabinet
+INFO:root:Starting task=4 episode=44 ...
+INFO:root:Success: False
+INFO:root:# episodes completed on this rank so far: 44
+INFO:root:# successes on this rank: 41 (93.2%)
+
+rank4: task4:  88%|████████▊ | 44/50 [4:32:46<48:48, 488.08s/it][AINFO:root:
+Task 4: put the bowl on top of the cabinet
+INFO:root:Starting task=4 episode=45 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 45
+INFO:root:# successes on this rank: 42 (93.3%)
+
+rank4: task4:  90%|█████████ | 45/50 [4:37:13<35:08, 421.77s/it][AINFO:root:
+Task 4: put the bowl on top of the cabinet
+INFO:root:Starting task=4 episode=46 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 46
+INFO:root:# successes on this rank: 43 (93.5%)
+
+rank4: task4:  92%|█████████▏| 46/50 [4:41:37<24:56, 374.25s/it][AINFO:root:
+Task 4: put the bowl on top of the cabinet
+INFO:root:Starting task=4 episode=47 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 47
+INFO:root:# successes on this rank: 44 (93.6%)
+
+rank4: task4:  94%|█████████▍| 47/50 [4:45:45<16:49, 336.51s/it][AINFO:root:
+Task 4: put the bowl on top of the cabinet
+INFO:root:Starting task=4 episode=48 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 48
+INFO:root:# successes on this rank: 45 (93.8%)
+
+rank4: task4:  96%|█████████▌| 48/50 [4:50:28<10:40, 320.27s/it][AINFO:root:
+Task 4: put the bowl on top of the cabinet
+INFO:root:Starting task=4 episode=49 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 49
+INFO:root:# successes on this rank: 46 (93.9%)
+
+rank4: task4:  98%|█████████▊| 49/50 [4:57:03<05:42, 342.73s/it][AINFO:root:
+Task 4: put the bowl on top of the cabinet
+INFO:root:Starting task=4 episode=50 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 50
+INFO:root:# successes on this rank: 47 (94.0%)
+
+rank4: task4: 100%|██████████| 50/50 [5:01:59<00:00, 328.81s/it][A
+                                                                [AINFO:root:Current task success rate on rank 4: 0.94
+INFO:root:Current rank success rate: 0.94
+rank4: tasks:  50%|█████     | 1/2 [5:02:06<5:02:06, 18126.62s/it][Warning]: datasets path /mnt/afs/wuzhongbo/project_teamwork/RoboMemArena/evaluation_benchmark/libero_fork/libero/../datasets does not exist!
+[Warning]: datasets path /mnt/afs/wuzhongbo/project_teamwork/RoboMemArena/evaluation_benchmark/libero_fork/libero/../datasets does not exist!
+
+rank4: task8:   0%|          | 0/50 [00:00<?, ?it/s][AINFO:root:
+Task 8: put the bowl on the plate
+INFO:root:Starting task=8 episode=1 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 51
+INFO:root:# successes on this rank: 48 (94.1%)
+
+rank4: task8:   2%|▏         | 1/50 [04:05<3:20:06, 245.04s/it][AINFO:root:
+Task 8: put the bowl on the plate
+INFO:root:Starting task=8 episode=2 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 52
+INFO:root:# successes on this rank: 49 (94.2%)
+
+rank4: task8:   4%|▍         | 2/50 [08:11<3:16:35, 245.74s/it][AINFO:root:
+Task 8: put the bowl on the plate
+INFO:root:Starting task=8 episode=3 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 53
+INFO:root:# successes on this rank: 50 (94.3%)
+
+rank4: task8:   6%|▌         | 3/50 [12:02<3:07:11, 238.97s/it][AINFO:root:
+Task 8: put the bowl on the plate
+INFO:root:Starting task=8 episode=4 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 54
+INFO:root:# successes on this rank: 51 (94.4%)
+
+rank4: task8:   8%|▊         | 4/50 [15:22<2:51:35, 223.82s/it][AINFO:root:
+Task 8: put the bowl on the plate
+INFO:root:Starting task=8 episode=5 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 55
+INFO:root:# successes on this rank: 52 (94.5%)
+
+rank4: task8:  10%|█         | 5/50 [18:57<2:45:29, 220.66s/it][AINFO:root:
+Task 8: put the bowl on the plate
+INFO:root:Starting task=8 episode=6 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 56
+INFO:root:# successes on this rank: 53 (94.6%)
+
+rank4: task8:  12%|█▏        | 6/50 [22:42<2:42:52, 222.11s/it][AINFO:root:
+Task 8: put the bowl on the plate
+INFO:root:Starting task=8 episode=7 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 57
+INFO:root:# successes on this rank: 54 (94.7%)
+
+rank4: task8:  14%|█▍        | 7/50 [26:11<2:36:06, 217.83s/it][AINFO:root:
+Task 8: put the bowl on the plate
+INFO:root:Starting task=8 episode=8 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 58
+INFO:root:# successes on this rank: 55 (94.8%)
+
+rank4: task8:  16%|█▌        | 8/50 [29:47<2:31:59, 217.13s/it][AINFO:root:
+Task 8: put the bowl on the plate
+INFO:root:Starting task=8 episode=9 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 59
+INFO:root:# successes on this rank: 56 (94.9%)
+
+rank4: task8:  18%|█▊        | 9/50 [33:19<2:27:12, 215.42s/it][AINFO:root:
+Task 8: put the bowl on the plate
+INFO:root:Starting task=8 episode=10 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 60
+INFO:root:# successes on this rank: 57 (95.0%)
+
+rank4: task8:  20%|██        | 10/50 [36:51<2:23:04, 214.62s/it][AINFO:root:
+Task 8: put the bowl on the plate
+INFO:root:Starting task=8 episode=11 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 61
+INFO:root:# successes on this rank: 58 (95.1%)
+
+rank4: task8:  22%|██▏       | 11/50 [40:42<2:22:42, 219.56s/it][AINFO:root:
+Task 8: put the bowl on the plate
+INFO:root:Starting task=8 episode=12 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 62
+INFO:root:# successes on this rank: 59 (95.2%)
+
+rank4: task8:  24%|██▍       | 12/50 [44:07<2:16:09, 215.00s/it][AINFO:root:
+Task 8: put the bowl on the plate
+INFO:root:Starting task=8 episode=13 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 63
+INFO:root:# successes on this rank: 60 (95.2%)
+
+rank4: task8:  26%|██▌       | 13/50 [47:54<2:14:53, 218.75s/it][AINFO:root:
+Task 8: put the bowl on the plate
+INFO:root:Starting task=8 episode=14 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 64
+INFO:root:# successes on this rank: 61 (95.3%)
+
+rank4: task8:  28%|██▊       | 14/50 [51:44<2:13:16, 222.14s/it][AINFO:root:
+Task 8: put the bowl on the plate
+INFO:root:Starting task=8 episode=15 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 65
+INFO:root:# successes on this rank: 62 (95.4%)
+
+rank4: task8:  30%|███       | 15/50 [55:34<2:10:52, 224.35s/it][AINFO:root:
+Task 8: put the bowl on the plate
+INFO:root:Starting task=8 episode=16 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 66
+INFO:root:# successes on this rank: 63 (95.5%)
+
+rank4: task8:  32%|███▏      | 16/50 [59:24<2:08:07, 226.09s/it][AINFO:root:
+Task 8: put the bowl on the plate
+INFO:root:Starting task=8 episode=17 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 67
+INFO:root:# successes on this rank: 64 (95.5%)
+
+rank4: task8:  34%|███▍      | 17/50 [1:02:57<2:02:16, 222.33s/it][AINFO:root:
+Task 8: put the bowl on the plate
+INFO:root:Starting task=8 episode=18 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 68
+INFO:root:# successes on this rank: 65 (95.6%)
+
+rank4: task8:  36%|███▌      | 18/50 [1:08:25<2:15:31, 254.10s/it][AINFO:root:
+Task 8: put the bowl on the plate
+INFO:root:Starting task=8 episode=19 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 69
+INFO:root:# successes on this rank: 66 (95.7%)
+
+rank4: task8:  38%|███▊      | 19/50 [1:12:17<2:07:45, 247.27s/it][AINFO:root:
+Task 8: put the bowl on the plate
+INFO:root:Starting task=8 episode=20 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 70
+INFO:root:# successes on this rank: 67 (95.7%)
+
+rank4: task8:  40%|████      | 20/50 [1:16:03<2:00:33, 241.11s/it][AINFO:root:
+Task 8: put the bowl on the plate
+INFO:root:Starting task=8 episode=21 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 71
+INFO:root:# successes on this rank: 68 (95.8%)
+
+rank4: task8:  42%|████▏     | 21/50 [1:19:43<1:53:27, 234.75s/it][AINFO:root:
+Task 8: put the bowl on the plate
+INFO:root:Starting task=8 episode=22 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 72
+INFO:root:# successes on this rank: 69 (95.8%)
+
+rank4: task8:  44%|████▍     | 22/50 [1:23:34<1:49:00, 233.59s/it][AINFO:root:
+Task 8: put the bowl on the plate
+INFO:root:Starting task=8 episode=23 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 73
+INFO:root:# successes on this rank: 70 (95.9%)
+
+rank4: task8:  46%|████▌     | 23/50 [1:27:12<1:42:55, 228.74s/it][AINFO:root:
+Task 8: put the bowl on the plate
+INFO:root:Starting task=8 episode=24 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 74
+INFO:root:# successes on this rank: 71 (95.9%)
+
+rank4: task8:  48%|████▊     | 24/50 [1:30:50<1:37:46, 225.64s/it][AINFO:root:
+Task 8: put the bowl on the plate
+INFO:root:Starting task=8 episode=25 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 75
+INFO:root:# successes on this rank: 72 (96.0%)
+
+rank4: task8:  50%|█████     | 25/50 [1:34:22<1:32:17, 221.49s/it][AINFO:root:
+Task 8: put the bowl on the plate
+INFO:root:Starting task=8 episode=26 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 76
+INFO:root:# successes on this rank: 73 (96.1%)
+
+rank4: task8:  52%|█████▏    | 26/50 [1:38:02<1:28:22, 220.94s/it][AINFO:root:
+Task 8: put the bowl on the plate
+INFO:root:Starting task=8 episode=27 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 77
+INFO:root:# successes on this rank: 74 (96.1%)
+
+rank4: task8:  54%|█████▍    | 27/50 [1:41:37<1:24:05, 219.37s/it][AINFO:root:
+Task 8: put the bowl on the plate
+INFO:root:Starting task=8 episode=28 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 78
+INFO:root:# successes on this rank: 75 (96.2%)
+
+rank4: task8:  56%|█████▌    | 28/50 [1:45:14<1:20:07, 218.52s/it][AINFO:root:
+Task 8: put the bowl on the plate
+INFO:root:Starting task=8 episode=29 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 79
+INFO:root:# successes on this rank: 76 (96.2%)
+
+rank4: task8:  58%|█████▊    | 29/50 [1:49:15<1:18:53, 225.41s/it][AINFO:root:
+Task 8: put the bowl on the plate
+INFO:root:Starting task=8 episode=30 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 80
+INFO:root:# successes on this rank: 77 (96.2%)
+
+rank4: task8:  60%|██████    | 30/50 [1:53:04<1:15:29, 226.46s/it][AINFO:root:
+Task 8: put the bowl on the plate
+INFO:root:Starting task=8 episode=31 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 81
+INFO:root:# successes on this rank: 78 (96.3%)
+
+rank4: task8:  62%|██████▏   | 31/50 [1:56:53<1:11:53, 227.05s/it][AINFO:root:
+Task 8: put the bowl on the plate
+INFO:root:Starting task=8 episode=32 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 82
+INFO:root:# successes on this rank: 79 (96.3%)
+
+rank4: task8:  64%|██████▍   | 32/50 [2:00:25<1:06:47, 222.64s/it][AINFO:root:
+Task 8: put the bowl on the plate
+INFO:root:Starting task=8 episode=33 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 83
+INFO:root:# successes on this rank: 80 (96.4%)
+
+rank4: task8:  66%|██████▌   | 33/50 [2:03:59<1:02:20, 220.01s/it][AINFO:root:
+Task 8: put the bowl on the plate
+INFO:root:Starting task=8 episode=34 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 84
+INFO:root:# successes on this rank: 81 (96.4%)
+
+rank4: task8:  68%|██████▊   | 34/50 [2:07:34<58:14, 218.41s/it]  [AINFO:root:
+Task 8: put the bowl on the plate
+INFO:root:Starting task=8 episode=35 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 85
+INFO:root:# successes on this rank: 82 (96.5%)
+
+rank4: task8:  70%|███████   | 35/50 [2:11:21<55:18, 221.25s/it][AINFO:root:
+Task 8: put the bowl on the plate
+INFO:root:Starting task=8 episode=36 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 86
+INFO:root:# successes on this rank: 83 (96.5%)
+
+rank4: task8:  72%|███████▏  | 36/50 [2:14:42<50:11, 215.13s/it][AINFO:root:
+Task 8: put the bowl on the plate
+INFO:root:Starting task=8 episode=37 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 87
+INFO:root:# successes on this rank: 84 (96.6%)
+
+rank4: task8:  74%|███████▍  | 37/50 [2:18:16<46:31, 214.75s/it][AINFO:root:
+Task 8: put the bowl on the plate
+INFO:root:Starting task=8 episode=38 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 88
+INFO:root:# successes on this rank: 85 (96.6%)
+
+rank4: task8:  76%|███████▌  | 38/50 [2:21:49<42:49, 214.15s/it][AINFO:root:
+Task 8: put the bowl on the plate
+INFO:root:Starting task=8 episode=39 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 89
+INFO:root:# successes on this rank: 86 (96.6%)
+
+rank4: task8:  78%|███████▊  | 39/50 [2:25:35<39:55, 217.80s/it][AINFO:root:
+Task 8: put the bowl on the plate
+INFO:root:Starting task=8 episode=40 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 90
+INFO:root:# successes on this rank: 87 (96.7%)
+
+rank4: task8:  80%|████████  | 40/50 [2:29:19<36:36, 219.61s/it][AINFO:root:
+Task 8: put the bowl on the plate
+INFO:root:Starting task=8 episode=41 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 91
+INFO:root:# successes on this rank: 88 (96.7%)
+
+rank4: task8:  82%|████████▏ | 41/50 [2:32:38<32:00, 213.34s/it][AINFO:root:
+Task 8: put the bowl on the plate
+INFO:root:Starting task=8 episode=42 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 92
+INFO:root:# successes on this rank: 89 (96.7%)
+
+rank4: task8:  84%|████████▍ | 42/50 [2:36:21<28:51, 216.46s/it][AINFO:root:
+Task 8: put the bowl on the plate
+INFO:root:Starting task=8 episode=43 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 93
+INFO:root:# successes on this rank: 90 (96.8%)
+
+rank4: task8:  86%|████████▌ | 43/50 [2:40:04<25:28, 218.41s/it][AINFO:root:
+Task 8: put the bowl on the plate
+INFO:root:Starting task=8 episode=44 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 94
+INFO:root:# successes on this rank: 91 (96.8%)
+
+rank4: task8:  88%|████████▊ | 44/50 [2:43:35<21:37, 216.20s/it][AINFO:root:
+Task 8: put the bowl on the plate
+INFO:root:Starting task=8 episode=45 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 95
+INFO:root:# successes on this rank: 92 (96.8%)
+
+rank4: task8:  90%|█████████ | 45/50 [2:46:52<17:31, 210.23s/it][AINFO:root:
+Task 8: put the bowl on the plate
+INFO:root:Starting task=8 episode=46 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 96
+INFO:root:# successes on this rank: 93 (96.9%)
+
+rank4: task8:  92%|█████████▏| 46/50 [2:50:26<14:05, 211.35s/it][AINFO:root:
+Task 8: put the bowl on the plate
+INFO:root:Starting task=8 episode=47 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 97
+INFO:root:# successes on this rank: 94 (96.9%)
+
+rank4: task8:  94%|█████████▍| 47/50 [2:53:57<10:33, 211.26s/it][AINFO:root:
+Task 8: put the bowl on the plate
+INFO:root:Starting task=8 episode=48 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 98
+INFO:root:# successes on this rank: 95 (96.9%)
+
+rank4: task8:  96%|█████████▌| 48/50 [2:57:26<07:01, 210.57s/it][AINFO:root:
+Task 8: put the bowl on the plate
+INFO:root:Starting task=8 episode=49 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 99
+INFO:root:# successes on this rank: 96 (97.0%)
+
+rank4: task8:  98%|█████████▊| 49/50 [3:00:41<03:26, 206.06s/it][AINFO:root:
+Task 8: put the bowl on the plate
+INFO:root:Starting task=8 episode=50 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 100
+INFO:root:# successes on this rank: 97 (97.0%)
+
+rank4: task8: 100%|██████████| 50/50 [3:04:13<00:00, 207.62s/it][A
+                                                                [AINFO:root:Current task success rate on rank 4: 1.0
+INFO:root:Current rank success rate: 0.97
+rank4: tasks: 100%|██████████| 2/2 [8:06:22<00:00, 13967.57s/it]  rank4: tasks: 100%|██████████| 2/2 [8:06:22<00:00, 14591.42s/it]
+INFO:root:Rank 4 total success rate: 0.97
+INFO:root:Rank 4 total episodes: 100

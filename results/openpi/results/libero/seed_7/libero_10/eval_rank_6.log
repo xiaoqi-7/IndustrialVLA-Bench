@@ -1,0 +1,382 @@
+INFO:root:Task suite: libero_10
+INFO:root:[Eval Split] rank=6, world_size=8, client=127.0.0.1:8006, task_ids=[6]
+INFO:root:Waiting for policy server at ws://127.0.0.1:8006 ...
+INFO:root:Policy server is reachable at ws://127.0.0.1:8006
+INFO:root:[Rank 6] Connecting to policy server 127.0.0.1:8006
+INFO:root:Waiting for server at ws://127.0.0.1:8006...
+[info] using task orders [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+rank6: tasks:   0%|          | 0/1 [00:00<?, ?it/s]
+rank6: task6:   0%|          | 0/50 [00:00<?, ?it/s][AINFO:root:
+Task 6: put the white mug on the plate and put the chocolate pudding to the right of the plate
+INFO:root:Starting task=6 episode=1 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 1
+INFO:root:# successes on this rank: 1 (100.0%)
+
+rank6: task6:   2%|▏         | 1/50 [13:33<11:04:14, 813.35s/it][AINFO:root:
+Task 6: put the white mug on the plate and put the chocolate pudding to the right of the plate
+INFO:root:Starting task=6 episode=2 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 2
+INFO:root:# successes on this rank: 2 (100.0%)
+
+rank6: task6:   4%|▍         | 2/50 [26:24<10:30:57, 788.69s/it][AINFO:root:
+Task 6: put the white mug on the plate and put the chocolate pudding to the right of the plate
+INFO:root:Starting task=6 episode=3 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 3
+INFO:root:# successes on this rank: 3 (100.0%)
+
+rank6: task6:   6%|▌         | 3/50 [38:58<10:05:10, 772.56s/it][AINFO:root:
+Task 6: put the white mug on the plate and put the chocolate pudding to the right of the plate
+INFO:root:Starting task=6 episode=4 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 4
+INFO:root:# successes on this rank: 4 (100.0%)
+
+rank6: task6:   8%|▊         | 4/50 [50:57<9:36:02, 751.36s/it] [AINFO:root:
+Task 6: put the white mug on the plate and put the chocolate pudding to the right of the plate
+INFO:root:Starting task=6 episode=5 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 5
+INFO:root:# successes on this rank: 5 (100.0%)
+
+rank6: task6:  10%|█         | 5/50 [1:02:12<9:02:58, 723.97s/it][AINFO:root:
+Task 6: put the white mug on the plate and put the chocolate pudding to the right of the plate
+INFO:root:Starting task=6 episode=6 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 6
+INFO:root:# successes on this rank: 6 (100.0%)
+
+rank6: task6:  12%|█▏        | 6/50 [1:17:47<9:43:33, 795.77s/it][AINFO:root:
+Task 6: put the white mug on the plate and put the chocolate pudding to the right of the plate
+INFO:root:Starting task=6 episode=7 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 7
+INFO:root:# successes on this rank: 7 (100.0%)
+
+rank6: task6:  14%|█▍        | 7/50 [1:29:52<9:13:37, 772.49s/it][AINFO:root:
+Task 6: put the white mug on the plate and put the chocolate pudding to the right of the plate
+INFO:root:Starting task=6 episode=8 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 8
+INFO:root:# successes on this rank: 8 (100.0%)
+
+rank6: task6:  16%|█▌        | 8/50 [1:42:13<8:53:47, 762.56s/it][AINFO:root:
+Task 6: put the white mug on the plate and put the chocolate pudding to the right of the plate
+INFO:root:Starting task=6 episode=9 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 9
+INFO:root:# successes on this rank: 9 (100.0%)
+
+rank6: task6:  18%|█▊        | 9/50 [1:55:44<8:51:26, 777.72s/it][AINFO:root:
+Task 6: put the white mug on the plate and put the chocolate pudding to the right of the plate
+INFO:root:Starting task=6 episode=10 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 10
+INFO:root:# successes on this rank: 10 (100.0%)
+
+rank6: task6:  20%|██        | 10/50 [2:09:03<8:42:51, 784.29s/it][AINFO:root:
+Task 6: put the white mug on the plate and put the chocolate pudding to the right of the plate
+INFO:root:Starting task=6 episode=11 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 11
+INFO:root:# successes on this rank: 11 (100.0%)
+
+rank6: task6:  22%|██▏       | 11/50 [2:21:29<8:22:09, 772.54s/it][AINFO:root:
+Task 6: put the white mug on the plate and put the chocolate pudding to the right of the plate
+INFO:root:Starting task=6 episode=12 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 12
+INFO:root:# successes on this rank: 12 (100.0%)
+
+rank6: task6:  24%|██▍       | 12/50 [2:34:59<8:16:25, 783.83s/it][AINFO:root:
+Task 6: put the white mug on the plate and put the chocolate pudding to the right of the plate
+INFO:root:Starting task=6 episode=13 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 13
+INFO:root:# successes on this rank: 13 (100.0%)
+
+rank6: task6:  26%|██▌       | 13/50 [2:46:47<7:49:20, 761.11s/it][AINFO:root:
+Task 6: put the white mug on the plate and put the chocolate pudding to the right of the plate
+INFO:root:Starting task=6 episode=14 ...
+INFO:root:Success: False
+INFO:root:# episodes completed on this rank so far: 14
+INFO:root:# successes on this rank: 13 (92.9%)
+
+rank6: task6:  28%|██▊       | 14/50 [3:15:44<10:33:22, 1055.64s/it][AINFO:root:
+Task 6: put the white mug on the plate and put the chocolate pudding to the right of the plate
+INFO:root:Starting task=6 episode=15 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 15
+INFO:root:# successes on this rank: 14 (93.3%)
+
+rank6: task6:  30%|███       | 15/50 [3:27:28<9:13:59, 949.71s/it]  [AINFO:root:
+Task 6: put the white mug on the plate and put the chocolate pudding to the right of the plate
+INFO:root:Starting task=6 episode=16 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 16
+INFO:root:# successes on this rank: 15 (93.8%)
+
+rank6: task6:  32%|███▏      | 16/50 [3:39:53<8:23:15, 888.09s/it][AINFO:root:
+Task 6: put the white mug on the plate and put the chocolate pudding to the right of the plate
+INFO:root:Starting task=6 episode=17 ...
+INFO:root:Success: False
+INFO:root:# episodes completed on this rank so far: 17
+INFO:root:# successes on this rank: 15 (88.2%)
+
+rank6: task6:  34%|███▍      | 17/50 [4:08:47<10:28:25, 1142.60s/it][AINFO:root:
+Task 6: put the white mug on the plate and put the chocolate pudding to the right of the plate
+INFO:root:Starting task=6 episode=18 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 18
+INFO:root:# successes on this rank: 16 (88.9%)
+
+rank6: task6:  36%|███▌      | 18/50 [4:20:51<9:02:16, 1016.77s/it] [AINFO:root:
+Task 6: put the white mug on the plate and put the chocolate pudding to the right of the plate
+INFO:root:Starting task=6 episode=19 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 19
+INFO:root:# successes on this rank: 17 (89.5%)
+
+rank6: task6:  38%|███▊      | 19/50 [4:33:06<8:01:32, 932.03s/it] [AINFO:root:
+Task 6: put the white mug on the plate and put the chocolate pudding to the right of the plate
+INFO:root:Starting task=6 episode=20 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 20
+INFO:root:# successes on this rank: 18 (90.0%)
+
+rank6: task6:  40%|████      | 20/50 [4:44:47<7:11:25, 862.84s/it][AINFO:root:
+Task 6: put the white mug on the plate and put the chocolate pudding to the right of the plate
+INFO:root:Starting task=6 episode=21 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 21
+INFO:root:# successes on this rank: 19 (90.5%)
+
+rank6: task6:  42%|████▏     | 21/50 [4:56:41<6:35:20, 817.94s/it][AINFO:root:
+Task 6: put the white mug on the plate and put the chocolate pudding to the right of the plate
+INFO:root:Starting task=6 episode=22 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 22
+INFO:root:# successes on this rank: 20 (90.9%)
+
+rank6: task6:  44%|████▍     | 22/50 [5:09:28<6:14:38, 802.80s/it][AINFO:root:
+Task 6: put the white mug on the plate and put the chocolate pudding to the right of the plate
+INFO:root:Starting task=6 episode=23 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 23
+INFO:root:# successes on this rank: 21 (91.3%)
+
+rank6: task6:  46%|████▌     | 23/50 [5:19:58<5:37:56, 750.98s/it][AINFO:root:
+Task 6: put the white mug on the plate and put the chocolate pudding to the right of the plate
+INFO:root:Starting task=6 episode=24 ...
+INFO:root:Success: False
+INFO:root:# episodes completed on this rank so far: 24
+INFO:root:# successes on this rank: 21 (87.5%)
+
+rank6: task6:  48%|████▊     | 24/50 [5:49:20<7:36:52, 1054.33s/it][AINFO:root:
+Task 6: put the white mug on the plate and put the chocolate pudding to the right of the plate
+INFO:root:Starting task=6 episode=25 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 25
+INFO:root:# successes on this rank: 22 (88.0%)
+
+rank6: task6:  50%|█████     | 25/50 [6:02:01<6:42:37, 966.31s/it] [AINFO:root:
+Task 6: put the white mug on the plate and put the chocolate pudding to the right of the plate
+INFO:root:Starting task=6 episode=26 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 26
+INFO:root:# successes on this rank: 23 (88.5%)
+
+rank6: task6:  52%|█████▏    | 26/50 [6:14:13<5:58:26, 896.09s/it][AINFO:root:
+Task 6: put the white mug on the plate and put the chocolate pudding to the right of the plate
+INFO:root:Starting task=6 episode=27 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 27
+INFO:root:# successes on this rank: 24 (88.9%)
+
+rank6: task6:  54%|█████▍    | 27/50 [6:25:52<5:20:49, 836.93s/it][AINFO:root:
+Task 6: put the white mug on the plate and put the chocolate pudding to the right of the plate
+INFO:root:Starting task=6 episode=28 ...
+WARNING:root:[Rank 6] client.infer failed, retry=0/2: ConnectionClosedError(None, Close(code=<CloseCode.INTERNAL_ERROR: 1011>, reason='keepalive ping timeout'), None)
+INFO:root:[Rank 6] Connecting to policy server 127.0.0.1:8006
+INFO:root:Waiting for server at ws://127.0.0.1:8006...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 28
+INFO:root:# successes on this rank: 25 (89.3%)
+
+rank6: task6:  56%|█████▌    | 28/50 [6:41:03<5:14:58, 859.01s/it][AINFO:root:
+Task 6: put the white mug on the plate and put the chocolate pudding to the right of the plate
+INFO:root:Starting task=6 episode=29 ...
+WARNING:root:[Rank 6] client.infer failed, retry=0/2: ConnectionClosedError(None, Close(code=<CloseCode.INTERNAL_ERROR: 1011>, reason='keepalive ping timeout'), None)
+INFO:root:[Rank 6] Connecting to policy server 127.0.0.1:8006
+INFO:root:Waiting for server at ws://127.0.0.1:8006...
+WARNING:root:[Rank 6] client.infer failed, retry=0/2: ConnectionClosedError(None, Close(code=<CloseCode.INTERNAL_ERROR: 1011>, reason='keepalive ping timeout'), None)
+INFO:root:[Rank 6] Connecting to policy server 127.0.0.1:8006
+INFO:root:Waiting for server at ws://127.0.0.1:8006...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 29
+INFO:root:# successes on this rank: 26 (89.7%)
+
+rank6: task6:  58%|█████▊    | 29/50 [6:55:28<5:01:15, 860.73s/it][AINFO:root:
+Task 6: put the white mug on the plate and put the chocolate pudding to the right of the plate
+INFO:root:Starting task=6 episode=30 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 30
+INFO:root:# successes on this rank: 27 (90.0%)
+
+rank6: task6:  60%|██████    | 30/50 [7:07:23<4:32:23, 817.18s/it][AINFO:root:
+Task 6: put the white mug on the plate and put the chocolate pudding to the right of the plate
+INFO:root:Starting task=6 episode=31 ...
+WARNING:root:[Rank 6] client.infer failed, retry=0/2: ConnectionClosedError(None, Close(code=<CloseCode.INTERNAL_ERROR: 1011>, reason='keepalive ping timeout'), None)
+INFO:root:[Rank 6] Connecting to policy server 127.0.0.1:8006
+INFO:root:Waiting for server at ws://127.0.0.1:8006...
+WARNING:root:[Rank 6] client.infer failed, retry=0/2: ConnectionClosedError(None, Close(code=<CloseCode.INTERNAL_ERROR: 1011>, reason='keepalive ping timeout'), None)
+INFO:root:[Rank 6] Connecting to policy server 127.0.0.1:8006
+INFO:root:Waiting for server at ws://127.0.0.1:8006...
+INFO:root:Success: False
+INFO:root:# episodes completed on this rank so far: 31
+INFO:root:# successes on this rank: 27 (87.1%)
+
+rank6: task6:  62%|██████▏   | 31/50 [7:39:48<6:05:52, 1155.40s/it][AINFO:root:
+Task 6: put the white mug on the plate and put the chocolate pudding to the right of the plate
+INFO:root:Starting task=6 episode=32 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 32
+INFO:root:# successes on this rank: 28 (87.5%)
+
+rank6: task6:  64%|██████▍   | 32/50 [7:52:01<5:08:40, 1028.89s/it][AINFO:root:
+Task 6: put the white mug on the plate and put the chocolate pudding to the right of the plate
+INFO:root:Starting task=6 episode=33 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 33
+INFO:root:# successes on this rank: 29 (87.9%)
+
+rank6: task6:  66%|██████▌   | 33/50 [8:04:59<4:30:11, 953.62s/it] [AINFO:root:
+Task 6: put the white mug on the plate and put the chocolate pudding to the right of the plate
+INFO:root:Starting task=6 episode=34 ...
+WARNING:root:[Rank 6] client.infer failed, retry=0/2: ConnectionClosedError(None, Close(code=<CloseCode.INTERNAL_ERROR: 1011>, reason='keepalive ping timeout'), None)
+INFO:root:[Rank 6] Connecting to policy server 127.0.0.1:8006
+INFO:root:Waiting for server at ws://127.0.0.1:8006...
+INFO:root:Success: False
+INFO:root:# episodes completed on this rank so far: 34
+INFO:root:# successes on this rank: 29 (85.3%)
+
+rank6: task6:  68%|██████▊   | 34/50 [8:36:54<5:31:11, 1241.98s/it][AINFO:root:
+Task 6: put the white mug on the plate and put the chocolate pudding to the right of the plate
+INFO:root:Starting task=6 episode=35 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 35
+INFO:root:# successes on this rank: 30 (85.7%)
+
+rank6: task6:  70%|███████   | 35/50 [8:50:50<4:40:00, 1120.04s/it][AINFO:root:
+Task 6: put the white mug on the plate and put the chocolate pudding to the right of the plate
+INFO:root:Starting task=6 episode=36 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 36
+INFO:root:# successes on this rank: 31 (86.1%)
+
+rank6: task6:  72%|███████▏  | 36/50 [9:05:47<4:05:46, 1053.32s/it][AINFO:root:
+Task 6: put the white mug on the plate and put the chocolate pudding to the right of the plate
+INFO:root:Starting task=6 episode=37 ...
+INFO:root:Success: False
+INFO:root:# episodes completed on this rank so far: 37
+INFO:root:# successes on this rank: 31 (83.8%)
+
+rank6: task6:  74%|███████▍  | 37/50 [9:34:42<4:32:31, 1257.79s/it][AINFO:root:
+Task 6: put the white mug on the plate and put the chocolate pudding to the right of the plate
+INFO:root:Starting task=6 episode=38 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 38
+INFO:root:# successes on this rank: 32 (84.2%)
+
+rank6: task6:  76%|███████▌  | 38/50 [9:49:01<3:47:37, 1138.16s/it][AINFO:root:
+Task 6: put the white mug on the plate and put the chocolate pudding to the right of the plate
+INFO:root:Starting task=6 episode=39 ...
+INFO:root:Success: False
+INFO:root:# episodes completed on this rank so far: 39
+INFO:root:# successes on this rank: 32 (82.1%)
+
+rank6: task6:  78%|███████▊  | 39/50 [10:17:18<3:59:21, 1305.59s/it][AINFO:root:
+Task 6: put the white mug on the plate and put the chocolate pudding to the right of the plate
+INFO:root:Starting task=6 episode=40 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 40
+INFO:root:# successes on this rank: 33 (82.5%)
+
+rank6: task6:  80%|████████  | 40/50 [10:28:00<3:04:25, 1106.53s/it][AINFO:root:
+Task 6: put the white mug on the plate and put the chocolate pudding to the right of the plate
+INFO:root:Starting task=6 episode=41 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 41
+INFO:root:# successes on this rank: 34 (82.9%)
+
+rank6: task6:  82%|████████▏ | 41/50 [10:40:44<2:30:33, 1003.75s/it][AINFO:root:
+Task 6: put the white mug on the plate and put the chocolate pudding to the right of the plate
+INFO:root:Starting task=6 episode=42 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 42
+INFO:root:# successes on this rank: 35 (83.3%)
+
+rank6: task6:  84%|████████▍ | 42/50 [10:52:22<2:01:37, 912.14s/it] [AINFO:root:
+Task 6: put the white mug on the plate and put the chocolate pudding to the right of the plate
+INFO:root:Starting task=6 episode=43 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 43
+INFO:root:# successes on this rank: 36 (83.7%)
+
+rank6: task6:  86%|████████▌ | 43/50 [11:03:07<1:37:04, 832.08s/it][AINFO:root:
+Task 6: put the white mug on the plate and put the chocolate pudding to the right of the plate
+INFO:root:Starting task=6 episode=44 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 44
+INFO:root:# successes on this rank: 37 (84.1%)
+
+rank6: task6:  88%|████████▊ | 44/50 [11:15:17<1:20:08, 801.46s/it][AINFO:root:
+Task 6: put the white mug on the plate and put the chocolate pudding to the right of the plate
+INFO:root:Starting task=6 episode=45 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 45
+INFO:root:# successes on this rank: 38 (84.4%)
+
+rank6: task6:  90%|█████████ | 45/50 [11:27:33<1:05:09, 781.89s/it][AINFO:root:
+Task 6: put the white mug on the plate and put the chocolate pudding to the right of the plate
+INFO:root:Starting task=6 episode=46 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 46
+INFO:root:# successes on this rank: 39 (84.8%)
+
+rank6: task6:  92%|█████████▏| 46/50 [11:38:31<49:37, 744.49s/it]  [AINFO:root:
+Task 6: put the white mug on the plate and put the chocolate pudding to the right of the plate
+INFO:root:Starting task=6 episode=47 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 47
+INFO:root:# successes on this rank: 40 (85.1%)
+
+rank6: task6:  94%|█████████▍| 47/50 [11:49:39<36:05, 721.71s/it][AINFO:root:
+Task 6: put the white mug on the plate and put the chocolate pudding to the right of the plate
+INFO:root:Starting task=6 episode=48 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 48
+INFO:root:# successes on this rank: 41 (85.4%)
+
+rank6: task6:  96%|█████████▌| 48/50 [11:59:17<22:37, 678.54s/it][AINFO:root:
+Task 6: put the white mug on the plate and put the chocolate pudding to the right of the plate
+INFO:root:Starting task=6 episode=49 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 49
+INFO:root:# successes on this rank: 42 (85.7%)
+
+rank6: task6:  98%|█████████▊| 49/50 [12:08:31<10:41, 641.28s/it][AINFO:root:
+Task 6: put the white mug on the plate and put the chocolate pudding to the right of the plate
+INFO:root:Starting task=6 episode=50 ...
+INFO:root:Success: False
+INFO:root:# episodes completed on this rank so far: 50
+INFO:root:# successes on this rank: 42 (84.0%)
+
+rank6: task6: 100%|██████████| 50/50 [12:30:00<00:00, 835.54s/it][A
+                                                                 [AINFO:root:Current task success rate on rank 6: 0.84
+INFO:root:Current rank success rate: 0.84
+rank6: tasks: 100%|██████████| 1/1 [12:30:19<00:00, 45019.01s/it]rank6: tasks: 100%|██████████| 1/1 [12:30:19<00:00, 45019.01s/it]
+INFO:root:Rank 6 total success rate: 0.84
+INFO:root:Rank 6 total episodes: 50

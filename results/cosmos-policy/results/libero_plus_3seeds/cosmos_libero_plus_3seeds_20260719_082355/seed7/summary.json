@@ -1,0 +1,86 @@
+{
+  "benchmark": "LIBERO-plus",
+  "categories": {
+    "Background": {
+      "category": "Background Textures",
+      "success_rate": 0.8531598513011153,
+      "successes": 918,
+      "total": 1076
+    },
+    "Camera": {
+      "category": "Camera Viewpoints",
+      "success_rate": 0.7185741088180112,
+      "successes": 1149,
+      "total": 1599
+    },
+    "Language": {
+      "category": "Language Instructions",
+      "success_rate": 0.8919973975276513,
+      "successes": 1371,
+      "total": 1537
+    },
+    "Layout": {
+      "category": "Objects Layout",
+      "success_rate": 0.8406557377049181,
+      "successes": 1282,
+      "total": 1525
+    },
+    "Light": {
+      "category": "Light Conditions",
+      "success_rate": 0.9842381786339754,
+      "successes": 1124,
+      "total": 1142
+    },
+    "Noise": {
+      "category": "Sensor Noise",
+      "success_rate": 0.9013116801998751,
+      "successes": 1443,
+      "total": 1601
+    },
+    "Robot": {
+      "category": "Robot Initial States",
+      "success_rate": 0.5174193548387097,
+      "successes": 802,
+      "total": 1550
+    }
+  },
+  "failures": 1941,
+  "model": "Cosmos Policy LIBERO Predict2 2B",
+  "per_suite": {
+    "libero_10": {
+      "success_rate": 0.7987296546248511,
+      "successes": 2012,
+      "total": 2519
+    },
+    "libero_goal": {
+      "success_rate": 0.6985719799305288,
+      "successes": 1810,
+      "total": 2591
+    },
+    "libero_object": {
+      "success_rate": 0.8673550436854647,
+      "successes": 2184,
+      "total": 2518
+    },
+    "libero_spatial": {
+      "success_rate": 0.8671940049958368,
+      "successes": 2083,
+      "total": 2402
+    }
+  },
+  "rank_files": [
+    "/mnt/afs/raozf/cosmos-policy/results/libero_plus_3seeds/cosmos_libero_plus_3seeds_20260719_082355/seed7/rank0.json",
+    "/mnt/afs/raozf/cosmos-policy/results/libero_plus_3seeds/cosmos_libero_plus_3seeds_20260719_082355/seed7/rank1.json",
+    "/mnt/afs/raozf/cosmos-policy/results/libero_plus_3seeds/cosmos_libero_plus_3seeds_20260719_082355/seed7/rank2.json",
+    "/mnt/afs/raozf/cosmos-policy/results/libero_plus_3seeds/cosmos_libero_plus_3seeds_20260719_082355/seed7/rank3.json",
+    "/mnt/afs/raozf/cosmos-policy/results/libero_plus_3seeds/cosmos_libero_plus_3seeds_20260719_082355/seed7/rank4.json",
+    "/mnt/afs/raozf/cosmos-policy/results/libero_plus_3seeds/cosmos_libero_plus_3seeds_20260719_082355/seed7/rank5.json",
+    "/mnt/afs/raozf/cosmos-policy/results/libero_plus_3seeds/cosmos_libero_plus_3seeds_20260719_082355/seed7/rank6.json"
+  ],
+  "seed": 7,
+  "success_rate": 0.806480558325025,
+  "success_rate_percent": 80.6480558325025,
+  "successes": 8089,
+  "task_errors": 0,
+  "total_tasks": 10030
+}

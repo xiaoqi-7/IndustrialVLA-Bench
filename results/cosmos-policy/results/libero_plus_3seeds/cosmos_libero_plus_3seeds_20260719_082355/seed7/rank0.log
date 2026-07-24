@@ -1,0 +1,5 @@
+2026-07-19 16:41:13,988 [rank 0] INFO No OpenGL_accelerate module loaded: No module named 'OpenGL_accelerate'
+2026-07-19 16:41:28,266 [rank 0] INFO Could not find package transformer_engine_jax. Install transformer-engine using 'pip3 install transformer-engine[jax]==VERSION'
+2026-07-19 16:41:28,456 [rank 0] INFO The multistorageclient package is available.
+2026-07-19 16:41:28,559 [rank 0] INFO Detected Megatron Core, using Megatron-FSDP with Megatron.
+2026-07-19 16:41:28,561 [rank 0] INFO Detected Megatron Core, using Megatron-FSDP with Megatron.

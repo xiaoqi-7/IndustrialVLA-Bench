@@ -1,0 +1,36 @@
+{
+  "model": "UnifoLM-VLA",
+  "timestamp": "2026-07-20T20:59:05+0800",
+  "gpu": "4",
+  "device": "cuda:0",
+  "task_suite": "libero_spatial",
+  "task_id": 0,
+  "task_description": "pick up the black bowl between the plate and the ramekin and place it on the plate table 1",
+  "warmup": 2,
+  "samples": 8,
+  "action_horizon": 8,
+  "replan_steps": 8,
+  "window_size": 2,
+  "num_inference_steps": 4,
+  "action_shape": [
+    8,
+    7
+  ],
+  "call_seconds": [
+    0.15591913275420666,
+    0.15895752236247063,
+    0.16002788953483105,
+    0.15744943544268608,
+    0.15889726765453815,
+    0.15832947753369808,
+    0.15927916765213013,
+    0.15949535183608532
+  ],
+  "call_mean_ms": 158.54440559633076,
+  "call_median_ms": 158.9273950085044,
+  "call_p95_ms": 159.84150134027004,
+  "latency_per_executed_step_ms": 19.818050699541345,
+  "latency_per_executed_step_median_ms": 19.86592437606305,
+  "torch_peak_allocated_mib": 17324.1962890625,
+  "torch_peak_reserved_mib": 17420.0
+}

@@ -1,0 +1,718 @@
+INFO:root:Task suite: libero_goal
+INFO:root:[Eval Split] rank=2, world_size=5, client=127.0.0.1:8002, task_ids=[2, 7]
+INFO:root:Waiting for policy server at ws://127.0.0.1:8002 ...
+INFO:root:Policy server is reachable at ws://127.0.0.1:8002
+INFO:root:[Rank 2] Connecting to policy server 127.0.0.1:8002
+INFO:root:Waiting for server at ws://127.0.0.1:8002...
+[info] using task orders [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+rank2: tasks:   0%|          | 0/2 [00:00<?, ?it/s]
+rank2: task2:   0%|          | 0/50 [00:00<?, ?it/s][AINFO:root:
+Task 2: put the wine bottle on top of the cabinet
+INFO:root:Starting task=2 episode=1 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 1
+INFO:root:# successes on this rank: 1 (100.0%)
+
+rank2: task2:   2%|▏         | 1/50 [04:22<3:34:21, 262.47s/it][AINFO:root:
+Task 2: put the wine bottle on top of the cabinet
+INFO:root:Starting task=2 episode=2 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 2
+INFO:root:# successes on this rank: 2 (100.0%)
+
+rank2: task2:   4%|▍         | 2/50 [08:41<3:28:10, 260.21s/it][AINFO:root:
+Task 2: put the wine bottle on top of the cabinet
+INFO:root:Starting task=2 episode=3 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 3
+INFO:root:# successes on this rank: 3 (100.0%)
+
+rank2: task2:   6%|▌         | 3/50 [13:30<3:34:19, 273.62s/it][AINFO:root:
+Task 2: put the wine bottle on top of the cabinet
+INFO:root:Starting task=2 episode=4 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 4
+INFO:root:# successes on this rank: 4 (100.0%)
+
+rank2: task2:   8%|▊         | 4/50 [18:02<3:29:08, 272.80s/it][AINFO:root:
+Task 2: put the wine bottle on top of the cabinet
+INFO:root:Starting task=2 episode=5 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 5
+INFO:root:# successes on this rank: 5 (100.0%)
+
+rank2: task2:  10%|█         | 5/50 [22:16<3:19:31, 266.03s/it][AINFO:root:
+Task 2: put the wine bottle on top of the cabinet
+INFO:root:Starting task=2 episode=6 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 6
+INFO:root:# successes on this rank: 6 (100.0%)
+
+rank2: task2:  12%|█▏        | 6/50 [26:45<3:15:56, 267.20s/it][AINFO:root:
+Task 2: put the wine bottle on top of the cabinet
+INFO:root:Starting task=2 episode=7 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 7
+INFO:root:# successes on this rank: 7 (100.0%)
+
+rank2: task2:  14%|█▍        | 7/50 [31:31<3:15:49, 273.24s/it][AINFO:root:
+Task 2: put the wine bottle on top of the cabinet
+INFO:root:Starting task=2 episode=8 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 8
+INFO:root:# successes on this rank: 8 (100.0%)
+
+rank2: task2:  16%|█▌        | 8/50 [36:00<3:10:15, 271.80s/it][AINFO:root:
+Task 2: put the wine bottle on top of the cabinet
+INFO:root:Starting task=2 episode=9 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 9
+INFO:root:# successes on this rank: 9 (100.0%)
+
+rank2: task2:  18%|█▊        | 9/50 [41:04<3:12:41, 281.99s/it][AINFO:root:
+Task 2: put the wine bottle on top of the cabinet
+INFO:root:Starting task=2 episode=10 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 10
+INFO:root:# successes on this rank: 10 (100.0%)
+
+rank2: task2:  20%|██        | 10/50 [45:49<3:08:35, 282.88s/it][AINFO:root:
+Task 2: put the wine bottle on top of the cabinet
+INFO:root:Starting task=2 episode=11 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 11
+INFO:root:# successes on this rank: 11 (100.0%)
+
+rank2: task2:  22%|██▏       | 11/50 [50:32<3:03:52, 282.88s/it][AINFO:root:
+Task 2: put the wine bottle on top of the cabinet
+INFO:root:Starting task=2 episode=12 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 12
+INFO:root:# successes on this rank: 12 (100.0%)
+
+rank2: task2:  24%|██▍       | 12/50 [54:47<2:53:47, 274.41s/it][AINFO:root:
+Task 2: put the wine bottle on top of the cabinet
+INFO:root:Starting task=2 episode=13 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 13
+INFO:root:# successes on this rank: 13 (100.0%)
+
+rank2: task2:  26%|██▌       | 13/50 [59:51<2:54:45, 283.38s/it][AINFO:root:
+Task 2: put the wine bottle on top of the cabinet
+INFO:root:Starting task=2 episode=14 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 14
+INFO:root:# successes on this rank: 14 (100.0%)
+
+rank2: task2:  28%|██▊       | 14/50 [1:04:22<2:47:49, 279.70s/it][AINFO:root:
+Task 2: put the wine bottle on top of the cabinet
+INFO:root:Starting task=2 episode=15 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 15
+INFO:root:# successes on this rank: 15 (100.0%)
+
+rank2: task2:  30%|███       | 15/50 [1:09:11<2:44:49, 282.57s/it][AINFO:root:
+Task 2: put the wine bottle on top of the cabinet
+INFO:root:Starting task=2 episode=16 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 16
+INFO:root:# successes on this rank: 16 (100.0%)
+
+rank2: task2:  32%|███▏      | 16/50 [1:13:59<2:40:57, 284.05s/it][AINFO:root:
+Task 2: put the wine bottle on top of the cabinet
+INFO:root:Starting task=2 episode=17 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 17
+INFO:root:# successes on this rank: 17 (100.0%)
+
+rank2: task2:  34%|███▍      | 17/50 [1:19:18<2:42:04, 294.67s/it][AINFO:root:
+Task 2: put the wine bottle on top of the cabinet
+INFO:root:Starting task=2 episode=18 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 18
+INFO:root:# successes on this rank: 18 (100.0%)
+
+rank2: task2:  36%|███▌      | 18/50 [1:24:23<2:38:44, 297.63s/it][AINFO:root:
+Task 2: put the wine bottle on top of the cabinet
+INFO:root:Starting task=2 episode=19 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 19
+INFO:root:# successes on this rank: 19 (100.0%)
+
+rank2: task2:  38%|███▊      | 19/50 [1:29:17<2:33:14, 296.61s/it][AINFO:root:
+Task 2: put the wine bottle on top of the cabinet
+INFO:root:Starting task=2 episode=20 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 20
+INFO:root:# successes on this rank: 20 (100.0%)
+
+rank2: task2:  40%|████      | 20/50 [1:33:52<2:25:08, 290.29s/it][AINFO:root:
+Task 2: put the wine bottle on top of the cabinet
+INFO:root:Starting task=2 episode=21 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 21
+INFO:root:# successes on this rank: 21 (100.0%)
+
+rank2: task2:  42%|████▏     | 21/50 [1:38:12<2:15:55, 281.22s/it][AINFO:root:
+Task 2: put the wine bottle on top of the cabinet
+INFO:root:Starting task=2 episode=22 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 22
+INFO:root:# successes on this rank: 22 (100.0%)
+
+rank2: task2:  44%|████▍     | 22/50 [1:42:45<2:10:03, 278.71s/it][AINFO:root:
+Task 2: put the wine bottle on top of the cabinet
+INFO:root:Starting task=2 episode=23 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 23
+INFO:root:# successes on this rank: 23 (100.0%)
+
+rank2: task2:  46%|████▌     | 23/50 [1:48:07<2:11:12, 291.59s/it][AINFO:root:
+Task 2: put the wine bottle on top of the cabinet
+INFO:root:Starting task=2 episode=24 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 24
+INFO:root:# successes on this rank: 24 (100.0%)
+
+rank2: task2:  48%|████▊     | 24/50 [1:52:38<2:03:37, 285.29s/it][AINFO:root:
+Task 2: put the wine bottle on top of the cabinet
+INFO:root:Starting task=2 episode=25 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 25
+INFO:root:# successes on this rank: 25 (100.0%)
+
+rank2: task2:  50%|█████     | 25/50 [1:57:23<1:58:53, 285.34s/it][AINFO:root:
+Task 2: put the wine bottle on top of the cabinet
+INFO:root:Starting task=2 episode=26 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 26
+INFO:root:# successes on this rank: 26 (100.0%)
+
+rank2: task2:  52%|█████▏    | 26/50 [2:02:01<1:53:18, 283.27s/it][AINFO:root:
+Task 2: put the wine bottle on top of the cabinet
+INFO:root:Starting task=2 episode=27 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 27
+INFO:root:# successes on this rank: 27 (100.0%)
+
+rank2: task2:  54%|█████▍    | 27/50 [2:07:07<1:51:10, 290.03s/it][AINFO:root:
+Task 2: put the wine bottle on top of the cabinet
+INFO:root:Starting task=2 episode=28 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 28
+INFO:root:# successes on this rank: 28 (100.0%)
+
+rank2: task2:  56%|█████▌    | 28/50 [2:11:28<1:43:05, 281.17s/it][AINFO:root:
+Task 2: put the wine bottle on top of the cabinet
+INFO:root:Starting task=2 episode=29 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 29
+INFO:root:# successes on this rank: 29 (100.0%)
+
+rank2: task2:  58%|█████▊    | 29/50 [2:16:44<1:42:04, 291.62s/it][AINFO:root:
+Task 2: put the wine bottle on top of the cabinet
+INFO:root:Starting task=2 episode=30 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 30
+INFO:root:# successes on this rank: 30 (100.0%)
+
+rank2: task2:  60%|██████    | 30/50 [2:21:39<1:37:32, 292.61s/it][AINFO:root:
+Task 2: put the wine bottle on top of the cabinet
+INFO:root:Starting task=2 episode=31 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 31
+INFO:root:# successes on this rank: 31 (100.0%)
+
+rank2: task2:  62%|██████▏   | 31/50 [2:25:59<1:29:36, 282.99s/it][AINFO:root:
+Task 2: put the wine bottle on top of the cabinet
+INFO:root:Starting task=2 episode=32 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 32
+INFO:root:# successes on this rank: 32 (100.0%)
+
+rank2: task2:  64%|██████▍   | 32/50 [2:30:36<1:24:20, 281.12s/it][AINFO:root:
+Task 2: put the wine bottle on top of the cabinet
+INFO:root:Starting task=2 episode=33 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 33
+INFO:root:# successes on this rank: 33 (100.0%)
+
+rank2: task2:  66%|██████▌   | 33/50 [2:35:30<1:20:43, 284.89s/it][AINFO:root:
+Task 2: put the wine bottle on top of the cabinet
+INFO:root:Starting task=2 episode=34 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 34
+INFO:root:# successes on this rank: 34 (100.0%)
+
+rank2: task2:  68%|██████▊   | 34/50 [2:40:06<1:15:15, 282.21s/it][AINFO:root:
+Task 2: put the wine bottle on top of the cabinet
+INFO:root:Starting task=2 episode=35 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 35
+INFO:root:# successes on this rank: 35 (100.0%)
+
+rank2: task2:  70%|███████   | 35/50 [2:45:00<1:11:26, 285.78s/it][AINFO:root:
+Task 2: put the wine bottle on top of the cabinet
+INFO:root:Starting task=2 episode=36 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 36
+INFO:root:# successes on this rank: 36 (100.0%)
+
+rank2: task2:  72%|███████▏  | 36/50 [2:49:36<1:06:02, 283.03s/it][AINFO:root:
+Task 2: put the wine bottle on top of the cabinet
+INFO:root:Starting task=2 episode=37 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 37
+INFO:root:# successes on this rank: 37 (100.0%)
+
+rank2: task2:  74%|███████▍  | 37/50 [2:54:24<1:01:38, 284.49s/it][AINFO:root:
+Task 2: put the wine bottle on top of the cabinet
+INFO:root:Starting task=2 episode=38 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 38
+INFO:root:# successes on this rank: 38 (100.0%)
+
+rank2: task2:  76%|███████▌  | 38/50 [2:59:28<58:03, 290.33s/it]  [AINFO:root:
+Task 2: put the wine bottle on top of the cabinet
+INFO:root:Starting task=2 episode=39 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 39
+INFO:root:# successes on this rank: 39 (100.0%)
+
+rank2: task2:  78%|███████▊  | 39/50 [3:04:04<52:25, 285.95s/it][AINFO:root:
+Task 2: put the wine bottle on top of the cabinet
+INFO:root:Starting task=2 episode=40 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 40
+INFO:root:# successes on this rank: 40 (100.0%)
+
+rank2: task2:  80%|████████  | 40/50 [3:08:44<47:22, 284.25s/it][AINFO:root:
+Task 2: put the wine bottle on top of the cabinet
+INFO:root:Starting task=2 episode=41 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 41
+INFO:root:# successes on this rank: 41 (100.0%)
+
+rank2: task2:  82%|████████▏ | 41/50 [3:13:27<42:34, 283.82s/it][AINFO:root:
+Task 2: put the wine bottle on top of the cabinet
+INFO:root:Starting task=2 episode=42 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 42
+INFO:root:# successes on this rank: 42 (100.0%)
+
+rank2: task2:  84%|████████▍ | 42/50 [3:18:08<37:42, 282.82s/it][AINFO:root:
+Task 2: put the wine bottle on top of the cabinet
+INFO:root:Starting task=2 episode=43 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 43
+INFO:root:# successes on this rank: 43 (100.0%)
+
+rank2: task2:  86%|████████▌ | 43/50 [3:23:29<34:20, 294.31s/it][AINFO:root:
+Task 2: put the wine bottle on top of the cabinet
+INFO:root:Starting task=2 episode=44 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 44
+INFO:root:# successes on this rank: 44 (100.0%)
+
+rank2: task2:  88%|████████▊ | 44/50 [3:28:20<29:21, 293.56s/it][AINFO:root:
+Task 2: put the wine bottle on top of the cabinet
+INFO:root:Starting task=2 episode=45 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 45
+INFO:root:# successes on this rank: 45 (100.0%)
+
+rank2: task2:  90%|█████████ | 45/50 [3:32:44<23:43, 284.61s/it][AINFO:root:
+Task 2: put the wine bottle on top of the cabinet
+INFO:root:Starting task=2 episode=46 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 46
+INFO:root:# successes on this rank: 46 (100.0%)
+
+rank2: task2:  92%|█████████▏| 46/50 [3:37:54<19:29, 292.29s/it][AINFO:root:
+Task 2: put the wine bottle on top of the cabinet
+INFO:root:Starting task=2 episode=47 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 47
+INFO:root:# successes on this rank: 47 (100.0%)
+
+rank2: task2:  94%|█████████▍| 47/50 [3:42:47<14:36, 292.31s/it][AINFO:root:
+Task 2: put the wine bottle on top of the cabinet
+INFO:root:Starting task=2 episode=48 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 48
+INFO:root:# successes on this rank: 48 (100.0%)
+
+rank2: task2:  96%|█████████▌| 48/50 [3:47:14<09:29, 284.94s/it][AINFO:root:
+Task 2: put the wine bottle on top of the cabinet
+INFO:root:Starting task=2 episode=49 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 49
+INFO:root:# successes on this rank: 49 (100.0%)
+
+rank2: task2:  98%|█████████▊| 49/50 [3:51:41<04:39, 279.43s/it][AINFO:root:
+Task 2: put the wine bottle on top of the cabinet
+INFO:root:Starting task=2 episode=50 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 50
+INFO:root:# successes on this rank: 50 (100.0%)
+
+rank2: task2: 100%|██████████| 50/50 [3:56:34<00:00, 283.61s/it][A
+                                                                [AINFO:root:Current task success rate on rank 2: 1.0
+INFO:root:Current rank success rate: 1.0
+rank2: tasks:  50%|█████     | 1/2 [3:56:38<3:56:38, 14198.76s/it]
+rank2: task7:   0%|          | 0/50 [00:00<?, ?it/s][AINFO:root:
+Task 7: turn on the stove
+INFO:root:Starting task=7 episode=1 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 51
+INFO:root:# successes on this rank: 51 (100.0%)
+
+rank2: task7:   2%|▏         | 1/50 [04:25<3:37:08, 265.89s/it][AINFO:root:
+Task 7: turn on the stove
+INFO:root:Starting task=7 episode=2 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 52
+INFO:root:# successes on this rank: 52 (100.0%)
+
+rank2: task7:   4%|▍         | 2/50 [08:06<3:11:21, 239.19s/it][AINFO:root:
+Task 7: turn on the stove
+INFO:root:Starting task=7 episode=3 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 53
+INFO:root:# successes on this rank: 53 (100.0%)
+
+rank2: task7:   6%|▌         | 3/50 [12:00<3:05:36, 236.95s/it][AINFO:root:
+Task 7: turn on the stove
+INFO:root:Starting task=7 episode=4 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 54
+INFO:root:# successes on this rank: 54 (100.0%)
+
+rank2: task7:   8%|▊         | 4/50 [19:12<4:00:31, 313.74s/it][AINFO:root:
+Task 7: turn on the stove
+INFO:root:Starting task=7 episode=5 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 55
+INFO:root:# successes on this rank: 55 (100.0%)
+
+rank2: task7:  10%|█         | 5/50 [23:02<3:32:47, 283.73s/it][AINFO:root:
+Task 7: turn on the stove
+INFO:root:Starting task=7 episode=6 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 56
+INFO:root:# successes on this rank: 56 (100.0%)
+
+rank2: task7:  12%|█▏        | 6/50 [29:55<4:00:08, 327.47s/it][AINFO:root:
+Task 7: turn on the stove
+INFO:root:Starting task=7 episode=7 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 57
+INFO:root:# successes on this rank: 57 (100.0%)
+
+rank2: task7:  14%|█▍        | 7/50 [33:50<3:33:05, 297.34s/it][AINFO:root:
+Task 7: turn on the stove
+INFO:root:Starting task=7 episode=8 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 58
+INFO:root:# successes on this rank: 58 (100.0%)
+
+rank2: task7:  16%|█▌        | 8/50 [37:48<3:14:51, 278.36s/it][AINFO:root:
+Task 7: turn on the stove
+INFO:root:Starting task=7 episode=9 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 59
+INFO:root:# successes on this rank: 59 (100.0%)
+
+rank2: task7:  18%|█▊        | 9/50 [42:10<3:06:52, 273.48s/it][AINFO:root:
+Task 7: turn on the stove
+INFO:root:Starting task=7 episode=10 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 60
+INFO:root:# successes on this rank: 60 (100.0%)
+
+rank2: task7:  20%|██        | 10/50 [46:01<2:53:36, 260.40s/it][AINFO:root:
+Task 7: turn on the stove
+INFO:root:Starting task=7 episode=11 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 61
+INFO:root:# successes on this rank: 61 (100.0%)
+
+rank2: task7:  22%|██▏       | 11/50 [50:13<2:47:27, 257.62s/it][AINFO:root:
+Task 7: turn on the stove
+INFO:root:Starting task=7 episode=12 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 62
+INFO:root:# successes on this rank: 62 (100.0%)
+
+rank2: task7:  24%|██▍       | 12/50 [54:21<2:41:18, 254.71s/it][AINFO:root:
+Task 7: turn on the stove
+INFO:root:Starting task=7 episode=13 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 63
+INFO:root:# successes on this rank: 63 (100.0%)
+
+rank2: task7:  26%|██▌       | 13/50 [57:59<2:30:19, 243.77s/it][AINFO:root:
+Task 7: turn on the stove
+INFO:root:Starting task=7 episode=14 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 64
+INFO:root:# successes on this rank: 64 (100.0%)
+
+rank2: task7:  28%|██▊       | 14/50 [1:01:32<2:20:37, 234.38s/it][AINFO:root:
+Task 7: turn on the stove
+INFO:root:Starting task=7 episode=15 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 65
+INFO:root:# successes on this rank: 65 (100.0%)
+
+rank2: task7:  30%|███       | 15/50 [1:05:24<2:16:20, 233.73s/it][AINFO:root:
+Task 7: turn on the stove
+INFO:root:Starting task=7 episode=16 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 66
+INFO:root:# successes on this rank: 66 (100.0%)
+
+rank2: task7:  32%|███▏      | 16/50 [1:09:03<2:09:53, 229.22s/it][AINFO:root:
+Task 7: turn on the stove
+INFO:root:Starting task=7 episode=17 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 67
+INFO:root:# successes on this rank: 67 (100.0%)
+
+rank2: task7:  34%|███▍      | 17/50 [1:13:25<2:11:25, 238.96s/it][AINFO:root:
+Task 7: turn on the stove
+INFO:root:Starting task=7 episode=18 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 68
+INFO:root:# successes on this rank: 68 (100.0%)
+
+rank2: task7:  36%|███▌      | 18/50 [1:17:16<2:06:12, 236.63s/it][AINFO:root:
+Task 7: turn on the stove
+INFO:root:Starting task=7 episode=19 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 69
+INFO:root:# successes on this rank: 69 (100.0%)
+
+rank2: task7:  38%|███▊      | 19/50 [1:21:19<2:03:16, 238.60s/it][AINFO:root:
+Task 7: turn on the stove
+INFO:root:Starting task=7 episode=20 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 70
+INFO:root:# successes on this rank: 70 (100.0%)
+
+rank2: task7:  40%|████      | 20/50 [1:24:48<1:54:49, 229.66s/it][AINFO:root:
+Task 7: turn on the stove
+INFO:root:Starting task=7 episode=21 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 71
+INFO:root:# successes on this rank: 71 (100.0%)
+
+rank2: task7:  42%|████▏     | 21/50 [1:28:48<1:52:30, 232.76s/it][AINFO:root:
+Task 7: turn on the stove
+INFO:root:Starting task=7 episode=22 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 72
+INFO:root:# successes on this rank: 72 (100.0%)
+
+rank2: task7:  44%|████▍     | 22/50 [1:32:03<1:43:24, 221.59s/it][AINFO:root:
+Task 7: turn on the stove
+INFO:root:Starting task=7 episode=23 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 73
+INFO:root:# successes on this rank: 73 (100.0%)
+
+rank2: task7:  46%|████▌     | 23/50 [1:35:37<1:38:34, 219.05s/it][AINFO:root:
+Task 7: turn on the stove
+INFO:root:Starting task=7 episode=24 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 74
+INFO:root:# successes on this rank: 74 (100.0%)
+
+rank2: task7:  48%|████▊     | 24/50 [1:38:52<1:31:51, 212.00s/it][AINFO:root:
+Task 7: turn on the stove
+INFO:root:Starting task=7 episode=25 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 75
+INFO:root:# successes on this rank: 75 (100.0%)
+
+rank2: task7:  50%|█████     | 25/50 [1:42:12<1:26:53, 208.52s/it][AINFO:root:
+Task 7: turn on the stove
+INFO:root:Starting task=7 episode=26 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 76
+INFO:root:# successes on this rank: 76 (100.0%)
+
+rank2: task7:  52%|█████▏    | 26/50 [1:45:41<1:23:26, 208.61s/it][AINFO:root:
+Task 7: turn on the stove
+INFO:root:Starting task=7 episode=27 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 77
+INFO:root:# successes on this rank: 77 (100.0%)
+
+rank2: task7:  54%|█████▍    | 27/50 [1:49:12<1:20:12, 209.23s/it][AINFO:root:
+Task 7: turn on the stove
+INFO:root:Starting task=7 episode=28 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 78
+INFO:root:# successes on this rank: 78 (100.0%)
+
+rank2: task7:  56%|█████▌    | 28/50 [1:52:44<1:17:00, 210.01s/it][AINFO:root:
+Task 7: turn on the stove
+INFO:root:Starting task=7 episode=29 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 79
+INFO:root:# successes on this rank: 79 (100.0%)
+
+rank2: task7:  58%|█████▊    | 29/50 [1:56:02<1:12:12, 206.32s/it][AINFO:root:
+Task 7: turn on the stove
+INFO:root:Starting task=7 episode=30 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 80
+INFO:root:# successes on this rank: 80 (100.0%)
+
+rank2: task7:  60%|██████    | 30/50 [1:59:20<1:08:01, 204.06s/it][AINFO:root:
+Task 7: turn on the stove
+INFO:root:Starting task=7 episode=31 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 81
+INFO:root:# successes on this rank: 81 (100.0%)
+
+rank2: task7:  62%|██████▏   | 31/50 [2:02:11<1:01:25, 193.97s/it][AINFO:root:
+Task 7: turn on the stove
+INFO:root:Starting task=7 episode=32 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 82
+INFO:root:# successes on this rank: 82 (100.0%)
+
+rank2: task7:  64%|██████▍   | 32/50 [2:05:25<58:12, 194.04s/it]  [AINFO:root:
+Task 7: turn on the stove
+INFO:root:Starting task=7 episode=33 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 83
+INFO:root:# successes on this rank: 83 (100.0%)
+
+rank2: task7:  66%|██████▌   | 33/50 [2:08:13<52:45, 186.21s/it][AINFO:root:
+Task 7: turn on the stove
+INFO:root:Starting task=7 episode=34 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 84
+INFO:root:# successes on this rank: 84 (100.0%)
+
+rank2: task7:  68%|██████▊   | 34/50 [2:11:39<51:16, 192.31s/it][AINFO:root:
+Task 7: turn on the stove
+INFO:root:Starting task=7 episode=35 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 85
+INFO:root:# successes on this rank: 85 (100.0%)
+
+rank2: task7:  70%|███████   | 35/50 [2:15:09<49:22, 197.48s/it][AINFO:root:
+Task 7: turn on the stove
+INFO:root:Starting task=7 episode=36 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 86
+INFO:root:# successes on this rank: 86 (100.0%)
+
+rank2: task7:  72%|███████▏  | 36/50 [2:19:00<48:24, 207.43s/it][AINFO:root:
+Task 7: turn on the stove
+INFO:root:Starting task=7 episode=37 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 87
+INFO:root:# successes on this rank: 87 (100.0%)
+
+rank2: task7:  74%|███████▍  | 37/50 [2:22:03<43:23, 200.24s/it][AINFO:root:
+Task 7: turn on the stove
+INFO:root:Starting task=7 episode=38 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 88
+INFO:root:# successes on this rank: 88 (100.0%)
+
+rank2: task7:  76%|███████▌  | 38/50 [2:25:06<39:01, 195.12s/it][AINFO:root:
+Task 7: turn on the stove
+INFO:root:Starting task=7 episode=39 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 89
+INFO:root:# successes on this rank: 89 (100.0%)
+
+rank2: task7:  78%|███████▊  | 39/50 [2:28:33<36:25, 198.65s/it][AINFO:root:
+Task 7: turn on the stove
+INFO:root:Starting task=7 episode=40 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 90
+INFO:root:# successes on this rank: 90 (100.0%)
+
+rank2: task7:  80%|████████  | 40/50 [2:31:38<32:25, 194.54s/it][AINFO:root:
+Task 7: turn on the stove
+INFO:root:Starting task=7 episode=41 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 91
+INFO:root:# successes on this rank: 91 (100.0%)
+
+rank2: task7:  82%|████████▏ | 41/50 [2:35:23<30:33, 203.77s/it][AINFO:root:
+Task 7: turn on the stove
+INFO:root:Starting task=7 episode=42 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 92
+INFO:root:# successes on this rank: 92 (100.0%)
+
+rank2: task7:  84%|████████▍ | 42/50 [2:39:05<27:53, 209.15s/it][AINFO:root:
+Task 7: turn on the stove
+INFO:root:Starting task=7 episode=43 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 93
+INFO:root:# successes on this rank: 93 (100.0%)
+
+rank2: task7:  86%|████████▌ | 43/50 [2:42:31<24:16, 208.11s/it][AINFO:root:
+Task 7: turn on the stove
+INFO:root:Starting task=7 episode=44 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 94
+INFO:root:# successes on this rank: 94 (100.0%)
+
+rank2: task7:  88%|████████▊ | 44/50 [2:46:11<21:10, 211.72s/it][AINFO:root:
+Task 7: turn on the stove
+INFO:root:Starting task=7 episode=45 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 95
+INFO:root:# successes on this rank: 95 (100.0%)
+
+rank2: task7:  90%|█████████ | 45/50 [2:49:29<17:18, 207.73s/it][AINFO:root:
+Task 7: turn on the stove
+INFO:root:Starting task=7 episode=46 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 96
+INFO:root:# successes on this rank: 96 (100.0%)
+
+rank2: task7:  92%|█████████▏| 46/50 [2:52:43<13:33, 203.40s/it][AINFO:root:
+Task 7: turn on the stove
+INFO:root:Starting task=7 episode=47 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 97
+INFO:root:# successes on this rank: 97 (100.0%)
+
+rank2: task7:  94%|█████████▍| 47/50 [2:56:00<10:05, 201.72s/it][AINFO:root:
+Task 7: turn on the stove
+INFO:root:Starting task=7 episode=48 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 98
+INFO:root:# successes on this rank: 98 (100.0%)
+
+rank2: task7:  96%|█████████▌| 48/50 [2:59:27<06:46, 203.06s/it][AINFO:root:
+Task 7: turn on the stove
+INFO:root:Starting task=7 episode=49 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 99
+INFO:root:# successes on this rank: 99 (100.0%)
+
+rank2: task7:  98%|█████████▊| 49/50 [3:02:52<03:23, 203.89s/it][AINFO:root:
+Task 7: turn on the stove
+INFO:root:Starting task=7 episode=50 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 100
+INFO:root:# successes on this rank: 100 (100.0%)
+
+rank2: task7: 100%|██████████| 50/50 [3:06:26<00:00, 206.69s/it][A
+                                                                [AINFO:root:Current task success rate on rank 2: 1.0
+INFO:root:Current rank success rate: 1.0
+rank2: tasks: 100%|██████████| 2/2 [7:03:07<00:00, 12428.31s/it]  rank2: tasks: 100%|██████████| 2/2 [7:03:07<00:00, 12693.88s/it]
+INFO:root:Rank 2 total success rate: 1.0
+INFO:root:Rank 2 total episodes: 100

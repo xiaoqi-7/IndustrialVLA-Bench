@@ -1,0 +1,718 @@
+INFO:root:Task suite: libero_goal
+INFO:root:[Eval Split] rank=0, world_size=5, client=127.0.0.1:8000, task_ids=[0, 5]
+INFO:root:Waiting for policy server at ws://127.0.0.1:8000 ...
+INFO:root:Policy server is reachable at ws://127.0.0.1:8000
+INFO:root:[Rank 0] Connecting to policy server 127.0.0.1:8000
+INFO:root:Waiting for server at ws://127.0.0.1:8000...
+[info] using task orders [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+rank0: tasks:   0%|          | 0/2 [00:00<?, ?it/s]
+rank0: task0:   0%|          | 0/50 [00:00<?, ?it/s][AINFO:root:
+Task 0: open the middle drawer of the cabinet
+INFO:root:Starting task=0 episode=1 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 1
+INFO:root:# successes on this rank: 1 (100.0%)
+
+rank0: task0:   2%|▏         | 1/50 [05:43<4:40:47, 343.82s/it][AINFO:root:
+Task 0: open the middle drawer of the cabinet
+INFO:root:Starting task=0 episode=2 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 2
+INFO:root:# successes on this rank: 2 (100.0%)
+
+rank0: task0:   4%|▍         | 2/50 [12:43<5:10:34, 388.21s/it][AINFO:root:
+Task 0: open the middle drawer of the cabinet
+INFO:root:Starting task=0 episode=3 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 3
+INFO:root:# successes on this rank: 3 (100.0%)
+
+rank0: task0:   6%|▌         | 3/50 [18:27<4:48:19, 368.07s/it][AINFO:root:
+Task 0: open the middle drawer of the cabinet
+INFO:root:Starting task=0 episode=4 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 4
+INFO:root:# successes on this rank: 4 (100.0%)
+
+rank0: task0:   8%|▊         | 4/50 [24:19<4:37:26, 361.88s/it][AINFO:root:
+Task 0: open the middle drawer of the cabinet
+INFO:root:Starting task=0 episode=5 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 5
+INFO:root:# successes on this rank: 5 (100.0%)
+
+rank0: task0:  10%|█         | 5/50 [31:27<4:49:16, 385.69s/it][AINFO:root:
+Task 0: open the middle drawer of the cabinet
+INFO:root:Starting task=0 episode=6 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 6
+INFO:root:# successes on this rank: 6 (100.0%)
+
+rank0: task0:  12%|█▏        | 6/50 [37:22<4:35:11, 375.26s/it][AINFO:root:
+Task 0: open the middle drawer of the cabinet
+INFO:root:Starting task=0 episode=7 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 7
+INFO:root:# successes on this rank: 7 (100.0%)
+
+rank0: task0:  14%|█▍        | 7/50 [43:10<4:22:30, 366.28s/it][AINFO:root:
+Task 0: open the middle drawer of the cabinet
+INFO:root:Starting task=0 episode=8 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 8
+INFO:root:# successes on this rank: 8 (100.0%)
+
+rank0: task0:  16%|█▌        | 8/50 [50:14<4:29:11, 384.56s/it][AINFO:root:
+Task 0: open the middle drawer of the cabinet
+INFO:root:Starting task=0 episode=9 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 9
+INFO:root:# successes on this rank: 9 (100.0%)
+
+rank0: task0:  18%|█▊        | 9/50 [57:51<4:38:21, 407.35s/it][AINFO:root:
+Task 0: open the middle drawer of the cabinet
+INFO:root:Starting task=0 episode=10 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 10
+INFO:root:# successes on this rank: 10 (100.0%)
+
+rank0: task0:  20%|██        | 10/50 [1:03:36<4:18:47, 388.19s/it][AINFO:root:
+Task 0: open the middle drawer of the cabinet
+INFO:root:Starting task=0 episode=11 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 11
+INFO:root:# successes on this rank: 11 (100.0%)
+
+rank0: task0:  22%|██▏       | 11/50 [1:10:10<4:13:30, 390.01s/it][AINFO:root:
+Task 0: open the middle drawer of the cabinet
+INFO:root:Starting task=0 episode=12 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 12
+INFO:root:# successes on this rank: 12 (100.0%)
+
+rank0: task0:  24%|██▍       | 12/50 [1:16:58<4:10:23, 395.34s/it][AINFO:root:
+Task 0: open the middle drawer of the cabinet
+INFO:root:Starting task=0 episode=13 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 13
+INFO:root:# successes on this rank: 13 (100.0%)
+
+rank0: task0:  26%|██▌       | 13/50 [1:23:08<3:59:04, 387.70s/it][AINFO:root:
+Task 0: open the middle drawer of the cabinet
+INFO:root:Starting task=0 episode=14 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 14
+INFO:root:# successes on this rank: 14 (100.0%)
+
+rank0: task0:  28%|██▊       | 14/50 [1:30:02<3:57:17, 395.50s/it][AINFO:root:
+Task 0: open the middle drawer of the cabinet
+INFO:root:Starting task=0 episode=15 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 15
+INFO:root:# successes on this rank: 15 (100.0%)
+
+rank0: task0:  30%|███       | 15/50 [1:36:41<3:51:24, 396.69s/it][AINFO:root:
+Task 0: open the middle drawer of the cabinet
+INFO:root:Starting task=0 episode=16 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 16
+INFO:root:# successes on this rank: 16 (100.0%)
+
+rank0: task0:  32%|███▏      | 16/50 [1:43:00<3:41:42, 391.26s/it][AINFO:root:
+Task 0: open the middle drawer of the cabinet
+INFO:root:Starting task=0 episode=17 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 17
+INFO:root:# successes on this rank: 17 (100.0%)
+
+rank0: task0:  34%|███▍      | 17/50 [1:48:49<3:28:16, 378.70s/it][AINFO:root:
+Task 0: open the middle drawer of the cabinet
+INFO:root:Starting task=0 episode=18 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 18
+INFO:root:# successes on this rank: 18 (100.0%)
+
+rank0: task0:  36%|███▌      | 18/50 [1:56:03<3:30:50, 395.32s/it][AINFO:root:
+Task 0: open the middle drawer of the cabinet
+INFO:root:Starting task=0 episode=19 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 19
+INFO:root:# successes on this rank: 19 (100.0%)
+
+rank0: task0:  38%|███▊      | 19/50 [2:04:06<3:37:51, 421.66s/it][AINFO:root:
+Task 0: open the middle drawer of the cabinet
+INFO:root:Starting task=0 episode=20 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 20
+INFO:root:# successes on this rank: 20 (100.0%)
+
+rank0: task0:  40%|████      | 20/50 [2:10:38<3:26:20, 412.69s/it][AINFO:root:
+Task 0: open the middle drawer of the cabinet
+INFO:root:Starting task=0 episode=21 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 21
+INFO:root:# successes on this rank: 21 (100.0%)
+
+rank0: task0:  42%|████▏     | 21/50 [2:17:23<3:18:23, 410.46s/it][AINFO:root:
+Task 0: open the middle drawer of the cabinet
+INFO:root:Starting task=0 episode=22 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 22
+INFO:root:# successes on this rank: 22 (100.0%)
+
+rank0: task0:  44%|████▍     | 22/50 [2:23:36<3:06:14, 399.10s/it][AINFO:root:
+Task 0: open the middle drawer of the cabinet
+INFO:root:Starting task=0 episode=23 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 23
+INFO:root:# successes on this rank: 23 (100.0%)
+
+rank0: task0:  46%|████▌     | 23/50 [2:30:05<2:58:17, 396.20s/it][AINFO:root:
+Task 0: open the middle drawer of the cabinet
+INFO:root:Starting task=0 episode=24 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 24
+INFO:root:# successes on this rank: 24 (100.0%)
+
+rank0: task0:  48%|████▊     | 24/50 [2:36:09<2:47:27, 386.45s/it][AINFO:root:
+Task 0: open the middle drawer of the cabinet
+INFO:root:Starting task=0 episode=25 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 25
+INFO:root:# successes on this rank: 25 (100.0%)
+
+rank0: task0:  50%|█████     | 25/50 [2:43:43<2:49:28, 406.73s/it][AINFO:root:
+Task 0: open the middle drawer of the cabinet
+INFO:root:Starting task=0 episode=26 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 26
+INFO:root:# successes on this rank: 26 (100.0%)
+
+rank0: task0:  52%|█████▏    | 26/50 [2:49:35<2:36:07, 390.31s/it][AINFO:root:
+Task 0: open the middle drawer of the cabinet
+INFO:root:Starting task=0 episode=27 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 27
+INFO:root:# successes on this rank: 27 (100.0%)
+
+rank0: task0:  54%|█████▍    | 27/50 [2:55:54<2:28:15, 386.78s/it][AINFO:root:
+Task 0: open the middle drawer of the cabinet
+INFO:root:Starting task=0 episode=28 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 28
+INFO:root:# successes on this rank: 28 (100.0%)
+
+rank0: task0:  56%|█████▌    | 28/50 [3:05:28<2:42:28, 443.12s/it][AINFO:root:
+Task 0: open the middle drawer of the cabinet
+INFO:root:Starting task=0 episode=29 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 29
+INFO:root:# successes on this rank: 29 (100.0%)
+
+rank0: task0:  58%|█████▊    | 29/50 [3:11:46<2:28:13, 423.50s/it][AINFO:root:
+Task 0: open the middle drawer of the cabinet
+INFO:root:Starting task=0 episode=30 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 30
+INFO:root:# successes on this rank: 30 (100.0%)
+
+rank0: task0:  60%|██████    | 30/50 [3:17:32<2:13:27, 400.35s/it][AINFO:root:
+Task 0: open the middle drawer of the cabinet
+INFO:root:Starting task=0 episode=31 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 31
+INFO:root:# successes on this rank: 31 (100.0%)
+
+rank0: task0:  62%|██████▏   | 31/50 [3:23:51<2:04:44, 393.92s/it][AINFO:root:
+Task 0: open the middle drawer of the cabinet
+INFO:root:Starting task=0 episode=32 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 32
+INFO:root:# successes on this rank: 32 (100.0%)
+
+rank0: task0:  64%|██████▍   | 32/50 [3:30:56<2:00:59, 403.33s/it][AINFO:root:
+Task 0: open the middle drawer of the cabinet
+INFO:root:Starting task=0 episode=33 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 33
+INFO:root:# successes on this rank: 33 (100.0%)
+
+rank0: task0:  66%|██████▌   | 33/50 [3:37:21<1:52:41, 397.74s/it][AINFO:root:
+Task 0: open the middle drawer of the cabinet
+INFO:root:Starting task=0 episode=34 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 34
+INFO:root:# successes on this rank: 34 (100.0%)
+
+rank0: task0:  68%|██████▊   | 34/50 [3:44:13<1:47:13, 402.11s/it][AINFO:root:
+Task 0: open the middle drawer of the cabinet
+INFO:root:Starting task=0 episode=35 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 35
+INFO:root:# successes on this rank: 35 (100.0%)
+
+rank0: task0:  70%|███████   | 35/50 [3:50:52<1:40:14, 400.94s/it][AINFO:root:
+Task 0: open the middle drawer of the cabinet
+INFO:root:Starting task=0 episode=36 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 36
+INFO:root:# successes on this rank: 36 (100.0%)
+
+rank0: task0:  72%|███████▏  | 36/50 [3:56:54<1:30:49, 389.27s/it][AINFO:root:
+Task 0: open the middle drawer of the cabinet
+INFO:root:Starting task=0 episode=37 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 37
+INFO:root:# successes on this rank: 37 (100.0%)
+
+rank0: task0:  74%|███████▍  | 37/50 [4:02:45<1:21:51, 377.82s/it][AINFO:root:
+Task 0: open the middle drawer of the cabinet
+INFO:root:Starting task=0 episode=38 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 38
+INFO:root:# successes on this rank: 38 (100.0%)
+
+rank0: task0:  76%|███████▌  | 38/50 [4:08:36<1:13:57, 369.76s/it][AINFO:root:
+Task 0: open the middle drawer of the cabinet
+INFO:root:Starting task=0 episode=39 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 39
+INFO:root:# successes on this rank: 39 (100.0%)
+
+rank0: task0:  78%|███████▊  | 39/50 [4:15:21<1:09:44, 380.44s/it][AINFO:root:
+Task 0: open the middle drawer of the cabinet
+INFO:root:Starting task=0 episode=40 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 40
+INFO:root:# successes on this rank: 40 (100.0%)
+
+rank0: task0:  80%|████████  | 40/50 [4:22:09<1:04:46, 388.65s/it][AINFO:root:
+Task 0: open the middle drawer of the cabinet
+INFO:root:Starting task=0 episode=41 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 41
+INFO:root:# successes on this rank: 41 (100.0%)
+
+rank0: task0:  82%|████████▏ | 41/50 [4:27:59<56:34, 377.20s/it]  [AINFO:root:
+Task 0: open the middle drawer of the cabinet
+INFO:root:Starting task=0 episode=42 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 42
+INFO:root:# successes on this rank: 42 (100.0%)
+
+rank0: task0:  84%|████████▍ | 42/50 [4:34:15<50:14, 376.82s/it][AINFO:root:
+Task 0: open the middle drawer of the cabinet
+INFO:root:Starting task=0 episode=43 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 43
+INFO:root:# successes on this rank: 43 (100.0%)
+
+rank0: task0:  86%|████████▌ | 43/50 [4:40:19<43:30, 372.94s/it][AINFO:root:
+Task 0: open the middle drawer of the cabinet
+INFO:root:Starting task=0 episode=44 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 44
+INFO:root:# successes on this rank: 44 (100.0%)
+
+rank0: task0:  88%|████████▊ | 44/50 [4:47:06<38:17, 382.97s/it][AINFO:root:
+Task 0: open the middle drawer of the cabinet
+INFO:root:Starting task=0 episode=45 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 45
+INFO:root:# successes on this rank: 45 (100.0%)
+
+rank0: task0:  90%|█████████ | 45/50 [4:53:50<32:27, 389.41s/it][AINFO:root:
+Task 0: open the middle drawer of the cabinet
+INFO:root:Starting task=0 episode=46 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 46
+INFO:root:# successes on this rank: 46 (100.0%)
+
+rank0: task0:  92%|█████████▏| 46/50 [5:03:35<29:52, 448.21s/it][AINFO:root:
+Task 0: open the middle drawer of the cabinet
+INFO:root:Starting task=0 episode=47 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 47
+INFO:root:# successes on this rank: 47 (100.0%)
+
+rank0: task0:  94%|█████████▍| 47/50 [5:11:01<22:21, 447.33s/it][AINFO:root:
+Task 0: open the middle drawer of the cabinet
+INFO:root:Starting task=0 episode=48 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 48
+INFO:root:# successes on this rank: 48 (100.0%)
+
+rank0: task0:  96%|█████████▌| 48/50 [5:17:05<14:05, 422.50s/it][AINFO:root:
+Task 0: open the middle drawer of the cabinet
+INFO:root:Starting task=0 episode=49 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 49
+INFO:root:# successes on this rank: 49 (100.0%)
+
+rank0: task0:  98%|█████████▊| 49/50 [5:26:37<07:47, 467.33s/it][AINFO:root:
+Task 0: open the middle drawer of the cabinet
+INFO:root:Starting task=0 episode=50 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 50
+INFO:root:# successes on this rank: 50 (100.0%)
+
+rank0: task0: 100%|██████████| 50/50 [5:32:37<00:00, 435.13s/it][A
+                                                                [AINFO:root:Current task success rate on rank 0: 1.0
+INFO:root:Current rank success rate: 1.0
+rank0: tasks:  50%|█████     | 1/2 [5:32:41<5:32:41, 19961.65s/it]
+rank0: task5:   0%|          | 0/50 [00:00<?, ?it/s][AINFO:root:
+Task 5: push the plate to the front of the stove
+INFO:root:Starting task=5 episode=1 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 51
+INFO:root:# successes on this rank: 51 (100.0%)
+
+rank0: task5:   2%|▏         | 1/50 [05:30<4:30:08, 330.79s/it][AINFO:root:
+Task 5: push the plate to the front of the stove
+INFO:root:Starting task=5 episode=2 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 52
+INFO:root:# successes on this rank: 52 (100.0%)
+
+rank0: task5:   4%|▍         | 2/50 [11:04<4:26:07, 332.66s/it][AINFO:root:
+Task 5: push the plate to the front of the stove
+INFO:root:Starting task=5 episode=3 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 53
+INFO:root:# successes on this rank: 53 (100.0%)
+
+rank0: task5:   6%|▌         | 3/50 [16:15<4:12:40, 322.57s/it][AINFO:root:
+Task 5: push the plate to the front of the stove
+INFO:root:Starting task=5 episode=4 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 54
+INFO:root:# successes on this rank: 54 (100.0%)
+
+rank0: task5:   8%|▊         | 4/50 [20:54<3:54:01, 305.25s/it][AINFO:root:
+Task 5: push the plate to the front of the stove
+INFO:root:Starting task=5 episode=5 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 55
+INFO:root:# successes on this rank: 55 (100.0%)
+
+rank0: task5:  10%|█         | 5/50 [25:56<3:48:05, 304.11s/it][AINFO:root:
+Task 5: push the plate to the front of the stove
+INFO:root:Starting task=5 episode=6 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 56
+INFO:root:# successes on this rank: 56 (100.0%)
+
+rank0: task5:  12%|█▏        | 6/50 [30:48<3:40:00, 300.01s/it][AINFO:root:
+Task 5: push the plate to the front of the stove
+INFO:root:Starting task=5 episode=7 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 57
+INFO:root:# successes on this rank: 57 (100.0%)
+
+rank0: task5:  14%|█▍        | 7/50 [35:55<3:36:42, 302.37s/it][AINFO:root:
+Task 5: push the plate to the front of the stove
+INFO:root:Starting task=5 episode=8 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 58
+INFO:root:# successes on this rank: 58 (100.0%)
+
+rank0: task5:  16%|█▌        | 8/50 [40:36<3:26:53, 295.57s/it][AINFO:root:
+Task 5: push the plate to the front of the stove
+INFO:root:Starting task=5 episode=9 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 59
+INFO:root:# successes on this rank: 59 (100.0%)
+
+rank0: task5:  18%|█▊        | 9/50 [46:38<3:36:12, 316.39s/it][AINFO:root:
+Task 5: push the plate to the front of the stove
+INFO:root:Starting task=5 episode=10 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 60
+INFO:root:# successes on this rank: 60 (100.0%)
+
+rank0: task5:  20%|██        | 10/50 [52:38<3:39:56, 329.91s/it][AINFO:root:
+Task 5: push the plate to the front of the stove
+INFO:root:Starting task=5 episode=11 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 61
+INFO:root:# successes on this rank: 61 (100.0%)
+
+rank0: task5:  22%|██▏       | 11/50 [57:50<3:30:54, 324.48s/it][AINFO:root:
+Task 5: push the plate to the front of the stove
+INFO:root:Starting task=5 episode=12 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 62
+INFO:root:# successes on this rank: 62 (100.0%)
+
+rank0: task5:  24%|██▍       | 12/50 [1:02:35<3:17:43, 312.20s/it][AINFO:root:
+Task 5: push the plate to the front of the stove
+INFO:root:Starting task=5 episode=13 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 63
+INFO:root:# successes on this rank: 63 (100.0%)
+
+rank0: task5:  26%|██▌       | 13/50 [1:07:54<3:13:50, 314.35s/it][AINFO:root:
+Task 5: push the plate to the front of the stove
+INFO:root:Starting task=5 episode=14 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 64
+INFO:root:# successes on this rank: 64 (100.0%)
+
+rank0: task5:  28%|██▊       | 14/50 [1:17:17<3:53:44, 389.56s/it][AINFO:root:
+Task 5: push the plate to the front of the stove
+INFO:root:Starting task=5 episode=15 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 65
+INFO:root:# successes on this rank: 65 (100.0%)
+
+rank0: task5:  30%|███       | 15/50 [1:22:07<3:29:39, 359.41s/it][AINFO:root:
+Task 5: push the plate to the front of the stove
+INFO:root:Starting task=5 episode=16 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 66
+INFO:root:# successes on this rank: 66 (100.0%)
+
+rank0: task5:  32%|███▏      | 16/50 [1:28:01<3:22:49, 357.93s/it][AINFO:root:
+Task 5: push the plate to the front of the stove
+INFO:root:Starting task=5 episode=17 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 67
+INFO:root:# successes on this rank: 67 (100.0%)
+
+rank0: task5:  34%|███▍      | 17/50 [1:33:05<3:07:56, 341.72s/it][AINFO:root:
+Task 5: push the plate to the front of the stove
+INFO:root:Starting task=5 episode=18 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 68
+INFO:root:# successes on this rank: 68 (100.0%)
+
+rank0: task5:  36%|███▌      | 18/50 [1:37:45<2:52:23, 323.25s/it][AINFO:root:
+Task 5: push the plate to the front of the stove
+INFO:root:Starting task=5 episode=19 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 69
+INFO:root:# successes on this rank: 69 (100.0%)
+
+rank0: task5:  38%|███▊      | 19/50 [1:42:46<2:43:32, 316.53s/it][AINFO:root:
+Task 5: push the plate to the front of the stove
+INFO:root:Starting task=5 episode=20 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 70
+INFO:root:# successes on this rank: 70 (100.0%)
+
+rank0: task5:  40%|████      | 20/50 [1:47:51<2:36:31, 313.06s/it][AINFO:root:
+Task 5: push the plate to the front of the stove
+INFO:root:Starting task=5 episode=21 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 71
+INFO:root:# successes on this rank: 71 (100.0%)
+
+rank0: task5:  42%|████▏     | 21/50 [1:53:02<2:30:54, 312.22s/it][AINFO:root:
+Task 5: push the plate to the front of the stove
+INFO:root:Starting task=5 episode=22 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 72
+INFO:root:# successes on this rank: 72 (100.0%)
+
+rank0: task5:  44%|████▍     | 22/50 [1:57:48<2:22:03, 304.42s/it][AINFO:root:
+Task 5: push the plate to the front of the stove
+INFO:root:Starting task=5 episode=23 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 73
+INFO:root:# successes on this rank: 73 (100.0%)
+
+rank0: task5:  46%|████▌     | 23/50 [2:02:44<2:15:49, 301.83s/it][AINFO:root:
+Task 5: push the plate to the front of the stove
+INFO:root:Starting task=5 episode=24 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 74
+INFO:root:# successes on this rank: 74 (100.0%)
+
+rank0: task5:  48%|████▊     | 24/50 [2:08:25<2:15:54, 313.64s/it][AINFO:root:
+Task 5: push the plate to the front of the stove
+INFO:root:Starting task=5 episode=25 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 75
+INFO:root:# successes on this rank: 75 (100.0%)
+
+rank0: task5:  50%|█████     | 25/50 [2:13:08<2:06:52, 304.49s/it][AINFO:root:
+Task 5: push the plate to the front of the stove
+INFO:root:Starting task=5 episode=26 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 76
+INFO:root:# successes on this rank: 76 (100.0%)
+
+rank0: task5:  52%|█████▏    | 26/50 [2:16:44<1:51:11, 277.97s/it][AINFO:root:
+Task 5: push the plate to the front of the stove
+INFO:root:Starting task=5 episode=27 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 77
+INFO:root:# successes on this rank: 77 (100.0%)
+
+rank0: task5:  54%|█████▍    | 27/50 [2:21:07<1:44:51, 273.56s/it][AINFO:root:
+Task 5: push the plate to the front of the stove
+INFO:root:Starting task=5 episode=28 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 78
+INFO:root:# successes on this rank: 78 (100.0%)
+
+rank0: task5:  56%|█████▌    | 28/50 [2:24:54<1:35:07, 259.45s/it][AINFO:root:
+Task 5: push the plate to the front of the stove
+INFO:root:Starting task=5 episode=29 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 79
+INFO:root:# successes on this rank: 79 (100.0%)
+
+rank0: task5:  58%|█████▊    | 29/50 [2:31:31<1:45:13, 300.66s/it][AINFO:root:
+Task 5: push the plate to the front of the stove
+INFO:root:Starting task=5 episode=30 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 80
+INFO:root:# successes on this rank: 80 (100.0%)
+
+rank0: task5:  60%|██████    | 30/50 [2:35:36<1:34:41, 284.07s/it][AINFO:root:
+Task 5: push the plate to the front of the stove
+INFO:root:Starting task=5 episode=31 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 81
+INFO:root:# successes on this rank: 81 (100.0%)
+
+rank0: task5:  62%|██████▏   | 31/50 [2:39:50<1:27:04, 274.95s/it][AINFO:root:
+Task 5: push the plate to the front of the stove
+INFO:root:Starting task=5 episode=32 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 82
+INFO:root:# successes on this rank: 82 (100.0%)
+
+rank0: task5:  64%|██████▍   | 32/50 [2:44:04<1:20:37, 268.74s/it][AINFO:root:
+Task 5: push the plate to the front of the stove
+INFO:root:Starting task=5 episode=33 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 83
+INFO:root:# successes on this rank: 83 (100.0%)
+
+rank0: task5:  66%|██████▌   | 33/50 [2:48:20<1:15:03, 264.90s/it][AINFO:root:
+Task 5: push the plate to the front of the stove
+INFO:root:Starting task=5 episode=34 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 84
+INFO:root:# successes on this rank: 84 (100.0%)
+
+rank0: task5:  68%|██████▊   | 34/50 [2:52:04<1:07:20, 252.55s/it][AINFO:root:
+Task 5: push the plate to the front of the stove
+INFO:root:Starting task=5 episode=35 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 85
+INFO:root:# successes on this rank: 85 (100.0%)
+
+rank0: task5:  70%|███████   | 35/50 [2:56:27<1:03:59, 255.94s/it][AINFO:root:
+Task 5: push the plate to the front of the stove
+INFO:root:Starting task=5 episode=36 ...
+INFO:root:Success: False
+INFO:root:# episodes completed on this rank so far: 86
+INFO:root:# successes on this rank: 85 (98.8%)
+
+rank0: task5:  72%|███████▏  | 36/50 [3:06:04<1:22:10, 352.17s/it][AINFO:root:
+Task 5: push the plate to the front of the stove
+INFO:root:Starting task=5 episode=37 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 87
+INFO:root:# successes on this rank: 86 (98.9%)
+
+rank0: task5:  74%|███████▍  | 37/50 [3:10:08<1:09:15, 319.69s/it][AINFO:root:
+Task 5: push the plate to the front of the stove
+INFO:root:Starting task=5 episode=38 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 88
+INFO:root:# successes on this rank: 87 (98.9%)
+
+rank0: task5:  76%|███████▌  | 38/50 [3:14:02<58:47, 293.94s/it]  [AINFO:root:
+Task 5: push the plate to the front of the stove
+INFO:root:Starting task=5 episode=39 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 89
+INFO:root:# successes on this rank: 88 (98.9%)
+
+rank0: task5:  78%|███████▊  | 39/50 [3:18:25<52:12, 284.75s/it][AINFO:root:
+Task 5: push the plate to the front of the stove
+INFO:root:Starting task=5 episode=40 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 90
+INFO:root:# successes on this rank: 89 (98.9%)
+
+rank0: task5:  80%|████████  | 40/50 [3:22:38<45:52, 275.23s/it][AINFO:root:
+Task 5: push the plate to the front of the stove
+INFO:root:Starting task=5 episode=41 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 91
+INFO:root:# successes on this rank: 90 (98.9%)
+
+rank0: task5:  82%|████████▏ | 41/50 [3:26:05<38:12, 254.69s/it][AINFO:root:
+Task 5: push the plate to the front of the stove
+INFO:root:Starting task=5 episode=42 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 92
+INFO:root:# successes on this rank: 91 (98.9%)
+
+rank0: task5:  84%|████████▍ | 42/50 [3:31:12<36:03, 270.49s/it][AINFO:root:
+Task 5: push the plate to the front of the stove
+INFO:root:Starting task=5 episode=43 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 93
+INFO:root:# successes on this rank: 92 (98.9%)
+
+rank0: task5:  86%|████████▌ | 43/50 [3:34:21<28:42, 246.00s/it][AINFO:root:
+Task 5: push the plate to the front of the stove
+INFO:root:Starting task=5 episode=44 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 94
+INFO:root:# successes on this rank: 93 (98.9%)
+
+rank0: task5:  88%|████████▊ | 44/50 [3:38:05<23:56, 239.34s/it][AINFO:root:
+Task 5: push the plate to the front of the stove
+INFO:root:Starting task=5 episode=45 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 95
+INFO:root:# successes on this rank: 94 (98.9%)
+
+rank0: task5:  90%|█████████ | 45/50 [3:41:48<19:32, 234.44s/it][AINFO:root:
+Task 5: push the plate to the front of the stove
+INFO:root:Starting task=5 episode=46 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 96
+INFO:root:# successes on this rank: 95 (99.0%)
+
+rank0: task5:  92%|█████████▏| 46/50 [3:45:32<15:25, 231.38s/it][AINFO:root:
+Task 5: push the plate to the front of the stove
+INFO:root:Starting task=5 episode=47 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 97
+INFO:root:# successes on this rank: 96 (99.0%)
+
+rank0: task5:  94%|█████████▍| 47/50 [3:49:22<11:32, 230.88s/it][AINFO:root:
+Task 5: push the plate to the front of the stove
+INFO:root:Starting task=5 episode=48 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 98
+INFO:root:# successes on this rank: 97 (99.0%)
+
+rank0: task5:  96%|█████████▌| 48/50 [3:53:06<07:37, 228.95s/it][AINFO:root:
+Task 5: push the plate to the front of the stove
+INFO:root:Starting task=5 episode=49 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 99
+INFO:root:# successes on this rank: 98 (99.0%)
+
+rank0: task5:  98%|█████████▊| 49/50 [3:57:13<03:54, 234.16s/it][AINFO:root:
+Task 5: push the plate to the front of the stove
+INFO:root:Starting task=5 episode=50 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 100
+INFO:root:# successes on this rank: 99 (99.0%)
+
+rank0: task5: 100%|██████████| 50/50 [4:00:25<00:00, 221.73s/it][A
+                                                                [AINFO:root:Current task success rate on rank 0: 0.98
+INFO:root:Current rank success rate: 0.99
+rank0: tasks: 100%|██████████| 2/2 [9:33:10<00:00, 16706.85s/it]  rank0: tasks: 100%|██████████| 2/2 [9:33:10<00:00, 17195.07s/it]
+INFO:root:Rank 0 total success rate: 0.99
+INFO:root:Rank 0 total episodes: 100

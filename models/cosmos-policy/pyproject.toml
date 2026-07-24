@@ -1,0 +1,226 @@
+# SPDX-FileCopyrightText: Copyright (c) 2025 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+# SPDX-License-Identifier: Apache-2.0
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+# http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "cosmos-policy"
+version = "1.0.0"
+authors = [
+  {name = "NVIDIA Corporation"},
+]
+description = "Cosmos Policy"
+requires-python = ">=3.10"
+license = {text = "Apache-2.0"}
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Environment :: GPU :: NVIDIA CUDA",
+  "Intended Audience :: Science/Research",
+  "License :: OSI Approved :: Apache Software License",
+  "Operating System :: POSIX :: Linux",
+  "Programming Language :: Python",
+  "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
+dependencies = [
+  "albumentations>=2.0.8",
+  "attrs>=25.4.0",
+  "av>=16.0.1",
+  "better-profanity>=0.7.0",
+  "boto3>=1.40.58",
+  "click>=8.3.0",
+#  "decord>=0.6.0; platform_machine != 'aarch64'",
+  "diffusers>=0.35.2",
+  "einops>=0.8.1",
+  "ftfy>=6.3.1",
+  "fvcore>=0.1.5.post20221221",
+  "fastparquet>=2024.11.0",
+  "h11>=0.16.0",
+  "huggingface-hub>=0.36.0",
+  "hydra-core>=1.3.2",
+  "imageio[pyav,ffmpeg]>=2.37.0",
+  "iopath>=0.1.10",
+  "ipdb>=0.13.13",
+  "loguru>=0.7.3",
+  "mediapy>=1.2.4",
+  "megatron-core>=0.14.0",
+  "ml-dtypes>=0.5.3",
+  "modelscope>=1.31.0",
+  "multi-storage-client[boto3,google-cloud-storage,fsspec,observability-otel,msal]>=0.32.0",
+  "nltk>=3.9.2",
+  "numpydantic>=1.7.0",
+  "nvidia-ml-py>=13.580.82",
+  "omegaconf>=2.3.0",
+  "opencv-python>=4.11.0.86",
+  "pandas>=2.3.3",
+  "pyarrow>=19.0.0",
+  "peft>=0.17.1",
+  "pillow>=11.3.0",
+  "protobuf>=6.33.0",
+  "pycocotools>=2.0.10",
+  "pydantic>=2.11.7",
+  "pyinstrument>=5.1.1",
+  "pytest>=8.4.2",
+  "pyyaml>=6.0.3",
+  "qwen-vl-utils[decord]>=0.0.14",
+  "retinaface-py>=0.0.2",
+  "safetensors>=0.6.2",
+  "scikit-image>=0.25.2",
+  "scipy>=1.15.3",
+  "sentencepiece>=0.2.1",
+  "setuptools>=80.9.0",
+  "termcolor>=3.1.0",
+  "tqdm>=4.67.1",
+  "transformers==4.57.1",
+  "typing-extensions>=4.14.1",
+  "tyro>=0.9.35",
+  "wandb>=0.22.2",
+  "webdataset>=1.0.2",
+  "h5py",
+]
+
+[dependency-groups]
+dev = [
+  "hatch>=1.15.1",
+  "pyrefly==0.39.2",
+  "pytest>=8.4.1",
+  "pytest-custom_exit_code>=0.3.0",
+  "pytest-cov>=6.2.1",
+  "pytest-env>=1.1.5",
+  "pytest-instafail>=0.5.0",
+  "pytest-regressions>=2.8.3",
+  "pytest-xdist>=3.8.0",
+  "ruff==0.12.7",
+]
+robocasa = [
+  "robosuite==1.5.1",
+  "draccus",
+  "mujoco==3.2.6",
+]
+libero = [
+  "bddl",
+  "cloudpickle",
+  "draccus",
+  "easydict",
+  "gym",
+  "imageio[ffmpeg]",
+  "libero",
+  "mujoco==3.3.2",
+]
+aloha = [
+  "dm_control==1.0.14",
+  "draccus",
+  "einops",
+  "fastapi",
+  "h5py",
+  "imageio[ffmpeg]",
+  "ipdb",
+  "IPython",
+  "json_numpy",
+  "matplotlib",
+  "modern_robotics",
+  "mujoco==2.3.7",
+  "opencv-python",
+  "packaging",
+  "pexpect",
+  "pyquaternion",
+  "pyyaml",
+  "requests",
+  "rospkg",
+  "termcolor",
+  "traitlets",
+  "uvicorn",
+]
+
+# Match nvcr.io/nvidia/pytorch:25.10-py3
+
+[tool.uv]
+conflicts = [
+  [
+    {extra = "cu128"},
+    {extra = "cu130"},
+  ],
+  [
+    {group ="aloha"},
+    {group="libero"},
+  ],
+  [
+    {group="robocasa"},
+    {group="libero"},
+  ],
+  [
+    {group="aloha"},
+    {group="robocasa"},
+  ]
+]
+override-dependencies = ["numpy>=2.0.0"]
+
+[tool.uv.sources]
+# https://docs.astral.sh/uv/guides/integration/pytorch/#configuring-accelerators-with-optional-dependencies
+decord = [
+  { index = "cosmos-cu128-torch27", extra = "cu128" },
+]
+flash-attn = [
+  { index = "cosmos-cu128-torch27", extra = "cu128" },
+  { index = "cosmos-cu130-torch29", extra = "cu130" },
+]
+natten = [
+  { index = "cosmos-cu128-torch27", extra = "cu128" },
+  { index = "cosmos-cu130-torch29", extra = "cu130" },
+]
+transformer-engine = [
+  { index = "cosmos-cu128-torch27", extra = "cu128" },
+  { index = "cosmos-cu130-torch29", extra = "cu130" },
+]
+torch = [
+  { index = "cosmos-cu128-torch27", extra = "cu128" },
+  { index = "cosmos-cu130-torch29", extra = "cu130" },
+]
+torchvision = [
+  { index = "cosmos-cu128-torch27", extra = "cu128" },
+  { index = "cosmos-cu130-torch29", extra = "cu130" },
+]
+triton = [
+  { index = "cosmos-cu128-torch27", extra = "cu128" },
+  { index = "cosmos-cu130-torch29", extra = "cu130" },
+]
+xformers = [
+  { index = "cosmos-cu128-torch27", extra = "cu128" },
+  { index = "cosmos-cu130-torch29", extra = "cu130" },
+]
+
+[[tool.uv.index]]
+name = "cosmos-cu128-torch27"
+url = "https://nvidia-cosmos.github.io/cosmos-dependencies/v1.2.0/cu128_torch27/simple"
+explicit = true
+
+[[tool.uv.index]]
+name = "cosmos-cu130-torch29"
+url = "https://nvidia-cosmos.github.io/cosmos-dependencies/v1.2.0/cu130_torch29/simple"
+explicit = true
+
+[tool.hatch.build.targets.sdist]
+packages = [
+  "cosmos_policy",
+]
+
+[tool.hatch.build.targets.wheel]
+packages = [
+  "cosmos_policy",
+]
+exclude = [
+  "*_test.py",
+]

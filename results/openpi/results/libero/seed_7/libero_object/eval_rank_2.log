@@ -1,0 +1,832 @@
+/root/miniconda3/envs/openpi/lib/python3.12/site-packages/torch/cuda/__init__.py:61: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+  import pynvml  # type: ignore[import]
+INFO:root:Task suite: libero_object
+INFO:root:[Eval Split] rank=2, world_size=5, client=127.0.0.1:6668, task_ids=[2, 7]
+INFO:root:Waiting for policy server at ws://127.0.0.1:6668 ...
+INFO:root:Policy server is reachable at ws://127.0.0.1:6668
+INFO:root:[Rank 2] Connecting to policy server 127.0.0.1:6668
+INFO:root:Waiting for server at ws://127.0.0.1:6668...
+[info] using task orders [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+
+rank2: tasks:   0%|          | 0/2 [00:00<?, ?it/s]/mnt/afs/raozf/openpi/LIBERO/libero/libero/benchmark/__init__.py:164: UserWarning: Environment variable TORCH_FORCE_NO_WEIGHTS_ONLY_LOAD detected, since the`weights_only` argument was not explicitly passed to `torch.load`, forcing weights_only=False.
+  init_states = torch.load(init_states_path)
+
+
+rank2: task2:   0%|          | 0/50 [00:00<?, ?it/s][AINFO:root:
+Task 2: pick up the salad dressing and place it in the basket
+INFO:root:Starting task=2 episode=1 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 1
+INFO:root:# successes on this rank: 1 (100.0%)
+
+
+rank2: task2:   2%|▏         | 1/50 [00:33<27:24, 33.56s/it][AINFO:root:
+Task 2: pick up the salad dressing and place it in the basket
+INFO:root:Starting task=2 episode=2 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 2
+INFO:root:# successes on this rank: 2 (100.0%)
+
+
+rank2: task2:   4%|▍         | 2/50 [01:07<26:55, 33.66s/it][AINFO:root:
+Task 2: pick up the salad dressing and place it in the basket
+INFO:root:Starting task=2 episode=3 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 3
+INFO:root:# successes on this rank: 3 (100.0%)
+
+
+rank2: task2:   6%|▌         | 3/50 [01:39<26:01, 33.22s/it][AINFO:root:
+Task 2: pick up the salad dressing and place it in the basket
+INFO:root:Starting task=2 episode=4 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 4
+INFO:root:# successes on this rank: 4 (100.0%)
+
+
+rank2: task2:   8%|▊         | 4/50 [02:09<24:28, 31.92s/it][AINFO:root:
+Task 2: pick up the salad dressing and place it in the basket
+INFO:root:Starting task=2 episode=5 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 5
+INFO:root:# successes on this rank: 5 (100.0%)
+
+
+rank2: task2:  10%|█         | 5/50 [02:42<24:04, 32.09s/it][AINFO:root:
+Task 2: pick up the salad dressing and place it in the basket
+INFO:root:Starting task=2 episode=6 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 6
+INFO:root:# successes on this rank: 6 (100.0%)
+
+
+rank2: task2:  12%|█▏        | 6/50 [03:28<27:08, 37.00s/it][AINFO:root:
+Task 2: pick up the salad dressing and place it in the basket
+INFO:root:Starting task=2 episode=7 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 7
+INFO:root:# successes on this rank: 7 (100.0%)
+
+
+rank2: task2:  14%|█▍        | 7/50 [04:02<25:38, 35.78s/it][AINFO:root:
+Task 2: pick up the salad dressing and place it in the basket
+INFO:root:Starting task=2 episode=8 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 8
+INFO:root:# successes on this rank: 8 (100.0%)
+
+
+rank2: task2:  16%|█▌        | 8/50 [04:38<25:14, 36.07s/it][AINFO:root:
+Task 2: pick up the salad dressing and place it in the basket
+INFO:root:Starting task=2 episode=9 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 9
+INFO:root:# successes on this rank: 9 (100.0%)
+
+
+rank2: task2:  18%|█▊        | 9/50 [05:11<23:56, 35.04s/it][AINFO:root:
+Task 2: pick up the salad dressing and place it in the basket
+INFO:root:Starting task=2 episode=10 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 10
+INFO:root:# successes on this rank: 10 (100.0%)
+
+
+rank2: task2:  20%|██        | 10/50 [05:42<22:27, 33.69s/it][AINFO:root:
+Task 2: pick up the salad dressing and place it in the basket
+INFO:root:Starting task=2 episode=11 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 11
+INFO:root:# successes on this rank: 11 (100.0%)
+
+
+rank2: task2:  22%|██▏       | 11/50 [06:13<21:25, 32.95s/it][AINFO:root:
+Task 2: pick up the salad dressing and place it in the basket
+INFO:root:Starting task=2 episode=12 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 12
+INFO:root:# successes on this rank: 12 (100.0%)
+
+
+rank2: task2:  24%|██▍       | 12/50 [06:47<21:04, 33.27s/it][AINFO:root:
+Task 2: pick up the salad dressing and place it in the basket
+INFO:root:Starting task=2 episode=13 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 13
+INFO:root:# successes on this rank: 13 (100.0%)
+
+
+rank2: task2:  26%|██▌       | 13/50 [07:19<20:19, 32.95s/it][AINFO:root:
+Task 2: pick up the salad dressing and place it in the basket
+INFO:root:Starting task=2 episode=14 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 14
+INFO:root:# successes on this rank: 14 (100.0%)
+
+
+rank2: task2:  28%|██▊       | 14/50 [07:51<19:32, 32.57s/it][AINFO:root:
+Task 2: pick up the salad dressing and place it in the basket
+INFO:root:Starting task=2 episode=15 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 15
+INFO:root:# successes on this rank: 15 (100.0%)
+
+
+rank2: task2:  30%|███       | 15/50 [08:43<22:29, 38.54s/it][AINFO:root:
+Task 2: pick up the salad dressing and place it in the basket
+INFO:root:Starting task=2 episode=16 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 16
+INFO:root:# successes on this rank: 16 (100.0%)
+
+
+rank2: task2:  32%|███▏      | 16/50 [09:49<26:33, 46.85s/it][AINFO:root:
+Task 2: pick up the salad dressing and place it in the basket
+INFO:root:Starting task=2 episode=17 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 17
+INFO:root:# successes on this rank: 17 (100.0%)
+
+
+rank2: task2:  34%|███▍      | 17/50 [10:23<23:29, 42.72s/it][AINFO:root:
+Task 2: pick up the salad dressing and place it in the basket
+INFO:root:Starting task=2 episode=18 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 18
+INFO:root:# successes on this rank: 18 (100.0%)
+
+
+rank2: task2:  36%|███▌      | 18/50 [10:55<21:08, 39.63s/it][AINFO:root:
+Task 2: pick up the salad dressing and place it in the basket
+INFO:root:Starting task=2 episode=19 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 19
+INFO:root:# successes on this rank: 19 (100.0%)
+
+
+rank2: task2:  38%|███▊      | 19/50 [11:27<19:20, 37.42s/it][AINFO:root:
+Task 2: pick up the salad dressing and place it in the basket
+INFO:root:Starting task=2 episode=20 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 20
+INFO:root:# successes on this rank: 20 (100.0%)
+
+
+rank2: task2:  40%|████      | 20/50 [12:03<18:27, 36.93s/it][AINFO:root:
+Task 2: pick up the salad dressing and place it in the basket
+INFO:root:Starting task=2 episode=21 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 21
+INFO:root:# successes on this rank: 21 (100.0%)
+
+
+rank2: task2:  42%|████▏     | 21/50 [12:38<17:37, 36.47s/it][AINFO:root:
+Task 2: pick up the salad dressing and place it in the basket
+INFO:root:Starting task=2 episode=22 ...
+INFO:root:Success: False
+INFO:root:# episodes completed on this rank so far: 22
+INFO:root:# successes on this rank: 21 (95.5%)
+
+
+rank2: task2:  44%|████▍     | 22/50 [13:41<20:37, 44.20s/it][AINFO:root:
+Task 2: pick up the salad dressing and place it in the basket
+INFO:root:Starting task=2 episode=23 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 23
+INFO:root:# successes on this rank: 22 (95.7%)
+
+
+rank2: task2:  46%|████▌     | 23/50 [14:06<17:22, 38.62s/it][AINFO:root:
+Task 2: pick up the salad dressing and place it in the basket
+INFO:root:Starting task=2 episode=24 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 24
+INFO:root:# successes on this rank: 23 (95.8%)
+
+
+rank2: task2:  48%|████▊     | 24/50 [14:37<15:38, 36.11s/it][AINFO:root:
+Task 2: pick up the salad dressing and place it in the basket
+INFO:root:Starting task=2 episode=25 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 25
+INFO:root:# successes on this rank: 24 (96.0%)
+
+
+rank2: task2:  50%|█████     | 25/50 [15:07<14:18, 34.35s/it][AINFO:root:
+Task 2: pick up the salad dressing and place it in the basket
+INFO:root:Starting task=2 episode=26 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 26
+INFO:root:# successes on this rank: 25 (96.2%)
+
+
+rank2: task2:  52%|█████▏    | 26/50 [15:36<13:06, 32.76s/it][AINFO:root:
+Task 2: pick up the salad dressing and place it in the basket
+INFO:root:Starting task=2 episode=27 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 27
+INFO:root:# successes on this rank: 26 (96.3%)
+
+
+rank2: task2:  54%|█████▍    | 27/50 [16:00<11:37, 30.32s/it][AINFO:root:
+Task 2: pick up the salad dressing and place it in the basket
+INFO:root:Starting task=2 episode=28 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 28
+INFO:root:# successes on this rank: 27 (96.4%)
+
+
+rank2: task2:  56%|█████▌    | 28/50 [16:31<11:07, 30.36s/it][AINFO:root:
+Task 2: pick up the salad dressing and place it in the basket
+INFO:root:Starting task=2 episode=29 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 29
+INFO:root:# successes on this rank: 28 (96.6%)
+
+
+rank2: task2:  58%|█████▊    | 29/50 [16:58<10:16, 29.34s/it][AINFO:root:
+Task 2: pick up the salad dressing and place it in the basket
+INFO:root:Starting task=2 episode=30 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 30
+INFO:root:# successes on this rank: 29 (96.7%)
+
+
+rank2: task2:  60%|██████    | 30/50 [17:24<09:27, 28.38s/it][AINFO:root:
+Task 2: pick up the salad dressing and place it in the basket
+INFO:root:Starting task=2 episode=31 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 31
+INFO:root:# successes on this rank: 30 (96.8%)
+
+
+rank2: task2:  62%|██████▏   | 31/50 [17:49<08:42, 27.50s/it][AINFO:root:
+Task 2: pick up the salad dressing and place it in the basket
+INFO:root:Starting task=2 episode=32 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 32
+INFO:root:# successes on this rank: 31 (96.9%)
+
+
+rank2: task2:  64%|██████▍   | 32/50 [18:16<08:09, 27.17s/it][AINFO:root:
+Task 2: pick up the salad dressing and place it in the basket
+INFO:root:Starting task=2 episode=33 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 33
+INFO:root:# successes on this rank: 32 (97.0%)
+
+
+rank2: task2:  66%|██████▌   | 33/50 [18:48<08:04, 28.52s/it][AINFO:root:
+Task 2: pick up the salad dressing and place it in the basket
+INFO:root:Starting task=2 episode=34 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 34
+INFO:root:# successes on this rank: 33 (97.1%)
+
+
+rank2: task2:  68%|██████▊   | 34/50 [19:18<07:47, 29.22s/it][AINFO:root:
+Task 2: pick up the salad dressing and place it in the basket
+INFO:root:Starting task=2 episode=35 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 35
+INFO:root:# successes on this rank: 34 (97.1%)
+
+
+rank2: task2:  70%|███████   | 35/50 [19:47<07:17, 29.14s/it][AINFO:root:
+Task 2: pick up the salad dressing and place it in the basket
+INFO:root:Starting task=2 episode=36 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 36
+INFO:root:# successes on this rank: 35 (97.2%)
+
+
+rank2: task2:  72%|███████▏  | 36/50 [20:19<06:59, 29.93s/it][AINFO:root:
+Task 2: pick up the salad dressing and place it in the basket
+INFO:root:Starting task=2 episode=37 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 37
+INFO:root:# successes on this rank: 36 (97.3%)
+
+
+rank2: task2:  74%|███████▍  | 37/50 [20:49<06:28, 29.89s/it][AINFO:root:
+Task 2: pick up the salad dressing and place it in the basket
+INFO:root:Starting task=2 episode=38 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 38
+INFO:root:# successes on this rank: 37 (97.4%)
+
+
+rank2: task2:  76%|███████▌  | 38/50 [21:18<05:57, 29.80s/it][AINFO:root:
+Task 2: pick up the salad dressing and place it in the basket
+INFO:root:Starting task=2 episode=39 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 39
+INFO:root:# successes on this rank: 38 (97.4%)
+
+
+rank2: task2:  78%|███████▊  | 39/50 [21:52<05:40, 30.97s/it][AINFO:root:
+Task 2: pick up the salad dressing and place it in the basket
+INFO:root:Starting task=2 episode=40 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 40
+INFO:root:# successes on this rank: 39 (97.5%)
+
+
+rank2: task2:  80%|████████  | 40/50 [22:24<05:13, 31.32s/it][AINFO:root:
+Task 2: pick up the salad dressing and place it in the basket
+INFO:root:Starting task=2 episode=41 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 41
+INFO:root:# successes on this rank: 40 (97.6%)
+
+
+rank2: task2:  82%|████████▏ | 41/50 [22:55<04:39, 31.08s/it][AINFO:root:
+Task 2: pick up the salad dressing and place it in the basket
+INFO:root:Starting task=2 episode=42 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 42
+INFO:root:# successes on this rank: 41 (97.6%)
+
+
+rank2: task2:  84%|████████▍ | 42/50 [23:20<03:55, 29.41s/it][AINFO:root:
+Task 2: pick up the salad dressing and place it in the basket
+INFO:root:Starting task=2 episode=43 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 43
+INFO:root:# successes on this rank: 42 (97.7%)
+
+
+rank2: task2:  86%|████████▌ | 43/50 [23:52<03:30, 30.11s/it][AINFO:root:
+Task 2: pick up the salad dressing and place it in the basket
+INFO:root:Starting task=2 episode=44 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 44
+INFO:root:# successes on this rank: 43 (97.7%)
+
+
+rank2: task2:  88%|████████▊ | 44/50 [24:21<02:58, 29.74s/it][AINFO:root:
+Task 2: pick up the salad dressing and place it in the basket
+INFO:root:Starting task=2 episode=45 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 45
+INFO:root:# successes on this rank: 44 (97.8%)
+
+
+rank2: task2:  90%|█████████ | 45/50 [24:52<02:31, 30.20s/it][AINFO:root:
+Task 2: pick up the salad dressing and place it in the basket
+INFO:root:Starting task=2 episode=46 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 46
+INFO:root:# successes on this rank: 45 (97.8%)
+
+
+rank2: task2:  92%|█████████▏| 46/50 [25:24<02:02, 30.74s/it][AINFO:root:
+Task 2: pick up the salad dressing and place it in the basket
+INFO:root:Starting task=2 episode=47 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 47
+INFO:root:# successes on this rank: 46 (97.9%)
+
+
+rank2: task2:  94%|█████████▍| 47/50 [25:59<01:36, 32.03s/it][AINFO:root:
+Task 2: pick up the salad dressing and place it in the basket
+INFO:root:Starting task=2 episode=48 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 48
+INFO:root:# successes on this rank: 47 (97.9%)
+
+
+rank2: task2:  96%|█████████▌| 48/50 [26:35<01:06, 33.08s/it][AINFO:root:
+Task 2: pick up the salad dressing and place it in the basket
+INFO:root:Starting task=2 episode=49 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 49
+INFO:root:# successes on this rank: 48 (98.0%)
+
+
+rank2: task2:  98%|█████████▊| 49/50 [27:11<00:33, 33.94s/it][AINFO:root:
+Task 2: pick up the salad dressing and place it in the basket
+INFO:root:Starting task=2 episode=50 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 50
+INFO:root:# successes on this rank: 49 (98.0%)
+
+
+rank2: task2: 100%|██████████| 50/50 [27:43<00:00, 33.48s/it][A
+
+                                                             [AINFO:root:Current task success rate on rank 2: 0.98
+INFO:root:Current rank success rate: 0.98
+
+rank2: tasks:  50%|█████     | 1/2 [27:46<27:46, 1666.49s/it]/mnt/afs/raozf/openpi/LIBERO/libero/libero/benchmark/__init__.py:164: UserWarning: Environment variable TORCH_FORCE_NO_WEIGHTS_ONLY_LOAD detected, since the`weights_only` argument was not explicitly passed to `torch.load`, forcing weights_only=False.
+  init_states = torch.load(init_states_path)
+
+
+rank2: task7:   0%|          | 0/50 [00:00<?, ?it/s][AINFO:root:
+Task 7: pick up the milk and place it in the basket
+INFO:root:Starting task=7 episode=1 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 51
+INFO:root:# successes on this rank: 50 (98.0%)
+
+
+rank2: task7:   2%|▏         | 1/50 [00:31<25:27, 31.18s/it][AINFO:root:
+Task 7: pick up the milk and place it in the basket
+INFO:root:Starting task=7 episode=2 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 52
+INFO:root:# successes on this rank: 51 (98.1%)
+
+
+rank2: task7:   4%|▍         | 2/50 [01:23<34:40, 43.34s/it][AINFO:root:
+Task 7: pick up the milk and place it in the basket
+INFO:root:Starting task=7 episode=3 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 53
+INFO:root:# successes on this rank: 52 (98.1%)
+
+
+rank2: task7:   6%|▌         | 3/50 [02:04<33:09, 42.34s/it][AINFO:root:
+Task 7: pick up the milk and place it in the basket
+INFO:root:Starting task=7 episode=4 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 54
+INFO:root:# successes on this rank: 53 (98.1%)
+
+
+rank2: task7:   8%|▊         | 4/50 [02:39<30:22, 39.63s/it][AINFO:root:
+Task 7: pick up the milk and place it in the basket
+INFO:root:Starting task=7 episode=5 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 55
+INFO:root:# successes on this rank: 54 (98.2%)
+
+
+rank2: task7:  10%|█         | 5/50 [03:08<26:55, 35.90s/it][AINFO:root:
+Task 7: pick up the milk and place it in the basket
+INFO:root:Starting task=7 episode=6 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 56
+INFO:root:# successes on this rank: 55 (98.2%)
+
+
+rank2: task7:  12%|█▏        | 6/50 [03:38<24:50, 33.87s/it][AINFO:root:
+Task 7: pick up the milk and place it in the basket
+INFO:root:Starting task=7 episode=7 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 57
+INFO:root:# successes on this rank: 56 (98.2%)
+
+
+rank2: task7:  14%|█▍        | 7/50 [04:14<24:44, 34.53s/it][AINFO:root:
+Task 7: pick up the milk and place it in the basket
+INFO:root:Starting task=7 episode=8 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 58
+INFO:root:# successes on this rank: 57 (98.3%)
+
+
+rank2: task7:  16%|█▌        | 8/50 [04:43<22:52, 32.67s/it][AINFO:root:
+Task 7: pick up the milk and place it in the basket
+INFO:root:Starting task=7 episode=9 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 59
+INFO:root:# successes on this rank: 58 (98.3%)
+
+
+rank2: task7:  18%|█▊        | 9/50 [05:13<21:48, 31.92s/it][AINFO:root:
+Task 7: pick up the milk and place it in the basket
+INFO:root:Starting task=7 episode=10 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 60
+INFO:root:# successes on this rank: 59 (98.3%)
+
+
+rank2: task7:  20%|██        | 10/50 [05:42<20:36, 30.92s/it][AINFO:root:
+Task 7: pick up the milk and place it in the basket
+INFO:root:Starting task=7 episode=11 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 61
+INFO:root:# successes on this rank: 60 (98.4%)
+
+
+rank2: task7:  22%|██▏       | 11/50 [06:15<20:30, 31.55s/it][AINFO:root:
+Task 7: pick up the milk and place it in the basket
+INFO:root:Starting task=7 episode=12 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 62
+INFO:root:# successes on this rank: 61 (98.4%)
+
+
+rank2: task7:  24%|██▍       | 12/50 [06:42<19:08, 30.21s/it][AINFO:root:
+Task 7: pick up the milk and place it in the basket
+INFO:root:Starting task=7 episode=13 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 63
+INFO:root:# successes on this rank: 62 (98.4%)
+
+
+rank2: task7:  26%|██▌       | 13/50 [07:11<18:22, 29.80s/it][AINFO:root:
+Task 7: pick up the milk and place it in the basket
+INFO:root:Starting task=7 episode=14 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 64
+INFO:root:# successes on this rank: 63 (98.4%)
+
+
+rank2: task7:  28%|██▊       | 14/50 [07:46<18:52, 31.47s/it][AINFO:root:
+Task 7: pick up the milk and place it in the basket
+INFO:root:Starting task=7 episode=15 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 65
+INFO:root:# successes on this rank: 64 (98.5%)
+
+
+rank2: task7:  30%|███       | 15/50 [08:18<18:25, 31.60s/it][AINFO:root:
+Task 7: pick up the milk and place it in the basket
+INFO:root:Starting task=7 episode=16 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 66
+INFO:root:# successes on this rank: 65 (98.5%)
+
+
+rank2: task7:  32%|███▏      | 16/50 [08:48<17:32, 30.95s/it][AINFO:root:
+Task 7: pick up the milk and place it in the basket
+INFO:root:Starting task=7 episode=17 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 67
+INFO:root:# successes on this rank: 66 (98.5%)
+
+
+rank2: task7:  34%|███▍      | 17/50 [09:19<17:05, 31.07s/it][AINFO:root:
+Task 7: pick up the milk and place it in the basket
+INFO:root:Starting task=7 episode=18 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 68
+INFO:root:# successes on this rank: 67 (98.5%)
+
+
+rank2: task7:  36%|███▌      | 18/50 [09:51<16:45, 31.42s/it][AINFO:root:
+Task 7: pick up the milk and place it in the basket
+INFO:root:Starting task=7 episode=19 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 69
+INFO:root:# successes on this rank: 68 (98.6%)
+
+
+rank2: task7:  38%|███▊      | 19/50 [10:24<16:22, 31.71s/it][AINFO:root:
+Task 7: pick up the milk and place it in the basket
+INFO:root:Starting task=7 episode=20 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 70
+INFO:root:# successes on this rank: 69 (98.6%)
+
+
+rank2: task7:  40%|████      | 20/50 [10:57<16:05, 32.19s/it][AINFO:root:
+Task 7: pick up the milk and place it in the basket
+INFO:root:Starting task=7 episode=21 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 71
+INFO:root:# successes on this rank: 70 (98.6%)
+
+
+rank2: task7:  42%|████▏     | 21/50 [11:29<15:36, 32.31s/it][AINFO:root:
+Task 7: pick up the milk and place it in the basket
+INFO:root:Starting task=7 episode=22 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 72
+INFO:root:# successes on this rank: 71 (98.6%)
+
+
+rank2: task7:  44%|████▍     | 22/50 [12:01<14:55, 31.99s/it][AINFO:root:
+Task 7: pick up the milk and place it in the basket
+INFO:root:Starting task=7 episode=23 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 73
+INFO:root:# successes on this rank: 72 (98.6%)
+
+
+rank2: task7:  46%|████▌     | 23/50 [12:30<14:03, 31.26s/it][AINFO:root:
+Task 7: pick up the milk and place it in the basket
+INFO:root:Starting task=7 episode=24 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 74
+INFO:root:# successes on this rank: 73 (98.6%)
+
+
+rank2: task7:  48%|████▊     | 24/50 [13:04<13:52, 32.02s/it][AINFO:root:
+Task 7: pick up the milk and place it in the basket
+INFO:root:Starting task=7 episode=25 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 75
+INFO:root:# successes on this rank: 74 (98.7%)
+
+
+rank2: task7:  50%|█████     | 25/50 [13:36<13:16, 31.88s/it][AINFO:root:
+Task 7: pick up the milk and place it in the basket
+INFO:root:Starting task=7 episode=26 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 76
+INFO:root:# successes on this rank: 75 (98.7%)
+
+
+rank2: task7:  52%|█████▏    | 26/50 [14:07<12:38, 31.61s/it][AINFO:root:
+Task 7: pick up the milk and place it in the basket
+INFO:root:Starting task=7 episode=27 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 77
+INFO:root:# successes on this rank: 76 (98.7%)
+
+
+rank2: task7:  54%|█████▍    | 27/50 [14:42<12:30, 32.64s/it][AINFO:root:
+Task 7: pick up the milk and place it in the basket
+INFO:root:Starting task=7 episode=28 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 78
+INFO:root:# successes on this rank: 77 (98.7%)
+
+
+rank2: task7:  56%|█████▌    | 28/50 [15:26<13:13, 36.08s/it][AINFO:root:
+Task 7: pick up the milk and place it in the basket
+INFO:root:Starting task=7 episode=29 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 79
+INFO:root:# successes on this rank: 78 (98.7%)
+
+
+rank2: task7:  58%|█████▊    | 29/50 [16:10<13:31, 38.63s/it][AINFO:root:
+Task 7: pick up the milk and place it in the basket
+INFO:root:Starting task=7 episode=30 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 80
+INFO:root:# successes on this rank: 79 (98.8%)
+
+
+rank2: task7:  60%|██████    | 30/50 [16:45<12:28, 37.45s/it][AINFO:root:
+Task 7: pick up the milk and place it in the basket
+INFO:root:Starting task=7 episode=31 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 81
+INFO:root:# successes on this rank: 80 (98.8%)
+
+
+rank2: task7:  62%|██████▏   | 31/50 [17:19<11:31, 36.37s/it][AINFO:root:
+Task 7: pick up the milk and place it in the basket
+INFO:root:Starting task=7 episode=32 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 82
+INFO:root:# successes on this rank: 81 (98.8%)
+
+
+rank2: task7:  64%|██████▍   | 32/50 [17:51<10:30, 35.04s/it][AINFO:root:
+Task 7: pick up the milk and place it in the basket
+INFO:root:Starting task=7 episode=33 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 83
+INFO:root:# successes on this rank: 82 (98.8%)
+
+
+rank2: task7:  66%|██████▌   | 33/50 [18:29<10:13, 36.07s/it][AINFO:root:
+Task 7: pick up the milk and place it in the basket
+INFO:root:Starting task=7 episode=34 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 84
+INFO:root:# successes on this rank: 83 (98.8%)
+
+
+rank2: task7:  68%|██████▊   | 34/50 [19:03<09:26, 35.38s/it][AINFO:root:
+Task 7: pick up the milk and place it in the basket
+INFO:root:Starting task=7 episode=35 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 85
+INFO:root:# successes on this rank: 84 (98.8%)
+
+
+rank2: task7:  70%|███████   | 35/50 [19:33<08:28, 33.88s/it][AINFO:root:
+Task 7: pick up the milk and place it in the basket
+INFO:root:Starting task=7 episode=36 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 86
+INFO:root:# successes on this rank: 85 (98.8%)
+
+
+rank2: task7:  72%|███████▏  | 36/50 [20:15<08:27, 36.22s/it][AINFO:root:
+Task 7: pick up the milk and place it in the basket
+INFO:root:Starting task=7 episode=37 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 87
+INFO:root:# successes on this rank: 86 (98.9%)
+
+
+rank2: task7:  74%|███████▍  | 37/50 [20:50<07:46, 35.87s/it][AINFO:root:
+Task 7: pick up the milk and place it in the basket
+INFO:root:Starting task=7 episode=38 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 88
+INFO:root:# successes on this rank: 87 (98.9%)
+
+
+rank2: task7:  76%|███████▌  | 38/50 [21:23<06:59, 34.96s/it][AINFO:root:
+Task 7: pick up the milk and place it in the basket
+INFO:root:Starting task=7 episode=39 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 89
+INFO:root:# successes on this rank: 88 (98.9%)
+
+
+rank2: task7:  78%|███████▊  | 39/50 [21:53<06:07, 33.38s/it][AINFO:root:
+Task 7: pick up the milk and place it in the basket
+INFO:root:Starting task=7 episode=40 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 90
+INFO:root:# successes on this rank: 89 (98.9%)
+
+
+rank2: task7:  80%|████████  | 40/50 [22:24<05:26, 32.67s/it][AINFO:root:
+Task 7: pick up the milk and place it in the basket
+INFO:root:Starting task=7 episode=41 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 91
+INFO:root:# successes on this rank: 90 (98.9%)
+
+
+rank2: task7:  82%|████████▏ | 41/50 [23:01<05:07, 34.19s/it][AINFO:root:
+Task 7: pick up the milk and place it in the basket
+INFO:root:Starting task=7 episode=42 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 92
+INFO:root:# successes on this rank: 91 (98.9%)
+
+
+rank2: task7:  84%|████████▍ | 42/50 [23:31<04:23, 32.90s/it][AINFO:root:
+Task 7: pick up the milk and place it in the basket
+INFO:root:Starting task=7 episode=43 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 93
+INFO:root:# successes on this rank: 92 (98.9%)
+
+
+rank2: task7:  86%|████████▌ | 43/50 [24:02<03:45, 32.25s/it][AINFO:root:
+Task 7: pick up the milk and place it in the basket
+INFO:root:Starting task=7 episode=44 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 94
+INFO:root:# successes on this rank: 93 (98.9%)
+
+
+rank2: task7:  88%|████████▊ | 44/50 [24:32<03:09, 31.59s/it][AINFO:root:
+Task 7: pick up the milk and place it in the basket
+INFO:root:Starting task=7 episode=45 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 95
+INFO:root:# successes on this rank: 94 (98.9%)
+
+
+rank2: task7:  90%|█████████ | 45/50 [25:00<02:33, 30.61s/it][AINFO:root:
+Task 7: pick up the milk and place it in the basket
+INFO:root:Starting task=7 episode=46 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 96
+INFO:root:# successes on this rank: 95 (99.0%)
+
+
+rank2: task7:  92%|█████████▏| 46/50 [25:27<01:57, 29.42s/it][AINFO:root:
+Task 7: pick up the milk and place it in the basket
+INFO:root:Starting task=7 episode=47 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 97
+INFO:root:# successes on this rank: 96 (99.0%)
+
+
+rank2: task7:  94%|█████████▍| 47/50 [25:56<01:27, 29.20s/it][AINFO:root:
+Task 7: pick up the milk and place it in the basket
+INFO:root:Starting task=7 episode=48 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 98
+INFO:root:# successes on this rank: 97 (99.0%)
+
+
+rank2: task7:  96%|█████████▌| 48/50 [26:21<00:56, 28.13s/it][AINFO:root:
+Task 7: pick up the milk and place it in the basket
+INFO:root:Starting task=7 episode=49 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 99
+INFO:root:# successes on this rank: 98 (99.0%)
+
+
+rank2: task7:  98%|█████████▊| 49/50 [26:49<00:27, 27.90s/it][AINFO:root:
+Task 7: pick up the milk and place it in the basket
+INFO:root:Starting task=7 episode=50 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 100
+INFO:root:# successes on this rank: 99 (99.0%)
+
+
+rank2: task7: 100%|██████████| 50/50 [27:17<00:00, 27.89s/it][A
+
+                                                             [AINFO:root:Current task success rate on rank 2: 1.0
+INFO:root:Current rank success rate: 0.99
+
+rank2: tasks: 100%|██████████| 2/2 [55:05<00:00, 1650.06s/it]
+rank2: tasks: 100%|██████████| 2/2 [55:05<00:00, 1652.53s/it]
+INFO:root:Rank 2 total success rate: 0.99
+INFO:root:Rank 2 total episodes: 100

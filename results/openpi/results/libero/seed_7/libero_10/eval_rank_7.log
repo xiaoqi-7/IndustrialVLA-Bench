@@ -1,0 +1,364 @@
+INFO:root:Task suite: libero_10
+INFO:root:[Eval Split] rank=7, world_size=8, client=127.0.0.1:8007, task_ids=[7]
+INFO:root:Waiting for policy server at ws://127.0.0.1:8007 ...
+INFO:root:Policy server is reachable at ws://127.0.0.1:8007
+INFO:root:[Rank 7] Connecting to policy server 127.0.0.1:8007
+INFO:root:Waiting for server at ws://127.0.0.1:8007...
+[info] using task orders [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+rank7: tasks:   0%|          | 0/1 [00:00<?, ?it/s]
+rank7: task7:   0%|          | 0/50 [00:00<?, ?it/s][AINFO:root:
+Task 7: put both the alphabet soup and the cream cheese box in the basket
+INFO:root:Starting task=7 episode=1 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 1
+INFO:root:# successes on this rank: 1 (100.0%)
+
+rank7: task7:   2%|▏         | 1/50 [14:04<11:29:50, 844.70s/it][AINFO:root:
+Task 7: put both the alphabet soup and the cream cheese box in the basket
+INFO:root:Starting task=7 episode=2 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 2
+INFO:root:# successes on this rank: 2 (100.0%)
+
+rank7: task7:   4%|▍         | 2/50 [30:32<12:22:59, 928.74s/it][AINFO:root:
+Task 7: put both the alphabet soup and the cream cheese box in the basket
+INFO:root:Starting task=7 episode=3 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 3
+INFO:root:# successes on this rank: 3 (100.0%)
+
+rank7: task7:   6%|▌         | 3/50 [44:59<11:45:31, 900.67s/it][AINFO:root:
+Task 7: put both the alphabet soup and the cream cheese box in the basket
+INFO:root:Starting task=7 episode=4 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 4
+INFO:root:# successes on this rank: 4 (100.0%)
+
+rank7: task7:   8%|▊         | 4/50 [59:12<11:15:56, 881.65s/it][AINFO:root:
+Task 7: put both the alphabet soup and the cream cheese box in the basket
+INFO:root:Starting task=7 episode=5 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 5
+INFO:root:# successes on this rank: 5 (100.0%)
+
+rank7: task7:  10%|█         | 5/50 [1:15:49<11:32:34, 923.44s/it][AINFO:root:
+Task 7: put both the alphabet soup and the cream cheese box in the basket
+INFO:root:Starting task=7 episode=6 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 6
+INFO:root:# successes on this rank: 6 (100.0%)
+
+rank7: task7:  12%|█▏        | 6/50 [1:29:48<10:56:02, 894.61s/it][AINFO:root:
+Task 7: put both the alphabet soup and the cream cheese box in the basket
+INFO:root:Starting task=7 episode=7 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 7
+INFO:root:# successes on this rank: 7 (100.0%)
+
+rank7: task7:  14%|█▍        | 7/50 [1:44:39<10:40:16, 893.40s/it][AINFO:root:
+Task 7: put both the alphabet soup and the cream cheese box in the basket
+INFO:root:Starting task=7 episode=8 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 8
+INFO:root:# successes on this rank: 8 (100.0%)
+
+rank7: task7:  16%|█▌        | 8/50 [2:00:25<10:37:08, 910.21s/it][AINFO:root:
+Task 7: put both the alphabet soup and the cream cheese box in the basket
+INFO:root:Starting task=7 episode=9 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 9
+INFO:root:# successes on this rank: 9 (100.0%)
+
+rank7: task7:  18%|█▊        | 9/50 [2:17:44<10:49:31, 950.53s/it][AINFO:root:
+Task 7: put both the alphabet soup and the cream cheese box in the basket
+INFO:root:Starting task=7 episode=10 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 10
+INFO:root:# successes on this rank: 10 (100.0%)
+
+rank7: task7:  20%|██        | 10/50 [2:30:54<10:00:35, 900.88s/it][AINFO:root:
+Task 7: put both the alphabet soup and the cream cheese box in the basket
+INFO:root:Starting task=7 episode=11 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 11
+INFO:root:# successes on this rank: 11 (100.0%)
+
+rank7: task7:  22%|██▏       | 11/50 [2:47:23<10:03:09, 927.92s/it][AINFO:root:
+Task 7: put both the alphabet soup and the cream cheese box in the basket
+INFO:root:Starting task=7 episode=12 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 12
+INFO:root:# successes on this rank: 12 (100.0%)
+
+rank7: task7:  24%|██▍       | 12/50 [3:02:25<9:42:40, 920.02s/it] [AINFO:root:
+Task 7: put both the alphabet soup and the cream cheese box in the basket
+INFO:root:Starting task=7 episode=13 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 13
+INFO:root:# successes on this rank: 13 (100.0%)
+
+rank7: task7:  26%|██▌       | 13/50 [3:16:40<9:15:12, 900.34s/it][AINFO:root:
+Task 7: put both the alphabet soup and the cream cheese box in the basket
+INFO:root:Starting task=7 episode=14 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 14
+INFO:root:# successes on this rank: 14 (100.0%)
+
+rank7: task7:  28%|██▊       | 14/50 [3:30:15<8:44:46, 874.62s/it][AINFO:root:
+Task 7: put both the alphabet soup and the cream cheese box in the basket
+INFO:root:Starting task=7 episode=15 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 15
+INFO:root:# successes on this rank: 15 (100.0%)
+
+rank7: task7:  30%|███       | 15/50 [3:45:58<8:42:16, 895.34s/it][AINFO:root:
+Task 7: put both the alphabet soup and the cream cheese box in the basket
+INFO:root:Starting task=7 episode=16 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 16
+INFO:root:# successes on this rank: 16 (100.0%)
+
+rank7: task7:  32%|███▏      | 16/50 [3:59:15<8:10:28, 865.53s/it][AINFO:root:
+Task 7: put both the alphabet soup and the cream cheese box in the basket
+INFO:root:Starting task=7 episode=17 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 17
+INFO:root:# successes on this rank: 17 (100.0%)
+
+rank7: task7:  34%|███▍      | 17/50 [4:13:37<7:55:32, 864.62s/it][AINFO:root:
+Task 7: put both the alphabet soup and the cream cheese box in the basket
+INFO:root:Starting task=7 episode=18 ...
+INFO:root:Success: False
+INFO:root:# episodes completed on this rank so far: 18
+INFO:root:# successes on this rank: 17 (94.4%)
+
+rank7: task7:  36%|███▌      | 18/50 [4:42:39<10:01:38, 1128.08s/it][AINFO:root:
+Task 7: put both the alphabet soup and the cream cheese box in the basket
+INFO:root:Starting task=7 episode=19 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 19
+INFO:root:# successes on this rank: 18 (94.7%)
+
+rank7: task7:  38%|███▊      | 19/50 [4:54:37<8:39:17, 1005.07s/it] [AINFO:root:
+Task 7: put both the alphabet soup and the cream cheese box in the basket
+INFO:root:Starting task=7 episode=20 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 20
+INFO:root:# successes on this rank: 19 (95.0%)
+
+rank7: task7:  40%|████      | 20/50 [5:11:46<8:26:02, 1012.08s/it][AINFO:root:
+Task 7: put both the alphabet soup and the cream cheese box in the basket
+INFO:root:Starting task=7 episode=21 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 21
+INFO:root:# successes on this rank: 20 (95.2%)
+
+rank7: task7:  42%|████▏     | 21/50 [5:26:25<7:49:58, 972.38s/it] [AINFO:root:
+Task 7: put both the alphabet soup and the cream cheese box in the basket
+INFO:root:Starting task=7 episode=22 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 22
+INFO:root:# successes on this rank: 21 (95.5%)
+
+rank7: task7:  44%|████▍     | 22/50 [5:39:39<7:08:47, 918.83s/it][AINFO:root:
+Task 7: put both the alphabet soup and the cream cheese box in the basket
+INFO:root:Starting task=7 episode=23 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 23
+INFO:root:# successes on this rank: 22 (95.7%)
+
+rank7: task7:  46%|████▌     | 23/50 [5:54:04<6:46:08, 902.55s/it][AINFO:root:
+Task 7: put both the alphabet soup and the cream cheese box in the basket
+INFO:root:Starting task=7 episode=24 ...
+INFO:root:Success: False
+INFO:root:# episodes completed on this rank so far: 24
+INFO:root:# successes on this rank: 22 (91.7%)
+
+rank7: task7:  48%|████▊     | 24/50 [6:23:09<8:20:41, 1155.43s/it][AINFO:root:
+Task 7: put both the alphabet soup and the cream cheese box in the basket
+INFO:root:Starting task=7 episode=25 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 25
+INFO:root:# successes on this rank: 23 (92.0%)
+
+rank7: task7:  50%|█████     | 25/50 [6:39:41<7:40:56, 1106.27s/it][AINFO:root:
+Task 7: put both the alphabet soup and the cream cheese box in the basket
+INFO:root:Starting task=7 episode=26 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 26
+INFO:root:# successes on this rank: 24 (92.3%)
+
+rank7: task7:  52%|█████▏    | 26/50 [6:55:36<7:04:19, 1060.80s/it][AINFO:root:
+Task 7: put both the alphabet soup and the cream cheese box in the basket
+INFO:root:Starting task=7 episode=27 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 27
+INFO:root:# successes on this rank: 25 (92.6%)
+
+rank7: task7:  54%|█████▍    | 27/50 [7:11:13<6:32:26, 1023.75s/it][AINFO:root:
+Task 7: put both the alphabet soup and the cream cheese box in the basket
+INFO:root:Starting task=7 episode=28 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 28
+INFO:root:# successes on this rank: 26 (92.9%)
+
+rank7: task7:  56%|█████▌    | 28/50 [7:28:29<6:16:43, 1027.45s/it][AINFO:root:
+Task 7: put both the alphabet soup and the cream cheese box in the basket
+INFO:root:Starting task=7 episode=29 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 29
+INFO:root:# successes on this rank: 27 (93.1%)
+
+rank7: task7:  58%|█████▊    | 29/50 [7:44:53<5:55:05, 1014.55s/it][AINFO:root:
+Task 7: put both the alphabet soup and the cream cheese box in the basket
+INFO:root:Starting task=7 episode=30 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 30
+INFO:root:# successes on this rank: 28 (93.3%)
+
+rank7: task7:  60%|██████    | 30/50 [8:01:32<5:36:34, 1009.73s/it][AINFO:root:
+Task 7: put both the alphabet soup and the cream cheese box in the basket
+INFO:root:Starting task=7 episode=31 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 31
+INFO:root:# successes on this rank: 29 (93.5%)
+
+rank7: task7:  62%|██████▏   | 31/50 [8:16:05<5:06:46, 968.79s/it] [AINFO:root:
+Task 7: put both the alphabet soup and the cream cheese box in the basket
+INFO:root:Starting task=7 episode=32 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 32
+INFO:root:# successes on this rank: 30 (93.8%)
+
+rank7: task7:  64%|██████▍   | 32/50 [8:32:29<4:51:58, 973.25s/it][AINFO:root:
+Task 7: put both the alphabet soup and the cream cheese box in the basket
+INFO:root:Starting task=7 episode=33 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 33
+INFO:root:# successes on this rank: 31 (93.9%)
+
+rank7: task7:  66%|██████▌   | 33/50 [8:49:55<4:41:56, 995.09s/it][AINFO:root:
+Task 7: put both the alphabet soup and the cream cheese box in the basket
+INFO:root:Starting task=7 episode=34 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 34
+INFO:root:# successes on this rank: 32 (94.1%)
+
+rank7: task7:  68%|██████▊   | 34/50 [9:10:20<4:43:43, 1063.96s/it][AINFO:root:
+Task 7: put both the alphabet soup and the cream cheese box in the basket
+INFO:root:Starting task=7 episode=35 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 35
+INFO:root:# successes on this rank: 33 (94.3%)
+
+rank7: task7:  70%|███████   | 35/50 [9:26:20<4:18:12, 1032.82s/it][AINFO:root:
+Task 7: put both the alphabet soup and the cream cheese box in the basket
+INFO:root:Starting task=7 episode=36 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 36
+INFO:root:# successes on this rank: 34 (94.4%)
+
+rank7: task7:  72%|███████▏  | 36/50 [9:41:11<3:51:03, 990.26s/it] [AINFO:root:
+Task 7: put both the alphabet soup and the cream cheese box in the basket
+INFO:root:Starting task=7 episode=37 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 37
+INFO:root:# successes on this rank: 35 (94.6%)
+
+rank7: task7:  74%|███████▍  | 37/50 [9:56:12<3:28:47, 963.65s/it][AINFO:root:
+Task 7: put both the alphabet soup and the cream cheese box in the basket
+INFO:root:Starting task=7 episode=38 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 38
+INFO:root:# successes on this rank: 36 (94.7%)
+
+rank7: task7:  76%|███████▌  | 38/50 [10:12:39<3:14:06, 970.55s/it][AINFO:root:
+Task 7: put both the alphabet soup and the cream cheese box in the basket
+INFO:root:Starting task=7 episode=39 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 39
+INFO:root:# successes on this rank: 37 (94.9%)
+
+rank7: task7:  78%|███████▊  | 39/50 [10:27:28<2:53:26, 946.06s/it][AINFO:root:
+Task 7: put both the alphabet soup and the cream cheese box in the basket
+INFO:root:Starting task=7 episode=40 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 40
+INFO:root:# successes on this rank: 38 (95.0%)
+
+rank7: task7:  80%|████████  | 40/50 [10:42:26<2:35:18, 931.81s/it][AINFO:root:
+Task 7: put both the alphabet soup and the cream cheese box in the basket
+INFO:root:Starting task=7 episode=41 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 41
+INFO:root:# successes on this rank: 39 (95.1%)
+
+rank7: task7:  82%|████████▏ | 41/50 [10:56:01<2:14:29, 896.58s/it][AINFO:root:
+Task 7: put both the alphabet soup and the cream cheese box in the basket
+INFO:root:Starting task=7 episode=42 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 42
+INFO:root:# successes on this rank: 40 (95.2%)
+
+rank7: task7:  84%|████████▍ | 42/50 [11:10:59<1:59:37, 897.13s/it][AINFO:root:
+Task 7: put both the alphabet soup and the cream cheese box in the basket
+INFO:root:Starting task=7 episode=43 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 43
+INFO:root:# successes on this rank: 41 (95.3%)
+
+rank7: task7:  86%|████████▌ | 43/50 [11:25:59<1:44:45, 897.91s/it][AINFO:root:
+Task 7: put both the alphabet soup and the cream cheese box in the basket
+INFO:root:Starting task=7 episode=44 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 44
+INFO:root:# successes on this rank: 42 (95.5%)
+
+rank7: task7:  88%|████████▊ | 44/50 [11:39:38<1:27:26, 874.35s/it][AINFO:root:
+Task 7: put both the alphabet soup and the cream cheese box in the basket
+INFO:root:Starting task=7 episode=45 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 45
+INFO:root:# successes on this rank: 43 (95.6%)
+
+rank7: task7:  90%|█████████ | 45/50 [11:51:31<1:08:48, 825.78s/it][AINFO:root:
+Task 7: put both the alphabet soup and the cream cheese box in the basket
+INFO:root:Starting task=7 episode=46 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 46
+INFO:root:# successes on this rank: 44 (95.7%)
+
+rank7: task7:  92%|█████████▏| 46/50 [12:02:20<51:30, 772.72s/it]  [AINFO:root:
+Task 7: put both the alphabet soup and the cream cheese box in the basket
+INFO:root:Starting task=7 episode=47 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 47
+INFO:root:# successes on this rank: 45 (95.7%)
+
+rank7: task7:  94%|█████████▍| 47/50 [12:18:51<41:55, 838.34s/it][AINFO:root:
+Task 7: put both the alphabet soup and the cream cheese box in the basket
+INFO:root:Starting task=7 episode=48 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 48
+INFO:root:# successes on this rank: 46 (95.8%)
+
+rank7: task7:  96%|█████████▌| 48/50 [12:30:14<26:23, 791.69s/it][AINFO:root:
+Task 7: put both the alphabet soup and the cream cheese box in the basket
+INFO:root:Starting task=7 episode=49 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 49
+INFO:root:# successes on this rank: 47 (95.9%)
+
+rank7: task7:  98%|█████████▊| 49/50 [12:38:05<11:35, 695.56s/it][AINFO:root:
+Task 7: put both the alphabet soup and the cream cheese box in the basket
+INFO:root:Starting task=7 episode=50 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 50
+INFO:root:# successes on this rank: 48 (96.0%)
+
+rank7: task7: 100%|██████████| 50/50 [12:45:46<00:00, 625.18s/it][A
+                                                                 [AINFO:root:Current task success rate on rank 7: 0.96
+INFO:root:Current rank success rate: 0.96
+rank7: tasks: 100%|██████████| 1/1 [12:46:03<00:00, 45963.83s/it]rank7: tasks: 100%|██████████| 1/1 [12:46:03<00:00, 45963.83s/it]
+INFO:root:Rank 7 total success rate: 0.96
+INFO:root:Rank 7 total episodes: 50

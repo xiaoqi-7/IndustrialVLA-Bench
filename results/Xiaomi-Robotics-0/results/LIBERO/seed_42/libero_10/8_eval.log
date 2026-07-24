@@ -1,0 +1,260 @@
+/mnt/afs/zhengmingkai/raozf/benchmark/mnt/afs/lixiaoou/intern/linrui/envs/train/xiaomi_libero/lib/python3.10/site-packages/tyro/_parsers.py:353: UserWarning: The field `args.video-out-path` is annotated with type `<class 'str'>`, but the default value `None` has type `<class 'NoneType'>`. We'll try to handle this gracefully, but it may cause unexpected behavior.
+  warnings.warn(message)
+INFO:root:Task suite: libero_10
+[info] using task orders [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+Client connected to server at 0.0.0.0:10088.
+INFO:root:Task_id 8: Episode 1: Success | Current Success Rate: 100.00% (1/1)
+INFO:root:Task_id 8: Episode 2: Success | Current Success Rate: 100.00% (2/2)
+INFO:root:Task_id 8: Episode 3: Success | Current Success Rate: 100.00% (3/3)
+INFO:root:Task_id 8: Episode 4: Success | Current Success Rate: 100.00% (4/4)
+INFO:root:Task_id 8: Episode 5: Success | Current Success Rate: 100.00% (5/5)
+INFO:root:Task_id 8: Episode 6: Success | Current Success Rate: 100.00% (6/6)
+INFO:root:Task_id 8: Episode 7: Success | Current Success Rate: 100.00% (7/7)
+INFO:root:Task_id 8: Episode 8: Success | Current Success Rate: 100.00% (8/8)
+INFO:root:Task_id 8: Episode 9: Failure | Current Success Rate: 88.89% (8/9)
+INFO:root:Task_id 8: Episode 10: Failure | Current Success Rate: 80.00% (8/10)
+INFO:root:Task_id 8: Episode 11: Success | Current Success Rate: 81.82% (9/11)
+INFO:root:Task_id 8: Episode 12: Success | Current Success Rate: 83.33% (10/12)
+INFO:root:Task_id 8: Episode 13: Success | Current Success Rate: 84.62% (11/13)
+INFO:root:Task_id 8: Episode 14: Success | Current Success Rate: 85.71% (12/14)
+INFO:root:Task_id 8: Episode 15: Success | Current Success Rate: 86.67% (13/15)
+INFO:root:Task_id 8: Episode 16: Success | Current Success Rate: 87.50% (14/16)
+INFO:root:Task_id 8: Episode 17: Success | Current Success Rate: 88.24% (15/17)
+INFO:root:Task_id 8: Episode 18: Success | Current Success Rate: 88.89% (16/18)
+INFO:root:Task_id 8: Episode 19: Success | Current Success Rate: 89.47% (17/19)
+INFO:root:Task_id 8: Episode 20: Success | Current Success Rate: 90.00% (18/20)
+INFO:root:Task_id 8: Episode 21: Success | Current Success Rate: 90.48% (19/21)
+INFO:root:Task_id 8: Episode 22: Success | Current Success Rate: 90.91% (20/22)
+INFO:root:Task_id 8: Episode 23: Success | Current Success Rate: 91.30% (21/23)
+INFO:root:Task_id 8: Episode 24: Success | Current Success Rate: 91.67% (22/24)
+INFO:root:Task_id 8: Episode 25: Success | Current Success Rate: 92.00% (23/25)
+INFO:root:Task_id 8: Episode 26: Success | Current Success Rate: 92.31% (24/26)
+INFO:root:Task_id 8: Episode 27: Success | Current Success Rate: 92.59% (25/27)
+INFO:root:Task_id 8: Episode 28: Failure | Current Success Rate: 89.29% (25/28)
+INFO:root:Task_id 8: Episode 29: Success | Current Success Rate: 89.66% (26/29)
+INFO:root:Task_id 8: Episode 30: Success | Current Success Rate: 90.00% (27/30)
+INFO:root:Task_id 8: Episode 31: Success | Current Success Rate: 90.32% (28/31)
+INFO:root:Task_id 8: Episode 32: Success | Current Success Rate: 90.62% (29/32)
+INFO:root:Task_id 8: Episode 33: Success | Current Success Rate: 90.91% (30/33)
+INFO:root:Task_id 8: Episode 34: Success | Current Success Rate: 91.18% (31/34)
+INFO:root:Task_id 8: Episode 35: Success | Current Success Rate: 91.43% (32/35)
+INFO:root:Task_id 8: Episode 36: Success | Current Success Rate: 91.67% (33/36)
+INFO:root:Task_id 8: Episode 37: Success | Current Success Rate: 91.89% (34/37)
+INFO:root:Task_id 8: Episode 38: Success | Current Success Rate: 92.11% (35/38)
+INFO:root:Task_id 8: Episode 39: Success | Current Success Rate: 92.31% (36/39)
+INFO:root:Task_id 8: Episode 40: Success | Current Success Rate: 92.50% (37/40)
+INFO:root:Task_id 8: Episode 41: Success | Current Success Rate: 92.68% (38/41)
+INFO:root:Task_id 8: Episode 42: Success | Current Success Rate: 92.86% (39/42)
+INFO:root:Task_id 8: Episode 43: Success | Current Success Rate: 93.02% (40/43)
+INFO:root:Task_id 8: Episode 44: Success | Current Success Rate: 93.18% (41/44)
+INFO:root:Task_id 8: Episode 45: Success | Current Success Rate: 93.33% (42/45)
+INFO:root:Task_id 8: Episode 46: Success | Current Success Rate: 93.48% (43/46)
+INFO:root:Task_id 8: Episode 47: Failure | Current Success Rate: 91.49% (43/47)
+INFO:root:Task_id 8: Episode 48: Success | Current Success Rate: 91.67% (44/48)
+INFO:root:Task_id 8: Episode 49: Success | Current Success Rate: 91.84% (45/49)
+INFO:root:Task_id 8: Episode 50: Success | Current Success Rate: 92.00% (46/50)
+INFO:root:Task 8 Success Rate: 92.00%
+d MIT-MAGIC-COOKIE-1 keyInvalid MIT-MAGIC-COOKIE-1 keyERROR:root:Error in trial 14: gladLoadGL error
+ERROR:root:Error in trial 15: gladLoadGL error
+Exception ignored in: <function MjRenderContext.__del__ at 0x7f65c5dcacb0>
+Traceback (most recent call last):
+  File "/mnt/afs/zhengmingkai/raozf/benchmark/mnt/afs/lixiaoou/intern/linrui/envs/train/xiaomi_libero/lib/python3.10/site-packages/robosuite/utils/binding_utils.py", line 198, in __del__
+Invalid MIT-MAGIC-COOKIE-1 keyERROR:root:Error in trial 13: gladLoadGL error
+    self.con.free()
+AttributeError: 'MjRenderContextOffscreen' object has no attribute 'con'
+Exception ignored in: <function MjRenderContext.__del__ at 0x7f65c5dcacb0>
+Traceback (most recent call last):
+  File "/mnt/afs/zhengmingkai/raozf/benchmark/mnt/afs/lixiaoou/intern/linrui/envs/train/xiaomi_libero/lib/python3.10/site-packages/robosuite/utils/binding_utils.py", line 198, in __del__
+Invalid MIT-MAGIC-COOKIE-1 keyERROR:root:Error in trial 11: gladLoadGL error
+    self.con.free()
+AttributeError: 'MjRenderContextOffscreen' object has no attribute 'con'
+Exception ignored in: <function MjRenderContext.__del__ at 0x7f65c5dcacb0>
+Traceback (most recent call last):
+  File "/mnt/afs/zhengmingkai/raozf/benchmark/mnt/afs/lixiaoou/intern/linrui/envs/train/xiaomi_libero/lib/python3.10/site-packages/robosuite/utils/binding_utils.py", line 198, in __del__
+    self.con.free()
+AttributeError: 'MjRenderContextOffscreen' object has no attribute 'con'
+Invalid MIT-MAGIC-COOKIE-1 key/mnt/afs/zhengmingkai/raozf/benchmark/mnt/afs/lixiaoou/intern/linrui/envs/train/xiaomi_libero/lib/python3.10/site-packages/glfw/__init__.py:917: GLFWError: (65550) b'X11: Failed to open display :102'
+  warnings.warn(message, GLFWError)
+/mnt/afs/zhengmingkai/raozf/benchmark/mnt/afs/lixiaoou/intern/linrui/envs/train/xiaomi_libero/lib/python3.10/site-packages/glfw/__init__.py:917: GLFWError: (65537) b'The GLFW library is not initialized'
+  warnings.warn(message, GLFWError)
+ERROR:root:Error in trial 8: gladLoadGL error
+Invalid MIT-MAGIC-COOKIE-1 keyInvalid MIT-MAGIC-COOKIE-1 key/mnt/afs/zhengmingkai/raozf/benchmark/mnt/afs/lixiaoou/intern/linrui/envs/train/xiaomi_libero/lib/python3.10/site-packages/glfw/__init__.py:917: GLFWError: (65550) b'X11: Failed to open display :102'
+  warnings.warn(message, GLFWError)
+/mnt/afs/zhengmingkai/raozf/benchmark/mnt/afs/lixiaoou/intern/linrui/envs/train/xiaomi_libero/lib/python3.10/site-packages/glfw/__init__.py:917: GLFWError: (65537) b'The GLFW library is not initialized'
+  warnings.warn(message, GLFWError)
+ERROR:root:Error in trial 7: gladLoadGL error
+/mnt/afs/zhengmingkai/raozf/benchmark/mnt/afs/lixiaoou/intern/linrui/envs/train/xiaomi_libero/lib/python3.10/site-packages/glfw/__init__.py:917: GLFWError: (65550) b'X11: Failed to open display :102'
+  warnings.warn(message, GLFWError)
+/mnt/afs/zhengmingkai/raozf/benchmark/mnt/afs/lixiaoou/intern/linrui/envs/train/xiaomi_libero/lib/python3.10/site-packages/glfw/__init__.py:917: GLFWError: (65537) b'The GLFW library is not initialized'
+  warnings.warn(message, GLFWError)
+ERROR:root:Error in trial 9: gladLoadGL error
+Invalid MIT-MAGIC-COOKIE-1 keyERROR:root:Error in trial 19: gladLoadGL error
+Invalid MIT-MAGIC-COOKIE-1 keyInvalid MIT-MAGIC-COOKIE-1 keyERROR:root:Error in trial 22: gladLoadGL error
+ERROR:root:Error in trial 17: gladLoadGL error
+Invalid MIT-MAGIC-COOKIE-1 keyInvalid MIT-MAGIC-COOKIE-1 keyInvalid MIT-MAGIC-COOKIE-1 keyERROR:root:Error in trial 21: gladLoadGL error
+ERROR:root:Error in trial 16: gladLoadGL error
+ERROR:root:Error in trial 20: gladLoadGL error
+Invalid MIT-MAGIC-COOKIE-1 keyERROR:root:Error in trial 18: gladLoadGL error
+Exception ignored in: <function MjRenderContext.__del__ at 0x7f65c5dcacb0>
+Traceback (most recent call last):
+  File "/mnt/afs/zhengmingkai/raozf/benchmark/mnt/afs/lixiaoou/intern/linrui/envs/train/xiaomi_libero/lib/python3.10/site-packages/robosuite/utils/binding_utils.py", line 198, in __del__
+    self.con.free()
+AttributeError: 'MjRenderContextOffscreen' object has no attribute 'con'
+Exception ignored in: <function MjRenderContext.__del__ at 0x7f65c5dcacb0>
+Traceback (most recent call last):
+  File "/mnt/afs/zhengmingkai/raozf/benchmark/mnt/afs/lixiaoou/intern/linrui/envs/train/xiaomi_libero/lib/python3.10/site-packages/robosuite/utils/binding_utils.py", line 198, in __del__
+    self.con.free()
+AttributeError: 'MjRenderContextOffscreen' object has no attribute 'con'
+Exception ignored in: <function MjRenderContext.__del__ at 0x7f65c5dcacb0>
+Traceback (most recent call last):
+  File "/mnt/afs/zhengmingkai/raozf/benchmark/mnt/afs/lixiaoou/intern/linrui/envs/train/xiaomi_libero/lib/python3.10/site-packages/robosuite/utils/binding_utils.py", line 198, in __del__
+    self.con.free()
+AttributeError: 'MjRenderContextOffscreen' object has no attribute 'con'
+Exception ignored in: <function MjRenderContext.__del__ at 0x7f65c5dcacb0>
+Traceback (most recent call last):
+  File "/mnt/afs/zhengmingkai/raozf/benchmark/mnt/afs/lixiaoou/intern/linrui/envs/train/xiaomi_libero/lib/python3.10/site-packages/robosuite/utils/binding_utils.py", line 198, in __del__
+    self.con.free()
+AttributeError: 'MjRenderContextOffscreen' object has no attribute 'con'
+Exception ignored in: <function MjRenderContext.__del__ at 0x7f65c5dcacb0>
+Traceback (most recent call last):
+  File "/mnt/afs/zhengmingkai/raozf/benchmark/mnt/afs/lixiaoou/intern/linrui/envs/train/xiaomi_libero/lib/python3.10/site-packages/robosuite/utils/binding_utils.py", line 198, in __del__
+Exception ignored in: <function MjRenderContext.__del__ at 0x7f65c5dcacb0>
+Traceback (most recent call last):
+  File "/mnt/afs/zhengmingkai/raozf/benchmark/mnt/afs/lixiaoou/intern/linrui/envs/train/xiaomi_libero/lib/python3.10/site-packages/robosuite/utils/binding_utils.py", line 198, in __del__
+Exception ignored in: <function MjRenderContext.__del__ at 0x7f65c5dcacb0>
+Traceback (most recent call last):
+  File "/mnt/afs/zhengmingkai/raozf/benchmark/mnt/afs/lixiaoou/intern/linrui/envs/train/xiaomi_libero/lib/python3.10/site-packages/robosuite/utils/binding_utils.py", line 198, in __del__
+    self.con.free()
+    self.con.free()
+AttributeError: 'MjRenderContextOffscreen' object has no attribute 'con'
+AttributeError: 'MjRenderContextOffscreen' object has no attribute 'con'
+    self.con.free()
+AttributeError: 'MjRenderContextOffscreen' object has no attribute 'con'
+Exception ignored in: <function MjRenderContext.__del__ at 0x7f65c5dcacb0>
+Traceback (most recent call last):
+  File "/mnt/afs/zhengmingkai/raozf/benchmark/mnt/afs/lixiaoou/intern/linrui/envs/train/xiaomi_libero/lib/python3.10/site-packages/robosuite/utils/binding_utils.py", line 198, in __del__
+Exception ignored in: <function MjRenderContext.__del__ at 0x7f65c5dcacb0>
+Traceback (most recent call last):
+  File "/mnt/afs/zhengmingkai/raozf/benchmark/mnt/afs/lixiaoou/intern/linrui/envs/train/xiaomi_libero/lib/python3.10/site-packages/robosuite/utils/binding_utils.py", line 198, in __del__
+Exception ignored in: <function MjRenderContext.__del__ at 0x7f65c5dcacb0>
+Traceback (most recent call last):
+  File "/mnt/afs/zhengmingkai/raozf/benchmark/mnt/afs/lixiaoou/intern/linrui/envs/train/xiaomi_libero/lib/python3.10/site-packages/robosuite/utils/binding_utils.py", line 198, in __del__
+    self.con.free()
+AttributeError: 'MjRenderContextOffscreen' object has no attribute 'con'
+    self.con.free()
+AttributeError: 'MjRenderContextOffscreen' object has no attribute 'con'
+    self.con.free()
+AttributeError: 'MjRenderContextOffscreen' object has no attribute 'con'
+Exception ignored in: <function MjRenderContext.__del__ at 0x7f65c5dcacb0>
+Traceback (most recent call last):
+  File "/mnt/afs/zhengmingkai/raozf/benchmark/mnt/afs/lixiaoou/intern/linrui/envs/train/xiaomi_libero/lib/python3.10/site-packages/robosuite/utils/binding_utils.py", line 198, in __del__
+Exception ignored in: <function MjRenderContext.__del__ at 0x7f65c5dcacb0>
+Traceback (most recent call last):
+  File "/mnt/afs/zhengmingkai/raozf/benchmark/mnt/afs/lixiaoou/intern/linrui/envs/train/xiaomi_libero/lib/python3.10/site-packages/robosuite/utils/binding_utils.py", line 198, in __del__
+    self.con.free()
+AttributeError: 'MjRenderContextOffscreen' object has no attribute 'con'
+    self.con.free()
+AttributeError: 'MjRenderContextOffscreen' object has no attribute 'con'
+Invalid MIT-MAGIC-COOKIE-1 keyERROR:root:Error in trial 23: gladLoadGL error
+Invalid MIT-MAGIC-COOKIE-1 keyERROR:root:Error in trial 24: gladLoadGL error
+Invalid MIT-MAGIC-COOKIE-1 keyERROR:root:Error in trial 25: gladLoadGL error
+Invalid MIT-MAGIC-COOKIE-1 keyERROR:root:Error in trial 26: gladLoadGL error
+Invalid MIT-MAGIC-COOKIE-1 keyERROR:root:Error in trial 31: gladLoadGL error
+Invalid MIT-MAGIC-COOKIE-1 keyERROR:root:Error in trial 28: gladLoadGL error
+Invalid MIT-MAGIC-COOKIE-1 keyERROR:root:Error in trial 30: gladLoadGL error
+Invalid MIT-MAGIC-COOKIE-1 keyERROR:root:Error in trial 27: gladLoadGL error
+Invalid MIT-MAGIC-COOKIE-1 keyERROR:root:Error in trial 32: gladLoadGL error
+Invalid MIT-MAGIC-COOKIE-1 keyERROR:root:Error in trial 36: gladLoadGL error
+Invalid MIT-MAGIC-COOKIE-1 keyInvalid MIT-MAGIC-COOKIE-1 keyERROR:root:Error in trial 33: gladLoadGL error
+ERROR:root:Error in trial 29: gladLoadGL error
+Exception ignored in: <function MjRenderContext.__del__ at 0x7f65c5dcacb0>
+Traceback (most recent call last):
+  File "/mnt/afs/zhengmingkai/raozf/benchmark/mnt/afs/lixiaoou/intern/linrui/envs/train/xiaomi_libero/lib/python3.10/site-packages/robosuite/utils/binding_utils.py", line 198, in __del__
+    self.con.free()
+AttributeError: 'MjRenderContextOffscreen' object has no attribute 'con'
+Exception ignored in: <function MjRenderContext.__del__ at 0x7f65c5dcacb0>
+Traceback (most recent call last):
+  File "/mnt/afs/zhengmingkai/raozf/benchmark/mnt/afs/lixiaoou/intern/linrui/envs/train/xiaomi_libero/lib/python3.10/site-packages/robosuite/utils/binding_utils.py", line 198, in __del__
+    self.con.free()
+AttributeError: 'MjRenderContextOffscreen' object has no attribute 'con'
+Exception ignored in: <function MjRenderContext.__del__ at 0x7f65c5dcacb0>
+Traceback (most recent call last):
+  File "/mnt/afs/zhengmingkai/raozf/benchmark/mnt/afs/lixiaoou/intern/linrui/envs/train/xiaomi_libero/lib/python3.10/site-packages/robosuite/utils/binding_utils.py", line 198, in __del__
+    self.con.free()
+AttributeError: 'MjRenderContextOffscreen' object has no attribute 'con'
+Invalid MIT-MAGIC-COOKIE-1 keyERROR:root:Error in trial 37: gladLoadGL error
+Exception ignored in: <function MjRenderContext.__del__ at 0x7f65c5dcacb0>
+Traceback (most recent call last):
+  File "/mnt/afs/zhengmingkai/raozf/benchmark/mnt/afs/lixiaoou/intern/linrui/envs/train/xiaomi_libero/lib/python3.10/site-packages/robosuite/utils/binding_utils.py", line 198, in __del__
+Invalid MIT-MAGIC-COOKIE-1 keyInvalid MIT-MAGIC-COOKIE-1 keyERROR:root:Error in trial 35: gladLoadGL error
+ERROR:root:Error in trial 34: gladLoadGL error
+Exception ignored in: <function MjRenderContext.__del__ at 0x7f65c5dcacb0>
+Traceback (most recent call last):
+  File "/mnt/afs/zhengmingkai/raozf/benchmark/mnt/afs/lixiaoou/intern/linrui/envs/train/xiaomi_libero/lib/python3.10/site-packages/robosuite/utils/binding_utils.py", line 198, in __del__
+    self.con.free()
+AttributeError: 'MjRenderContextOffscreen' object has no attribute 'con'
+Exception ignored in: <function MjRenderContext.__del__ at 0x7f65c5dcacb0>
+Traceback (most recent call last):
+  File "/mnt/afs/zhengmingkai/raozf/benchmark/mnt/afs/lixiaoou/intern/linrui/envs/train/xiaomi_libero/lib/python3.10/site-packages/robosuite/utils/binding_utils.py", line 198, in __del__
+    self.con.free()
+AttributeError: 'MjRenderContextOffscreen' object has no attribute 'con'
+Exception ignored in: <function MjRenderContext.__del__ at 0x7f65c5dcacb0>
+Traceback (most recent call last):
+  File "/mnt/afs/zhengmingkai/raozf/benchmark/mnt/afs/lixiaoou/intern/linrui/envs/train/xiaomi_libero/lib/python3.10/site-packages/robosuite/utils/binding_utils.py", line 198, in __del__
+    self.con.free()
+AttributeError: 'MjRenderContextOffscreen' object has no attribute 'con'
+    self.con.free()
+AttributeError: 'MjRenderContextOffscreen' object has no attribute 'con'
+Exception ignored in: <function MjRenderContext.__del__ at 0x7f65c5dcacb0>
+Traceback (most recent call last):
+  File "/mnt/afs/zhengmingkai/raozf/benchmark/mnt/afs/lixiaoou/intern/linrui/envs/train/xiaomi_libero/lib/python3.10/site-packages/robosuite/utils/binding_utils.py", line 198, in __del__
+    self.con.free()
+AttributeError: 'MjRenderContextOffscreen' object has no attribute 'con'
+Exception ignored in: <function MjRenderContext.__del__ at 0x7f65c5dcacb0>
+Traceback (most recent call last):
+  File "/mnt/afs/zhengmingkai/raozf/benchmark/mnt/afs/lixiaoou/intern/linrui/envs/train/xiaomi_libero/lib/python3.10/site-packages/robosuite/utils/binding_utils.py", line 198, in __del__
+    self.con.free()
+AttributeError: 'MjRenderContextOffscreen' object has no attribute 'con'
+Exception ignored in: <function MjRenderContext.__del__ at 0x7f65c5dcacb0>
+Traceback (most recent call last):
+  File "/mnt/afs/zhengmingkai/raozf/benchmark/mnt/afs/lixiaoou/intern/linrui/envs/train/xiaomi_libero/lib/python3.10/site-packages/robosuite/utils/binding_utils.py", line 198, in __del__
+Exception ignored in: <function MjRenderContext.__del__ at 0x7f65c5dcacb0>
+Traceback (most recent call last):
+  File "/mnt/afs/zhengmingkai/raozf/benchmark/mnt/afs/lixiaoou/intern/linrui/envs/train/xiaomi_libero/lib/python3.10/site-packages/robosuite/utils/binding_utils.py", line 198, in __del__
+    self.con.free()
+AttributeError: 'MjRenderContextOffscreen' object has no attribute 'con'
+    self.con.free()
+AttributeError: 'MjRenderContextOffscreen' object has no attribute 'con'
+Exception ignored in: <function MjRenderContext.__del__ at 0x7f65c5dcacb0>
+Traceback (most recent call last):
+  File "/mnt/afs/zhengmingkai/raozf/benchmark/mnt/afs/lixiaoou/intern/linrui/envs/train/xiaomi_libero/lib/python3.10/site-packages/robosuite/utils/binding_utils.py", line 198, in __del__
+Exception ignored in: <function MjRenderContext.__del__ at 0x7f65c5dcacb0>
+Traceback (most recent call last):
+  File "/mnt/afs/zhengmingkai/raozf/benchmark/mnt/afs/lixiaoou/intern/linrui/envs/train/xiaomi_libero/lib/python3.10/site-packages/robosuite/utils/binding_utils.py", line 198, in __del__
+    self.con.free()
+AttributeError: 'MjRenderContextOffscreen' object has no attribute 'con'
+    self.con.free()
+AttributeError: 'MjRenderContextOffscreen' object has no attribute 'con'
+Exception ignored in: <function MjRenderContext.__del__ at 0x7f65c5dcacb0>
+Traceback (most recent call last):
+  File "/mnt/afs/zhengmingkai/raozf/benchmark/mnt/afs/lixiaoou/intern/linrui/envs/train/xiaomi_libero/lib/python3.10/site-packages/robosuite/utils/binding_utils.py", line 198, in __del__
+Exception ignored in: <function MjRenderContext.__del__ at 0x7f65c5dcacb0>
+Traceback (most recent call last):
+  File "/mnt/afs/zhengmingkai/raozf/benchmark/mnt/afs/lixiaoou/intern/linrui/envs/train/xiaomi_libero/lib/python3.10/site-packages/robosuite/utils/binding_utils.py", line 198, in __del__
+    self.con.free()
+AttributeError: 'MjRenderContextOffscreen' object has no attribute 'con'
+    self.con.free()
+AttributeError: 'MjRenderContextOffscreen' object has no attribute 'con'
+Invalid MIT-MAGIC-COOKIE-1 keyERROR:root:Error in trial 38: gladLoadGL error
+Invalid MIT-MAGIC-COOKIE-1 keyInvalid MIT-MAGIC-COOKIE-1 keyInvalid MIT-MAGIC-COOKIE-1 keyERROR:root:Error in trial 41: gladLoadGL error
+ERROR:root:Error in trial 39: gladLoadGL error
+ERROR:root:Error in trial 40: gladLoadGL error
+Invalid MIT-MAGIC-COOKIE-1 keyERROR:root:Error in trial 43: gladLoadGL error
+Invalid MIT-MAGIC-COOKIE-1 keyInvalid MIT-MAGIC-COOKIE-1 keyInvalid MIT-MAGIC-COOKIE-1 keyERROR:root:Error in trial 45: gladLoadGL error
+ERROR:root:Error in trial 46: gladLoadGL error
+ERROR:root:Error in trial 42: gladLoadGL error
+Invalid MIT-MAGIC-COOKIE-1 keyERROR:root:Error in trial 44: gladLoadGL error
+Invalid MIT-MAGIC-COOKIE-1 keyERROR:root:Error in trial 47: gladLoadGL error
+Invalid MIT-MAGIC-COOKIE-1 keyERROR:root:Error in trial 48: gladLoadGL error
+Invalid MIT-MAGIC-COOKIE-1 keyERROR:root:Error in trial 49: gladLoadGL error
+INFO:root:Task 8 Success Rate: 0.00%

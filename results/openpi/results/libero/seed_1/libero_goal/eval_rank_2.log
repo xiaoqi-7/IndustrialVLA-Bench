@@ -1,0 +1,722 @@
+INFO:root:Task suite: libero_goal
+INFO:root:[Eval Split] rank=2, world_size=4, client=127.0.0.1:8002, task_ids=[2, 6]
+INFO:root:Waiting for policy server at ws://127.0.0.1:8002 ...
+INFO:root:Policy server is reachable at ws://127.0.0.1:8002
+INFO:root:[Rank 2] Connecting to policy server 127.0.0.1:8002
+INFO:root:Waiting for server at ws://127.0.0.1:8002...
+[info] using task orders [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+rank2: tasks:   0%|          | 0/2 [00:00<?, ?it/s][Warning]: datasets path /mnt/afs/wuzhongbo/project_teamwork/RoboMemArena/evaluation_benchmark/libero_fork/libero/../datasets does not exist!
+[Warning]: datasets path /mnt/afs/wuzhongbo/project_teamwork/RoboMemArena/evaluation_benchmark/libero_fork/libero/../datasets does not exist!
+
+rank2: task2:   0%|          | 0/50 [00:00<?, ?it/s][AINFO:root:
+Task 2: put the wine bottle on top of the cabinet
+INFO:root:Starting task=2 episode=1 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 1
+INFO:root:# successes on this rank: 1 (100.0%)
+
+rank2: task2:   2%|▏         | 1/50 [05:04<4:09:00, 304.90s/it][AINFO:root:
+Task 2: put the wine bottle on top of the cabinet
+INFO:root:Starting task=2 episode=2 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 2
+INFO:root:# successes on this rank: 2 (100.0%)
+
+rank2: task2:   4%|▍         | 2/50 [10:10<4:04:27, 305.57s/it][AINFO:root:
+Task 2: put the wine bottle on top of the cabinet
+INFO:root:Starting task=2 episode=3 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 3
+INFO:root:# successes on this rank: 3 (100.0%)
+
+rank2: task2:   6%|▌         | 3/50 [15:12<3:58:02, 303.87s/it][AINFO:root:
+Task 2: put the wine bottle on top of the cabinet
+INFO:root:Starting task=2 episode=4 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 4
+INFO:root:# successes on this rank: 4 (100.0%)
+
+rank2: task2:   8%|▊         | 4/50 [20:51<4:03:34, 317.71s/it][AINFO:root:
+Task 2: put the wine bottle on top of the cabinet
+INFO:root:Starting task=2 episode=5 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 5
+INFO:root:# successes on this rank: 5 (100.0%)
+
+rank2: task2:  10%|█         | 5/50 [25:59<3:55:36, 314.15s/it][AINFO:root:
+Task 2: put the wine bottle on top of the cabinet
+INFO:root:Starting task=2 episode=6 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 6
+INFO:root:# successes on this rank: 6 (100.0%)
+
+rank2: task2:  12%|█▏        | 6/50 [31:24<3:52:59, 317.72s/it][AINFO:root:
+Task 2: put the wine bottle on top of the cabinet
+INFO:root:Starting task=2 episode=7 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 7
+INFO:root:# successes on this rank: 7 (100.0%)
+
+rank2: task2:  14%|█▍        | 7/50 [37:28<3:58:39, 333.02s/it][AINFO:root:
+Task 2: put the wine bottle on top of the cabinet
+INFO:root:Starting task=2 episode=8 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 8
+INFO:root:# successes on this rank: 8 (100.0%)
+
+rank2: task2:  16%|█▌        | 8/50 [43:24<3:58:09, 340.23s/it][AINFO:root:
+Task 2: put the wine bottle on top of the cabinet
+INFO:root:Starting task=2 episode=9 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 9
+INFO:root:# successes on this rank: 9 (100.0%)
+
+rank2: task2:  18%|█▊        | 9/50 [48:47<3:48:49, 334.86s/it][AINFO:root:
+Task 2: put the wine bottle on top of the cabinet
+INFO:root:Starting task=2 episode=10 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 10
+INFO:root:# successes on this rank: 10 (100.0%)
+
+rank2: task2:  20%|██        | 10/50 [54:15<3:41:53, 332.83s/it][AINFO:root:
+Task 2: put the wine bottle on top of the cabinet
+INFO:root:Starting task=2 episode=11 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 11
+INFO:root:# successes on this rank: 11 (100.0%)
+
+rank2: task2:  22%|██▏       | 11/50 [1:00:14<3:41:24, 340.63s/it][AINFO:root:
+Task 2: put the wine bottle on top of the cabinet
+INFO:root:Starting task=2 episode=12 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 12
+INFO:root:# successes on this rank: 12 (100.0%)
+
+rank2: task2:  24%|██▍       | 12/50 [1:05:21<3:29:21, 330.57s/it][AINFO:root:
+Task 2: put the wine bottle on top of the cabinet
+INFO:root:Starting task=2 episode=13 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 13
+INFO:root:# successes on this rank: 13 (100.0%)
+
+rank2: task2:  26%|██▌       | 13/50 [1:11:01<3:25:37, 333.43s/it][AINFO:root:
+Task 2: put the wine bottle on top of the cabinet
+INFO:root:Starting task=2 episode=14 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 14
+INFO:root:# successes on this rank: 14 (100.0%)
+
+rank2: task2:  28%|██▊       | 14/50 [1:16:59<3:24:25, 340.70s/it][AINFO:root:
+Task 2: put the wine bottle on top of the cabinet
+INFO:root:Starting task=2 episode=15 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 15
+INFO:root:# successes on this rank: 15 (100.0%)
+
+rank2: task2:  30%|███       | 15/50 [1:22:21<3:15:29, 335.12s/it][AINFO:root:
+Task 2: put the wine bottle on top of the cabinet
+INFO:root:Starting task=2 episode=16 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 16
+INFO:root:# successes on this rank: 16 (100.0%)
+
+rank2: task2:  32%|███▏      | 16/50 [1:27:43<3:07:44, 331.30s/it][AINFO:root:
+Task 2: put the wine bottle on top of the cabinet
+INFO:root:Starting task=2 episode=17 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 17
+INFO:root:# successes on this rank: 17 (100.0%)
+
+rank2: task2:  34%|███▍      | 17/50 [1:33:07<3:01:02, 329.16s/it][AINFO:root:
+Task 2: put the wine bottle on top of the cabinet
+INFO:root:Starting task=2 episode=18 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 18
+INFO:root:# successes on this rank: 18 (100.0%)
+
+rank2: task2:  36%|███▌      | 18/50 [1:39:11<3:01:05, 339.54s/it][AINFO:root:
+Task 2: put the wine bottle on top of the cabinet
+INFO:root:Starting task=2 episode=19 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 19
+INFO:root:# successes on this rank: 19 (100.0%)
+
+rank2: task2:  38%|███▊      | 19/50 [1:44:32<2:52:28, 333.81s/it][AINFO:root:
+Task 2: put the wine bottle on top of the cabinet
+INFO:root:Starting task=2 episode=20 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 20
+INFO:root:# successes on this rank: 20 (100.0%)
+
+rank2: task2:  40%|████      | 20/50 [1:50:28<2:50:18, 340.61s/it][AINFO:root:
+Task 2: put the wine bottle on top of the cabinet
+INFO:root:Starting task=2 episode=21 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 21
+INFO:root:# successes on this rank: 21 (100.0%)
+
+rank2: task2:  42%|████▏     | 21/50 [1:55:54<2:42:26, 336.08s/it][AINFO:root:
+Task 2: put the wine bottle on top of the cabinet
+INFO:root:Starting task=2 episode=22 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 22
+INFO:root:# successes on this rank: 22 (100.0%)
+
+rank2: task2:  44%|████▍     | 22/50 [2:01:17<2:35:02, 332.24s/it][AINFO:root:
+Task 2: put the wine bottle on top of the cabinet
+INFO:root:Starting task=2 episode=23 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 23
+INFO:root:# successes on this rank: 23 (100.0%)
+
+rank2: task2:  46%|████▌     | 23/50 [2:07:27<2:34:40, 343.73s/it][AINFO:root:
+Task 2: put the wine bottle on top of the cabinet
+INFO:root:Starting task=2 episode=24 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 24
+INFO:root:# successes on this rank: 24 (100.0%)
+
+rank2: task2:  48%|████▊     | 24/50 [2:12:34<2:24:04, 332.47s/it][AINFO:root:
+Task 2: put the wine bottle on top of the cabinet
+INFO:root:Starting task=2 episode=25 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 25
+INFO:root:# successes on this rank: 25 (100.0%)
+
+rank2: task2:  50%|█████     | 25/50 [2:18:15<2:19:38, 335.13s/it][AINFO:root:
+Task 2: put the wine bottle on top of the cabinet
+INFO:root:Starting task=2 episode=26 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 26
+INFO:root:# successes on this rank: 26 (100.0%)
+
+rank2: task2:  52%|█████▏    | 26/50 [2:23:41<2:12:57, 332.39s/it][AINFO:root:
+Task 2: put the wine bottle on top of the cabinet
+INFO:root:Starting task=2 episode=27 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 27
+INFO:root:# successes on this rank: 27 (100.0%)
+
+rank2: task2:  54%|█████▍    | 27/50 [2:29:38<2:10:15, 339.79s/it][AINFO:root:
+Task 2: put the wine bottle on top of the cabinet
+INFO:root:Starting task=2 episode=28 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 28
+INFO:root:# successes on this rank: 28 (100.0%)
+
+rank2: task2:  56%|█████▌    | 28/50 [2:35:05<2:03:12, 336.04s/it][AINFO:root:
+Task 2: put the wine bottle on top of the cabinet
+INFO:root:Starting task=2 episode=29 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 29
+INFO:root:# successes on this rank: 29 (100.0%)
+
+rank2: task2:  58%|█████▊    | 29/50 [2:41:55<2:05:20, 358.14s/it][AINFO:root:
+Task 2: put the wine bottle on top of the cabinet
+INFO:root:Starting task=2 episode=30 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 30
+INFO:root:# successes on this rank: 30 (100.0%)
+
+rank2: task2:  60%|██████    | 30/50 [2:47:18<1:55:51, 347.59s/it][AINFO:root:
+Task 2: put the wine bottle on top of the cabinet
+INFO:root:Starting task=2 episode=31 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 31
+INFO:root:# successes on this rank: 31 (100.0%)
+
+rank2: task2:  62%|██████▏   | 31/50 [2:53:00<1:49:31, 345.89s/it][AINFO:root:
+Task 2: put the wine bottle on top of the cabinet
+INFO:root:Starting task=2 episode=32 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 32
+INFO:root:# successes on this rank: 32 (100.0%)
+
+rank2: task2:  64%|██████▍   | 32/50 [2:58:39<1:43:08, 343.83s/it][AINFO:root:
+Task 2: put the wine bottle on top of the cabinet
+INFO:root:Starting task=2 episode=33 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 33
+INFO:root:# successes on this rank: 33 (100.0%)
+
+rank2: task2:  66%|██████▌   | 33/50 [3:04:37<1:38:37, 348.09s/it][AINFO:root:
+Task 2: put the wine bottle on top of the cabinet
+INFO:root:Starting task=2 episode=34 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 34
+INFO:root:# successes on this rank: 34 (100.0%)
+
+rank2: task2:  68%|██████▊   | 34/50 [3:09:47<1:29:44, 336.55s/it][AINFO:root:
+Task 2: put the wine bottle on top of the cabinet
+INFO:root:Starting task=2 episode=35 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 35
+INFO:root:# successes on this rank: 35 (100.0%)
+
+rank2: task2:  70%|███████   | 35/50 [3:15:23<1:24:06, 336.44s/it][AINFO:root:
+Task 2: put the wine bottle on top of the cabinet
+INFO:root:Starting task=2 episode=36 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 36
+INFO:root:# successes on this rank: 36 (100.0%)
+
+rank2: task2:  72%|███████▏  | 36/50 [3:25:35<1:37:47, 419.09s/it][AINFO:root:
+Task 2: put the wine bottle on top of the cabinet
+INFO:root:Starting task=2 episode=37 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 37
+INFO:root:# successes on this rank: 37 (100.0%)
+
+rank2: task2:  74%|███████▍  | 37/50 [3:31:17<1:25:48, 396.04s/it][AINFO:root:
+Task 2: put the wine bottle on top of the cabinet
+INFO:root:Starting task=2 episode=38 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 38
+INFO:root:# successes on this rank: 38 (100.0%)
+
+rank2: task2:  76%|███████▌  | 38/50 [3:37:40<1:18:25, 392.10s/it][AINFO:root:
+Task 2: put the wine bottle on top of the cabinet
+INFO:root:Starting task=2 episode=39 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 39
+INFO:root:# successes on this rank: 39 (100.0%)
+
+rank2: task2:  78%|███████▊  | 39/50 [3:43:08<1:08:21, 372.83s/it][AINFO:root:
+Task 2: put the wine bottle on top of the cabinet
+INFO:root:Starting task=2 episode=40 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 40
+INFO:root:# successes on this rank: 40 (100.0%)
+
+rank2: task2:  80%|████████  | 40/50 [3:48:54<1:00:48, 364.82s/it][AINFO:root:
+Task 2: put the wine bottle on top of the cabinet
+INFO:root:Starting task=2 episode=41 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 41
+INFO:root:# successes on this rank: 41 (100.0%)
+
+rank2: task2:  82%|████████▏ | 41/50 [3:54:03<52:13, 348.21s/it]  [AINFO:root:
+Task 2: put the wine bottle on top of the cabinet
+INFO:root:Starting task=2 episode=42 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 42
+INFO:root:# successes on this rank: 42 (100.0%)
+
+rank2: task2:  84%|████████▍ | 42/50 [3:59:52<46:27, 348.50s/it][AINFO:root:
+Task 2: put the wine bottle on top of the cabinet
+INFO:root:Starting task=2 episode=43 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 43
+INFO:root:# successes on this rank: 43 (100.0%)
+
+rank2: task2:  86%|████████▌ | 43/50 [4:05:36<40:28, 346.99s/it][AINFO:root:
+Task 2: put the wine bottle on top of the cabinet
+INFO:root:Starting task=2 episode=44 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 44
+INFO:root:# successes on this rank: 44 (100.0%)
+
+rank2: task2:  88%|████████▊ | 44/50 [4:12:00<35:48, 358.03s/it][AINFO:root:
+Task 2: put the wine bottle on top of the cabinet
+INFO:root:Starting task=2 episode=45 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 45
+INFO:root:# successes on this rank: 45 (100.0%)
+
+rank2: task2:  90%|█████████ | 45/50 [4:17:41<29:24, 352.88s/it][AINFO:root:
+Task 2: put the wine bottle on top of the cabinet
+INFO:root:Starting task=2 episode=46 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 46
+INFO:root:# successes on this rank: 46 (100.0%)
+
+rank2: task2:  92%|█████████▏| 46/50 [4:23:23<23:18, 349.69s/it][AINFO:root:
+Task 2: put the wine bottle on top of the cabinet
+INFO:root:Starting task=2 episode=47 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 47
+INFO:root:# successes on this rank: 47 (100.0%)
+
+rank2: task2:  94%|█████████▍| 47/50 [4:29:04<17:21, 347.04s/it][AINFO:root:
+Task 2: put the wine bottle on top of the cabinet
+INFO:root:Starting task=2 episode=48 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 48
+INFO:root:# successes on this rank: 48 (100.0%)
+
+rank2: task2:  96%|█████████▌| 48/50 [4:34:30<11:21, 340.77s/it][AINFO:root:
+Task 2: put the wine bottle on top of the cabinet
+INFO:root:Starting task=2 episode=49 ...
+INFO:root:Success: False
+INFO:root:# episodes completed on this rank so far: 49
+INFO:root:# successes on this rank: 48 (98.0%)
+
+rank2: task2:  98%|█████████▊| 49/50 [4:53:40<09:43, 583.67s/it][AINFO:root:
+Task 2: put the wine bottle on top of the cabinet
+INFO:root:Starting task=2 episode=50 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 50
+INFO:root:# successes on this rank: 49 (98.0%)
+
+rank2: task2: 100%|██████████| 50/50 [4:59:54<00:00, 520.74s/it][A
+                                                                [AINFO:root:Current task success rate on rank 2: 0.98
+INFO:root:Current rank success rate: 0.98
+rank2: tasks:  50%|█████     | 1/2 [5:00:00<5:00:00, 18000.43s/it][Warning]: datasets path /mnt/afs/wuzhongbo/project_teamwork/RoboMemArena/evaluation_benchmark/libero_fork/libero/../datasets does not exist!
+[Warning]: datasets path /mnt/afs/wuzhongbo/project_teamwork/RoboMemArena/evaluation_benchmark/libero_fork/libero/../datasets does not exist!
+
+rank2: task6:   0%|          | 0/50 [00:00<?, ?it/s][AINFO:root:
+Task 6: put the cream cheese in the bowl
+INFO:root:Starting task=6 episode=1 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 51
+INFO:root:# successes on this rank: 50 (98.0%)
+
+rank2: task6:   2%|▏         | 1/50 [05:48<4:44:43, 348.65s/it][AINFO:root:
+Task 6: put the cream cheese in the bowl
+INFO:root:Starting task=6 episode=2 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 52
+INFO:root:# successes on this rank: 51 (98.1%)
+
+rank2: task6:   4%|▍         | 2/50 [11:46<4:43:21, 354.20s/it][AINFO:root:
+Task 6: put the cream cheese in the bowl
+INFO:root:Starting task=6 episode=3 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 53
+INFO:root:# successes on this rank: 52 (98.1%)
+
+rank2: task6:   6%|▌         | 3/50 [17:15<4:28:18, 342.52s/it][AINFO:root:
+Task 6: put the cream cheese in the bowl
+INFO:root:Starting task=6 episode=4 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 54
+INFO:root:# successes on this rank: 53 (98.1%)
+
+rank2: task6:   8%|▊         | 4/50 [22:31<4:14:38, 332.13s/it][AINFO:root:
+Task 6: put the cream cheese in the bowl
+INFO:root:Starting task=6 episode=5 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 55
+INFO:root:# successes on this rank: 54 (98.2%)
+
+rank2: task6:  10%|█         | 5/50 [27:41<4:03:13, 324.29s/it][AINFO:root:
+Task 6: put the cream cheese in the bowl
+INFO:root:Starting task=6 episode=6 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 56
+INFO:root:# successes on this rank: 55 (98.2%)
+
+rank2: task6:  12%|█▏        | 6/50 [33:13<3:59:30, 326.60s/it][AINFO:root:
+Task 6: put the cream cheese in the bowl
+INFO:root:Starting task=6 episode=7 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 57
+INFO:root:# successes on this rank: 56 (98.2%)
+
+rank2: task6:  14%|█▍        | 7/50 [38:43<3:55:03, 327.99s/it][AINFO:root:
+Task 6: put the cream cheese in the bowl
+INFO:root:Starting task=6 episode=8 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 58
+INFO:root:# successes on this rank: 57 (98.3%)
+
+rank2: task6:  16%|█▌        | 8/50 [44:20<3:51:30, 330.74s/it][AINFO:root:
+Task 6: put the cream cheese in the bowl
+INFO:root:Starting task=6 episode=9 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 59
+INFO:root:# successes on this rank: 58 (98.3%)
+
+rank2: task6:  18%|█▊        | 9/50 [50:29<3:54:09, 342.66s/it][AINFO:root:
+Task 6: put the cream cheese in the bowl
+INFO:root:Starting task=6 episode=10 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 60
+INFO:root:# successes on this rank: 59 (98.3%)
+
+rank2: task6:  20%|██        | 10/50 [56:19<3:50:02, 345.06s/it][AINFO:root:
+Task 6: put the cream cheese in the bowl
+INFO:root:Starting task=6 episode=11 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 61
+INFO:root:# successes on this rank: 60 (98.4%)
+
+rank2: task6:  22%|██▏       | 11/50 [1:02:27<3:48:52, 352.11s/it][AINFO:root:
+Task 6: put the cream cheese in the bowl
+INFO:root:Starting task=6 episode=12 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 62
+INFO:root:# successes on this rank: 61 (98.4%)
+
+rank2: task6:  24%|██▍       | 12/50 [1:10:51<4:12:08, 398.12s/it][AINFO:root:
+Task 6: put the cream cheese in the bowl
+INFO:root:Starting task=6 episode=13 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 63
+INFO:root:# successes on this rank: 62 (98.4%)
+
+rank2: task6:  26%|██▌       | 13/50 [1:17:01<4:00:17, 389.67s/it][AINFO:root:
+Task 6: put the cream cheese in the bowl
+INFO:root:Starting task=6 episode=14 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 64
+INFO:root:# successes on this rank: 63 (98.4%)
+
+rank2: task6:  28%|██▊       | 14/50 [1:23:32<3:53:59, 389.99s/it][AINFO:root:
+Task 6: put the cream cheese in the bowl
+INFO:root:Starting task=6 episode=15 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 65
+INFO:root:# successes on this rank: 64 (98.5%)
+
+rank2: task6:  30%|███       | 15/50 [1:29:17<3:39:41, 376.63s/it][AINFO:root:
+Task 6: put the cream cheese in the bowl
+INFO:root:Starting task=6 episode=16 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 66
+INFO:root:# successes on this rank: 65 (98.5%)
+
+rank2: task6:  32%|███▏      | 16/50 [1:34:58<3:27:15, 365.75s/it][AINFO:root:
+Task 6: put the cream cheese in the bowl
+INFO:root:Starting task=6 episode=17 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 67
+INFO:root:# successes on this rank: 66 (98.5%)
+
+rank2: task6:  34%|███▍      | 17/50 [1:41:23<3:24:26, 371.72s/it][AINFO:root:
+Task 6: put the cream cheese in the bowl
+INFO:root:Starting task=6 episode=18 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 68
+INFO:root:# successes on this rank: 67 (98.5%)
+
+rank2: task6:  36%|███▌      | 18/50 [1:47:19<3:15:36, 366.78s/it][AINFO:root:
+Task 6: put the cream cheese in the bowl
+INFO:root:Starting task=6 episode=19 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 69
+INFO:root:# successes on this rank: 68 (98.6%)
+
+rank2: task6:  38%|███▊      | 19/50 [1:53:04<3:06:06, 360.20s/it][AINFO:root:
+Task 6: put the cream cheese in the bowl
+INFO:root:Starting task=6 episode=20 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 70
+INFO:root:# successes on this rank: 69 (98.6%)
+
+rank2: task6:  40%|████      | 20/50 [1:59:14<3:01:37, 363.24s/it][AINFO:root:
+Task 6: put the cream cheese in the bowl
+INFO:root:Starting task=6 episode=21 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 71
+INFO:root:# successes on this rank: 70 (98.6%)
+
+rank2: task6:  42%|████▏     | 21/50 [2:05:07<2:54:04, 360.15s/it][AINFO:root:
+Task 6: put the cream cheese in the bowl
+INFO:root:Starting task=6 episode=22 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 72
+INFO:root:# successes on this rank: 71 (98.6%)
+
+rank2: task6:  44%|████▍     | 22/50 [2:11:17<2:49:23, 363.00s/it][AINFO:root:
+Task 6: put the cream cheese in the bowl
+INFO:root:Starting task=6 episode=23 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 73
+INFO:root:# successes on this rank: 72 (98.6%)
+
+rank2: task6:  46%|████▌     | 23/50 [2:16:49<2:39:13, 353.84s/it][AINFO:root:
+Task 6: put the cream cheese in the bowl
+INFO:root:Starting task=6 episode=24 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 74
+INFO:root:# successes on this rank: 73 (98.6%)
+
+rank2: task6:  48%|████▊     | 24/50 [2:22:24<2:30:53, 348.20s/it][AINFO:root:
+Task 6: put the cream cheese in the bowl
+INFO:root:Starting task=6 episode=25 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 75
+INFO:root:# successes on this rank: 74 (98.7%)
+
+rank2: task6:  50%|█████     | 25/50 [2:28:55<2:30:29, 361.16s/it][AINFO:root:
+Task 6: put the cream cheese in the bowl
+INFO:root:Starting task=6 episode=26 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 76
+INFO:root:# successes on this rank: 75 (98.7%)
+
+rank2: task6:  52%|█████▏    | 26/50 [2:35:06<2:25:38, 364.11s/it][AINFO:root:
+Task 6: put the cream cheese in the bowl
+INFO:root:Starting task=6 episode=27 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 77
+INFO:root:# successes on this rank: 76 (98.7%)
+
+rank2: task6:  54%|█████▍    | 27/50 [2:40:54<2:17:38, 359.08s/it][AINFO:root:
+Task 6: put the cream cheese in the bowl
+INFO:root:Starting task=6 episode=28 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 78
+INFO:root:# successes on this rank: 77 (98.7%)
+
+rank2: task6:  56%|█████▌    | 28/50 [2:46:55<2:11:50, 359.58s/it][AINFO:root:
+Task 6: put the cream cheese in the bowl
+INFO:root:Starting task=6 episode=29 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 79
+INFO:root:# successes on this rank: 78 (98.7%)
+
+rank2: task6:  58%|█████▊    | 29/50 [2:52:58<2:06:18, 360.87s/it][AINFO:root:
+Task 6: put the cream cheese in the bowl
+INFO:root:Starting task=6 episode=30 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 80
+INFO:root:# successes on this rank: 79 (98.8%)
+
+rank2: task6:  60%|██████    | 30/50 [3:00:03<2:06:39, 379.96s/it][AINFO:root:
+Task 6: put the cream cheese in the bowl
+INFO:root:Starting task=6 episode=31 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 81
+INFO:root:# successes on this rank: 80 (98.8%)
+
+rank2: task6:  62%|██████▏   | 31/50 [3:05:53<1:57:28, 370.96s/it][AINFO:root:
+Task 6: put the cream cheese in the bowl
+INFO:root:Starting task=6 episode=32 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 82
+INFO:root:# successes on this rank: 81 (98.8%)
+
+rank2: task6:  64%|██████▍   | 32/50 [3:12:03<1:51:12, 370.69s/it][AINFO:root:
+Task 6: put the cream cheese in the bowl
+INFO:root:Starting task=6 episode=33 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 83
+INFO:root:# successes on this rank: 82 (98.8%)
+
+rank2: task6:  66%|██████▌   | 33/50 [3:17:55<1:43:27, 365.14s/it][AINFO:root:
+Task 6: put the cream cheese in the bowl
+INFO:root:Starting task=6 episode=34 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 84
+INFO:root:# successes on this rank: 83 (98.8%)
+
+rank2: task6:  68%|██████▊   | 34/50 [3:24:44<1:40:52, 378.29s/it][AINFO:root:
+Task 6: put the cream cheese in the bowl
+INFO:root:Starting task=6 episode=35 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 85
+INFO:root:# successes on this rank: 84 (98.8%)
+
+rank2: task6:  70%|███████   | 35/50 [3:30:39<1:32:47, 371.15s/it][AINFO:root:
+Task 6: put the cream cheese in the bowl
+INFO:root:Starting task=6 episode=36 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 86
+INFO:root:# successes on this rank: 85 (98.8%)
+
+rank2: task6:  72%|███████▏  | 36/50 [3:36:28<1:25:03, 364.53s/it][AINFO:root:
+Task 6: put the cream cheese in the bowl
+INFO:root:Starting task=6 episode=37 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 87
+INFO:root:# successes on this rank: 86 (98.9%)
+
+rank2: task6:  74%|███████▍  | 37/50 [3:42:41<1:19:34, 367.25s/it][AINFO:root:
+Task 6: put the cream cheese in the bowl
+INFO:root:Starting task=6 episode=38 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 88
+INFO:root:# successes on this rank: 87 (98.9%)
+
+rank2: task6:  76%|███████▌  | 38/50 [3:49:05<1:14:25, 372.16s/it][AINFO:root:
+Task 6: put the cream cheese in the bowl
+INFO:root:Starting task=6 episode=39 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 89
+INFO:root:# successes on this rank: 88 (98.9%)
+
+rank2: task6:  78%|███████▊  | 39/50 [3:54:53<1:06:54, 364.99s/it][AINFO:root:
+Task 6: put the cream cheese in the bowl
+INFO:root:Starting task=6 episode=40 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 90
+INFO:root:# successes on this rank: 89 (98.9%)
+
+rank2: task6:  80%|████████  | 40/50 [4:00:14<58:38, 351.80s/it]  [AINFO:root:
+Task 6: put the cream cheese in the bowl
+INFO:root:Starting task=6 episode=41 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 91
+INFO:root:# successes on this rank: 90 (98.9%)
+
+rank2: task6:  82%|████████▏ | 41/50 [4:06:14<53:08, 354.26s/it][AINFO:root:
+Task 6: put the cream cheese in the bowl
+INFO:root:Starting task=6 episode=42 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 92
+INFO:root:# successes on this rank: 91 (98.9%)
+
+rank2: task6:  84%|████████▍ | 42/50 [4:12:14<47:27, 355.96s/it][AINFO:root:
+Task 6: put the cream cheese in the bowl
+INFO:root:Starting task=6 episode=43 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 93
+INFO:root:# successes on this rank: 92 (98.9%)
+
+rank2: task6:  86%|████████▌ | 43/50 [4:18:16<41:45, 357.89s/it][AINFO:root:
+Task 6: put the cream cheese in the bowl
+INFO:root:Starting task=6 episode=44 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 94
+INFO:root:# successes on this rank: 93 (98.9%)
+
+rank2: task6:  88%|████████▊ | 44/50 [4:23:59<35:19, 353.25s/it][AINFO:root:
+Task 6: put the cream cheese in the bowl
+INFO:root:Starting task=6 episode=45 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 95
+INFO:root:# successes on this rank: 94 (98.9%)
+
+rank2: task6:  90%|█████████ | 45/50 [4:30:01<29:38, 355.80s/it][AINFO:root:
+Task 6: put the cream cheese in the bowl
+INFO:root:Starting task=6 episode=46 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 96
+INFO:root:# successes on this rank: 95 (99.0%)
+
+rank2: task6:  92%|█████████▏| 46/50 [4:35:11<22:48, 342.06s/it][AINFO:root:
+Task 6: put the cream cheese in the bowl
+INFO:root:Starting task=6 episode=47 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 97
+INFO:root:# successes on this rank: 96 (99.0%)
+
+rank2: task6:  94%|█████████▍| 47/50 [4:40:54<17:07, 342.55s/it][AINFO:root:
+Task 6: put the cream cheese in the bowl
+INFO:root:Starting task=6 episode=48 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 98
+INFO:root:# successes on this rank: 97 (99.0%)
+
+rank2: task6:  96%|█████████▌| 48/50 [4:47:12<11:45, 352.98s/it][AINFO:root:
+Task 6: put the cream cheese in the bowl
+INFO:root:Starting task=6 episode=49 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 99
+INFO:root:# successes on this rank: 98 (99.0%)
+
+rank2: task6:  98%|█████████▊| 49/50 [4:52:53<05:49, 349.41s/it][AINFO:root:
+Task 6: put the cream cheese in the bowl
+INFO:root:Starting task=6 episode=50 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 100
+INFO:root:# successes on this rank: 99 (99.0%)
+
+rank2: task6: 100%|██████████| 50/50 [4:59:11<00:00, 358.02s/it][A
+                                                                [AINFO:root:Current task success rate on rank 2: 1.0
+INFO:root:Current rank success rate: 0.99
+rank2: tasks: 100%|██████████| 2/2 [9:59:15<00:00, 17973.57s/it]  rank2: tasks: 100%|██████████| 2/2 [9:59:15<00:00, 17977.60s/it]
+INFO:root:Rank 2 total success rate: 0.99
+INFO:root:Rank 2 total episodes: 100

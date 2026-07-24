@@ -1,0 +1,366 @@
+INFO:root:Task suite: libero_goal
+INFO:root:[Eval Split] rank=6, world_size=4, client=127.0.0.1:8011, task_ids=[6]
+INFO:root:Waiting for policy server at ws://127.0.0.1:8011 ...
+INFO:root:Policy server is reachable at ws://127.0.0.1:8011
+INFO:root:[Rank 6] Connecting to policy server 127.0.0.1:8011
+INFO:root:Waiting for server at ws://127.0.0.1:8011...
+[info] using task orders [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+rank6: tasks:   0%|          | 0/1 [00:00<?, ?it/s][Warning]: datasets path /mnt/afs/wuzhongbo/project_teamwork/RoboMemArena/evaluation_benchmark/libero_fork/libero/../datasets does not exist!
+[Warning]: datasets path /mnt/afs/wuzhongbo/project_teamwork/RoboMemArena/evaluation_benchmark/libero_fork/libero/../datasets does not exist!
+
+rank6: task6:   0%|          | 0/50 [00:00<?, ?it/s][AINFO:root:
+Task 6: put the cream cheese in the bowl
+INFO:root:Starting task=6 episode=1 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 1
+INFO:root:# successes on this rank: 1 (100.0%)
+
+rank6: task6:   2%|▏         | 1/50 [05:53<4:48:24, 353.15s/it][AINFO:root:
+Task 6: put the cream cheese in the bowl
+INFO:root:Starting task=6 episode=2 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 2
+INFO:root:# successes on this rank: 2 (100.0%)
+
+rank6: task6:   4%|▍         | 2/50 [11:59<4:48:39, 360.82s/it][AINFO:root:
+Task 6: put the cream cheese in the bowl
+INFO:root:Starting task=6 episode=3 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 3
+INFO:root:# successes on this rank: 3 (100.0%)
+
+rank6: task6:   6%|▌         | 3/50 [19:31<5:15:11, 402.37s/it][AINFO:root:
+Task 6: put the cream cheese in the bowl
+INFO:root:Starting task=6 episode=4 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 4
+INFO:root:# successes on this rank: 4 (100.0%)
+
+rank6: task6:   8%|▊         | 4/50 [25:36<4:57:18, 387.80s/it][AINFO:root:
+Task 6: put the cream cheese in the bowl
+INFO:root:Starting task=6 episode=5 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 5
+INFO:root:# successes on this rank: 5 (100.0%)
+
+rank6: task6:  10%|█         | 5/50 [31:27<4:40:51, 374.48s/it][AINFO:root:
+Task 6: put the cream cheese in the bowl
+INFO:root:Starting task=6 episode=6 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 6
+INFO:root:# successes on this rank: 6 (100.0%)
+
+rank6: task6:  12%|█▏        | 6/50 [38:28<4:46:09, 390.23s/it][AINFO:root:
+Task 6: put the cream cheese in the bowl
+INFO:root:Starting task=6 episode=7 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 7
+INFO:root:# successes on this rank: 7 (100.0%)
+
+rank6: task6:  14%|█▍        | 7/50 [44:55<4:38:54, 389.18s/it][AINFO:root:
+Task 6: put the cream cheese in the bowl
+INFO:root:Starting task=6 episode=8 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 8
+INFO:root:# successes on this rank: 8 (100.0%)
+
+rank6: task6:  16%|█▌        | 8/50 [51:00<4:27:05, 381.56s/it][AINFO:root:
+Task 6: put the cream cheese in the bowl
+INFO:root:Starting task=6 episode=9 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 9
+INFO:root:# successes on this rank: 9 (100.0%)
+
+rank6: task6:  18%|█▊        | 9/50 [57:34<4:23:18, 385.34s/it][AINFO:root:
+Task 6: put the cream cheese in the bowl
+INFO:root:Starting task=6 episode=10 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 10
+INFO:root:# successes on this rank: 10 (100.0%)
+
+rank6: task6:  20%|██        | 10/50 [1:04:29<4:23:07, 394.70s/it][AINFO:root:
+Task 6: put the cream cheese in the bowl
+INFO:root:Starting task=6 episode=11 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 11
+INFO:root:# successes on this rank: 11 (100.0%)
+
+rank6: task6:  22%|██▏       | 11/50 [1:11:08<4:17:18, 395.85s/it][AINFO:root:
+Task 6: put the cream cheese in the bowl
+INFO:root:Starting task=6 episode=12 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 12
+INFO:root:# successes on this rank: 12 (100.0%)
+
+rank6: task6:  24%|██▍       | 12/50 [1:17:29<4:07:51, 391.35s/it][AINFO:root:
+Task 6: put the cream cheese in the bowl
+INFO:root:Starting task=6 episode=13 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 13
+INFO:root:# successes on this rank: 13 (100.0%)
+
+rank6: task6:  26%|██▌       | 13/50 [1:23:19<3:53:34, 378.76s/it][AINFO:root:
+Task 6: put the cream cheese in the bowl
+INFO:root:Starting task=6 episode=14 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 14
+INFO:root:# successes on this rank: 14 (100.0%)
+
+rank6: task6:  28%|██▊       | 14/50 [1:28:23<3:33:45, 356.26s/it][AINFO:root:
+Task 6: put the cream cheese in the bowl
+INFO:root:Starting task=6 episode=15 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 15
+INFO:root:# successes on this rank: 15 (100.0%)
+
+rank6: task6:  30%|███       | 15/50 [1:33:43<3:21:31, 345.48s/it][AINFO:root:
+Task 6: put the cream cheese in the bowl
+INFO:root:Starting task=6 episode=16 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 16
+INFO:root:# successes on this rank: 16 (100.0%)
+
+rank6: task6:  32%|███▏      | 16/50 [1:38:47<3:08:36, 332.84s/it][AINFO:root:
+Task 6: put the cream cheese in the bowl
+INFO:root:Starting task=6 episode=17 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 17
+INFO:root:# successes on this rank: 17 (100.0%)
+
+rank6: task6:  34%|███▍      | 17/50 [1:44:23<3:03:39, 333.94s/it][AINFO:root:
+Task 6: put the cream cheese in the bowl
+INFO:root:Starting task=6 episode=18 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 18
+INFO:root:# successes on this rank: 18 (100.0%)
+
+rank6: task6:  36%|███▌      | 18/50 [1:50:11<3:00:19, 338.10s/it][AINFO:root:
+Task 6: put the cream cheese in the bowl
+INFO:root:Starting task=6 episode=19 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 19
+INFO:root:# successes on this rank: 19 (100.0%)
+
+rank6: task6:  38%|███▊      | 19/50 [1:55:19<2:49:56, 328.92s/it][AINFO:root:
+Task 6: put the cream cheese in the bowl
+INFO:root:Starting task=6 episode=20 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 20
+INFO:root:# successes on this rank: 20 (100.0%)
+
+rank6: task6:  40%|████      | 20/50 [2:00:09<2:38:38, 317.29s/it][AINFO:root:
+Task 6: put the cream cheese in the bowl
+INFO:root:Starting task=6 episode=21 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 21
+INFO:root:# successes on this rank: 21 (100.0%)
+
+rank6: task6:  42%|████▏     | 21/50 [2:13:29<3:43:23, 462.18s/it][AINFO:root:
+Task 6: put the cream cheese in the bowl
+INFO:root:Starting task=6 episode=22 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 22
+INFO:root:# successes on this rank: 22 (100.0%)
+
+rank6: task6:  44%|████▍     | 22/50 [2:18:35<3:13:48, 415.29s/it][AINFO:root:
+Task 6: put the cream cheese in the bowl
+INFO:root:Starting task=6 episode=23 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 23
+INFO:root:# successes on this rank: 23 (100.0%)
+
+rank6: task6:  46%|████▌     | 23/50 [2:23:58<2:54:24, 387.57s/it][AINFO:root:
+Task 6: put the cream cheese in the bowl
+INFO:root:Starting task=6 episode=24 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 24
+INFO:root:# successes on this rank: 24 (100.0%)
+
+rank6: task6:  48%|████▊     | 24/50 [2:29:24<2:39:55, 369.06s/it][AINFO:root:
+Task 6: put the cream cheese in the bowl
+INFO:root:Starting task=6 episode=25 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 25
+INFO:root:# successes on this rank: 25 (100.0%)
+
+rank6: task6:  50%|█████     | 25/50 [2:35:04<2:30:09, 360.37s/it][AINFO:root:
+Task 6: put the cream cheese in the bowl
+INFO:root:Starting task=6 episode=26 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 26
+INFO:root:# successes on this rank: 26 (100.0%)
+
+rank6: task6:  52%|█████▏    | 26/50 [2:40:08<2:17:26, 343.59s/it][AINFO:root:
+Task 6: put the cream cheese in the bowl
+INFO:root:Starting task=6 episode=27 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 27
+INFO:root:# successes on this rank: 27 (100.0%)
+
+rank6: task6:  54%|█████▍    | 27/50 [2:45:23<2:08:23, 334.95s/it][AINFO:root:
+Task 6: put the cream cheese in the bowl
+INFO:root:Starting task=6 episode=28 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 28
+INFO:root:# successes on this rank: 28 (100.0%)
+
+rank6: task6:  56%|█████▌    | 28/50 [2:51:21<2:05:20, 341.86s/it][AINFO:root:
+Task 6: put the cream cheese in the bowl
+INFO:root:Starting task=6 episode=29 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 29
+INFO:root:# successes on this rank: 29 (100.0%)
+
+rank6: task6:  58%|█████▊    | 29/50 [2:56:45<1:57:45, 336.43s/it][AINFO:root:
+Task 6: put the cream cheese in the bowl
+INFO:root:Starting task=6 episode=30 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 30
+INFO:root:# successes on this rank: 30 (100.0%)
+
+rank6: task6:  60%|██████    | 30/50 [3:02:24<1:52:26, 337.35s/it][AINFO:root:
+Task 6: put the cream cheese in the bowl
+INFO:root:Starting task=6 episode=31 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 31
+INFO:root:# successes on this rank: 31 (100.0%)
+
+rank6: task6:  62%|██████▏   | 31/50 [3:08:04<1:47:03, 338.06s/it][AINFO:root:
+Task 6: put the cream cheese in the bowl
+INFO:root:Starting task=6 episode=32 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 32
+INFO:root:# successes on this rank: 32 (100.0%)
+
+rank6: task6:  64%|██████▍   | 32/50 [3:13:12<1:38:41, 328.95s/it][AINFO:root:
+Task 6: put the cream cheese in the bowl
+INFO:root:Starting task=6 episode=33 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 33
+INFO:root:# successes on this rank: 33 (100.0%)
+
+rank6: task6:  66%|██████▌   | 33/50 [3:18:20<1:31:25, 322.69s/it][AINFO:root:
+Task 6: put the cream cheese in the bowl
+INFO:root:Starting task=6 episode=34 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 34
+INFO:root:# successes on this rank: 34 (100.0%)
+
+rank6: task6:  68%|██████▊   | 34/50 [3:23:22<1:24:23, 316.50s/it][AINFO:root:
+Task 6: put the cream cheese in the bowl
+INFO:root:Starting task=6 episode=35 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 35
+INFO:root:# successes on this rank: 35 (100.0%)
+
+rank6: task6:  70%|███████   | 35/50 [3:28:44<1:19:35, 318.34s/it][AINFO:root:
+Task 6: put the cream cheese in the bowl
+INFO:root:Starting task=6 episode=36 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 36
+INFO:root:# successes on this rank: 36 (100.0%)
+
+rank6: task6:  72%|███████▏  | 36/50 [3:33:53<1:13:35, 315.40s/it][AINFO:root:
+Task 6: put the cream cheese in the bowl
+INFO:root:Starting task=6 episode=37 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 37
+INFO:root:# successes on this rank: 37 (100.0%)
+
+rank6: task6:  74%|███████▍  | 37/50 [3:38:08<1:04:25, 297.36s/it][AINFO:root:
+Task 6: put the cream cheese in the bowl
+INFO:root:Starting task=6 episode=38 ...
+INFO:root:Success: False
+INFO:root:# episodes completed on this rank so far: 38
+INFO:root:# successes on this rank: 37 (97.4%)
+
+rank6: task6:  76%|███████▌  | 38/50 [3:54:42<1:41:16, 506.38s/it][AINFO:root:
+Task 6: put the cream cheese in the bowl
+INFO:root:Starting task=6 episode=39 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 39
+INFO:root:# successes on this rank: 38 (97.4%)
+
+rank6: task6:  78%|███████▊  | 39/50 [3:59:22<1:20:21, 438.32s/it][AINFO:root:
+Task 6: put the cream cheese in the bowl
+INFO:root:Starting task=6 episode=40 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 40
+INFO:root:# successes on this rank: 39 (97.5%)
+
+rank6: task6:  80%|████████  | 40/50 [4:04:08<1:05:25, 392.54s/it][AINFO:root:
+Task 6: put the cream cheese in the bowl
+INFO:root:Starting task=6 episode=41 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 41
+INFO:root:# successes on this rank: 40 (97.6%)
+
+rank6: task6:  82%|████████▏ | 41/50 [4:09:10<54:50, 365.56s/it]  [AINFO:root:
+Task 6: put the cream cheese in the bowl
+INFO:root:Starting task=6 episode=42 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 42
+INFO:root:# successes on this rank: 41 (97.6%)
+
+rank6: task6:  84%|████████▍ | 42/50 [4:14:09<46:04, 345.62s/it][AINFO:root:
+Task 6: put the cream cheese in the bowl
+INFO:root:Starting task=6 episode=43 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 43
+INFO:root:# successes on this rank: 42 (97.7%)
+
+rank6: task6:  86%|████████▌ | 43/50 [4:18:52<38:06, 326.66s/it][AINFO:root:
+Task 6: put the cream cheese in the bowl
+INFO:root:Starting task=6 episode=44 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 44
+INFO:root:# successes on this rank: 43 (97.7%)
+
+rank6: task6:  88%|████████▊ | 44/50 [4:23:47<31:44, 317.37s/it][AINFO:root:
+Task 6: put the cream cheese in the bowl
+INFO:root:Starting task=6 episode=45 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 45
+INFO:root:# successes on this rank: 44 (97.8%)
+
+rank6: task6:  90%|█████████ | 45/50 [4:28:14<25:10, 302.02s/it][AINFO:root:
+Task 6: put the cream cheese in the bowl
+INFO:root:Starting task=6 episode=46 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 46
+INFO:root:# successes on this rank: 45 (97.8%)
+
+rank6: task6:  92%|█████████▏| 46/50 [4:32:45<19:31, 292.89s/it][AINFO:root:
+Task 6: put the cream cheese in the bowl
+INFO:root:Starting task=6 episode=47 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 47
+INFO:root:# successes on this rank: 46 (97.9%)
+
+rank6: task6:  94%|█████████▍| 47/50 [4:37:43<14:43, 294.54s/it][AINFO:root:
+Task 6: put the cream cheese in the bowl
+INFO:root:Starting task=6 episode=48 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 48
+INFO:root:# successes on this rank: 47 (97.9%)
+
+rank6: task6:  96%|█████████▌| 48/50 [4:42:39<09:49, 294.74s/it][AINFO:root:
+Task 6: put the cream cheese in the bowl
+INFO:root:Starting task=6 episode=49 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 49
+INFO:root:# successes on this rank: 48 (98.0%)
+
+rank6: task6:  98%|█████████▊| 49/50 [4:47:48<04:58, 298.99s/it][AINFO:root:
+Task 6: put the cream cheese in the bowl
+INFO:root:Starting task=6 episode=50 ...
+INFO:root:Success: False
+INFO:root:# episodes completed on this rank so far: 50
+INFO:root:# successes on this rank: 48 (96.0%)
+
+rank6: task6: 100%|██████████| 50/50 [5:03:03<00:00, 483.96s/it][A
+                                                                [AINFO:root:Current task success rate on rank 6: 0.96
+INFO:root:Current rank success rate: 0.96
+rank6: tasks: 100%|██████████| 1/1 [5:03:10<00:00, 18190.30s/it]rank6: tasks: 100%|██████████| 1/1 [5:03:10<00:00, 18190.30s/it]
+INFO:root:Rank 6 total success rate: 0.96
+INFO:root:Rank 6 total episodes: 50

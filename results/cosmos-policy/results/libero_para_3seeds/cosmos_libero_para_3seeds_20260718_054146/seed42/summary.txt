@@ -1,0 +1,21 @@
+===== Cosmos Policy LIBERO-Para seed 42 =====
+Tasks: 4092
+Successes: 2892
+Success rate: 70.67%
+
+Per base task:
+  eval0: 87.02% (362/416)
+  eval1: 92.44% (379/410)
+  eval2: 69.70% (283/406)
+  eval3: 100.00% (386/386)
+  eval4: 86.35% (348/403)
+  eval5: 58.54% (240/410)
+  eval6: 32.36% (133/411)
+  eval7: 70.70% (292/413)
+  eval8: 89.60% (379/423)
+  eval9: 21.74% (90/414)
+
+Per paraphrase type:
+  act: 86.44% (752/870)
+  comp: 64.53% (1912/2963)
+  obj: 88.03% (228/259)

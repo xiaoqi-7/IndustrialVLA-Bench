@@ -1,0 +1,722 @@
+INFO:root:Task suite: libero_spatial
+INFO:root:[Eval Split] rank=3, world_size=4, client=127.0.0.1:8003, task_ids=[3, 7]
+INFO:root:Waiting for policy server at ws://127.0.0.1:8003 ...
+INFO:root:Policy server is reachable at ws://127.0.0.1:8003
+INFO:root:[Rank 3] Connecting to policy server 127.0.0.1:8003
+INFO:root:Waiting for server at ws://127.0.0.1:8003...
+[info] using task orders [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+rank3: tasks:   0%|          | 0/2 [00:00<?, ?it/s][Warning]: datasets path /mnt/afs/wuzhongbo/project_teamwork/RoboMemArena/evaluation_benchmark/libero_fork/libero/../datasets does not exist!
+[Warning]: datasets path /mnt/afs/wuzhongbo/project_teamwork/RoboMemArena/evaluation_benchmark/libero_fork/libero/../datasets does not exist!
+
+rank3: task3:   0%|          | 0/50 [00:00<?, ?it/s][AINFO:root:
+Task 3: pick up the black bowl on the cookie box and place it on the plate
+INFO:root:Starting task=3 episode=1 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 1
+INFO:root:# successes on this rank: 1 (100.0%)
+
+rank3: task3:   2%|▏         | 1/50 [05:15<4:17:16, 315.02s/it][AINFO:root:
+Task 3: pick up the black bowl on the cookie box and place it on the plate
+INFO:root:Starting task=3 episode=2 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 2
+INFO:root:# successes on this rank: 2 (100.0%)
+
+rank3: task3:   4%|▍         | 2/50 [10:06<4:00:49, 301.03s/it][AINFO:root:
+Task 3: pick up the black bowl on the cookie box and place it on the plate
+INFO:root:Starting task=3 episode=3 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 3
+INFO:root:# successes on this rank: 3 (100.0%)
+
+rank3: task3:   6%|▌         | 3/50 [14:35<3:44:33, 286.67s/it][AINFO:root:
+Task 3: pick up the black bowl on the cookie box and place it on the plate
+INFO:root:Starting task=3 episode=4 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 4
+INFO:root:# successes on this rank: 4 (100.0%)
+
+rank3: task3:   8%|▊         | 4/50 [19:25<3:40:37, 287.77s/it][AINFO:root:
+Task 3: pick up the black bowl on the cookie box and place it on the plate
+INFO:root:Starting task=3 episode=5 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 5
+INFO:root:# successes on this rank: 5 (100.0%)
+
+rank3: task3:  10%|█         | 5/50 [26:29<4:12:49, 337.10s/it][AINFO:root:
+Task 3: pick up the black bowl on the cookie box and place it on the plate
+INFO:root:Starting task=3 episode=6 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 6
+INFO:root:# successes on this rank: 6 (100.0%)
+
+rank3: task3:  12%|█▏        | 6/50 [31:20<3:55:39, 321.34s/it][AINFO:root:
+Task 3: pick up the black bowl on the cookie box and place it on the plate
+INFO:root:Starting task=3 episode=7 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 7
+INFO:root:# successes on this rank: 7 (100.0%)
+
+rank3: task3:  14%|█▍        | 7/50 [35:52<3:38:38, 305.08s/it][AINFO:root:
+Task 3: pick up the black bowl on the cookie box and place it on the plate
+INFO:root:Starting task=3 episode=8 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 8
+INFO:root:# successes on this rank: 8 (100.0%)
+
+rank3: task3:  16%|█▌        | 8/50 [40:44<3:30:47, 301.14s/it][AINFO:root:
+Task 3: pick up the black bowl on the cookie box and place it on the plate
+INFO:root:Starting task=3 episode=9 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 9
+INFO:root:# successes on this rank: 9 (100.0%)
+
+rank3: task3:  18%|█▊        | 9/50 [46:25<3:34:15, 313.55s/it][AINFO:root:
+Task 3: pick up the black bowl on the cookie box and place it on the plate
+INFO:root:Starting task=3 episode=10 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 10
+INFO:root:# successes on this rank: 10 (100.0%)
+
+rank3: task3:  20%|██        | 10/50 [51:36<3:28:29, 312.74s/it][AINFO:root:
+Task 3: pick up the black bowl on the cookie box and place it on the plate
+INFO:root:Starting task=3 episode=11 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 11
+INFO:root:# successes on this rank: 11 (100.0%)
+
+rank3: task3:  22%|██▏       | 11/50 [56:29<3:19:18, 306.63s/it][AINFO:root:
+Task 3: pick up the black bowl on the cookie box and place it on the plate
+INFO:root:Starting task=3 episode=12 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 12
+INFO:root:# successes on this rank: 12 (100.0%)
+
+rank3: task3:  24%|██▍       | 12/50 [1:01:11<3:09:25, 299.10s/it][AINFO:root:
+Task 3: pick up the black bowl on the cookie box and place it on the plate
+INFO:root:Starting task=3 episode=13 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 13
+INFO:root:# successes on this rank: 13 (100.0%)
+
+rank3: task3:  26%|██▌       | 13/50 [1:05:45<2:59:42, 291.42s/it][AINFO:root:
+Task 3: pick up the black bowl on the cookie box and place it on the plate
+INFO:root:Starting task=3 episode=14 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 14
+INFO:root:# successes on this rank: 14 (100.0%)
+
+rank3: task3:  28%|██▊       | 14/50 [1:10:40<2:55:33, 292.59s/it][AINFO:root:
+Task 3: pick up the black bowl on the cookie box and place it on the plate
+INFO:root:Starting task=3 episode=15 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 15
+INFO:root:# successes on this rank: 15 (100.0%)
+
+rank3: task3:  30%|███       | 15/50 [1:15:36<2:51:19, 293.70s/it][AINFO:root:
+Task 3: pick up the black bowl on the cookie box and place it on the plate
+INFO:root:Starting task=3 episode=16 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 16
+INFO:root:# successes on this rank: 16 (100.0%)
+
+rank3: task3:  32%|███▏      | 16/50 [1:20:10<2:43:06, 287.83s/it][AINFO:root:
+Task 3: pick up the black bowl on the cookie box and place it on the plate
+INFO:root:Starting task=3 episode=17 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 17
+INFO:root:# successes on this rank: 17 (100.0%)
+
+rank3: task3:  34%|███▍      | 17/50 [1:25:06<2:39:31, 290.05s/it][AINFO:root:
+Task 3: pick up the black bowl on the cookie box and place it on the plate
+INFO:root:Starting task=3 episode=18 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 18
+INFO:root:# successes on this rank: 18 (100.0%)
+
+rank3: task3:  36%|███▌      | 18/50 [1:29:59<2:35:18, 291.22s/it][AINFO:root:
+Task 3: pick up the black bowl on the cookie box and place it on the plate
+INFO:root:Starting task=3 episode=19 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 19
+INFO:root:# successes on this rank: 19 (100.0%)
+
+rank3: task3:  38%|███▊      | 19/50 [1:35:13<2:33:54, 297.89s/it][AINFO:root:
+Task 3: pick up the black bowl on the cookie box and place it on the plate
+INFO:root:Starting task=3 episode=20 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 20
+INFO:root:# successes on this rank: 20 (100.0%)
+
+rank3: task3:  40%|████      | 20/50 [1:40:12<2:29:10, 298.36s/it][AINFO:root:
+Task 3: pick up the black bowl on the cookie box and place it on the plate
+INFO:root:Starting task=3 episode=21 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 21
+INFO:root:# successes on this rank: 21 (100.0%)
+
+rank3: task3:  42%|████▏     | 21/50 [1:45:25<2:26:15, 302.60s/it][AINFO:root:
+Task 3: pick up the black bowl on the cookie box and place it on the plate
+INFO:root:Starting task=3 episode=22 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 22
+INFO:root:# successes on this rank: 22 (100.0%)
+
+rank3: task3:  44%|████▍     | 22/50 [1:50:04<2:17:51, 295.42s/it][AINFO:root:
+Task 3: pick up the black bowl on the cookie box and place it on the plate
+INFO:root:Starting task=3 episode=23 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 23
+INFO:root:# successes on this rank: 23 (100.0%)
+
+rank3: task3:  46%|████▌     | 23/50 [1:55:15<2:15:07, 300.28s/it][AINFO:root:
+Task 3: pick up the black bowl on the cookie box and place it on the plate
+INFO:root:Starting task=3 episode=24 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 24
+INFO:root:# successes on this rank: 24 (100.0%)
+
+rank3: task3:  48%|████▊     | 24/50 [2:01:53<2:22:49, 329.58s/it][AINFO:root:
+Task 3: pick up the black bowl on the cookie box and place it on the plate
+INFO:root:Starting task=3 episode=25 ...
+INFO:root:Success: False
+INFO:root:# episodes completed on this rank so far: 25
+INFO:root:# successes on this rank: 24 (96.0%)
+
+rank3: task3:  50%|█████     | 25/50 [2:14:21<3:09:36, 455.04s/it][AINFO:root:
+Task 3: pick up the black bowl on the cookie box and place it on the plate
+INFO:root:Starting task=3 episode=26 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 26
+INFO:root:# successes on this rank: 25 (96.2%)
+
+rank3: task3:  52%|█████▏    | 26/50 [2:19:18<2:43:06, 407.78s/it][AINFO:root:
+Task 3: pick up the black bowl on the cookie box and place it on the plate
+INFO:root:Starting task=3 episode=27 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 27
+INFO:root:# successes on this rank: 26 (96.3%)
+
+rank3: task3:  54%|█████▍    | 27/50 [2:24:06<2:22:32, 371.84s/it][AINFO:root:
+Task 3: pick up the black bowl on the cookie box and place it on the plate
+INFO:root:Starting task=3 episode=28 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 28
+INFO:root:# successes on this rank: 27 (96.4%)
+
+rank3: task3:  56%|█████▌    | 28/50 [2:29:13<2:09:12, 352.41s/it][AINFO:root:
+Task 3: pick up the black bowl on the cookie box and place it on the plate
+INFO:root:Starting task=3 episode=29 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 29
+INFO:root:# successes on this rank: 28 (96.6%)
+
+rank3: task3:  58%|█████▊    | 29/50 [2:34:20<1:58:32, 338.69s/it][AINFO:root:
+Task 3: pick up the black bowl on the cookie box and place it on the plate
+INFO:root:Starting task=3 episode=30 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 30
+INFO:root:# successes on this rank: 29 (96.7%)
+
+rank3: task3:  60%|██████    | 30/50 [2:39:43<1:51:16, 333.82s/it][AINFO:root:
+Task 3: pick up the black bowl on the cookie box and place it on the plate
+INFO:root:Starting task=3 episode=31 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 31
+INFO:root:# successes on this rank: 30 (96.8%)
+
+rank3: task3:  62%|██████▏   | 31/50 [2:45:09<1:44:58, 331.49s/it][AINFO:root:
+Task 3: pick up the black bowl on the cookie box and place it on the plate
+INFO:root:Starting task=3 episode=32 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 32
+INFO:root:# successes on this rank: 31 (96.9%)
+
+rank3: task3:  64%|██████▍   | 32/50 [2:50:46<1:40:01, 333.40s/it][AINFO:root:
+Task 3: pick up the black bowl on the cookie box and place it on the plate
+INFO:root:Starting task=3 episode=33 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 33
+INFO:root:# successes on this rank: 32 (97.0%)
+
+rank3: task3:  66%|██████▌   | 33/50 [2:55:55<1:32:19, 325.85s/it][AINFO:root:
+Task 3: pick up the black bowl on the cookie box and place it on the plate
+INFO:root:Starting task=3 episode=34 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 34
+INFO:root:# successes on this rank: 33 (97.1%)
+
+rank3: task3:  68%|██████▊   | 34/50 [3:01:02<1:25:23, 320.20s/it][AINFO:root:
+Task 3: pick up the black bowl on the cookie box and place it on the plate
+INFO:root:Starting task=3 episode=35 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 35
+INFO:root:# successes on this rank: 34 (97.1%)
+
+rank3: task3:  70%|███████   | 35/50 [3:05:55<1:18:04, 312.27s/it][AINFO:root:
+Task 3: pick up the black bowl on the cookie box and place it on the plate
+INFO:root:Starting task=3 episode=36 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 36
+INFO:root:# successes on this rank: 35 (97.2%)
+
+rank3: task3:  72%|███████▏  | 36/50 [3:10:52<1:11:44, 307.48s/it][AINFO:root:
+Task 3: pick up the black bowl on the cookie box and place it on the plate
+INFO:root:Starting task=3 episode=37 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 37
+INFO:root:# successes on this rank: 36 (97.3%)
+
+rank3: task3:  74%|███████▍  | 37/50 [3:15:25<1:04:25, 297.31s/it][AINFO:root:
+Task 3: pick up the black bowl on the cookie box and place it on the plate
+INFO:root:Starting task=3 episode=38 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 38
+INFO:root:# successes on this rank: 37 (97.4%)
+
+rank3: task3:  76%|███████▌  | 38/50 [3:20:01<58:09, 290.79s/it]  [AINFO:root:
+Task 3: pick up the black bowl on the cookie box and place it on the plate
+INFO:root:Starting task=3 episode=39 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 39
+INFO:root:# successes on this rank: 38 (97.4%)
+
+rank3: task3:  78%|███████▊  | 39/50 [3:24:56<53:34, 292.20s/it][AINFO:root:
+Task 3: pick up the black bowl on the cookie box and place it on the plate
+INFO:root:Starting task=3 episode=40 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 40
+INFO:root:# successes on this rank: 39 (97.5%)
+
+rank3: task3:  80%|████████  | 40/50 [3:29:50<48:46, 292.70s/it][AINFO:root:
+Task 3: pick up the black bowl on the cookie box and place it on the plate
+INFO:root:Starting task=3 episode=41 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 41
+INFO:root:# successes on this rank: 40 (97.6%)
+
+rank3: task3:  82%|████████▏ | 41/50 [3:34:40<43:44, 291.66s/it][AINFO:root:
+Task 3: pick up the black bowl on the cookie box and place it on the plate
+INFO:root:Starting task=3 episode=42 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 42
+INFO:root:# successes on this rank: 41 (97.6%)
+
+rank3: task3:  84%|████████▍ | 42/50 [3:39:36<39:05, 293.13s/it][AINFO:root:
+Task 3: pick up the black bowl on the cookie box and place it on the plate
+INFO:root:Starting task=3 episode=43 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 43
+INFO:root:# successes on this rank: 42 (97.7%)
+
+rank3: task3:  86%|████████▌ | 43/50 [3:44:47<34:48, 298.36s/it][AINFO:root:
+Task 3: pick up the black bowl on the cookie box and place it on the plate
+INFO:root:Starting task=3 episode=44 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 44
+INFO:root:# successes on this rank: 43 (97.7%)
+
+rank3: task3:  88%|████████▊ | 44/50 [3:49:42<29:45, 297.54s/it][AINFO:root:
+Task 3: pick up the black bowl on the cookie box and place it on the plate
+INFO:root:Starting task=3 episode=45 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 45
+INFO:root:# successes on this rank: 44 (97.8%)
+
+rank3: task3:  90%|█████████ | 45/50 [3:54:37<24:42, 296.58s/it][AINFO:root:
+Task 3: pick up the black bowl on the cookie box and place it on the plate
+INFO:root:Starting task=3 episode=46 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 46
+INFO:root:# successes on this rank: 45 (97.8%)
+
+rank3: task3:  92%|█████████▏| 46/50 [3:59:32<19:44, 296.23s/it][AINFO:root:
+Task 3: pick up the black bowl on the cookie box and place it on the plate
+INFO:root:Starting task=3 episode=47 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 47
+INFO:root:# successes on this rank: 46 (97.9%)
+
+rank3: task3:  94%|█████████▍| 47/50 [4:04:24<14:44, 294.87s/it][AINFO:root:
+Task 3: pick up the black bowl on the cookie box and place it on the plate
+INFO:root:Starting task=3 episode=48 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 48
+INFO:root:# successes on this rank: 47 (97.9%)
+
+rank3: task3:  96%|█████████▌| 48/50 [4:09:16<09:48, 294.21s/it][AINFO:root:
+Task 3: pick up the black bowl on the cookie box and place it on the plate
+INFO:root:Starting task=3 episode=49 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 49
+INFO:root:# successes on this rank: 48 (98.0%)
+
+rank3: task3:  98%|█████████▊| 49/50 [4:14:12<04:54, 294.59s/it][AINFO:root:
+Task 3: pick up the black bowl on the cookie box and place it on the plate
+INFO:root:Starting task=3 episode=50 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 50
+INFO:root:# successes on this rank: 49 (98.0%)
+
+rank3: task3: 100%|██████████| 50/50 [4:19:20<00:00, 298.66s/it][A
+                                                                [AINFO:root:Current task success rate on rank 3: 0.98
+INFO:root:Current rank success rate: 0.98
+rank3: tasks:  50%|█████     | 1/2 [4:19:26<4:19:26, 15566.04s/it][Warning]: datasets path /mnt/afs/wuzhongbo/project_teamwork/RoboMemArena/evaluation_benchmark/libero_fork/libero/../datasets does not exist!
+[Warning]: datasets path /mnt/afs/wuzhongbo/project_teamwork/RoboMemArena/evaluation_benchmark/libero_fork/libero/../datasets does not exist!
+
+rank3: task7:   0%|          | 0/50 [00:00<?, ?it/s][AINFO:root:
+Task 7: pick up the black bowl on the stove and place it on the plate
+INFO:root:Starting task=7 episode=1 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 51
+INFO:root:# successes on this rank: 50 (98.0%)
+
+rank3: task7:   2%|▏         | 1/50 [06:36<5:23:59, 396.73s/it][AINFO:root:
+Task 7: pick up the black bowl on the stove and place it on the plate
+INFO:root:Starting task=7 episode=2 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 52
+INFO:root:# successes on this rank: 51 (98.1%)
+
+rank3: task7:   4%|▍         | 2/50 [13:19<5:20:08, 400.18s/it][AINFO:root:
+Task 7: pick up the black bowl on the stove and place it on the plate
+INFO:root:Starting task=7 episode=3 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 53
+INFO:root:# successes on this rank: 52 (98.1%)
+
+rank3: task7:   6%|▌         | 3/50 [20:41<5:28:21, 419.18s/it][AINFO:root:
+Task 7: pick up the black bowl on the stove and place it on the plate
+INFO:root:Starting task=7 episode=4 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 54
+INFO:root:# successes on this rank: 53 (98.1%)
+
+rank3: task7:   8%|▊         | 4/50 [27:53<5:25:15, 424.25s/it][AINFO:root:
+Task 7: pick up the black bowl on the stove and place it on the plate
+INFO:root:Starting task=7 episode=5 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 55
+INFO:root:# successes on this rank: 54 (98.2%)
+
+rank3: task7:  10%|█         | 5/50 [34:44<5:14:39, 419.54s/it][AINFO:root:
+Task 7: pick up the black bowl on the stove and place it on the plate
+INFO:root:Starting task=7 episode=6 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 56
+INFO:root:# successes on this rank: 55 (98.2%)
+
+rank3: task7:  12%|█▏        | 6/50 [41:22<5:02:24, 412.38s/it][AINFO:root:
+Task 7: pick up the black bowl on the stove and place it on the plate
+INFO:root:Starting task=7 episode=7 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 57
+INFO:root:# successes on this rank: 56 (98.2%)
+
+rank3: task7:  14%|█▍        | 7/50 [47:55<4:50:55, 405.94s/it][AINFO:root:
+Task 7: pick up the black bowl on the stove and place it on the plate
+INFO:root:Starting task=7 episode=8 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 58
+INFO:root:# successes on this rank: 57 (98.3%)
+
+rank3: task7:  16%|█▌        | 8/50 [55:05<4:49:24, 413.45s/it][AINFO:root:
+Task 7: pick up the black bowl on the stove and place it on the plate
+INFO:root:Starting task=7 episode=9 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 59
+INFO:root:# successes on this rank: 58 (98.3%)
+
+rank3: task7:  18%|█▊        | 9/50 [1:02:36<4:50:36, 425.27s/it][AINFO:root:
+Task 7: pick up the black bowl on the stove and place it on the plate
+INFO:root:Starting task=7 episode=10 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 60
+INFO:root:# successes on this rank: 59 (98.3%)
+
+rank3: task7:  20%|██        | 10/50 [1:09:28<4:40:53, 421.35s/it][AINFO:root:
+Task 7: pick up the black bowl on the stove and place it on the plate
+INFO:root:Starting task=7 episode=11 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 61
+INFO:root:# successes on this rank: 60 (98.4%)
+
+rank3: task7:  22%|██▏       | 11/50 [1:16:50<4:37:53, 427.53s/it][AINFO:root:
+Task 7: pick up the black bowl on the stove and place it on the plate
+INFO:root:Starting task=7 episode=12 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 62
+INFO:root:# successes on this rank: 61 (98.4%)
+
+rank3: task7:  24%|██▍       | 12/50 [1:25:07<4:44:12, 448.75s/it][AINFO:root:
+Task 7: pick up the black bowl on the stove and place it on the plate
+INFO:root:Starting task=7 episode=13 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 63
+INFO:root:# successes on this rank: 62 (98.4%)
+
+rank3: task7:  26%|██▌       | 13/50 [1:31:59<4:29:45, 437.46s/it][AINFO:root:
+Task 7: pick up the black bowl on the stove and place it on the plate
+INFO:root:Starting task=7 episode=14 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 64
+INFO:root:# successes on this rank: 63 (98.4%)
+
+rank3: task7:  28%|██▊       | 14/50 [1:39:20<4:23:15, 438.78s/it][AINFO:root:
+Task 7: pick up the black bowl on the stove and place it on the plate
+INFO:root:Starting task=7 episode=15 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 65
+INFO:root:# successes on this rank: 64 (98.5%)
+
+rank3: task7:  30%|███       | 15/50 [1:46:46<4:17:07, 440.78s/it][AINFO:root:
+Task 7: pick up the black bowl on the stove and place it on the plate
+INFO:root:Starting task=7 episode=16 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 66
+INFO:root:# successes on this rank: 65 (98.5%)
+
+rank3: task7:  32%|███▏      | 16/50 [1:53:33<4:04:02, 430.66s/it][AINFO:root:
+Task 7: pick up the black bowl on the stove and place it on the plate
+INFO:root:Starting task=7 episode=17 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 67
+INFO:root:# successes on this rank: 66 (98.5%)
+
+rank3: task7:  34%|███▍      | 17/50 [1:59:49<3:47:45, 414.10s/it][AINFO:root:
+Task 7: pick up the black bowl on the stove and place it on the plate
+INFO:root:Starting task=7 episode=18 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 68
+INFO:root:# successes on this rank: 67 (98.5%)
+
+rank3: task7:  36%|███▌      | 18/50 [2:07:54<3:52:20, 435.63s/it][AINFO:root:
+Task 7: pick up the black bowl on the stove and place it on the plate
+INFO:root:Starting task=7 episode=19 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 69
+INFO:root:# successes on this rank: 68 (98.6%)
+
+rank3: task7:  38%|███▊      | 19/50 [2:14:08<3:35:25, 416.94s/it][AINFO:root:
+Task 7: pick up the black bowl on the stove and place it on the plate
+INFO:root:Starting task=7 episode=20 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 70
+INFO:root:# successes on this rank: 69 (98.6%)
+
+rank3: task7:  40%|████      | 20/50 [2:19:47<3:16:47, 393.59s/it][AINFO:root:
+Task 7: pick up the black bowl on the stove and place it on the plate
+INFO:root:Starting task=7 episode=21 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 71
+INFO:root:# successes on this rank: 70 (98.6%)
+
+rank3: task7:  42%|████▏     | 21/50 [2:25:49<3:05:42, 384.22s/it][AINFO:root:
+Task 7: pick up the black bowl on the stove and place it on the plate
+INFO:root:Starting task=7 episode=22 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 72
+INFO:root:# successes on this rank: 71 (98.6%)
+
+rank3: task7:  44%|████▍     | 22/50 [2:32:15<2:59:30, 384.64s/it][AINFO:root:
+Task 7: pick up the black bowl on the stove and place it on the plate
+INFO:root:Starting task=7 episode=23 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 73
+INFO:root:# successes on this rank: 72 (98.6%)
+
+rank3: task7:  46%|████▌     | 23/50 [2:38:14<2:49:34, 376.83s/it][AINFO:root:
+Task 7: pick up the black bowl on the stove and place it on the plate
+INFO:root:Starting task=7 episode=24 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 74
+INFO:root:# successes on this rank: 73 (98.6%)
+
+rank3: task7:  48%|████▊     | 24/50 [2:44:41<2:44:36, 379.88s/it][AINFO:root:
+Task 7: pick up the black bowl on the stove and place it on the plate
+INFO:root:Starting task=7 episode=25 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 75
+INFO:root:# successes on this rank: 74 (98.7%)
+
+rank3: task7:  50%|█████     | 25/50 [2:50:02<2:30:57, 362.29s/it][AINFO:root:
+Task 7: pick up the black bowl on the stove and place it on the plate
+INFO:root:Starting task=7 episode=26 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 76
+INFO:root:# successes on this rank: 75 (98.7%)
+
+rank3: task7:  52%|█████▏    | 26/50 [2:55:51<2:23:22, 358.43s/it][AINFO:root:
+Task 7: pick up the black bowl on the stove and place it on the plate
+INFO:root:Starting task=7 episode=27 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 77
+INFO:root:# successes on this rank: 76 (98.7%)
+
+rank3: task7:  54%|█████▍    | 27/50 [3:01:12<2:13:02, 347.05s/it][AINFO:root:
+Task 7: pick up the black bowl on the stove and place it on the plate
+INFO:root:Starting task=7 episode=28 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 78
+INFO:root:# successes on this rank: 77 (98.7%)
+
+rank3: task7:  56%|█████▌    | 28/50 [3:07:22<2:09:50, 354.11s/it][AINFO:root:
+Task 7: pick up the black bowl on the stove and place it on the plate
+INFO:root:Starting task=7 episode=29 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 79
+INFO:root:# successes on this rank: 78 (98.7%)
+
+rank3: task7:  58%|█████▊    | 29/50 [3:13:13<2:03:34, 353.07s/it][AINFO:root:
+Task 7: pick up the black bowl on the stove and place it on the plate
+INFO:root:Starting task=7 episode=30 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 80
+INFO:root:# successes on this rank: 79 (98.8%)
+
+rank3: task7:  60%|██████    | 30/50 [3:19:04<1:57:29, 352.47s/it][AINFO:root:
+Task 7: pick up the black bowl on the stove and place it on the plate
+INFO:root:Starting task=7 episode=31 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 81
+INFO:root:# successes on this rank: 80 (98.8%)
+
+rank3: task7:  62%|██████▏   | 31/50 [3:24:15<1:47:42, 340.12s/it][AINFO:root:
+Task 7: pick up the black bowl on the stove and place it on the plate
+INFO:root:Starting task=7 episode=32 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 82
+INFO:root:# successes on this rank: 81 (98.8%)
+
+rank3: task7:  64%|██████▍   | 32/50 [3:30:21<1:44:17, 347.66s/it][AINFO:root:
+Task 7: pick up the black bowl on the stove and place it on the plate
+INFO:root:Starting task=7 episode=33 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 83
+INFO:root:# successes on this rank: 82 (98.8%)
+
+rank3: task7:  66%|██████▌   | 33/50 [3:37:31<1:45:32, 372.47s/it][AINFO:root:
+Task 7: pick up the black bowl on the stove and place it on the plate
+INFO:root:Starting task=7 episode=34 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 84
+INFO:root:# successes on this rank: 83 (98.8%)
+
+rank3: task7:  68%|██████▊   | 34/50 [3:43:24<1:37:46, 366.67s/it][AINFO:root:
+Task 7: pick up the black bowl on the stove and place it on the plate
+INFO:root:Starting task=7 episode=35 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 85
+INFO:root:# successes on this rank: 84 (98.8%)
+
+rank3: task7:  70%|███████   | 35/50 [3:49:22<1:31:00, 364.02s/it][AINFO:root:
+Task 7: pick up the black bowl on the stove and place it on the plate
+INFO:root:Starting task=7 episode=36 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 86
+INFO:root:# successes on this rank: 85 (98.8%)
+
+rank3: task7:  72%|███████▏  | 36/50 [3:55:04<1:23:22, 357.33s/it][AINFO:root:
+Task 7: pick up the black bowl on the stove and place it on the plate
+INFO:root:Starting task=7 episode=37 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 87
+INFO:root:# successes on this rank: 86 (98.9%)
+
+rank3: task7:  74%|███████▍  | 37/50 [4:00:49<1:16:38, 353.70s/it][AINFO:root:
+Task 7: pick up the black bowl on the stove and place it on the plate
+INFO:root:Starting task=7 episode=38 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 88
+INFO:root:# successes on this rank: 87 (98.9%)
+
+rank3: task7:  76%|███████▌  | 38/50 [4:06:36<1:10:19, 351.64s/it][AINFO:root:
+Task 7: pick up the black bowl on the stove and place it on the plate
+INFO:root:Starting task=7 episode=39 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 89
+INFO:root:# successes on this rank: 88 (98.9%)
+
+rank3: task7:  78%|███████▊  | 39/50 [4:12:03<1:03:08, 344.41s/it][AINFO:root:
+Task 7: pick up the black bowl on the stove and place it on the plate
+INFO:root:Starting task=7 episode=40 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 90
+INFO:root:# successes on this rank: 89 (98.9%)
+
+rank3: task7:  80%|████████  | 40/50 [4:17:19<55:58, 335.88s/it]  [AINFO:root:
+Task 7: pick up the black bowl on the stove and place it on the plate
+INFO:root:Starting task=7 episode=41 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 91
+INFO:root:# successes on this rank: 90 (98.9%)
+
+rank3: task7:  82%|████████▏ | 41/50 [4:23:02<50:42, 338.05s/it][AINFO:root:
+Task 7: pick up the black bowl on the stove and place it on the plate
+INFO:root:Starting task=7 episode=42 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 92
+INFO:root:# successes on this rank: 91 (98.9%)
+
+rank3: task7:  84%|████████▍ | 42/50 [4:31:57<52:56, 397.05s/it][AINFO:root:
+Task 7: pick up the black bowl on the stove and place it on the plate
+INFO:root:Starting task=7 episode=43 ...
+INFO:root:Success: False
+INFO:root:# episodes completed on this rank so far: 93
+INFO:root:# successes on this rank: 91 (97.8%)
+
+rank3: task7:  86%|████████▌ | 43/50 [4:42:15<54:03, 463.37s/it][AINFO:root:
+Task 7: pick up the black bowl on the stove and place it on the plate
+INFO:root:Starting task=7 episode=44 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 94
+INFO:root:# successes on this rank: 92 (97.9%)
+
+rank3: task7:  88%|████████▊ | 44/50 [4:47:57<42:41, 426.86s/it][AINFO:root:
+Task 7: pick up the black bowl on the stove and place it on the plate
+INFO:root:Starting task=7 episode=45 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 95
+INFO:root:# successes on this rank: 93 (97.9%)
+
+rank3: task7:  90%|█████████ | 45/50 [4:53:42<33:31, 402.31s/it][AINFO:root:
+Task 7: pick up the black bowl on the stove and place it on the plate
+INFO:root:Starting task=7 episode=46 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 96
+INFO:root:# successes on this rank: 94 (97.9%)
+
+rank3: task7:  92%|█████████▏| 46/50 [4:59:12<25:22, 380.57s/it][AINFO:root:
+Task 7: pick up the black bowl on the stove and place it on the plate
+INFO:root:Starting task=7 episode=47 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 97
+INFO:root:# successes on this rank: 95 (97.9%)
+
+rank3: task7:  94%|█████████▍| 47/50 [5:05:19<18:49, 376.44s/it][AINFO:root:
+Task 7: pick up the black bowl on the stove and place it on the plate
+INFO:root:Starting task=7 episode=48 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 98
+INFO:root:# successes on this rank: 96 (98.0%)
+
+rank3: task7:  96%|█████████▌| 48/50 [5:10:20<11:47, 353.86s/it][AINFO:root:
+Task 7: pick up the black bowl on the stove and place it on the plate
+INFO:root:Starting task=7 episode=49 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 99
+INFO:root:# successes on this rank: 97 (98.0%)
+
+rank3: task7:  98%|█████████▊| 49/50 [5:15:23<05:38, 338.58s/it][AINFO:root:
+Task 7: pick up the black bowl on the stove and place it on the plate
+INFO:root:Starting task=7 episode=50 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 100
+INFO:root:# successes on this rank: 98 (98.0%)
+
+rank3: task7: 100%|██████████| 50/50 [5:20:48<00:00, 334.51s/it][A
+                                                                [AINFO:root:Current task success rate on rank 3: 0.98
+INFO:root:Current rank success rate: 0.98
+rank3: tasks: 100%|██████████| 2/2 [9:40:17<00:00, 17733.97s/it]  rank3: tasks: 100%|██████████| 2/2 [9:40:17<00:00, 17408.78s/it]
+INFO:root:Rank 3 total success rate: 0.98
+INFO:root:Rank 3 total episodes: 100

@@ -1,0 +1,364 @@
+INFO:root:Task suite: libero_10
+INFO:root:[Eval Split] rank=3, world_size=8, client=127.0.0.1:8003, task_ids=[3]
+INFO:root:Waiting for policy server at ws://127.0.0.1:8003 ...
+INFO:root:Policy server is reachable at ws://127.0.0.1:8003
+INFO:root:[Rank 3] Connecting to policy server 127.0.0.1:8003
+INFO:root:Waiting for server at ws://127.0.0.1:8003...
+[info] using task orders [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+rank3: tasks:   0%|          | 0/1 [00:00<?, ?it/s]
+rank3: task3:   0%|          | 0/50 [00:00<?, ?it/s][AINFO:root:
+Task 3: put the black bowl in the bottom drawer of the cabinet and close it
+INFO:root:Starting task=3 episode=1 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 1
+INFO:root:# successes on this rank: 1 (100.0%)
+
+rank3: task3:   2%|▏         | 1/50 [12:21<10:05:32, 741.48s/it][AINFO:root:
+Task 3: put the black bowl in the bottom drawer of the cabinet and close it
+INFO:root:Starting task=3 episode=2 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 2
+INFO:root:# successes on this rank: 2 (100.0%)
+
+rank3: task3:   4%|▍         | 2/50 [24:15<9:40:24, 725.52s/it] [AINFO:root:
+Task 3: put the black bowl in the bottom drawer of the cabinet and close it
+INFO:root:Starting task=3 episode=3 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 3
+INFO:root:# successes on this rank: 3 (100.0%)
+
+rank3: task3:   6%|▌         | 3/50 [36:14<9:25:58, 722.52s/it][AINFO:root:
+Task 3: put the black bowl in the bottom drawer of the cabinet and close it
+INFO:root:Starting task=3 episode=4 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 4
+INFO:root:# successes on this rank: 4 (100.0%)
+
+rank3: task3:   8%|▊         | 4/50 [48:20<9:15:00, 723.92s/it][AINFO:root:
+Task 3: put the black bowl in the bottom drawer of the cabinet and close it
+INFO:root:Starting task=3 episode=5 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 5
+INFO:root:# successes on this rank: 5 (100.0%)
+
+rank3: task3:  10%|█         | 5/50 [1:01:45<9:24:40, 752.91s/it][AINFO:root:
+Task 3: put the black bowl in the bottom drawer of the cabinet and close it
+INFO:root:Starting task=3 episode=6 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 6
+INFO:root:# successes on this rank: 6 (100.0%)
+
+rank3: task3:  12%|█▏        | 6/50 [1:13:56<9:06:46, 745.60s/it][AINFO:root:
+Task 3: put the black bowl in the bottom drawer of the cabinet and close it
+INFO:root:Starting task=3 episode=7 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 7
+INFO:root:# successes on this rank: 7 (100.0%)
+
+rank3: task3:  14%|█▍        | 7/50 [1:26:20<8:54:03, 745.20s/it][AINFO:root:
+Task 3: put the black bowl in the bottom drawer of the cabinet and close it
+INFO:root:Starting task=3 episode=8 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 8
+INFO:root:# successes on this rank: 8 (100.0%)
+
+rank3: task3:  16%|█▌        | 8/50 [1:38:40<8:40:18, 743.30s/it][AINFO:root:
+Task 3: put the black bowl in the bottom drawer of the cabinet and close it
+INFO:root:Starting task=3 episode=9 ...
+INFO:root:Success: False
+INFO:root:# episodes completed on this rank so far: 9
+INFO:root:# successes on this rank: 8 (88.9%)
+
+rank3: task3:  18%|█▊        | 9/50 [2:07:01<11:52:35, 1042.82s/it][AINFO:root:
+Task 3: put the black bowl in the bottom drawer of the cabinet and close it
+INFO:root:Starting task=3 episode=10 ...
+INFO:root:Success: False
+INFO:root:# episodes completed on this rank so far: 10
+INFO:root:# successes on this rank: 8 (80.0%)
+
+rank3: task3:  20%|██        | 10/50 [2:36:24<14:03:28, 1265.22s/it][AINFO:root:
+Task 3: put the black bowl in the bottom drawer of the cabinet and close it
+INFO:root:Starting task=3 episode=11 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 11
+INFO:root:# successes on this rank: 9 (81.8%)
+
+rank3: task3:  22%|██▏       | 11/50 [2:48:32<11:55:30, 1100.79s/it][AINFO:root:
+Task 3: put the black bowl in the bottom drawer of the cabinet and close it
+INFO:root:Starting task=3 episode=12 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 12
+INFO:root:# successes on this rank: 10 (83.3%)
+
+rank3: task3:  24%|██▍       | 12/50 [3:00:44<10:26:02, 988.48s/it] [AINFO:root:
+Task 3: put the black bowl in the bottom drawer of the cabinet and close it
+INFO:root:Starting task=3 episode=13 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 13
+INFO:root:# successes on this rank: 11 (84.6%)
+
+rank3: task3:  26%|██▌       | 13/50 [3:13:52<9:32:10, 927.85s/it] [AINFO:root:
+Task 3: put the black bowl in the bottom drawer of the cabinet and close it
+INFO:root:Starting task=3 episode=14 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 14
+INFO:root:# successes on this rank: 12 (85.7%)
+
+rank3: task3:  28%|██▊       | 14/50 [3:27:15<8:54:07, 890.20s/it][AINFO:root:
+Task 3: put the black bowl in the bottom drawer of the cabinet and close it
+INFO:root:Starting task=3 episode=15 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 15
+INFO:root:# successes on this rank: 13 (86.7%)
+
+rank3: task3:  30%|███       | 15/50 [3:39:57<8:16:42, 851.51s/it][AINFO:root:
+Task 3: put the black bowl in the bottom drawer of the cabinet and close it
+INFO:root:Starting task=3 episode=16 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 16
+INFO:root:# successes on this rank: 14 (87.5%)
+
+rank3: task3:  32%|███▏      | 16/50 [3:52:57<7:50:16, 829.91s/it][AINFO:root:
+Task 3: put the black bowl in the bottom drawer of the cabinet and close it
+INFO:root:Starting task=3 episode=17 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 17
+INFO:root:# successes on this rank: 15 (88.2%)
+
+rank3: task3:  34%|███▍      | 17/50 [4:05:42<7:25:47, 810.54s/it][AINFO:root:
+Task 3: put the black bowl in the bottom drawer of the cabinet and close it
+INFO:root:Starting task=3 episode=18 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 18
+INFO:root:# successes on this rank: 16 (88.9%)
+
+rank3: task3:  36%|███▌      | 18/50 [4:18:12<7:02:29, 792.16s/it][AINFO:root:
+Task 3: put the black bowl in the bottom drawer of the cabinet and close it
+INFO:root:Starting task=3 episode=19 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 19
+INFO:root:# successes on this rank: 17 (89.5%)
+
+rank3: task3:  38%|███▊      | 19/50 [4:30:35<6:41:43, 777.53s/it][AINFO:root:
+Task 3: put the black bowl in the bottom drawer of the cabinet and close it
+INFO:root:Starting task=3 episode=20 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 20
+INFO:root:# successes on this rank: 18 (90.0%)
+
+rank3: task3:  40%|████      | 20/50 [4:43:13<6:25:43, 771.44s/it][AINFO:root:
+Task 3: put the black bowl in the bottom drawer of the cabinet and close it
+INFO:root:Starting task=3 episode=21 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 21
+INFO:root:# successes on this rank: 19 (90.5%)
+
+rank3: task3:  42%|████▏     | 21/50 [4:55:51<6:10:56, 767.47s/it][AINFO:root:
+Task 3: put the black bowl in the bottom drawer of the cabinet and close it
+INFO:root:Starting task=3 episode=22 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 22
+INFO:root:# successes on this rank: 20 (90.9%)
+
+rank3: task3:  44%|████▍     | 22/50 [5:08:14<5:54:41, 760.05s/it][AINFO:root:
+Task 3: put the black bowl in the bottom drawer of the cabinet and close it
+INFO:root:Starting task=3 episode=23 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 23
+INFO:root:# successes on this rank: 21 (91.3%)
+
+rank3: task3:  46%|████▌     | 23/50 [5:21:33<5:47:24, 772.01s/it][AINFO:root:
+Task 3: put the black bowl in the bottom drawer of the cabinet and close it
+INFO:root:Starting task=3 episode=24 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 24
+INFO:root:# successes on this rank: 22 (91.7%)
+
+rank3: task3:  48%|████▊     | 24/50 [5:33:46<5:29:23, 760.14s/it][AINFO:root:
+Task 3: put the black bowl in the bottom drawer of the cabinet and close it
+INFO:root:Starting task=3 episode=25 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 25
+INFO:root:# successes on this rank: 23 (92.0%)
+
+rank3: task3:  50%|█████     | 25/50 [5:47:02<5:21:17, 771.08s/it][AINFO:root:
+Task 3: put the black bowl in the bottom drawer of the cabinet and close it
+INFO:root:Starting task=3 episode=26 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 26
+INFO:root:# successes on this rank: 24 (92.3%)
+
+rank3: task3:  52%|█████▏    | 26/50 [5:59:05<5:02:37, 756.56s/it][AINFO:root:
+Task 3: put the black bowl in the bottom drawer of the cabinet and close it
+INFO:root:Starting task=3 episode=27 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 27
+INFO:root:# successes on this rank: 25 (92.6%)
+
+rank3: task3:  54%|█████▍    | 27/50 [6:12:02<4:52:21, 762.68s/it][AINFO:root:
+Task 3: put the black bowl in the bottom drawer of the cabinet and close it
+INFO:root:Starting task=3 episode=28 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 28
+INFO:root:# successes on this rank: 26 (92.9%)
+
+rank3: task3:  56%|█████▌    | 28/50 [6:24:50<4:40:12, 764.20s/it][AINFO:root:
+Task 3: put the black bowl in the bottom drawer of the cabinet and close it
+INFO:root:Starting task=3 episode=29 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 29
+INFO:root:# successes on this rank: 27 (93.1%)
+
+rank3: task3:  58%|█████▊    | 29/50 [6:37:59<4:30:05, 771.70s/it][AINFO:root:
+Task 3: put the black bowl in the bottom drawer of the cabinet and close it
+INFO:root:Starting task=3 episode=30 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 30
+INFO:root:# successes on this rank: 28 (93.3%)
+
+rank3: task3:  60%|██████    | 30/50 [6:53:29<4:33:02, 819.13s/it][AINFO:root:
+Task 3: put the black bowl in the bottom drawer of the cabinet and close it
+INFO:root:Starting task=3 episode=31 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 31
+INFO:root:# successes on this rank: 29 (93.5%)
+
+rank3: task3:  62%|██████▏   | 31/50 [7:07:10<4:19:36, 819.83s/it][AINFO:root:
+Task 3: put the black bowl in the bottom drawer of the cabinet and close it
+INFO:root:Starting task=3 episode=32 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 32
+INFO:root:# successes on this rank: 30 (93.8%)
+
+rank3: task3:  64%|██████▍   | 32/50 [7:21:37<4:10:12, 834.03s/it][AINFO:root:
+Task 3: put the black bowl in the bottom drawer of the cabinet and close it
+INFO:root:Starting task=3 episode=33 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 33
+INFO:root:# successes on this rank: 31 (93.9%)
+
+rank3: task3:  66%|██████▌   | 33/50 [7:36:01<3:58:47, 842.79s/it][AINFO:root:
+Task 3: put the black bowl in the bottom drawer of the cabinet and close it
+INFO:root:Starting task=3 episode=34 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 34
+INFO:root:# successes on this rank: 32 (94.1%)
+
+rank3: task3:  68%|██████▊   | 34/50 [7:50:31<3:46:57, 851.11s/it][AINFO:root:
+Task 3: put the black bowl in the bottom drawer of the cabinet and close it
+INFO:root:Starting task=3 episode=35 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 35
+INFO:root:# successes on this rank: 33 (94.3%)
+
+rank3: task3:  70%|███████   | 35/50 [8:04:30<3:31:49, 847.28s/it][AINFO:root:
+Task 3: put the black bowl in the bottom drawer of the cabinet and close it
+INFO:root:Starting task=3 episode=36 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 36
+INFO:root:# successes on this rank: 34 (94.4%)
+
+rank3: task3:  72%|███████▏  | 36/50 [8:18:25<3:16:52, 843.77s/it][AINFO:root:
+Task 3: put the black bowl in the bottom drawer of the cabinet and close it
+INFO:root:Starting task=3 episode=37 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 37
+INFO:root:# successes on this rank: 35 (94.6%)
+
+rank3: task3:  74%|███████▍  | 37/50 [8:31:49<3:00:12, 831.75s/it][AINFO:root:
+Task 3: put the black bowl in the bottom drawer of the cabinet and close it
+INFO:root:Starting task=3 episode=38 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 38
+INFO:root:# successes on this rank: 36 (94.7%)
+
+rank3: task3:  76%|███████▌  | 38/50 [8:45:28<2:45:35, 827.98s/it][AINFO:root:
+Task 3: put the black bowl in the bottom drawer of the cabinet and close it
+INFO:root:Starting task=3 episode=39 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 39
+INFO:root:# successes on this rank: 37 (94.9%)
+
+rank3: task3:  78%|███████▊  | 39/50 [8:58:10<2:28:08, 808.02s/it][AINFO:root:
+Task 3: put the black bowl in the bottom drawer of the cabinet and close it
+INFO:root:Starting task=3 episode=40 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 40
+INFO:root:# successes on this rank: 38 (95.0%)
+
+rank3: task3:  80%|████████  | 40/50 [9:10:51<2:12:20, 794.04s/it][AINFO:root:
+Task 3: put the black bowl in the bottom drawer of the cabinet and close it
+INFO:root:Starting task=3 episode=41 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 41
+INFO:root:# successes on this rank: 39 (95.1%)
+
+rank3: task3:  82%|████████▏ | 41/50 [9:23:24<1:57:15, 781.72s/it][AINFO:root:
+Task 3: put the black bowl in the bottom drawer of the cabinet and close it
+INFO:root:Starting task=3 episode=42 ...
+INFO:root:Success: False
+INFO:root:# episodes completed on this rank so far: 42
+INFO:root:# successes on this rank: 39 (92.9%)
+
+rank3: task3:  84%|████████▍ | 42/50 [9:52:43<2:23:18, 1074.84s/it][AINFO:root:
+Task 3: put the black bowl in the bottom drawer of the cabinet and close it
+INFO:root:Starting task=3 episode=43 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 43
+INFO:root:# successes on this rank: 40 (93.0%)
+
+rank3: task3:  86%|████████▌ | 43/50 [10:06:20<1:56:23, 997.71s/it][AINFO:root:
+Task 3: put the black bowl in the bottom drawer of the cabinet and close it
+INFO:root:Starting task=3 episode=44 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 44
+INFO:root:# successes on this rank: 41 (93.2%)
+
+rank3: task3:  88%|████████▊ | 44/50 [10:20:29<1:35:17, 952.93s/it][AINFO:root:
+Task 3: put the black bowl in the bottom drawer of the cabinet and close it
+INFO:root:Starting task=3 episode=45 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 45
+INFO:root:# successes on this rank: 42 (93.3%)
+
+rank3: task3:  90%|█████████ | 45/50 [10:33:18<1:14:49, 897.81s/it][AINFO:root:
+Task 3: put the black bowl in the bottom drawer of the cabinet and close it
+INFO:root:Starting task=3 episode=46 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 46
+INFO:root:# successes on this rank: 43 (93.5%)
+
+rank3: task3:  92%|█████████▏| 46/50 [10:44:55<55:49, 837.44s/it]  [AINFO:root:
+Task 3: put the black bowl in the bottom drawer of the cabinet and close it
+INFO:root:Starting task=3 episode=47 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 47
+INFO:root:# successes on this rank: 44 (93.6%)
+
+rank3: task3:  94%|█████████▍| 47/50 [10:57:23<40:32, 810.70s/it][AINFO:root:
+Task 3: put the black bowl in the bottom drawer of the cabinet and close it
+INFO:root:Starting task=3 episode=48 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 48
+INFO:root:# successes on this rank: 45 (93.8%)
+
+rank3: task3:  96%|█████████▌| 48/50 [11:09:32<26:12, 786.34s/it][AINFO:root:
+Task 3: put the black bowl in the bottom drawer of the cabinet and close it
+INFO:root:Starting task=3 episode=49 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 49
+INFO:root:# successes on this rank: 46 (93.9%)
+
+rank3: task3:  98%|█████████▊| 49/50 [11:21:08<12:38, 758.95s/it][AINFO:root:
+Task 3: put the black bowl in the bottom drawer of the cabinet and close it
+INFO:root:Starting task=3 episode=50 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 50
+INFO:root:# successes on this rank: 47 (94.0%)
+
+rank3: task3: 100%|██████████| 50/50 [11:32:49<00:00, 741.75s/it][A
+                                                                 [AINFO:root:Current task success rate on rank 3: 0.94
+INFO:root:Current rank success rate: 0.94
+rank3: tasks: 100%|██████████| 1/1 [11:33:05<00:00, 41585.38s/it]rank3: tasks: 100%|██████████| 1/1 [11:33:05<00:00, 41585.39s/it]
+INFO:root:Rank 3 total success rate: 0.94
+INFO:root:Rank 3 total episodes: 50

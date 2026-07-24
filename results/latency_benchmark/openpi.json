@@ -1,0 +1,36 @@
+{
+  "model": "OpenPI π0.5",
+  "timestamp": "2026-07-20T20:46:19+0800",
+  "gpu": "3",
+  "device": "cuda:0",
+  "task_suite": "libero_spatial",
+  "task_id": 0,
+  "task_description": "pick up the black bowl between the plate and the ramekin and place it on the plate table 1",
+  "warmup": 2,
+  "samples": 8,
+  "action_horizon": 10,
+  "replan_steps": 5,
+  "num_inference_steps": 10,
+  "action_shape": [
+    10,
+    7
+  ],
+  "call_seconds": [
+    0.20278860814869404,
+    0.2018388882279396,
+    0.259371155872941,
+    0.34610275737941265,
+    0.3509636763483286,
+    0.32986803725361824,
+    0.3250624053180218,
+    0.33618458919227123
+  ],
+  "call_mean_ms": 294.0225147176534,
+  "call_median_ms": 327.46522128582,
+  "call_p95_ms": 349.262354709208,
+  "model_infer_mean_ms": 285.7851341832429,
+  "latency_per_executed_step_ms": 58.80450294353068,
+  "latency_per_executed_step_median_ms": 65.493044257164,
+  "torch_peak_allocated_mib": 7346.6103515625,
+  "torch_peak_reserved_mib": 7416.0
+}

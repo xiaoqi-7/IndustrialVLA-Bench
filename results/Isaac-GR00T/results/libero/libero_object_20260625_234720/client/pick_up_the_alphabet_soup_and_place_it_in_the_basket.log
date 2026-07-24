@@ -1,0 +1,180 @@
+2026-06-25 23:52:43.314366: I tensorflow/core/util/port.cc:113] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2026-06-25 23:52:43.345491: I tensorflow/core/platform/cpu_feature_guard.cc:182] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F AVX512_VNNI AVX512_BF16 AVX_VNNI AMX_TILE AMX_INT8 AMX_BF16 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+/root/envs/gr00t_libero/lib/python3.10/site-packages/torchvision/datapoints/__init__.py:12: UserWarning: The torchvision.datapoints and torchvision.transforms.v2 namespaces are still Beta. While we do not expect major breaking changes, some APIs may still change according to user feedback. Please submit any feedback you may have in this issue: https://github.com/pytorch/vision/issues/6753, and you can also check out https://github.com/pytorch/vision/issues/7319 to learn more about the APIs that we suspect might involve future changes. You can silence this warning by calling torchvision.disable_beta_transforms_warning().
+  warnings.warn(_BETA_TRANSFORMS_WARNING)
+/root/envs/gr00t_libero/lib/python3.10/site-packages/torchvision/transforms/v2/__init__.py:54: UserWarning: The torchvision.datapoints and torchvision.transforms.v2 namespaces are still Beta. While we do not expect major breaking changes, some APIs may still change according to user feedback. Please submit any feedback you may have in this issue: https://github.com/pytorch/vision/issues/6753, and you can also check out https://github.com/pytorch/vision/issues/7319 to learn more about the APIs that we suspect might involve future changes. You can silence this warning by calling torchvision.disable_beta_transforms_warning().
+  warnings.warn(_BETA_TRANSFORMS_WARNING)
+[robosuite WARNING] No private macro file found! (__init__.py:7)
+[robosuite WARNING] It is recommended to use a private macro file (__init__.py:8)
+[robosuite WARNING] To setup, run: python /root/envs/gr00t_libero/lib/python3.10/site-packages/robosuite/scripts/setup_macros.py (__init__.py:9)
+Gym has been unmaintained since 2022 and does not support NumPy 2.0 amongst other critical functionality.
+Please upgrade to Gymnasium, the maintained drop-in replacement of Gym, or contact the authors of your software and request that they upgrade.
+See the migration guide at https://gymnasium.farama.org/introduction/migration_guide/ for additional information.
+Running collecting 150 episodes for libero_sim/pick_up_the_alphabet_soup_and_place_it_in_the_basket with 5 vec envs
+[info] using task orders [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+[info] using task orders [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+[info] using task orders [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+[info] using task orders [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+2026-06-25 23:52:54.407592: I tensorflow/core/util/port.cc:113] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2026-06-25 23:52:54.438364: I tensorflow/core/platform/cpu_feature_guard.cc:182] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F AVX512_VNNI AVX512_BF16 AVX_VNNI AMX_TILE AMX_INT8 AMX_BF16 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2026-06-25 23:52:54.456476: I tensorflow/core/util/port.cc:113] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2026-06-25 23:52:54.457963: I tensorflow/core/util/port.cc:113] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2026-06-25 23:52:54.472257: I tensorflow/core/util/port.cc:113] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2026-06-25 23:52:54.487050: I tensorflow/core/platform/cpu_feature_guard.cc:182] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F AVX512_VNNI AVX512_BF16 AVX_VNNI AMX_TILE AMX_INT8 AMX_BF16 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2026-06-25 23:52:54.488278: I tensorflow/core/platform/cpu_feature_guard.cc:182] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F AVX512_VNNI AVX512_BF16 AVX_VNNI AMX_TILE AMX_INT8 AMX_BF16 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2026-06-25 23:52:54.501801: I tensorflow/core/platform/cpu_feature_guard.cc:182] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F AVX512_VNNI AVX512_BF16 AVX_VNNI AMX_TILE AMX_INT8 AMX_BF16 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2026-06-25 23:52:54.547103: I tensorflow/core/util/port.cc:113] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2026-06-25 23:52:54.577204: I tensorflow/core/platform/cpu_feature_guard.cc:182] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F AVX512_VNNI AVX512_BF16 AVX_VNNI AMX_TILE AMX_INT8 AMX_BF16 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+/root/envs/gr00t_libero/lib/python3.10/site-packages/torchvision/datapoints/__init__.py:12: UserWarning: The torchvision.datapoints and torchvision.transforms.v2 namespaces are still Beta. While we do not expect major breaking changes, some APIs may still change according to user feedback. Please submit any feedback you may have in this issue: https://github.com/pytorch/vision/issues/6753, and you can also check out https://github.com/pytorch/vision/issues/7319 to learn more about the APIs that we suspect might involve future changes. You can silence this warning by calling torchvision.disable_beta_transforms_warning().
+  warnings.warn(_BETA_TRANSFORMS_WARNING)
+/root/envs/gr00t_libero/lib/python3.10/site-packages/torchvision/transforms/v2/__init__.py:54: UserWarning: The torchvision.datapoints and torchvision.transforms.v2 namespaces are still Beta. While we do not expect major breaking changes, some APIs may still change according to user feedback. Please submit any feedback you may have in this issue: https://github.com/pytorch/vision/issues/6753, and you can also check out https://github.com/pytorch/vision/issues/7319 to learn more about the APIs that we suspect might involve future changes. You can silence this warning by calling torchvision.disable_beta_transforms_warning().
+  warnings.warn(_BETA_TRANSFORMS_WARNING)
+/root/envs/gr00t_libero/lib/python3.10/site-packages/torchvision/datapoints/__init__.py:12: UserWarning: The torchvision.datapoints and torchvision.transforms.v2 namespaces are still Beta. While we do not expect major breaking changes, some APIs may still change according to user feedback. Please submit any feedback you may have in this issue: https://github.com/pytorch/vision/issues/6753, and you can also check out https://github.com/pytorch/vision/issues/7319 to learn more about the APIs that we suspect might involve future changes. You can silence this warning by calling torchvision.disable_beta_transforms_warning().
+  warnings.warn(_BETA_TRANSFORMS_WARNING)
+/root/envs/gr00t_libero/lib/python3.10/site-packages/torchvision/transforms/v2/__init__.py:54: UserWarning: The torchvision.datapoints and torchvision.transforms.v2 namespaces are still Beta. While we do not expect major breaking changes, some APIs may still change according to user feedback. Please submit any feedback you may have in this issue: https://github.com/pytorch/vision/issues/6753, and you can also check out https://github.com/pytorch/vision/issues/7319 to learn more about the APIs that we suspect might involve future changes. You can silence this warning by calling torchvision.disable_beta_transforms_warning().
+  warnings.warn(_BETA_TRANSFORMS_WARNING)
+/root/envs/gr00t_libero/lib/python3.10/site-packages/torchvision/datapoints/__init__.py:12: UserWarning: The torchvision.datapoints and torchvision.transforms.v2 namespaces are still Beta. While we do not expect major breaking changes, some APIs may still change according to user feedback. Please submit any feedback you may have in this issue: https://github.com/pytorch/vision/issues/6753, and you can also check out https://github.com/pytorch/vision/issues/7319 to learn more about the APIs that we suspect might involve future changes. You can silence this warning by calling torchvision.disable_beta_transforms_warning().
+  warnings.warn(_BETA_TRANSFORMS_WARNING)
+/root/envs/gr00t_libero/lib/python3.10/site-packages/torchvision/datapoints/__init__.py:12: UserWarning: The torchvision.datapoints and torchvision.transforms.v2 namespaces are still Beta. While we do not expect major breaking changes, some APIs may still change according to user feedback. Please submit any feedback you may have in this issue: https://github.com/pytorch/vision/issues/6753, and you can also check out https://github.com/pytorch/vision/issues/7319 to learn more about the APIs that we suspect might involve future changes. You can silence this warning by calling torchvision.disable_beta_transforms_warning().
+  warnings.warn(_BETA_TRANSFORMS_WARNING)
+/root/envs/gr00t_libero/lib/python3.10/site-packages/torchvision/transforms/v2/__init__.py:54: UserWarning: The torchvision.datapoints and torchvision.transforms.v2 namespaces are still Beta. While we do not expect major breaking changes, some APIs may still change according to user feedback. Please submit any feedback you may have in this issue: https://github.com/pytorch/vision/issues/6753, and you can also check out https://github.com/pytorch/vision/issues/7319 to learn more about the APIs that we suspect might involve future changes. You can silence this warning by calling torchvision.disable_beta_transforms_warning().
+  warnings.warn(_BETA_TRANSFORMS_WARNING)
+/root/envs/gr00t_libero/lib/python3.10/site-packages/torchvision/transforms/v2/__init__.py:54: UserWarning: The torchvision.datapoints and torchvision.transforms.v2 namespaces are still Beta. While we do not expect major breaking changes, some APIs may still change according to user feedback. Please submit any feedback you may have in this issue: https://github.com/pytorch/vision/issues/6753, and you can also check out https://github.com/pytorch/vision/issues/7319 to learn more about the APIs that we suspect might involve future changes. You can silence this warning by calling torchvision.disable_beta_transforms_warning().
+  warnings.warn(_BETA_TRANSFORMS_WARNING)
+/root/envs/gr00t_libero/lib/python3.10/site-packages/torchvision/datapoints/__init__.py:12: UserWarning: The torchvision.datapoints and torchvision.transforms.v2 namespaces are still Beta. While we do not expect major breaking changes, some APIs may still change according to user feedback. Please submit any feedback you may have in this issue: https://github.com/pytorch/vision/issues/6753, and you can also check out https://github.com/pytorch/vision/issues/7319 to learn more about the APIs that we suspect might involve future changes. You can silence this warning by calling torchvision.disable_beta_transforms_warning().
+  warnings.warn(_BETA_TRANSFORMS_WARNING)
+/root/envs/gr00t_libero/lib/python3.10/site-packages/torchvision/transforms/v2/__init__.py:54: UserWarning: The torchvision.datapoints and torchvision.transforms.v2 namespaces are still Beta. While we do not expect major breaking changes, some APIs may still change according to user feedback. Please submit any feedback you may have in this issue: https://github.com/pytorch/vision/issues/6753, and you can also check out https://github.com/pytorch/vision/issues/7319 to learn more about the APIs that we suspect might involve future changes. You can silence this warning by calling torchvision.disable_beta_transforms_warning().
+  warnings.warn(_BETA_TRANSFORMS_WARNING)
+[robosuite WARNING] No private macro file found! (__init__.py:7)
+[robosuite WARNING] It is recommended to use a private macro file (__init__.py:8)
+[robosuite WARNING] To setup, run: python /root/envs/gr00t_libero/lib/python3.10/site-packages/robosuite/scripts/setup_macros.py (__init__.py:9)
+[robosuite WARNING] No private macro file found! (__init__.py:7)
+[robosuite WARNING] It is recommended to use a private macro file (__init__.py:8)
+[robosuite WARNING] To setup, run: python /root/envs/gr00t_libero/lib/python3.10/site-packages/robosuite/scripts/setup_macros.py (__init__.py:9)
+[robosuite WARNING] No private macro file found! (__init__.py:7)
+[robosuite WARNING] It is recommended to use a private macro file (__init__.py:8)
+[robosuite WARNING] To setup, run: python /root/envs/gr00t_libero/lib/python3.10/site-packages/robosuite/scripts/setup_macros.py (__init__.py:9)
+[robosuite WARNING] No private macro file found! (__init__.py:7)
+[robosuite WARNING] It is recommended to use a private macro file (__init__.py:8)
+[robosuite WARNING] To setup, run: python /root/envs/gr00t_libero/lib/python3.10/site-packages/robosuite/scripts/setup_macros.py (__init__.py:9)
+[robosuite WARNING] No private macro file found! (__init__.py:7)
+[robosuite WARNING] It is recommended to use a private macro file (__init__.py:8)
+[robosuite WARNING] To setup, run: python /root/envs/gr00t_libero/lib/python3.10/site-packages/robosuite/scripts/setup_macros.py (__init__.py:9)
+Gym has been unmaintained since 2022 and does not support NumPy 2.0 amongst other critical functionality.
+Please upgrade to Gymnasium, the maintained drop-in replacement of Gym, or contact the authors of your software and request that they upgrade.
+See the migration guide at https://gymnasium.farama.org/introduction/migration_guide/ for additional information.
+Gym has been unmaintained since 2022 and does not support NumPy 2.0 amongst other critical functionality.
+Please upgrade to Gymnasium, the maintained drop-in replacement of Gym, or contact the authors of your software and request that they upgrade.
+See the migration guide at https://gymnasium.farama.org/introduction/migration_guide/ for additional information.
+Gym has been unmaintained since 2022 and does not support NumPy 2.0 amongst other critical functionality.
+Please upgrade to Gymnasium, the maintained drop-in replacement of Gym, or contact the authors of your software and request that they upgrade.
+See the migration guide at https://gymnasium.farama.org/introduction/migration_guide/ for additional information.
+Gym has been unmaintained since 2022 and does not support NumPy 2.0 amongst other critical functionality.
+Please upgrade to Gymnasium, the maintained drop-in replacement of Gym, or contact the authors of your software and request that they upgrade.
+See the migration guide at https://gymnasium.farama.org/introduction/migration_guide/ for additional information.
+Gym has been unmaintained since 2022 and does not support NumPy 2.0 amongst other critical functionality.
+Please upgrade to Gymnasium, the maintained drop-in replacement of Gym, or contact the authors of your software and request that they upgrade.
+See the migration guide at https://gymnasium.farama.org/introduction/migration_guide/ for additional information.
+/root/envs/gr00t_libero/lib/python3.10/site-packages/gymnasium/utils/passive_env_checker.py:158: UserWarning: [33mWARN: The obs returned by the `reset()` method is not within the observation space.[0m
+  logger.warn(f"{pre} is not within the observation space.")
+/root/envs/gr00t_libero/lib/python3.10/site-packages/gymnasium/utils/passive_env_checker.py:134: UserWarning: [33mWARN: The obs returned by the `reset()` method was expecting numpy array dtype to be float32, actual type: float64[0m
+  logger.warn(
+/root/envs/gr00t_libero/lib/python3.10/site-packages/gymnasium/utils/passive_env_checker.py:130: UserWarning: [33mWARN: The obs returned by the `reset()` method was expecting a numpy array, actual type: <class 'list'>[0m
+  logger.warn(
+/root/envs/gr00t_libero/lib/python3.10/site-packages/gymnasium/spaces/box.py:424: UserWarning: [33mWARN: Casting input x to numpy array.[0m
+  gym.logger.warn("Casting input x to numpy array.")
+/root/envs/gr00t_libero/lib/python3.10/site-packages/gymnasium/utils/passive_env_checker.py:158: UserWarning: [33mWARN: The obs returned by the `reset()` method is not within the observation space.[0m
+  logger.warn(f"{pre} is not within the observation space.")
+/root/envs/gr00t_libero/lib/python3.10/site-packages/gymnasium/utils/passive_env_checker.py:134: UserWarning: [33mWARN: The obs returned by the `reset()` method was expecting numpy array dtype to be float32, actual type: float64[0m
+  logger.warn(
+/root/envs/gr00t_libero/lib/python3.10/site-packages/gymnasium/utils/passive_env_checker.py:130: UserWarning: [33mWARN: The obs returned by the `reset()` method was expecting a numpy array, actual type: <class 'list'>[0m
+  logger.warn(
+/root/envs/gr00t_libero/lib/python3.10/site-packages/gymnasium/spaces/box.py:424: UserWarning: [33mWARN: Casting input x to numpy array.[0m
+  gym.logger.warn("Casting input x to numpy array.")
+/root/envs/gr00t_libero/lib/python3.10/site-packages/gymnasium/utils/passive_env_checker.py:158: UserWarning: [33mWARN: The obs returned by the `reset()` method is not within the observation space.[0m
+  logger.warn(f"{pre} is not within the observation space.")
+/root/envs/gr00t_libero/lib/python3.10/site-packages/gymnasium/utils/passive_env_checker.py:134: UserWarning: [33mWARN: The obs returned by the `reset()` method was expecting numpy array dtype to be float32, actual type: float64[0m
+  logger.warn(
+/root/envs/gr00t_libero/lib/python3.10/site-packages/gymnasium/utils/passive_env_checker.py:130: UserWarning: [33mWARN: The obs returned by the `reset()` method was expecting a numpy array, actual type: <class 'list'>[0m
+  logger.warn(
+/root/envs/gr00t_libero/lib/python3.10/site-packages/gymnasium/spaces/box.py:424: UserWarning: [33mWARN: Casting input x to numpy array.[0m
+  gym.logger.warn("Casting input x to numpy array.")
+/root/envs/gr00t_libero/lib/python3.10/site-packages/gymnasium/utils/passive_env_checker.py:158: UserWarning: [33mWARN: The obs returned by the `reset()` method is not within the observation space.[0m
+  logger.warn(f"{pre} is not within the observation space.")
+/root/envs/gr00t_libero/lib/python3.10/site-packages/gymnasium/utils/passive_env_checker.py:134: UserWarning: [33mWARN: The obs returned by the `reset()` method was expecting numpy array dtype to be float32, actual type: float64[0m
+  logger.warn(
+/root/envs/gr00t_libero/lib/python3.10/site-packages/gymnasium/utils/passive_env_checker.py:130: UserWarning: [33mWARN: The obs returned by the `reset()` method was expecting a numpy array, actual type: <class 'list'>[0m
+  logger.warn(
+/root/envs/gr00t_libero/lib/python3.10/site-packages/gymnasium/spaces/box.py:424: UserWarning: [33mWARN: Casting input x to numpy array.[0m
+  gym.logger.warn("Casting input x to numpy array.")
+/root/envs/gr00t_libero/lib/python3.10/site-packages/gymnasium/utils/passive_env_checker.py:158: UserWarning: [33mWARN: The obs returned by the `reset()` method is not within the observation space.[0m
+  logger.warn(f"{pre} is not within the observation space.")
+/root/envs/gr00t_libero/lib/python3.10/site-packages/gymnasium/utils/passive_env_checker.py:134: UserWarning: [33mWARN: The obs returned by the `reset()` method was expecting numpy array dtype to be float32, actual type: float64[0m
+  logger.warn(
+/root/envs/gr00t_libero/lib/python3.10/site-packages/gymnasium/utils/passive_env_checker.py:130: UserWarning: [33mWARN: The obs returned by the `reset()` method was expecting a numpy array, actual type: <class 'list'>[0m
+  logger.warn(
+/root/envs/gr00t_libero/lib/python3.10/site-packages/gymnasium/spaces/box.py:424: UserWarning: [33mWARN: Casting input x to numpy array.[0m
+  gym.logger.warn("Casting input x to numpy array.")
+Episodes:   0%|          | 0/150 [00:00<?, ?it/s]/root/envs/gr00t_libero/lib/python3.10/site-packages/gymnasium/utils/passive_env_checker.py:158: UserWarning: [33mWARN: The obs returned by the `step()` method is not within the observation space.[0m
+  logger.warn(f"{pre} is not within the observation space.")
+/root/envs/gr00t_libero/lib/python3.10/site-packages/gymnasium/utils/passive_env_checker.py:134: UserWarning: [33mWARN: The obs returned by the `step()` method was expecting numpy array dtype to be float32, actual type: float64[0m
+  logger.warn(
+/root/envs/gr00t_libero/lib/python3.10/site-packages/gymnasium/utils/passive_env_checker.py:130: UserWarning: [33mWARN: The obs returned by the `step()` method was expecting a numpy array, actual type: <class 'list'>[0m
+  logger.warn(
+/root/envs/gr00t_libero/lib/python3.10/site-packages/gymnasium/utils/passive_env_checker.py:158: UserWarning: [33mWARN: The obs returned by the `step()` method is not within the observation space.[0m
+  logger.warn(f"{pre} is not within the observation space.")
+/root/envs/gr00t_libero/lib/python3.10/site-packages/gymnasium/utils/passive_env_checker.py:134: UserWarning: [33mWARN: The obs returned by the `step()` method was expecting numpy array dtype to be float32, actual type: float64[0m
+  logger.warn(
+/root/envs/gr00t_libero/lib/python3.10/site-packages/gymnasium/utils/passive_env_checker.py:130: UserWarning: [33mWARN: The obs returned by the `step()` method was expecting a numpy array, actual type: <class 'list'>[0m
+  logger.warn(
+/root/envs/gr00t_libero/lib/python3.10/site-packages/gymnasium/utils/passive_env_checker.py:158: UserWarning: [33mWARN: The obs returned by the `step()` method is not within the observation space.[0m
+  logger.warn(f"{pre} is not within the observation space.")
+/root/envs/gr00t_libero/lib/python3.10/site-packages/gymnasium/utils/passive_env_checker.py:134: UserWarning: [33mWARN: The obs returned by the `step()` method was expecting numpy array dtype to be float32, actual type: float64[0m
+  logger.warn(
+/root/envs/gr00t_libero/lib/python3.10/site-packages/gymnasium/utils/passive_env_checker.py:130: UserWarning: [33mWARN: The obs returned by the `step()` method was expecting a numpy array, actual type: <class 'list'>[0m
+  logger.warn(
+/root/envs/gr00t_libero/lib/python3.10/site-packages/gymnasium/utils/passive_env_checker.py:158: UserWarning: [33mWARN: The obs returned by the `step()` method is not within the observation space.[0m
+  logger.warn(f"{pre} is not within the observation space.")
+/root/envs/gr00t_libero/lib/python3.10/site-packages/gymnasium/utils/passive_env_checker.py:134: UserWarning: [33mWARN: The obs returned by the `step()` method was expecting numpy array dtype to be float32, actual type: float64[0m
+  logger.warn(
+/root/envs/gr00t_libero/lib/python3.10/site-packages/gymnasium/utils/passive_env_checker.py:130: UserWarning: [33mWARN: The obs returned by the `step()` method was expecting a numpy array, actual type: <class 'list'>[0m
+  logger.warn(
+/root/envs/gr00t_libero/lib/python3.10/site-packages/gymnasium/utils/passive_env_checker.py:158: UserWarning: [33mWARN: The obs returned by the `step()` method is not within the observation space.[0m
+  logger.warn(f"{pre} is not within the observation space.")
+/root/envs/gr00t_libero/lib/python3.10/site-packages/gymnasium/utils/passive_env_checker.py:134: UserWarning: [33mWARN: The obs returned by the `step()` method was expecting numpy array dtype to be float32, actual type: float64[0m
+  logger.warn(
+/root/envs/gr00t_libero/lib/python3.10/site-packages/gymnasium/utils/passive_env_checker.py:130: UserWarning: [33mWARN: The obs returned by the `step()` method was expecting a numpy array, actual type: <class 'list'>[0m
+  logger.warn(
+Episodes:   1%|          | 1/150 [00:16<39:54, 16.07s/it]Episodes:   1%|▏         | 2/150 [00:19<20:38,  8.37s/it]Episodes:   3%|▎         | 5/150 [00:21<06:56,  2.87s/it]Episodes:   4%|▍         | 6/150 [00:34<13:33,  5.65s/it]Episodes:   5%|▍         | 7/150 [00:36<11:08,  4.67s/it]Episodes:   5%|▌         | 8/150 [00:38<09:16,  3.92s/it]Episodes:   7%|▋         | 10/150 [00:44<07:51,  3.37s/it]Episodes:   7%|▋         | 11/150 [00:53<11:16,  4.87s/it]Episodes:   8%|▊         | 12/150 [00:57<10:29,  4.56s/it]Episodes:   9%|▊         | 13/150 [00:59<08:47,  3.85s/it]Episodes:  10%|█         | 15/150 [01:03<07:05,  3.15s/it]Episodes:  11%|█         | 16/150 [01:13<10:31,  4.71s/it]Episodes:  11%|█▏        | 17/150 [01:18<10:22,  4.68s/it]Episodes:  13%|█▎        | 19/150 [01:20<06:50,  3.13s/it]Episodes:  13%|█▎        | 20/150 [01:25<07:49,  3.61s/it]Episodes:  14%|█▍        | 21/150 [01:35<11:02,  5.14s/it]Episodes:  15%|█▍        | 22/150 [01:38<09:41,  4.55s/it]Episodes:  16%|█▌        | 24/150 [01:40<06:43,  3.20s/it]Episodes:  17%|█▋        | 25/150 [01:46<07:41,  3.69s/it]Episodes:  17%|█▋        | 26/150 [01:55<10:19,  5.00s/it]Episodes:  18%|█▊        | 27/150 [01:57<09:02,  4.41s/it]Episodes:  19%|█▊        | 28/150 [01:59<07:34,  3.73s/it]Episodes:  20%|██        | 30/150 [02:10<08:47,  4.40s/it]Episodes:  21%|██        | 31/150 [02:14<08:49,  4.45s/it]Episodes:  21%|██▏       | 32/150 [02:18<08:23,  4.27s/it]Episodes:  23%|██▎       | 34/150 [02:21<05:53,  3.05s/it]Episodes:  23%|██▎       | 35/150 [02:32<09:33,  4.99s/it]Episodes:  25%|██▍       | 37/150 [02:38<07:43,  4.10s/it]Episodes:  26%|██▌       | 39/150 [02:40<05:29,  2.97s/it]Episodes:  27%|██▋       | 40/150 [02:52<08:56,  4.88s/it]Episodes:  28%|██▊       | 42/150 [02:56<06:46,  3.76s/it]Episodes:  29%|██▊       | 43/150 [02:59<06:38,  3.72s/it]Episodes:  29%|██▉       | 44/150 [03:03<06:32,  3.71s/it]Episodes:  30%|███       | 45/150 [03:13<09:03,  5.17s/it]Episodes:  31%|███▏      | 47/150 [03:16<06:33,  3.82s/it]Episodes:  32%|███▏      | 48/150 [03:19<06:03,  3.57s/it]Episodes:  33%|███▎      | 49/150 [03:22<05:41,  3.38s/it]Episodes:  33%|███▎      | 50/150 [03:33<09:03,  5.44s/it]Episodes:  35%|███▍      | 52/150 [03:37<06:22,  3.90s/it]Episodes:  35%|███▌      | 53/150 [03:40<05:51,  3.62s/it]Episodes:  36%|███▌      | 54/150 [03:42<05:08,  3.21s/it]Episodes:  37%|███▋      | 55/150 [03:53<08:42,  5.50s/it]Episodes:  37%|███▋      | 56/150 [03:56<07:30,  4.79s/it]Episodes:  39%|███▊      | 58/150 [03:59<05:03,  3.30s/it]Episodes:  39%|███▉      | 59/150 [04:12<08:35,  5.67s/it]Episodes:  40%|████      | 60/150 [04:15<07:25,  4.95s/it]Episodes:  41%|████      | 61/150 [04:17<06:08,  4.14s/it]Episodes:  43%|████▎     | 64/150 [04:32<06:31,  4.55s/it]Episodes:  43%|████▎     | 65/150 [04:36<06:14,  4.40s/it]Episodes:  45%|████▍     | 67/150 [04:38<04:21,  3.15s/it]Episodes:  46%|████▌     | 69/150 [04:52<06:02,  4.48s/it]Episodes:  47%|████▋     | 70/150 [04:55<05:46,  4.33s/it]Episodes:  48%|████▊     | 72/150 [04:58<04:14,  3.27s/it]Episodes:  49%|████▉     | 74/150 [05:11<05:26,  4.30s/it]Episodes:  50%|█████     | 75/150 [05:16<05:41,  4.55s/it]Episodes:  51%|█████     | 76/150 [05:18<04:52,  3.96s/it]Episodes:  52%|█████▏    | 78/150 [05:20<03:22,  2.81s/it]Episodes:  53%|█████▎    | 79/150 [05:36<06:33,  5.55s/it]Episodes:  53%|█████▎    | 80/150 [05:38<05:28,  4.70s/it]Episodes:  55%|█████▍    | 82/150 [05:47<05:14,  4.63s/it]Episodes:  55%|█████▌    | 83/150 [05:55<06:06,  5.47s/it]Episodes:  56%|█████▌    | 84/150 [05:57<05:02,  4.59s/it]Episodes:  57%|█████▋    | 86/150 [06:06<04:56,  4.63s/it]Episodes:  58%|█████▊    | 87/150 [06:15<05:55,  5.64s/it]Episodes:  59%|█████▊    | 88/150 [06:17<04:52,  4.72s/it]Episodes:  60%|██████    | 90/150 [06:26<04:39,  4.66s/it]Episodes:  61%|██████    | 91/150 [06:35<05:25,  5.52s/it]Episodes:  61%|██████▏   | 92/150 [06:37<04:29,  4.64s/it]Episodes:  62%|██████▏   | 93/150 [06:39<03:43,  3.92s/it]Episodes:  63%|██████▎   | 94/150 [06:47<04:46,  5.11s/it]Episodes:  63%|██████▎   | 95/150 [06:51<04:18,  4.70s/it]Episodes:  64%|██████▍   | 96/150 [06:56<04:27,  4.95s/it]Episodes:  65%|██████▍   | 97/150 [07:00<04:01,  4.55s/it]Episodes:  65%|██████▌   | 98/150 [07:02<03:18,  3.81s/it]Episodes:  66%|██████▌   | 99/150 [07:09<04:08,  4.86s/it]Episodes:  67%|██████▋   | 100/150 [07:13<03:47,  4.55s/it]Episodes:  67%|██████▋   | 101/150 [07:19<03:58,  4.87s/it]Episodes:  68%|██████▊   | 102/150 [07:21<03:24,  4.25s/it]Episodes:  69%|██████▊   | 103/150 [07:23<02:47,  3.57s/it]Episodes:  69%|██████▉   | 104/150 [07:32<04:00,  5.23s/it]Episodes:  70%|███████   | 105/150 [07:34<03:11,  4.25s/it]Episodes:  71%|███████   | 106/150 [07:41<03:34,  4.88s/it]Episodes:  71%|███████▏  | 107/150 [07:43<03:02,  4.25s/it]Episodes:  72%|███████▏  | 108/150 [07:45<02:28,  3.53s/it]Episodes:  73%|███████▎  | 109/150 [07:54<03:29,  5.12s/it]Episodes:  73%|███████▎  | 110/150 [07:57<02:57,  4.43s/it]Episodes:  74%|███████▍  | 111/150 [08:02<03:05,  4.75s/it]Episodes:  75%|███████▌  | 113/150 [08:07<02:14,  3.62s/it]Episodes:  76%|███████▌  | 114/150 [08:16<02:57,  4.93s/it]Episodes:  77%|███████▋  | 115/150 [08:18<02:23,  4.11s/it]Episodes:  77%|███████▋  | 116/150 [08:22<02:24,  4.24s/it]Episodes:  79%|███████▊  | 118/150 [08:27<01:48,  3.40s/it]Episodes:  79%|███████▉  | 119/150 [08:36<02:26,  4.72s/it]Episodes:  80%|████████  | 120/150 [08:41<02:20,  4.70s/it]Episodes:  81%|████████  | 121/150 [08:43<01:55,  3.97s/it]Episodes:  81%|████████▏ | 122/150 [08:44<01:35,  3.41s/it]Episodes:  82%|████████▏ | 123/150 [08:47<01:27,  3.25s/it]Episodes:  83%|████████▎ | 124/150 [08:58<02:19,  5.38s/it]Episodes:  83%|████████▎ | 125/150 [09:03<02:09,  5.18s/it]Episodes:  84%|████████▍ | 126/150 [09:05<01:42,  4.26s/it]Episodes:  85%|████████▍ | 127/150 [09:08<01:28,  3.87s/it]Episodes:  86%|████████▌ | 129/150 [09:20<01:43,  4.94s/it]Episodes:  87%|████████▋ | 130/150 [09:23<01:27,  4.40s/it]Episodes:  87%|████████▋ | 131/150 [09:25<01:13,  3.85s/it]Episodes:  88%|████████▊ | 132/150 [09:29<01:08,  3.82s/it]Episodes:  89%|████████▉ | 134/150 [09:40<01:15,  4.70s/it]Episodes:  90%|█████████ | 135/150 [09:45<01:09,  4.67s/it]Episodes:  91%|█████████▏| 137/150 [09:47<00:41,  3.21s/it]Episodes:  92%|█████████▏| 138/150 [09:50<00:37,  3.10s/it]Episodes:  93%|█████████▎| 139/150 [10:02<00:59,  5.38s/it]Episodes:  93%|█████████▎| 140/150 [10:05<00:47,  4.77s/it]Episodes:  95%|█████████▍| 142/150 [10:09<00:28,  3.60s/it]Episodes:  95%|█████████▌| 143/150 [10:13<00:24,  3.50s/it]Episodes:  96%|█████████▌| 144/150 [10:24<00:32,  5.43s/it]Episodes:  97%|█████████▋| 145/150 [10:27<00:23,  4.79s/it]Episodes:  98%|█████████▊| 147/150 [10:32<00:11,  3.80s/it]Episodes:  99%|█████████▊| 148/150 [10:35<00:07,  3.58s/it]Episodes:  99%|█████████▉| 149/150 [10:47<00:05,  5.70s/it]Episodes: 100%|██████████| 150/150 [10:49<00:00,  4.73s/it]Episodes: 151it [10:49,  4.30s/it]                         
+[info] using task orders [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+[info] using task orders [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+[info] using task orders [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+[info] using task orders [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+Skipping video recording for unfinished episode 97 / 720
+[info] using task orders [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+[info] using task orders [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+[info] using task orders [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+[info] using task orders [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+[info] using task orders [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+[info] using task orders [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+[info] using task orders [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+[info] using task orders [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+[info] using task orders [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+[info] using task orders [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+[info] using task orders [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+[info] using task orders [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+[info] using task orders [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+[info] using task orders [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+[info] using task orders [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+[info] using task orders [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+Skipping video recording for unfinished episode 113 / 720
+Collecting 150 episodes took 674.6076707839966 seconds
+Video saved to:  /tmp/sim_eval_videos_libero_sim/pick_up_the_alphabet_soup_and_place_it_in_the_basket_ac8_e8175e58-4534-42b6-b867-1dc5dfef1a78
+results:  ('libero_sim/pick_up_the_alphabet_soup_and_place_it_in_the_basket', [True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, False, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True], {'episode_lengths': [15, 17, 17, 17, 18, 18, 17, 18, 18, 22, 17, 19, 19, 19, 18, 18, 18, 19, 19, 20, 20, 18, 18, 19, 19, 18, 18, 19, 17, 23, 18, 18, 19, 20, 17, 21, 19, 19, 18, 19, 19, 17, 19, 23, 19, 19, 19, 18, 17, 19, 19, 19, 19, 18, 19, 21, 18, 17, 18, 34, 19, 17, 19, 19, 19, 19, 20, 21, 19, 18, 19, 20, 21, 18, 18, 21, 21, 20, 18, 17, 18, 27, 17, 18, 19, 18, 19, 19, 19, 19, 17, 19, 19, 18, 91, 17, 19, 22, 19, 19, 19, 17, 19, 17, 21, 19, 19, 19, 19, 20, 19, 17, 20, 18, 21, 18, 18, 18, 18, 21, 18, 19, 17, 19, 17, 19, 18, 22, 20, 18, 18, 19, 19, 18, 20, 19, 17, 19, 20, 17, 18, 18, 23, 18, 18, 18, 19, 19, 20, 19, 19], 'episode_rewards': [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 0.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0]})
+success rate:  0.9933774834437086

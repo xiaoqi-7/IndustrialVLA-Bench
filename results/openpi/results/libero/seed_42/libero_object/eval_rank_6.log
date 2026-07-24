@@ -1,0 +1,366 @@
+INFO:root:Task suite: libero_object
+INFO:root:[Eval Split] rank=6, world_size=4, client=127.0.0.1:8011, task_ids=[6]
+INFO:root:Waiting for policy server at ws://127.0.0.1:8011 ...
+INFO:root:Policy server is reachable at ws://127.0.0.1:8011
+INFO:root:[Rank 6] Connecting to policy server 127.0.0.1:8011
+INFO:root:Waiting for server at ws://127.0.0.1:8011...
+[info] using task orders [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+rank6: tasks:   0%|          | 0/1 [00:00<?, ?it/s][Warning]: datasets path /mnt/afs/wuzhongbo/project_teamwork/RoboMemArena/evaluation_benchmark/libero_fork/libero/../datasets does not exist!
+[Warning]: datasets path /mnt/afs/wuzhongbo/project_teamwork/RoboMemArena/evaluation_benchmark/libero_fork/libero/../datasets does not exist!
+
+rank6: task6:   0%|          | 0/50 [00:00<?, ?it/s][AINFO:root:
+Task 6: pick up the butter and place it in the basket
+INFO:root:Starting task=6 episode=1 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 1
+INFO:root:# successes on this rank: 1 (100.0%)
+
+rank6: task6:   2%|▏         | 1/50 [08:28<6:54:54, 508.06s/it][AINFO:root:
+Task 6: pick up the butter and place it in the basket
+INFO:root:Starting task=6 episode=2 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 2
+INFO:root:# successes on this rank: 2 (100.0%)
+
+rank6: task6:   4%|▍         | 2/50 [16:54<6:45:41, 507.11s/it][AINFO:root:
+Task 6: pick up the butter and place it in the basket
+INFO:root:Starting task=6 episode=3 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 3
+INFO:root:# successes on this rank: 3 (100.0%)
+
+rank6: task6:   6%|▌         | 3/50 [24:58<6:29:02, 496.64s/it][AINFO:root:
+Task 6: pick up the butter and place it in the basket
+INFO:root:Starting task=6 episode=4 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 4
+INFO:root:# successes on this rank: 4 (100.0%)
+
+rank6: task6:   8%|▊         | 4/50 [33:36<6:27:18, 505.18s/it][AINFO:root:
+Task 6: pick up the butter and place it in the basket
+INFO:root:Starting task=6 episode=5 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 5
+INFO:root:# successes on this rank: 5 (100.0%)
+
+rank6: task6:  10%|█         | 5/50 [41:46<6:14:40, 499.56s/it][AINFO:root:
+Task 6: pick up the butter and place it in the basket
+INFO:root:Starting task=6 episode=6 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 6
+INFO:root:# successes on this rank: 6 (100.0%)
+
+rank6: task6:  12%|█▏        | 6/50 [50:24<6:11:02, 505.97s/it][AINFO:root:
+Task 6: pick up the butter and place it in the basket
+INFO:root:Starting task=6 episode=7 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 7
+INFO:root:# successes on this rank: 7 (100.0%)
+
+rank6: task6:  14%|█▍        | 7/50 [58:17<5:54:46, 495.04s/it][AINFO:root:
+Task 6: pick up the butter and place it in the basket
+INFO:root:Starting task=6 episode=8 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 8
+INFO:root:# successes on this rank: 8 (100.0%)
+
+rank6: task6:  16%|█▌        | 8/50 [1:06:49<5:50:16, 500.39s/it][AINFO:root:
+Task 6: pick up the butter and place it in the basket
+INFO:root:Starting task=6 episode=9 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 9
+INFO:root:# successes on this rank: 9 (100.0%)
+
+rank6: task6:  18%|█▊        | 9/50 [1:15:23<5:44:48, 504.59s/it][AINFO:root:
+Task 6: pick up the butter and place it in the basket
+INFO:root:Starting task=6 episode=10 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 10
+INFO:root:# successes on this rank: 10 (100.0%)
+
+rank6: task6:  20%|██        | 10/50 [1:23:50<5:36:54, 505.36s/it][AINFO:root:
+Task 6: pick up the butter and place it in the basket
+INFO:root:Starting task=6 episode=11 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 11
+INFO:root:# successes on this rank: 11 (100.0%)
+
+rank6: task6:  22%|██▏       | 11/50 [1:31:51<5:23:41, 497.99s/it][AINFO:root:
+Task 6: pick up the butter and place it in the basket
+INFO:root:Starting task=6 episode=12 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 12
+INFO:root:# successes on this rank: 12 (100.0%)
+
+rank6: task6:  24%|██▍       | 12/50 [1:40:25<5:18:28, 502.84s/it][AINFO:root:
+Task 6: pick up the butter and place it in the basket
+INFO:root:Starting task=6 episode=13 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 13
+INFO:root:# successes on this rank: 13 (100.0%)
+
+rank6: task6:  26%|██▌       | 13/50 [1:48:57<5:11:44, 505.53s/it][AINFO:root:
+Task 6: pick up the butter and place it in the basket
+INFO:root:Starting task=6 episode=14 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 14
+INFO:root:# successes on this rank: 14 (100.0%)
+
+rank6: task6:  28%|██▊       | 14/50 [1:56:52<4:57:49, 496.37s/it][AINFO:root:
+Task 6: pick up the butter and place it in the basket
+INFO:root:Starting task=6 episode=15 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 15
+INFO:root:# successes on this rank: 15 (100.0%)
+
+rank6: task6:  30%|███       | 15/50 [2:04:36<4:43:52, 486.64s/it][AINFO:root:
+Task 6: pick up the butter and place it in the basket
+INFO:root:Starting task=6 episode=16 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 16
+INFO:root:# successes on this rank: 16 (100.0%)
+
+rank6: task6:  32%|███▏      | 16/50 [2:13:21<4:42:20, 498.26s/it][AINFO:root:
+Task 6: pick up the butter and place it in the basket
+INFO:root:Starting task=6 episode=17 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 17
+INFO:root:# successes on this rank: 17 (100.0%)
+
+rank6: task6:  34%|███▍      | 17/50 [2:21:28<4:32:10, 494.86s/it][AINFO:root:
+Task 6: pick up the butter and place it in the basket
+INFO:root:Starting task=6 episode=18 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 18
+INFO:root:# successes on this rank: 18 (100.0%)
+
+rank6: task6:  36%|███▌      | 18/50 [2:29:55<4:25:48, 498.40s/it][AINFO:root:
+Task 6: pick up the butter and place it in the basket
+INFO:root:Starting task=6 episode=19 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 19
+INFO:root:# successes on this rank: 19 (100.0%)
+
+rank6: task6:  38%|███▊      | 19/50 [2:38:18<4:18:16, 499.88s/it][AINFO:root:
+Task 6: pick up the butter and place it in the basket
+INFO:root:Starting task=6 episode=20 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 20
+INFO:root:# successes on this rank: 20 (100.0%)
+
+rank6: task6:  40%|████      | 20/50 [2:50:21<4:43:20, 566.67s/it][AINFO:root:
+Task 6: pick up the butter and place it in the basket
+INFO:root:Starting task=6 episode=21 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 21
+INFO:root:# successes on this rank: 21 (100.0%)
+
+rank6: task6:  42%|████▏     | 21/50 [2:59:23<4:30:21, 559.37s/it][AINFO:root:
+Task 6: pick up the butter and place it in the basket
+INFO:root:Starting task=6 episode=22 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 22
+INFO:root:# successes on this rank: 22 (100.0%)
+
+rank6: task6:  44%|████▍     | 22/50 [3:12:25<4:52:17, 626.33s/it][AINFO:root:
+Task 6: pick up the butter and place it in the basket
+INFO:root:Starting task=6 episode=23 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 23
+INFO:root:# successes on this rank: 23 (100.0%)
+
+rank6: task6:  46%|████▌     | 23/50 [3:21:29<4:30:39, 601.46s/it][AINFO:root:
+Task 6: pick up the butter and place it in the basket
+INFO:root:Starting task=6 episode=24 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 24
+INFO:root:# successes on this rank: 24 (100.0%)
+
+rank6: task6:  48%|████▊     | 24/50 [3:29:34<4:05:31, 566.61s/it][AINFO:root:
+Task 6: pick up the butter and place it in the basket
+INFO:root:Starting task=6 episode=25 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 25
+INFO:root:# successes on this rank: 25 (100.0%)
+
+rank6: task6:  50%|█████     | 25/50 [3:37:03<3:41:24, 531.40s/it][AINFO:root:
+Task 6: pick up the butter and place it in the basket
+INFO:root:Starting task=6 episode=26 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 26
+INFO:root:# successes on this rank: 26 (100.0%)
+
+rank6: task6:  52%|█████▏    | 26/50 [3:45:19<3:28:15, 520.64s/it][AINFO:root:
+Task 6: pick up the butter and place it in the basket
+INFO:root:Starting task=6 episode=27 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 27
+INFO:root:# successes on this rank: 27 (100.0%)
+
+rank6: task6:  54%|█████▍    | 27/50 [3:53:03<3:13:05, 503.70s/it][AINFO:root:
+Task 6: pick up the butter and place it in the basket
+INFO:root:Starting task=6 episode=28 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 28
+INFO:root:# successes on this rank: 28 (100.0%)
+
+rank6: task6:  56%|█████▌    | 28/50 [4:03:28<3:17:58, 539.94s/it][AINFO:root:
+Task 6: pick up the butter and place it in the basket
+INFO:root:Starting task=6 episode=29 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 29
+INFO:root:# successes on this rank: 29 (100.0%)
+
+rank6: task6:  58%|█████▊    | 29/50 [4:11:30<3:02:53, 522.55s/it][AINFO:root:
+Task 6: pick up the butter and place it in the basket
+INFO:root:Starting task=6 episode=30 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 30
+INFO:root:# successes on this rank: 30 (100.0%)
+
+rank6: task6:  60%|██████    | 30/50 [4:20:05<2:53:26, 520.30s/it][AINFO:root:
+Task 6: pick up the butter and place it in the basket
+INFO:root:Starting task=6 episode=31 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 31
+INFO:root:# successes on this rank: 31 (100.0%)
+
+rank6: task6:  62%|██████▏   | 31/50 [4:28:53<2:45:33, 522.83s/it][AINFO:root:
+Task 6: pick up the butter and place it in the basket
+INFO:root:Starting task=6 episode=32 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 32
+INFO:root:# successes on this rank: 32 (100.0%)
+
+rank6: task6:  64%|██████▍   | 32/50 [4:39:54<2:49:14, 564.15s/it][AINFO:root:
+Task 6: pick up the butter and place it in the basket
+INFO:root:Starting task=6 episode=33 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 33
+INFO:root:# successes on this rank: 33 (100.0%)
+
+rank6: task6:  66%|██████▌   | 33/50 [4:48:01<2:33:18, 541.10s/it][AINFO:root:
+Task 6: pick up the butter and place it in the basket
+INFO:root:Starting task=6 episode=34 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 34
+INFO:root:# successes on this rank: 34 (100.0%)
+
+rank6: task6:  68%|██████▊   | 34/50 [4:57:27<2:26:14, 548.41s/it][AINFO:root:
+Task 6: pick up the butter and place it in the basket
+INFO:root:Starting task=6 episode=35 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 35
+INFO:root:# successes on this rank: 35 (100.0%)
+
+rank6: task6:  70%|███████   | 35/50 [5:06:01<2:14:33, 538.25s/it][AINFO:root:
+Task 6: pick up the butter and place it in the basket
+INFO:root:Starting task=6 episode=36 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 36
+INFO:root:# successes on this rank: 36 (100.0%)
+
+rank6: task6:  72%|███████▏  | 36/50 [5:14:08<2:01:59, 522.81s/it][AINFO:root:
+Task 6: pick up the butter and place it in the basket
+INFO:root:Starting task=6 episode=37 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 37
+INFO:root:# successes on this rank: 37 (100.0%)
+
+rank6: task6:  74%|███████▍  | 37/50 [5:22:29<1:51:52, 516.35s/it][AINFO:root:
+Task 6: pick up the butter and place it in the basket
+INFO:root:Starting task=6 episode=38 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 38
+INFO:root:# successes on this rank: 38 (100.0%)
+
+rank6: task6:  76%|███████▌  | 38/50 [5:30:37<1:41:32, 507.67s/it][AINFO:root:
+Task 6: pick up the butter and place it in the basket
+INFO:root:Starting task=6 episode=39 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 39
+INFO:root:# successes on this rank: 39 (100.0%)
+
+rank6: task6:  78%|███████▊  | 39/50 [5:39:32<1:34:35, 515.94s/it][AINFO:root:
+Task 6: pick up the butter and place it in the basket
+INFO:root:Starting task=6 episode=40 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 40
+INFO:root:# successes on this rank: 40 (100.0%)
+
+rank6: task6:  80%|████████  | 40/50 [5:47:25<1:23:49, 502.96s/it][AINFO:root:
+Task 6: pick up the butter and place it in the basket
+INFO:root:Starting task=6 episode=41 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 41
+INFO:root:# successes on this rank: 41 (100.0%)
+
+rank6: task6:  82%|████████▏ | 41/50 [5:55:16<1:14:02, 493.63s/it][AINFO:root:
+Task 6: pick up the butter and place it in the basket
+INFO:root:Starting task=6 episode=42 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 42
+INFO:root:# successes on this rank: 42 (100.0%)
+
+rank6: task6:  84%|████████▍ | 42/50 [6:02:49<1:04:10, 481.37s/it][AINFO:root:
+Task 6: pick up the butter and place it in the basket
+INFO:root:Starting task=6 episode=43 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 43
+INFO:root:# successes on this rank: 43 (100.0%)
+
+rank6: task6:  86%|████████▌ | 43/50 [6:10:03<54:30, 467.21s/it]  [AINFO:root:
+Task 6: pick up the butter and place it in the basket
+INFO:root:Starting task=6 episode=44 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 44
+INFO:root:# successes on this rank: 44 (100.0%)
+
+rank6: task6:  88%|████████▊ | 44/50 [6:17:25<45:56, 459.41s/it][AINFO:root:
+Task 6: pick up the butter and place it in the basket
+INFO:root:Starting task=6 episode=45 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 45
+INFO:root:# successes on this rank: 45 (100.0%)
+
+rank6: task6:  90%|█████████ | 45/50 [6:27:36<42:05, 505.07s/it][AINFO:root:
+Task 6: pick up the butter and place it in the basket
+INFO:root:Starting task=6 episode=46 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 46
+INFO:root:# successes on this rank: 46 (100.0%)
+
+rank6: task6:  92%|█████████▏| 46/50 [6:34:13<31:29, 472.50s/it][AINFO:root:
+Task 6: pick up the butter and place it in the basket
+INFO:root:Starting task=6 episode=47 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 47
+INFO:root:# successes on this rank: 47 (100.0%)
+
+rank6: task6:  94%|█████████▍| 47/50 [6:41:13<22:50, 456.90s/it][AINFO:root:
+Task 6: pick up the butter and place it in the basket
+INFO:root:Starting task=6 episode=48 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 48
+INFO:root:# successes on this rank: 48 (100.0%)
+
+rank6: task6:  96%|█████████▌| 48/50 [6:48:28<15:00, 450.34s/it][AINFO:root:
+Task 6: pick up the butter and place it in the basket
+INFO:root:Starting task=6 episode=49 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 49
+INFO:root:# successes on this rank: 49 (100.0%)
+
+rank6: task6:  98%|█████████▊| 49/50 [6:56:54<07:46, 466.99s/it][AINFO:root:
+Task 6: pick up the butter and place it in the basket
+INFO:root:Starting task=6 episode=50 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 50
+INFO:root:# successes on this rank: 50 (100.0%)
+
+rank6: task6: 100%|██████████| 50/50 [7:04:29<00:00, 463.48s/it][A
+                                                                [AINFO:root:Current task success rate on rank 6: 1.0
+INFO:root:Current rank success rate: 1.0
+rank6: tasks: 100%|██████████| 1/1 [7:04:32<00:00, 25472.84s/it]rank6: tasks: 100%|██████████| 1/1 [7:04:32<00:00, 25472.84s/it]
+INFO:root:Rank 6 total success rate: 1.0
+INFO:root:Rank 6 total episodes: 50

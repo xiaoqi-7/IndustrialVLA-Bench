@@ -1,0 +1,832 @@
+/root/miniconda3/envs/openpi/lib/python3.12/site-packages/torch/cuda/__init__.py:61: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+  import pynvml  # type: ignore[import]
+INFO:root:Task suite: libero_object
+INFO:root:[Eval Split] rank=0, world_size=5, client=127.0.0.1:6666, task_ids=[0, 5]
+INFO:root:Waiting for policy server at ws://127.0.0.1:6666 ...
+INFO:root:Policy server is reachable at ws://127.0.0.1:6666
+INFO:root:[Rank 0] Connecting to policy server 127.0.0.1:6666
+INFO:root:Waiting for server at ws://127.0.0.1:6666...
+[info] using task orders [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+
+rank0: tasks:   0%|          | 0/2 [00:00<?, ?it/s]/mnt/afs/raozf/openpi/LIBERO/libero/libero/benchmark/__init__.py:164: UserWarning: Environment variable TORCH_FORCE_NO_WEIGHTS_ONLY_LOAD detected, since the`weights_only` argument was not explicitly passed to `torch.load`, forcing weights_only=False.
+  init_states = torch.load(init_states_path)
+
+
+rank0: task0:   0%|          | 0/50 [00:00<?, ?it/s][AINFO:root:
+Task 0: pick up the alphabet soup and place it in the basket
+INFO:root:Starting task=0 episode=1 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 1
+INFO:root:# successes on this rank: 1 (100.0%)
+
+
+rank0: task0:   2%|▏         | 1/50 [00:25<20:49, 25.50s/it][AINFO:root:
+Task 0: pick up the alphabet soup and place it in the basket
+INFO:root:Starting task=0 episode=2 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 2
+INFO:root:# successes on this rank: 2 (100.0%)
+
+
+rank0: task0:   4%|▍         | 2/50 [00:54<21:48, 27.26s/it][AINFO:root:
+Task 0: pick up the alphabet soup and place it in the basket
+INFO:root:Starting task=0 episode=3 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 3
+INFO:root:# successes on this rank: 3 (100.0%)
+
+
+rank0: task0:   6%|▌         | 3/50 [01:20<21:10, 27.04s/it][AINFO:root:
+Task 0: pick up the alphabet soup and place it in the basket
+INFO:root:Starting task=0 episode=4 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 4
+INFO:root:# successes on this rank: 4 (100.0%)
+
+
+rank0: task0:   8%|▊         | 4/50 [01:49<21:05, 27.51s/it][AINFO:root:
+Task 0: pick up the alphabet soup and place it in the basket
+INFO:root:Starting task=0 episode=5 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 5
+INFO:root:# successes on this rank: 5 (100.0%)
+
+
+rank0: task0:  10%|█         | 5/50 [02:18<21:16, 28.37s/it][AINFO:root:
+Task 0: pick up the alphabet soup and place it in the basket
+INFO:root:Starting task=0 episode=6 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 6
+INFO:root:# successes on this rank: 6 (100.0%)
+
+
+rank0: task0:  12%|█▏        | 6/50 [02:46<20:41, 28.23s/it][AINFO:root:
+Task 0: pick up the alphabet soup and place it in the basket
+INFO:root:Starting task=0 episode=7 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 7
+INFO:root:# successes on this rank: 7 (100.0%)
+
+
+rank0: task0:  14%|█▍        | 7/50 [03:13<19:50, 27.67s/it][AINFO:root:
+Task 0: pick up the alphabet soup and place it in the basket
+INFO:root:Starting task=0 episode=8 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 8
+INFO:root:# successes on this rank: 8 (100.0%)
+
+
+rank0: task0:  16%|█▌        | 8/50 [03:40<19:08, 27.35s/it][AINFO:root:
+Task 0: pick up the alphabet soup and place it in the basket
+INFO:root:Starting task=0 episode=9 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 9
+INFO:root:# successes on this rank: 9 (100.0%)
+
+
+rank0: task0:  18%|█▊        | 9/50 [04:10<19:21, 28.33s/it][AINFO:root:
+Task 0: pick up the alphabet soup and place it in the basket
+INFO:root:Starting task=0 episode=10 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 10
+INFO:root:# successes on this rank: 10 (100.0%)
+
+
+rank0: task0:  20%|██        | 10/50 [04:38<18:47, 28.18s/it][AINFO:root:
+Task 0: pick up the alphabet soup and place it in the basket
+INFO:root:Starting task=0 episode=11 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 11
+INFO:root:# successes on this rank: 11 (100.0%)
+
+
+rank0: task0:  22%|██▏       | 11/50 [05:06<18:17, 28.14s/it][AINFO:root:
+Task 0: pick up the alphabet soup and place it in the basket
+INFO:root:Starting task=0 episode=12 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 12
+INFO:root:# successes on this rank: 12 (100.0%)
+
+
+rank0: task0:  24%|██▍       | 12/50 [05:33<17:41, 27.93s/it][AINFO:root:
+Task 0: pick up the alphabet soup and place it in the basket
+INFO:root:Starting task=0 episode=13 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 13
+INFO:root:# successes on this rank: 13 (100.0%)
+
+
+rank0: task0:  26%|██▌       | 13/50 [06:13<19:21, 31.40s/it][AINFO:root:
+Task 0: pick up the alphabet soup and place it in the basket
+INFO:root:Starting task=0 episode=14 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 14
+INFO:root:# successes on this rank: 14 (100.0%)
+
+
+rank0: task0:  28%|██▊       | 14/50 [06:45<18:55, 31.55s/it][AINFO:root:
+Task 0: pick up the alphabet soup and place it in the basket
+INFO:root:Starting task=0 episode=15 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 15
+INFO:root:# successes on this rank: 15 (100.0%)
+
+
+rank0: task0:  30%|███       | 15/50 [07:11<17:30, 30.02s/it][AINFO:root:
+Task 0: pick up the alphabet soup and place it in the basket
+INFO:root:Starting task=0 episode=16 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 16
+INFO:root:# successes on this rank: 16 (100.0%)
+
+
+rank0: task0:  32%|███▏      | 16/50 [07:39<16:35, 29.28s/it][AINFO:root:
+Task 0: pick up the alphabet soup and place it in the basket
+INFO:root:Starting task=0 episode=17 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 17
+INFO:root:# successes on this rank: 17 (100.0%)
+
+
+rank0: task0:  34%|███▍      | 17/50 [08:17<17:38, 32.07s/it][AINFO:root:
+Task 0: pick up the alphabet soup and place it in the basket
+INFO:root:Starting task=0 episode=18 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 18
+INFO:root:# successes on this rank: 18 (100.0%)
+
+
+rank0: task0:  36%|███▌      | 18/50 [08:45<16:26, 30.82s/it][AINFO:root:
+Task 0: pick up the alphabet soup and place it in the basket
+INFO:root:Starting task=0 episode=19 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 19
+INFO:root:# successes on this rank: 19 (100.0%)
+
+
+rank0: task0:  38%|███▊      | 19/50 [09:13<15:26, 29.87s/it][AINFO:root:
+Task 0: pick up the alphabet soup and place it in the basket
+INFO:root:Starting task=0 episode=20 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 20
+INFO:root:# successes on this rank: 20 (100.0%)
+
+
+rank0: task0:  40%|████      | 20/50 [09:40<14:30, 29.01s/it][AINFO:root:
+Task 0: pick up the alphabet soup and place it in the basket
+INFO:root:Starting task=0 episode=21 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 21
+INFO:root:# successes on this rank: 21 (100.0%)
+
+
+rank0: task0:  42%|████▏     | 21/50 [10:10<14:13, 29.44s/it][AINFO:root:
+Task 0: pick up the alphabet soup and place it in the basket
+INFO:root:Starting task=0 episode=22 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 22
+INFO:root:# successes on this rank: 22 (100.0%)
+
+
+rank0: task0:  44%|████▍     | 22/50 [10:42<14:03, 30.13s/it][AINFO:root:
+Task 0: pick up the alphabet soup and place it in the basket
+INFO:root:Starting task=0 episode=23 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 23
+INFO:root:# successes on this rank: 23 (100.0%)
+
+
+rank0: task0:  46%|████▌     | 23/50 [11:08<12:56, 28.77s/it][AINFO:root:
+Task 0: pick up the alphabet soup and place it in the basket
+INFO:root:Starting task=0 episode=24 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 24
+INFO:root:# successes on this rank: 24 (100.0%)
+
+
+rank0: task0:  48%|████▊     | 24/50 [11:37<12:36, 29.08s/it][AINFO:root:
+Task 0: pick up the alphabet soup and place it in the basket
+INFO:root:Starting task=0 episode=25 ...
+INFO:root:Success: False
+INFO:root:# episodes completed on this rank so far: 25
+INFO:root:# successes on this rank: 24 (96.0%)
+
+
+rank0: task0:  50%|█████     | 25/50 [12:28<14:46, 35.44s/it][AINFO:root:
+Task 0: pick up the alphabet soup and place it in the basket
+INFO:root:Starting task=0 episode=26 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 26
+INFO:root:# successes on this rank: 25 (96.2%)
+
+
+rank0: task0:  52%|█████▏    | 26/50 [12:53<12:54, 32.28s/it][AINFO:root:
+Task 0: pick up the alphabet soup and place it in the basket
+INFO:root:Starting task=0 episode=27 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 27
+INFO:root:# successes on this rank: 26 (96.3%)
+
+
+rank0: task0:  54%|█████▍    | 27/50 [13:19<11:44, 30.63s/it][AINFO:root:
+Task 0: pick up the alphabet soup and place it in the basket
+INFO:root:Starting task=0 episode=28 ...
+INFO:root:Success: False
+INFO:root:# episodes completed on this rank so far: 28
+INFO:root:# successes on this rank: 26 (92.9%)
+
+
+rank0: task0:  56%|█████▌    | 28/50 [14:09<13:20, 36.39s/it][AINFO:root:
+Task 0: pick up the alphabet soup and place it in the basket
+INFO:root:Starting task=0 episode=29 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 29
+INFO:root:# successes on this rank: 27 (93.1%)
+
+
+rank0: task0:  58%|█████▊    | 29/50 [14:38<11:57, 34.19s/it][AINFO:root:
+Task 0: pick up the alphabet soup and place it in the basket
+INFO:root:Starting task=0 episode=30 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 30
+INFO:root:# successes on this rank: 28 (93.3%)
+
+
+rank0: task0:  60%|██████    | 30/50 [15:08<10:57, 32.86s/it][AINFO:root:
+Task 0: pick up the alphabet soup and place it in the basket
+INFO:root:Starting task=0 episode=31 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 31
+INFO:root:# successes on this rank: 29 (93.5%)
+
+
+rank0: task0:  62%|██████▏   | 31/50 [15:39<10:13, 32.31s/it][AINFO:root:
+Task 0: pick up the alphabet soup and place it in the basket
+INFO:root:Starting task=0 episode=32 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 32
+INFO:root:# successes on this rank: 30 (93.8%)
+
+
+rank0: task0:  64%|██████▍   | 32/50 [16:12<09:46, 32.57s/it][AINFO:root:
+Task 0: pick up the alphabet soup and place it in the basket
+INFO:root:Starting task=0 episode=33 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 33
+INFO:root:# successes on this rank: 31 (93.9%)
+
+
+rank0: task0:  66%|██████▌   | 33/50 [16:39<08:43, 30.80s/it][AINFO:root:
+Task 0: pick up the alphabet soup and place it in the basket
+INFO:root:Starting task=0 episode=34 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 34
+INFO:root:# successes on this rank: 32 (94.1%)
+
+
+rank0: task0:  68%|██████▊   | 34/50 [17:10<08:12, 30.77s/it][AINFO:root:
+Task 0: pick up the alphabet soup and place it in the basket
+INFO:root:Starting task=0 episode=35 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 35
+INFO:root:# successes on this rank: 33 (94.3%)
+
+
+rank0: task0:  70%|███████   | 35/50 [17:35<07:19, 29.31s/it][AINFO:root:
+Task 0: pick up the alphabet soup and place it in the basket
+INFO:root:Starting task=0 episode=36 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 36
+INFO:root:# successes on this rank: 34 (94.4%)
+
+
+rank0: task0:  72%|███████▏  | 36/50 [18:04<06:45, 28.93s/it][AINFO:root:
+Task 0: pick up the alphabet soup and place it in the basket
+INFO:root:Starting task=0 episode=37 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 37
+INFO:root:# successes on this rank: 35 (94.6%)
+
+
+rank0: task0:  74%|███████▍  | 37/50 [18:31<06:10, 28.49s/it][AINFO:root:
+Task 0: pick up the alphabet soup and place it in the basket
+INFO:root:Starting task=0 episode=38 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 38
+INFO:root:# successes on this rank: 36 (94.7%)
+
+
+rank0: task0:  76%|███████▌  | 38/50 [18:57<05:33, 27.77s/it][AINFO:root:
+Task 0: pick up the alphabet soup and place it in the basket
+INFO:root:Starting task=0 episode=39 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 39
+INFO:root:# successes on this rank: 37 (94.9%)
+
+
+rank0: task0:  78%|███████▊  | 39/50 [19:26<05:09, 28.16s/it][AINFO:root:
+Task 0: pick up the alphabet soup and place it in the basket
+INFO:root:Starting task=0 episode=40 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 40
+INFO:root:# successes on this rank: 38 (95.0%)
+
+
+rank0: task0:  80%|████████  | 40/50 [19:57<04:50, 29.08s/it][AINFO:root:
+Task 0: pick up the alphabet soup and place it in the basket
+INFO:root:Starting task=0 episode=41 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 41
+INFO:root:# successes on this rank: 39 (95.1%)
+
+
+rank0: task0:  82%|████████▏ | 41/50 [20:25<04:18, 28.75s/it][AINFO:root:
+Task 0: pick up the alphabet soup and place it in the basket
+INFO:root:Starting task=0 episode=42 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 42
+INFO:root:# successes on this rank: 40 (95.2%)
+
+
+rank0: task0:  84%|████████▍ | 42/50 [20:55<03:51, 28.97s/it][AINFO:root:
+Task 0: pick up the alphabet soup and place it in the basket
+INFO:root:Starting task=0 episode=43 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 43
+INFO:root:# successes on this rank: 41 (95.3%)
+
+
+rank0: task0:  86%|████████▌ | 43/50 [21:22<03:17, 28.28s/it][AINFO:root:
+Task 0: pick up the alphabet soup and place it in the basket
+INFO:root:Starting task=0 episode=44 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 44
+INFO:root:# successes on this rank: 42 (95.5%)
+
+
+rank0: task0:  88%|████████▊ | 44/50 [21:48<02:46, 27.77s/it][AINFO:root:
+Task 0: pick up the alphabet soup and place it in the basket
+INFO:root:Starting task=0 episode=45 ...
+INFO:root:Success: False
+INFO:root:# episodes completed on this rank so far: 45
+INFO:root:# successes on this rank: 42 (93.3%)
+
+
+rank0: task0:  90%|█████████ | 45/50 [22:39<02:54, 34.81s/it][AINFO:root:
+Task 0: pick up the alphabet soup and place it in the basket
+INFO:root:Starting task=0 episode=46 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 46
+INFO:root:# successes on this rank: 43 (93.5%)
+
+
+rank0: task0:  92%|█████████▏| 46/50 [23:06<02:10, 32.51s/it][AINFO:root:
+Task 0: pick up the alphabet soup and place it in the basket
+INFO:root:Starting task=0 episode=47 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 47
+INFO:root:# successes on this rank: 44 (93.6%)
+
+
+rank0: task0:  94%|█████████▍| 47/50 [23:30<01:29, 29.96s/it][AINFO:root:
+Task 0: pick up the alphabet soup and place it in the basket
+INFO:root:Starting task=0 episode=48 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 48
+INFO:root:# successes on this rank: 45 (93.8%)
+
+
+rank0: task0:  96%|█████████▌| 48/50 [23:57<00:57, 28.90s/it][AINFO:root:
+Task 0: pick up the alphabet soup and place it in the basket
+INFO:root:Starting task=0 episode=49 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 49
+INFO:root:# successes on this rank: 46 (93.9%)
+
+
+rank0: task0:  98%|█████████▊| 49/50 [24:24<00:28, 28.35s/it][AINFO:root:
+Task 0: pick up the alphabet soup and place it in the basket
+INFO:root:Starting task=0 episode=50 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 50
+INFO:root:# successes on this rank: 47 (94.0%)
+
+
+rank0: task0: 100%|██████████| 50/50 [24:49<00:00, 27.44s/it][A
+
+                                                             [AINFO:root:Current task success rate on rank 0: 0.94
+INFO:root:Current rank success rate: 0.94
+
+rank0: tasks:  50%|█████     | 1/2 [24:51<24:51, 1491.73s/it]/mnt/afs/raozf/openpi/LIBERO/libero/libero/benchmark/__init__.py:164: UserWarning: Environment variable TORCH_FORCE_NO_WEIGHTS_ONLY_LOAD detected, since the`weights_only` argument was not explicitly passed to `torch.load`, forcing weights_only=False.
+  init_states = torch.load(init_states_path)
+
+
+rank0: task5:   0%|          | 0/50 [00:00<?, ?it/s][AINFO:root:
+Task 5: pick up the tomato sauce and place it in the basket
+INFO:root:Starting task=5 episode=1 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 51
+INFO:root:# successes on this rank: 48 (94.1%)
+
+
+rank0: task5:   2%|▏         | 1/50 [00:24<19:49, 24.28s/it][AINFO:root:
+Task 5: pick up the tomato sauce and place it in the basket
+INFO:root:Starting task=5 episode=2 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 52
+INFO:root:# successes on this rank: 49 (94.2%)
+
+
+rank0: task5:   4%|▍         | 2/50 [00:49<20:04, 25.09s/it][AINFO:root:
+Task 5: pick up the tomato sauce and place it in the basket
+INFO:root:Starting task=5 episode=3 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 53
+INFO:root:# successes on this rank: 50 (94.3%)
+
+
+rank0: task5:   6%|▌         | 3/50 [01:18<20:50, 26.61s/it][AINFO:root:
+Task 5: pick up the tomato sauce and place it in the basket
+INFO:root:Starting task=5 episode=4 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 54
+INFO:root:# successes on this rank: 51 (94.4%)
+
+
+rank0: task5:   8%|▊         | 4/50 [01:43<19:49, 25.85s/it][AINFO:root:
+Task 5: pick up the tomato sauce and place it in the basket
+INFO:root:Starting task=5 episode=5 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 55
+INFO:root:# successes on this rank: 52 (94.5%)
+
+
+rank0: task5:  10%|█         | 5/50 [02:06<18:50, 25.12s/it][AINFO:root:
+Task 5: pick up the tomato sauce and place it in the basket
+INFO:root:Starting task=5 episode=6 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 56
+INFO:root:# successes on this rank: 53 (94.6%)
+
+
+rank0: task5:  12%|█▏        | 6/50 [02:37<19:50, 27.06s/it][AINFO:root:
+Task 5: pick up the tomato sauce and place it in the basket
+INFO:root:Starting task=5 episode=7 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 57
+INFO:root:# successes on this rank: 54 (94.7%)
+
+
+rank0: task5:  14%|█▍        | 7/50 [03:03<19:05, 26.63s/it][AINFO:root:
+Task 5: pick up the tomato sauce and place it in the basket
+INFO:root:Starting task=5 episode=8 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 58
+INFO:root:# successes on this rank: 55 (94.8%)
+
+
+rank0: task5:  16%|█▌        | 8/50 [03:27<18:09, 25.94s/it][AINFO:root:
+Task 5: pick up the tomato sauce and place it in the basket
+INFO:root:Starting task=5 episode=9 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 59
+INFO:root:# successes on this rank: 56 (94.9%)
+
+
+rank0: task5:  18%|█▊        | 9/50 [03:54<17:48, 26.07s/it][AINFO:root:
+Task 5: pick up the tomato sauce and place it in the basket
+INFO:root:Starting task=5 episode=10 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 60
+INFO:root:# successes on this rank: 57 (95.0%)
+
+
+rank0: task5:  20%|██        | 10/50 [04:24<18:10, 27.27s/it][AINFO:root:
+Task 5: pick up the tomato sauce and place it in the basket
+INFO:root:Starting task=5 episode=11 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 61
+INFO:root:# successes on this rank: 58 (95.1%)
+
+
+rank0: task5:  22%|██▏       | 11/50 [04:53<18:10, 27.95s/it][AINFO:root:
+Task 5: pick up the tomato sauce and place it in the basket
+INFO:root:Starting task=5 episode=12 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 62
+INFO:root:# successes on this rank: 59 (95.2%)
+
+
+rank0: task5:  24%|██▍       | 12/50 [05:18<17:10, 27.13s/it][AINFO:root:
+Task 5: pick up the tomato sauce and place it in the basket
+INFO:root:Starting task=5 episode=13 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 63
+INFO:root:# successes on this rank: 60 (95.2%)
+
+
+rank0: task5:  26%|██▌       | 13/50 [05:45<16:36, 26.94s/it][AINFO:root:
+Task 5: pick up the tomato sauce and place it in the basket
+INFO:root:Starting task=5 episode=14 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 64
+INFO:root:# successes on this rank: 61 (95.3%)
+
+
+rank0: task5:  28%|██▊       | 14/50 [06:10<15:52, 26.47s/it][AINFO:root:
+Task 5: pick up the tomato sauce and place it in the basket
+INFO:root:Starting task=5 episode=15 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 65
+INFO:root:# successes on this rank: 62 (95.4%)
+
+
+rank0: task5:  30%|███       | 15/50 [06:43<16:29, 28.27s/it][AINFO:root:
+Task 5: pick up the tomato sauce and place it in the basket
+INFO:root:Starting task=5 episode=16 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 66
+INFO:root:# successes on this rank: 63 (95.5%)
+
+
+rank0: task5:  32%|███▏      | 16/50 [07:09<15:38, 27.60s/it][AINFO:root:
+Task 5: pick up the tomato sauce and place it in the basket
+INFO:root:Starting task=5 episode=17 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 67
+INFO:root:# successes on this rank: 64 (95.5%)
+
+
+rank0: task5:  34%|███▍      | 17/50 [07:34<14:48, 26.92s/it][AINFO:root:
+Task 5: pick up the tomato sauce and place it in the basket
+INFO:root:Starting task=5 episode=18 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 68
+INFO:root:# successes on this rank: 65 (95.6%)
+
+
+rank0: task5:  36%|███▌      | 18/50 [08:09<15:33, 29.19s/it][AINFO:root:
+Task 5: pick up the tomato sauce and place it in the basket
+INFO:root:Starting task=5 episode=19 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 69
+INFO:root:# successes on this rank: 66 (95.7%)
+
+
+rank0: task5:  38%|███▊      | 19/50 [08:34<14:32, 28.16s/it][AINFO:root:
+Task 5: pick up the tomato sauce and place it in the basket
+INFO:root:Starting task=5 episode=20 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 70
+INFO:root:# successes on this rank: 67 (95.7%)
+
+
+rank0: task5:  40%|████      | 20/50 [08:59<13:36, 27.20s/it][AINFO:root:
+Task 5: pick up the tomato sauce and place it in the basket
+INFO:root:Starting task=5 episode=21 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 71
+INFO:root:# successes on this rank: 68 (95.8%)
+
+
+rank0: task5:  42%|████▏     | 21/50 [09:36<14:32, 30.09s/it][AINFO:root:
+Task 5: pick up the tomato sauce and place it in the basket
+INFO:root:Starting task=5 episode=22 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 72
+INFO:root:# successes on this rank: 69 (95.8%)
+
+
+rank0: task5:  44%|████▍     | 22/50 [10:01<13:19, 28.55s/it][AINFO:root:
+Task 5: pick up the tomato sauce and place it in the basket
+INFO:root:Starting task=5 episode=23 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 73
+INFO:root:# successes on this rank: 70 (95.9%)
+
+
+rank0: task5:  46%|████▌     | 23/50 [10:26<12:18, 27.36s/it][AINFO:root:
+Task 5: pick up the tomato sauce and place it in the basket
+INFO:root:Starting task=5 episode=24 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 74
+INFO:root:# successes on this rank: 71 (95.9%)
+
+
+rank0: task5:  48%|████▊     | 24/50 [11:08<13:45, 31.73s/it][AINFO:root:
+Task 5: pick up the tomato sauce and place it in the basket
+INFO:root:Starting task=5 episode=25 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 75
+INFO:root:# successes on this rank: 72 (96.0%)
+
+
+rank0: task5:  50%|█████     | 25/50 [11:34<12:34, 30.19s/it][AINFO:root:
+Task 5: pick up the tomato sauce and place it in the basket
+INFO:root:Starting task=5 episode=26 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 76
+INFO:root:# successes on this rank: 73 (96.1%)
+
+
+rank0: task5:  52%|█████▏    | 26/50 [11:59<11:25, 28.55s/it][AINFO:root:
+Task 5: pick up the tomato sauce and place it in the basket
+INFO:root:Starting task=5 episode=27 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 77
+INFO:root:# successes on this rank: 74 (96.1%)
+
+
+rank0: task5:  54%|█████▍    | 27/50 [12:23<10:25, 27.20s/it][AINFO:root:
+Task 5: pick up the tomato sauce and place it in the basket
+INFO:root:Starting task=5 episode=28 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 78
+INFO:root:# successes on this rank: 75 (96.2%)
+
+
+rank0: task5:  56%|█████▌    | 28/50 [12:49<09:51, 26.87s/it][AINFO:root:
+Task 5: pick up the tomato sauce and place it in the basket
+INFO:root:Starting task=5 episode=29 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 79
+INFO:root:# successes on this rank: 76 (96.2%)
+
+
+rank0: task5:  58%|█████▊    | 29/50 [13:15<09:15, 26.47s/it][AINFO:root:
+Task 5: pick up the tomato sauce and place it in the basket
+INFO:root:Starting task=5 episode=30 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 80
+INFO:root:# successes on this rank: 77 (96.2%)
+
+
+rank0: task5:  60%|██████    | 30/50 [13:40<08:44, 26.22s/it][AINFO:root:
+Task 5: pick up the tomato sauce and place it in the basket
+INFO:root:Starting task=5 episode=31 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 81
+INFO:root:# successes on this rank: 78 (96.3%)
+
+
+rank0: task5:  62%|██████▏   | 31/50 [14:07<08:18, 26.24s/it][AINFO:root:
+Task 5: pick up the tomato sauce and place it in the basket
+INFO:root:Starting task=5 episode=32 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 82
+INFO:root:# successes on this rank: 79 (96.3%)
+
+
+rank0: task5:  64%|██████▍   | 32/50 [14:39<08:26, 28.13s/it][AINFO:root:
+Task 5: pick up the tomato sauce and place it in the basket
+INFO:root:Starting task=5 episode=33 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 83
+INFO:root:# successes on this rank: 80 (96.4%)
+
+
+rank0: task5:  66%|██████▌   | 33/50 [15:07<07:58, 28.16s/it][AINFO:root:
+Task 5: pick up the tomato sauce and place it in the basket
+INFO:root:Starting task=5 episode=34 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 84
+INFO:root:# successes on this rank: 81 (96.4%)
+
+
+rank0: task5:  68%|██████▊   | 34/50 [15:33<07:18, 27.40s/it][AINFO:root:
+Task 5: pick up the tomato sauce and place it in the basket
+INFO:root:Starting task=5 episode=35 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 85
+INFO:root:# successes on this rank: 82 (96.5%)
+
+
+rank0: task5:  70%|███████   | 35/50 [15:59<06:45, 27.02s/it][AINFO:root:
+Task 5: pick up the tomato sauce and place it in the basket
+INFO:root:Starting task=5 episode=36 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 86
+INFO:root:# successes on this rank: 83 (96.5%)
+
+
+rank0: task5:  72%|███████▏  | 36/50 [16:25<06:13, 26.70s/it][AINFO:root:
+Task 5: pick up the tomato sauce and place it in the basket
+INFO:root:Starting task=5 episode=37 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 87
+INFO:root:# successes on this rank: 84 (96.6%)
+
+
+rank0: task5:  74%|███████▍  | 37/50 [16:51<05:44, 26.53s/it][AINFO:root:
+Task 5: pick up the tomato sauce and place it in the basket
+INFO:root:Starting task=5 episode=38 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 88
+INFO:root:# successes on this rank: 85 (96.6%)
+
+
+rank0: task5:  76%|███████▌  | 38/50 [17:18<05:19, 26.65s/it][AINFO:root:
+Task 5: pick up the tomato sauce and place it in the basket
+INFO:root:Starting task=5 episode=39 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 89
+INFO:root:# successes on this rank: 86 (96.6%)
+
+
+rank0: task5:  78%|███████▊  | 39/50 [17:42<04:45, 25.96s/it][AINFO:root:
+Task 5: pick up the tomato sauce and place it in the basket
+INFO:root:Starting task=5 episode=40 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 90
+INFO:root:# successes on this rank: 87 (96.7%)
+
+
+rank0: task5:  80%|████████  | 40/50 [18:08<04:18, 25.84s/it][AINFO:root:
+Task 5: pick up the tomato sauce and place it in the basket
+INFO:root:Starting task=5 episode=41 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 91
+INFO:root:# successes on this rank: 88 (96.7%)
+
+
+rank0: task5:  82%|████████▏ | 41/50 [18:33<03:49, 25.47s/it][AINFO:root:
+Task 5: pick up the tomato sauce and place it in the basket
+INFO:root:Starting task=5 episode=42 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 92
+INFO:root:# successes on this rank: 89 (96.7%)
+
+
+rank0: task5:  84%|████████▍ | 42/50 [18:58<03:24, 25.54s/it][AINFO:root:
+Task 5: pick up the tomato sauce and place it in the basket
+INFO:root:Starting task=5 episode=43 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 93
+INFO:root:# successes on this rank: 90 (96.8%)
+
+
+rank0: task5:  86%|████████▌ | 43/50 [19:22<02:54, 24.87s/it][AINFO:root:
+Task 5: pick up the tomato sauce and place it in the basket
+INFO:root:Starting task=5 episode=44 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 94
+INFO:root:# successes on this rank: 91 (96.8%)
+
+
+rank0: task5:  88%|████████▊ | 44/50 [19:49<02:32, 25.47s/it][AINFO:root:
+Task 5: pick up the tomato sauce and place it in the basket
+INFO:root:Starting task=5 episode=45 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 95
+INFO:root:# successes on this rank: 92 (96.8%)
+
+
+rank0: task5:  90%|█████████ | 45/50 [20:12<02:04, 24.96s/it][AINFO:root:
+Task 5: pick up the tomato sauce and place it in the basket
+INFO:root:Starting task=5 episode=46 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 96
+INFO:root:# successes on this rank: 93 (96.9%)
+
+
+rank0: task5:  92%|█████████▏| 46/50 [20:37<01:39, 24.90s/it][AINFO:root:
+Task 5: pick up the tomato sauce and place it in the basket
+INFO:root:Starting task=5 episode=47 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 97
+INFO:root:# successes on this rank: 94 (96.9%)
+
+
+rank0: task5:  94%|█████████▍| 47/50 [21:02<01:14, 24.83s/it][AINFO:root:
+Task 5: pick up the tomato sauce and place it in the basket
+INFO:root:Starting task=5 episode=48 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 98
+INFO:root:# successes on this rank: 95 (96.9%)
+
+
+rank0: task5:  96%|█████████▌| 48/50 [21:26<00:49, 24.60s/it][AINFO:root:
+Task 5: pick up the tomato sauce and place it in the basket
+INFO:root:Starting task=5 episode=49 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 99
+INFO:root:# successes on this rank: 96 (97.0%)
+
+
+rank0: task5:  98%|█████████▊| 49/50 [21:51<00:24, 24.69s/it][AINFO:root:
+Task 5: pick up the tomato sauce and place it in the basket
+INFO:root:Starting task=5 episode=50 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 100
+INFO:root:# successes on this rank: 97 (97.0%)
+
+
+rank0: task5: 100%|██████████| 50/50 [22:20<00:00, 26.18s/it][A
+
+                                                             [AINFO:root:Current task success rate on rank 0: 1.0
+INFO:root:Current rank success rate: 0.97
+
+rank0: tasks: 100%|██████████| 2/2 [47:13<00:00, 1403.77s/it]
+rank0: tasks: 100%|██████████| 2/2 [47:13<00:00, 1416.96s/it]
+INFO:root:Rank 0 total success rate: 0.97
+INFO:root:Rank 0 total episodes: 100
