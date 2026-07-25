@@ -4,9 +4,11 @@
 <h3>An Official-First Benchmark for Open Robot Policy Models</h3>
 
 <p>
-Yiqi Wang, Zhifeng Rao, Jiaqi Zhang, Zhangkai Wu, Xiaoyang Li,<br>
+Yiqi Wang<sup>*</sup>, Zhifeng Rao<sup>*</sup>, Jiaqi Zhang, Zhangkai Wu, Xiaoyang Li,<br>
 Yiqun Duan, Mingkai Zheng, Fei Wang, Shan You, Taotao Cai
 </p>
+<p><sup>*</sup>Equal contribution.</p>
+
 
 <p>
 <a href="https://arxiv.org/abs/XXXX.XXXXX"><img src="https://img.shields.io/badge/arXiv-Paper-B31B1B?logo=arxiv&logoColor=white" alt="arXiv"></a>
