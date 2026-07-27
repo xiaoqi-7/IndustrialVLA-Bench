@@ -61,8 +61,8 @@ export MESA_LOADER_DRIVER_OVERRIDE=llvmpipe
 # =========================
 # Model / eval settings
 # =========================
-your_ckpt=/mnt/afs/zhengmingkai/raozf/models/UnifoLM/UnifoLM-VLA-Libero/checkpoints/pytorch_model.pt
-vlm_pretrained_path=/mnt/afs/zhengmingkai/raozf/models/UnifoLM/UnifoLM-VLM-Base
+your_ckpt="${your_ckpt:-}"                        # set to .../UnifoLM-VLA-Libero/checkpoints/pytorch_model.pt
+vlm_pretrained_path="${vlm_pretrained_path:-}"    # set to a local UnifoLM-VLM-Base download
 
 task_suite_name=libero_object
 num_trials_per_task=50

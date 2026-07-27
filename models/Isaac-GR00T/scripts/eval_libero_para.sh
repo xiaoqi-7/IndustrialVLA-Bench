@@ -17,10 +17,10 @@ Modes:
   check    Validate paths, data, imports, and GPU availability.
 
 Key environment variables:
-  SEED                    Random seed (default: 7; --seed takes precedence)
+  SEED                    Random seed (default: 1; paper protocol runs 1, 7, 42)
   SERVER_SEED             Model-server seed (default: SEED)
   CONDA_ENV               Default: /root/envs/gr00t_libero
-  MODEL_PATH              Default: .../Gr00t-N1.7-libero/libero_goal
+  MODEL_PATH              GR00T libero_goal checkpoint directory (required)
   CUDA_VISIBLE_DEVICES    One GPU ID (default: 0)
   HOST / PORT             Default: 127.0.0.1 / 5555
   MAX_STEPS               Primitive environment steps per task (default: 300)
@@ -46,7 +46,7 @@ elif [[ "${1:-}" =~ ^(-h|--help|help)$ ]]; then
   exit 0
 fi
 
-SEED="${SEED:-7}"
+SEED="${SEED:-1}"  # paper protocol: three runs with SEED=1, 7, 42
 SERVER_SEED="${SERVER_SEED:-}"
 while (( $# > 0 )); do
   case "$1" in
@@ -86,11 +86,11 @@ SERVER_SEED="${SERVER_SEED:-$SEED}"
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 REPO_DIR="${REPO_DIR:-$(cd "$SCRIPT_DIR/.." && pwd)}"
 BENCHMARK_ROOT="${BENCHMARK_ROOT:-$(cd "$REPO_DIR/.." && pwd)}"
-LIBERO_PARA_ROOT="${LIBERO_PARA_ROOT:-$BENCHMARK_ROOT/LIBERO-Para}"
+LIBERO_PARA_ROOT="${LIBERO_PARA_ROOT:-$(cd "$BENCHMARK_ROOT/.." && pwd)/LIBERO-para}"
 CONDA_ENV="${CONDA_ENV:-/root/envs/gr00t_libero}"
 CONDA_SH="${CONDA_SH:-/opt/conda/etc/profile.d/conda.sh}"
-MODEL_PATH="${MODEL_PATH:-/mnt/afs/zhengmingkai/raozf/models/Gr00t-N1.7-libero/libero_goal}"
-COSMOS_PATH="${COSMOS_PATH:-/mnt/afs/zhengmingkai/raozf/models/Cosmos-Reason2-2B}"
+MODEL_PATH="${MODEL_PATH:-}"  # set to the GR00T-N1.7 libero_goal checkpoint directory
+COSMOS_PATH="${COSMOS_PATH:-}"  # set to a local Cosmos-Reason2-2B download
 
 CUDA_VISIBLE_DEVICES="${CUDA_VISIBLE_DEVICES:-0}"
 HOST="${HOST:-127.0.0.1}"

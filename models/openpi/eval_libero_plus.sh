@@ -6,7 +6,7 @@ shopt -s nullglob globstar
 OPENPI_ROOT="${OPENPI_ROOT:-$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)}"
 BENCHMARK_ROOT="${BENCHMARK_ROOT:-$(cd "$OPENPI_ROOT/.." && pwd)}"
 LIBERO_PLUS_ROOT="${LIBERO_PLUS_ROOT:-$OPENPI_ROOT/LIBERO-plus}"
-TORCH_CHECKPOINT_DIR="${TORCH_CHECKPOINT_DIR:-/mnt/afs/raozf/models/pi05_libero/pi05_libero_pytorch}"
+TORCH_CHECKPOINT_DIR="${TORCH_CHECKPOINT_DIR:-}"  # set to the converted pi05_libero PyTorch checkpoint directory
 MODEL_NAME="${MODEL_NAME:-OpenPI-Torch}"
 
 if [[ -x "${PYTHON:-}" ]]; then
@@ -24,7 +24,7 @@ else
   exit 1
 fi
 
-TASK_SUITES="${TASK_SUITES:-${TASK_SUITE_NAME:- libero_10  libero_object}}"
+TASK_SUITES="${TASK_SUITES:-${TASK_SUITE_NAME:-libero_spatial libero_object libero_goal libero_10}}"
 NUM_TRIALS_PER_TASK="${NUM_TRIALS_PER_TASK:-1}"
 GPUS="${GPUS:-${RANKS:-0 5 6 7}}"
 PORT="${PORT:-6666}"
@@ -76,7 +76,7 @@ cd "$OPENPI_ROOT"
 if [[ ! -f "$TORCH_CHECKPOINT_DIR/model.safetensors" ]]; then
   echo "[error] Missing PyTorch checkpoint: $TORCH_CHECKPOINT_DIR/model.safetensors" >&2
   echo "[error] Convert the successful JAX checkpoint first:" >&2
-  echo "[error]   $PYTHON_BIN examples/convert_jax_model_to_pytorch.py --checkpoint-dir /mnt/afs/raozf/models/pi05_libero/pi05_libero --config-name pi05_libero --output-path $TORCH_CHECKPOINT_DIR --precision bfloat16" >&2
+  echo "[error]   $PYTHON_BIN examples/convert_jax_model_to_pytorch.py --checkpoint-dir /path/to/pi05_libero_jax_checkpoint --config-name pi05_libero --output-path $TORCH_CHECKPOINT_DIR --precision bfloat16" >&2
   exit 1
 fi
 if [[ ! -f "$TORCH_CHECKPOINT_DIR/assets/physical-intelligence/libero/norm_stats.json" ]]; then

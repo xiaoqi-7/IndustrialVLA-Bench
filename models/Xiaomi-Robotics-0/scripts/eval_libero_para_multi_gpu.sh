@@ -41,17 +41,17 @@ EXTRA_EVAL_ARGS=("$@")
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 XIAOMI_ROOT="${XIAOMI_ROOT:-$(cd "$SCRIPT_DIR/.." && pwd)}"
 BENCHMARK_ROOT="${BENCHMARK_ROOT:-$(cd "$XIAOMI_ROOT/.." && pwd)}"
-LIBERO_PARA_ROOT="${LIBERO_PARA_ROOT:-$BENCHMARK_ROOT/LIBERO-Para}"
+LIBERO_PARA_ROOT="${LIBERO_PARA_ROOT:-$(cd "$BENCHMARK_ROOT/.." && pwd)/LIBERO-para}"
 SINGLE_LAUNCHER="$SCRIPT_DIR/eval_libero_para.sh"
 MONITOR_SCRIPT="$SCRIPT_DIR/monitor_libero_para.py"
 MERGE_SCRIPT="$SCRIPT_DIR/merge_libero_para_results.py"
 CONDA_ENV="${CONDA_ENV:-/root/envs/xiaomi_libero}"
 PYTHON_BIN="$CONDA_ENV/bin/python"
 
-MODEL_PATH="${MODEL_PATH:-/mnt/afs/zhengmingkai/raozf/models/Xiaomi-Robotics-0-LIBERO}"
+MODEL_PATH="${MODEL_PATH:-}"  # set to the Xiaomi-Robotics-0-LIBERO checkpoint directory
 HOST="${HOST:-127.0.0.1}"
 BASE_PORT="${BASE_PORT:-12000}"
-SEED="${SEED:-44}"
+SEED="${SEED:-1}"  # paper protocol: three runs with SEED=1, 7, 42
 MAX_TASKS="${MAX_TASKS:--1}"
 MAX_STEPS="${MAX_STEPS:-300}"
 NUM_STEPS_WAIT="${NUM_STEPS_WAIT:-10}"

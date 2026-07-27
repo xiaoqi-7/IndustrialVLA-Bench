@@ -8,7 +8,7 @@ set -euo pipefail
 #   RESULT_ROOT/seed42/eval0.json ... summary.json
 OPENPI_ROOT="${OPENPI_ROOT:-$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)}"
 LIBERO_PARA_ROOT="${LIBERO_PARA_ROOT:-$OPENPI_ROOT/LIBERO-Para}"
-TORCH_CHECKPOINT_DIR="${TORCH_CHECKPOINT_DIR:-/mnt/afs/raozf/models/pi05_libero/pi05_libero_pytorch}"
+TORCH_CHECKPOINT_DIR="${TORCH_CHECKPOINT_DIR:-}"  # set to the converted pi05_libero PyTorch checkpoint directory
 MODEL_NAME="${MODEL_NAME:-OpenPI-Torch}"
 
 SEEDS="${SEEDS:-1 7 42}"
@@ -71,7 +71,7 @@ fi
 if [[ ! -f "$TORCH_CHECKPOINT_DIR/model.safetensors" ]]; then
   echo "[error] Missing PyTorch checkpoint: $TORCH_CHECKPOINT_DIR/model.safetensors" >&2
   echo "[error] Convert the JAX checkpoint first, for example:" >&2
-  echo "[error]   $PYTHON_BIN examples/convert_jax_model_to_pytorch.py --checkpoint-dir /mnt/afs/raozf/models/pi05_libero/pi05_libero --config-name pi05_libero --output-path $TORCH_CHECKPOINT_DIR --precision bfloat16" >&2
+  echo "[error]   $PYTHON_BIN examples/convert_jax_model_to_pytorch.py --checkpoint-dir /path/to/pi05_libero_jax_checkpoint --config-name pi05_libero --output-path $TORCH_CHECKPOINT_DIR --precision bfloat16" >&2
   exit 1
 fi
 

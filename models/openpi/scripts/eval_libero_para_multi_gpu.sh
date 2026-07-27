@@ -38,7 +38,7 @@ Worker data stays in OUTPUT_DIR/workers and process logs in OUTPUT_DIR/logs.
 EOF
 }
 
-SEED="${SEED:-7}"
+SEED="${SEED:-1}"  # paper protocol: three runs with SEED=1, 7, 42
 while (( $# > 0 )); do
   case "$1" in
     --seed)
@@ -65,7 +65,7 @@ EXTRA_EVAL_ARGS=("$@")
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 OPENPI_ROOT="${OPENPI_ROOT:-$(cd "$SCRIPT_DIR/.." && pwd)}"
 BENCHMARK_ROOT="${BENCHMARK_ROOT:-$(cd "$OPENPI_ROOT/.." && pwd)}"
-LIBERO_PARA_ROOT="${LIBERO_PARA_ROOT:-$BENCHMARK_ROOT/LIBERO-Para}"
+LIBERO_PARA_ROOT="${LIBERO_PARA_ROOT:-$(cd "$BENCHMARK_ROOT/.." && pwd)/LIBERO-para}"
 EVAL_SCRIPT="$SCRIPT_DIR/eval_libero_para.py"
 SERVER_SCRIPT="$SCRIPT_DIR/serve_policy.py"
 MONITOR_SCRIPT="$SCRIPT_DIR/monitor_libero_para.py"
@@ -88,8 +88,8 @@ else
   exit 1
 fi
 
-TORCH_CHECKPOINT_DIR="${TORCH_CHECKPOINT_DIR:-/mnt/afs/zhengmingkai/raozf/models/pi05_libero_pytorch}"
-JAX_CHECKPOINT_DIR="${JAX_CHECKPOINT_DIR:-/mnt/afs/zhengmingkai/raozf/models/pi05_libero}"
+TORCH_CHECKPOINT_DIR="${TORCH_CHECKPOINT_DIR:-}"  # set to the converted pi05_libero PyTorch checkpoint directory
+JAX_CHECKPOINT_DIR="${JAX_CHECKPOINT_DIR:-}"      # set to the official pi05_libero JAX checkpoint directory
 POLICY_CONFIG="${POLICY_CONFIG:-pi05_libero}"
 HOST="${HOST:-127.0.0.1}"
 BASE_PORT="${BASE_PORT:-14000}"

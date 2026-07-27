@@ -35,7 +35,7 @@ Worker data stays in OUTPUT_DIR/workers and process logs in OUTPUT_DIR/logs.
 EOF
 }
 
-SEED="${SEED:-7}"
+SEED="${SEED:-1}"  # paper protocol: three runs with SEED=1, 7, 42
 while (( $# > 0 )); do
   case "$1" in
     --seed)
@@ -62,14 +62,14 @@ EXTRA_EVAL_ARGS=("$@")
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 REPO_DIR="${REPO_DIR:-$(cd "$SCRIPT_DIR/.." && pwd)}"
 BENCHMARK_ROOT="${BENCHMARK_ROOT:-$(cd "$REPO_DIR/.." && pwd)}"
-LIBERO_PARA_ROOT="${LIBERO_PARA_ROOT:-$BENCHMARK_ROOT/LIBERO-Para}"
+LIBERO_PARA_ROOT="${LIBERO_PARA_ROOT:-$(cd "$BENCHMARK_ROOT/.." && pwd)/LIBERO-para}"
 SINGLE_LAUNCHER="$SCRIPT_DIR/eval_libero_para.sh"
 MONITOR_SCRIPT="$SCRIPT_DIR/monitor_libero_para.py"
 MERGE_SCRIPT="$SCRIPT_DIR/merge_libero_para_results.py"
 CONDA_ENV="${CONDA_ENV:-/root/envs/gr00t_libero}"
 PYTHON_BIN="$CONDA_ENV/bin/python"
 
-MODEL_PATH="${MODEL_PATH:-/mnt/afs/zhengmingkai/raozf/models/Gr00t-N1.7-libero/libero_goal}"
+MODEL_PATH="${MODEL_PATH:-}"  # set to the GR00T-N1.7 libero_goal checkpoint directory
 HOST="${HOST:-127.0.0.1}"
 BASE_PORT="${BASE_PORT:-13000}"
 SERVER_SEED_BASE="${SERVER_SEED_BASE:-$SEED}"

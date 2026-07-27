@@ -3,13 +3,13 @@ set -euo pipefail
 
 REPO_DIR="${REPO_DIR:-$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)}"
 BENCHMARK_ROOT="${BENCHMARK_ROOT:-$(cd "$REPO_DIR/.." && pwd)}"
-LIBERO_PLUS_ROOT="${LIBERO_PLUS_ROOT:-$BENCHMARK_ROOT/LIBERO-plus}"
+LIBERO_PLUS_ROOT="${LIBERO_PLUS_ROOT:-$(cd "$BENCHMARK_ROOT/.." && pwd)/LIBERO-plus}"
 CONDA_ENV="${CONDA_ENV:-/root/envs/gr00t_plus}"
 
 SUITE="${SUITE:-libero_10}"
-MODEL_ROOT="${MODEL_ROOT:-/mnt/afs/zhengmingkai/raozf/models/Gr00t-N1.7-libero}"
+MODEL_ROOT="${MODEL_ROOT:-}"  # set to the GR00T-N1.7 LIBERO checkpoint root
 MODEL_PATH="${MODEL_PATH:-}"
-COSMOS_PATH="${COSMOS_PATH:-/mnt/afs/zhengmingkai/raozf/models/Cosmos-Reason2-2B}"
+COSMOS_PATH="${COSMOS_PATH:-}"  # set to a local Cosmos-Reason2-2B download
 PATCH_COSMOS_PATH="${PATCH_COSMOS_PATH:-1}"
 MODEL_NAME="${MODEL_NAME:-GR00T}"
 

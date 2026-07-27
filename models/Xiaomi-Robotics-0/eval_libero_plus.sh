@@ -4,9 +4,9 @@ shopt -s nullglob
 
 XIAOMI_ROOT="${XIAOMI_ROOT:-$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)}"
 BENCHMARK_ROOT="${BENCHMARK_ROOT:-$(cd "$XIAOMI_ROOT/.." && pwd)}"
-LIBERO_PLUS_ROOT="${LIBERO_PLUS_ROOT:-$BENCHMARK_ROOT/LIBERO-plus}"
+LIBERO_PLUS_ROOT="${LIBERO_PLUS_ROOT:-$(cd "$BENCHMARK_ROOT/.." && pwd)/LIBERO-plus}"
 
-MODEL_PATH="${1:-${MODEL_PATH:-/mnt/afs/zhengmingkai/raozf/models/Xiaomi-Robotics-0-LIBERO}}"
+MODEL_PATH="${1:-${MODEL_PATH:-}}"  # set to the Xiaomi-Robotics-0-LIBERO checkpoint directory
 NUM_PORTS="${2:-${NUM_PORTS:-8}}"
 NUM_GPUS="${3:-${NUM_GPUS:-8}}"
 LOG_BASE="${4:-${LOG_BASE:-$XIAOMI_ROOT/logs}}"
