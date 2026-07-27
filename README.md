@@ -1,7 +1,7 @@
 <div align="center">
 
 <h1>IndustrialVLA-Bench</h1>
-<h3>An Official-First Benchmark for Open Robot Policy Models</h3>
+<h3>A Traceable Multi-Axis Evaluation of Open Robot Policy Models</h3>
 
 <p>
 Yiqi Wang<sup>*</sup>, Zhifeng Rao<sup>*</sup>, Jiaqi Zhang, Zhangkai Wu, Xiaoyang Li,<br>
@@ -11,7 +11,7 @@ Yiqun Duan, Mingkai Zheng, Fei Wang, Shan You, Taotao Cai
 
 
 <p>
-<a href="https://arxiv.org/abs/XXXX.XXXXX"><img src="https://img.shields.io/badge/arXiv-Paper-B31B1B?logo=arxiv&logoColor=white" alt="arXiv"></a>
+<img src="https://img.shields.io/badge/arXiv-ID%20pending-B31B1B?logo=arxiv&logoColor=white" alt="arXiv (ID pending)">
 <img src="https://img.shields.io/badge/Topic-VLA%20%26%20WAM%20Evaluation-1f6f6f" alt="Topic">
 <img src="https://img.shields.io/badge/Suites-LIBERO%20%7C%20Plus%20%7C%20Para-2B6CB0" alt="Suites">
 <img src="https://img.shields.io/badge/Models-6%20Open%20Policies-27ae60" alt="Models">
@@ -27,8 +27,9 @@ Vision-Language-Action (VLA) and World-Action Models (WAMs).</i></p>
 
 ## News
 
-- **[2026-07]** Paper *"IndustrialVLA-Bench: An Official-First Benchmark for Open Robot Policy Models"* released on [arXiv](https://arxiv.org/abs/XXXX.XXXXX).
+- **[2026-07]** Paper *"IndustrialVLA-Bench: A Traceable Multi-Axis Evaluation of Open Robot Policy Models"* (arXiv ID pending).
 - **[2026-07]** Reproducible experiment archive released: raw logs, per-seed results, latency benchmarks, and standardized launch scripts for all six evaluated models.
+- **[2026-07]** Added [`PAPER_CODE_MAP.md`](PAPER_CODE_MAP.md) — a section-by-section map from the paper to this repository, including a verified artifact-traceability audit.
 
 ## Contents
 
@@ -40,6 +41,7 @@ Vision-Language-Action (VLA) and World-Action Models (WAMs).</i></p>
 - [Results](#results)
 - [Getting Started](#getting-started)
 - [Repository Structure](#repository-structure)
+- [Paper ↔ Code Map](PAPER_CODE_MAP.md)
 - [What Is Not Included](#what-is-not-included)
 - [Citation](#citation)
 - [Acknowledgements](#acknowledgements)
@@ -48,7 +50,7 @@ Vision-Language-Action (VLA) and World-Action Models (WAMs).</i></p>
 ## Overview
 
 <div align="center">
-<img src="figs/overview.png" width="850">
+<img src="figs/Overview3.png" width="850">
 <p><i><b>Figure 1.</b> IndustrialVLA-Bench evaluates open robot policy models through an official-first
 harness, organizes evidence into tiers, and reports results along capability, robustness,
 language grounding, and deployability axes — each backed by raw logs and traceable metadata.</i></p>
@@ -88,14 +90,16 @@ IndustrialVLA-Bench treats VLA evaluation as a **multi-axis diagnostic and repro
 
 Six publicly executable systems spanning two design families. All are evaluated with public checkpoints; per-model source code and evaluation code live in [`models/`](models/), and environment materials in [`envs/`](envs/).
 
-| Model | Family | Params | Representative design | LIBERO | LIBERO-Plus | LIBERO-Para |
-| --- | :---: | :---: | --- | :---: | :---: | :---: |
-| π<sub>0.5</sub> / OpenPI | VLA | 3.6B | Unified single-policy VLA | ✅ | ✅ | ✅ |
-| UnifoLM-VLA-0 | VLA | 8.9B | Industrial VLA, model-specific action generation | ✅ | ✅ | ✅ |
-| Xiaomi-Robotics-0 | VLA | 4.7B | Industrial VLA, diffusion-based action prediction | ✅ | ✅ | ✅ |
-| GR00T-N1.7 | VLA | 3.4B | Modular vision-language + action architecture | ✅ | ✅ | ✅ |
-| FastWAM | WAM | 12.4B | Video-latent-conditioned action prediction | ✅ | ✅ | ✅ |
-| Cosmos Policy | WAM | 2.0B | Multi-step video-diffusion world-action prediction | ✅ | ✅ | ✅ |
+| Model | Family | Params | Representative design | LIBERO | LIBERO-Plus | LIBERO-Para | Evidence status |
+| --- | :---: | :---: | --- | :---: | :---: | :---: | :---: |
+| π<sub>0.5</sub> / OpenPI | VLA | 3.6B | Unified single-policy VLA | ✅ | ✅ | ✅ | PF |
+| UnifoLM-VLA-0 | VLA | 8.9B | Industrial VLA, model-specific action generation | ✅ | ✅ | ✅ | NR |
+| Xiaomi-Robotics-0 | VLA | 4.7B | Industrial VLA, diffusion-based action prediction | ✅ | ✅ | ✅ | PV |
+| GR00T-N1.7 | VLA | 3.4B | Modular vision-language + action architecture | ✅ | ✅ | ✅ | PF |
+| FastWAM | WAM | 12.4B | Video-latent-conditioned action prediction | ✅ | ✅ | ✅ | PF |
+| Cosmos Policy | WAM | 2.0B | Multi-step video-diffusion world-action prediction | ✅ | ✅ | ✅ | PV |
+
+<sub>Evidence status (per the paper's evidence policy): <b>PF</b> = protocol-faithful, <b>NR</b> = near-reproduction, <b>PV</b> = pending verification. Only PF rows are eligible for strict comparisons; NR/PV rows are reported for diagnostic coverage.</sub>
 
 > OpenVLA source code and standard-LIBERO launch scripts are kept in [`models/openvla/`](models/openvla/) and [`scripts/openvla/`](scripts/openvla/), but OpenVLA is not part of the six-model comparison.
 
@@ -162,7 +166,7 @@ All values are mean ± population standard deviation over three independent eval
 | UnifoLM-VLA-0 | 18,332 | 19.82 | 8.9B | 4 | Local / model-specific | Near-reproduction |
 | FastWAM | 26,902 | 45.33 | 12.4B | 10 | Deployment-oriented | Protocol-faithful |
 
-<sub>Peak VRAM measured during evaluation-time inference after warm-up; latency excludes environment reset. Raw measurements and scripts: [`results/latency_benchmark/`](results/latency_benchmark/).</sub>
+<sub>Peak VRAM measured during evaluation-time inference after warm-up; latency excludes environment reset and is amortized per executed action step (`latency_per_executed_step_ms` in the measurement JSONs; one policy call emits a chunk of actions). Raw measurements and scripts: [`results/latency_benchmark/`](results/latency_benchmark/). See [`PAPER_CODE_MAP.md`](PAPER_CODE_MAP.md) §8 for the provenance of each column.</sub>
 
 ### Key findings
 
@@ -172,9 +176,9 @@ All values are mean ± population standard deviation over three independent eval
 The number in each marker is peak VRAM in GiB; circles are VLAs, squares are WAMs.</i></p>
 </div>
 
-1. **Clean LIBERO is close to saturation** — averages span only 1.55 pp (96.55–98.10%), providing limited discrimination.
+1. **Clean LIBERO is close to saturation** — averages span only 1.58 pp (96.52–98.10%), providing limited discrimination.
 2. **Clean ranking does not predict robustness** — the clean leader falls below OpenPI and Cosmos Policy under perturbations; OpenPI tops robustness at 85.31% despite the lowest clean average.
-3. **Camera and robot shifts are the dominant failure modes** (cross-model averages 58.21% and 60.30%); illumination changes are comparatively harmless (95.17%).
+3. **Camera and robot shifts are the dominant failure modes** (cross-model averages 58.26% and 60.35%); illumination changes are comparatively harmless (95.42%).
 4. **Language sensitivity is decoupled from clean capability** — FastWAM matches others on clean LIBERO yet loses 45.39 pp under paraphrases, while UnifoLM-VLA-0 retains 82.24%.
 5. **No model dominates every axis** — strongest robustness comes with the highest latency (OpenPI, 58.80 ms/step); strongest language grounding with the highest VLA VRAM (UnifoLM-VLA-0, 18.3 GiB).
 
@@ -230,7 +234,8 @@ IndustrialVLA-Bench/
 ├── scripts/                 # Standardized launchers: eval_<model>_<suite>.sh
 │   └── <model>/original/    #   unmodified copies of official launch scripts
 ├── envs/                    # Per-model & per-benchmark installation materials
-└── figs/                    # Figures used in this README
+├── figs/                    # Figures used in this README
+└── PAPER_CODE_MAP.md        # Paper ↔ code reference map + traceability audit
 ```
 
 ## What Is Not Included
@@ -249,12 +254,20 @@ If you find IndustrialVLA-Bench useful, please cite:
 
 ```bibtex
 @article{industrialvlabench2026,
-  title   = {IndustrialVLA-Bench: An Official-First Benchmark for Open Robot Policy Models},
-  author  = {Wang, Yiqi and Rao, Zhifeng and Zhang, Jiaqi and Wu, Zhangkai and Li, Xiaoyang and Duan, Yiqun and Zheng, Mingkai and Wang, Fei and You, Shan and Cai, Taotao},
-  journal = {arXiv preprint arXiv:XXXX.XXXXX},
+  title   = {IndustrialVLA-Bench: A Traceable Multi-Axis Evaluation of Open Robot Policy Models},
+  author  = {Wang, Yiqi and Rao, Zhifeng and Zhang, Jiaqi and Li, Xiaoyang and Wu, Zhangkai and Duan, Yiqun and Zheng, Mingkai and Wang, Fei and You, Shan and Cai, Taotao},
+  journal = {arXiv preprint},
+  note    = {arXiv ID pending},
   year    = {2026}
 }
 ```
+
+## License
+
+The IndustrialVLA-Bench harness, scripts, result archives, and documentation are released
+under the [MIT License](LICENSE). Vendored third-party components (`LIBERO/`, `LIBERO-plus/`,
+`LIBERO-para/`, `models/*`) retain their own licenses — see
+[THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md). Model checkpoints are not redistributed.
 
 ## Acknowledgements
 

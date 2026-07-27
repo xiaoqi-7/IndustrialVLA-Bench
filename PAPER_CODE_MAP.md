@@ -381,6 +381,30 @@ supported by the public materials."* Every item below has been re-verified again
 - Evidence statuses are unified as PF/NR/PV across all tables (the earlier
   Table 2-vs-Table 6 contradiction is gone, and the old coverage table was removed).
 
+### E. Remediated on branch `docs/paper-code-map` (repo-side fixes; no result data touched)
+
+- **README refresh**: new paper title, arXiv placeholder replaced with "ID pending",
+  broken `figs/overview.png` link fixed, PF/NR/PV evidence statuses added, stale
+  key-findings numbers aligned to the paper (1.58 pp; 58.26/60.35/95.42), latency
+  footnote now states the per-executed-step semantics, citation updated;
+  `results/README.md` no longer claims nonexistent summary files.
+- **Licensing**: root `LICENSE` (MIT, repo's own materials) and `THIRD_PARTY_NOTICES.md`
+  (per-component licenses; notes that LIBERO-plus and UnifoLM-VLA ship no license file).
+- **Script defaults** (executable launchers under `models/` only — the as-run archival
+  copies under `scripts/*/original/` are intentionally untouched):
+  - Para single-seed launchers now default to `SEED=1` with a "paper protocol: 1, 7, 42"
+    note (previously 7/43/44/8); FastWAM LIBERO-Plus `SEEDS` default fixed from `7 42`
+    to `1 7 42`.
+  - openpi clean/plus launchers now default to all four suites.
+  - All private `/mnt/afs/...` checkpoint defaults in the wired launchers replaced with
+    empty, documented placeholders; benchmark-fork roots now default to the in-repo
+    `LIBERO/`, `LIBERO-plus/`, `LIBERO-para/` copies (matching the wrappers).
+- **Still open** (requires internal data or author decisions): zero-byte bddl/result
+  files, missing Cosmos latency/VRAM measurements, VRAM provenance, command-manifest /
+  normalized-schema implementation, pinned commits & checkpoint hashes, `/mnt/afs`
+  defaults inside vendored Python internals (e.g. GR00T `qwen3_backbone.py`) and
+  vendored per-model READMEs, and the paper-side Table 5 "ms/call" caption fix.
+
 ---
 
 *Generated from `VLA_benchmark/main.tex` (2026-07-27) and repository commit `bd6ec3b`.
