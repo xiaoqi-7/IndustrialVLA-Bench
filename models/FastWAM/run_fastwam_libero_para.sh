@@ -7,8 +7,8 @@ set -Eeuo pipefail
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd -P)"
 BENCHMARK_ROOT="${BENCHMARK_ROOT:-$(cd "$SCRIPT_DIR/.." && pwd -P)}"
 PYTHON_BIN="${PYTHON_BIN:-/root/envs/unifolm_libero/bin/python}"
-MODEL_PATH="${MODEL_PATH:-/mnt/afs/zhengmingkai/raozf/models/fastwam_libero}"
-LIBERO_PARA_ROOT="${LIBERO_PARA_ROOT:-/mnt/afs/zhengmingkai/raozf/benchmark/LIBERO-Para}"
+MODEL_PATH="${MODEL_PATH:-}"  # set to the FastWAM LIBERO checkpoint directory
+LIBERO_PARA_ROOT="${LIBERO_PARA_ROOT:-$(cd "$SCRIPT_DIR/../.." && pwd -P)/LIBERO-para}"
 FASTWAM_SOURCE_ROOT="${FASTWAM_SOURCE_ROOT:-$BENCHMARK_ROOT/FastWAM}"
 LEROBOT_ZIP="${LEROBOT_ZIP:-$BENCHMARK_ROOT/unifolm-vla/lerobot.zip}"
 

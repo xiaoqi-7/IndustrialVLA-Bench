@@ -20,9 +20,9 @@ PYTHON_BIN="${PYTHON_BIN:-/root/miniconda3/envs/openpi/bin/python}"
 die() { echo "[error] $*" >&2; exit 1; }
 info() { echo "[info] $*"; }
 
-MODEL_DIR="${MODEL_DIR:-/mnt/afs/raozf/models/Cosmos-Policy-LIBERO-Predict2-2B}"
-BASE_MODEL_DIR="${BASE_MODEL_DIR:-/mnt/afs/raozf/Cosmos-Predict2-2B-Video2World}"
-PARA_ROOT="${PARA_ROOT:-/mnt/afs/raozf/openpi/LIBERO-Para}"
+MODEL_DIR="${MODEL_DIR:-}"  # set to the Cosmos-Policy-LIBERO-Predict2-2B checkpoint directory
+BASE_MODEL_DIR="${BASE_MODEL_DIR:-}"  # set to a local Cosmos-Predict2-2B-Video2World download
+PARA_ROOT="${PARA_ROOT:-$(cd "$SCRIPT_DIR/../.." && pwd -P)/LIBERO-para}"
 PARA_LIBERO_ROOT="$PARA_ROOT/libero/libero"
 BDDL_DIR="${BDDL_DIR:-$PARA_LIBERO_ROOT/bddl_files/libero_para}"
 INIT_DIR="${INIT_DIR:-$PARA_LIBERO_ROOT/init_files/libero_para}"

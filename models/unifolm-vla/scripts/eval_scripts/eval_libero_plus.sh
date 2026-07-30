@@ -18,7 +18,7 @@ if [[ -x "$LOCAL_XVFB_ROOT/usr/bin/xvfb-run" ]]; then
   export LD_LIBRARY_PATH="$LOCAL_XVFB_ROOT/usr/lib/x86_64-linux-gnu:${LD_LIBRARY_PATH:-}"
 fi
 
-LIBERO_PLUS_ROOT="${LIBERO_PLUS_ROOT:-$BENCHMARK_ROOT/LIBERO-plus}"
+LIBERO_PLUS_ROOT="${LIBERO_PLUS_ROOT:-$(cd "$BENCHMARK_ROOT/.." && pwd)/LIBERO-plus}"
 if [[ -n "${PYTHON:-}" ]]; then
   PYTHON_BIN="$PYTHON"
 elif [[ -x /root/envs/unifolm_plus/bin/python ]]; then
@@ -30,8 +30,8 @@ else
   exit 1
 fi
 
-your_ckpt="${1:-${your_ckpt:-/mnt/afs/zhengmingkai/raozf/models/UnifoLM/UnifoLM-VLA-Libero/checkpoints/pytorch_model.pt}}"
-vlm_pretrained_path="${2:-${vlm_pretrained_path:-/mnt/afs/zhengmingkai/raozf/models/UnifoLM/UnifoLM-VLM-Base}}"
+your_ckpt="${1:-${your_ckpt:-}}"                        # set to .../UnifoLM-VLA-Libero/checkpoints/pytorch_model.pt
+vlm_pretrained_path="${2:-${vlm_pretrained_path:-}}"    # set to a local UnifoLM-VLM-Base download
 NUM_GPUS="${3:-${NUM_GPUS:-8}}"
 LOG_BASE="${4:-${LOG_BASE:-$PROJECT_ROOT/logs2}}"
 

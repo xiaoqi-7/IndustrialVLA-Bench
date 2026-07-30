@@ -34,7 +34,7 @@ Important environment variables:
   WINDOW_SIZE           Observation-history size (default: 2)
   UNNORM_KEY            Action/state statistics key
                         (default: libero_goal_no_noops)
-  SEED                  Evaluation seed (default: 44)
+  SEED                  Evaluation seed (default: 1; paper protocol runs 1, 7, 42)
   SAVE_VIDEO            true/false (default: false)
   RENDER_BACKEND        egl/osmesa (auto-detected default)
   USE_XVFB              auto/true/false (default: auto)
@@ -64,12 +64,12 @@ EXTRA_EVAL_ARGS=("$@")
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 PROJECT_ROOT="${PROJECT_ROOT:-$(cd "$SCRIPT_DIR/../.." && pwd)}"
 BENCHMARK_ROOT="${BENCHMARK_ROOT:-$(cd "$PROJECT_ROOT/.." && pwd)}"
-LIBERO_PARA_ROOT="${LIBERO_PARA_ROOT:-$BENCHMARK_ROOT/LIBERO-Para}"
+LIBERO_PARA_ROOT="${LIBERO_PARA_ROOT:-$(cd "$BENCHMARK_ROOT/.." && pwd)/LIBERO-para}"
 
 CONDA_ENV="${CONDA_ENV:-/root/envs/unifolm_libero}"
 PYTHON_BIN="$CONDA_ENV/bin/python"
-PRETRAINED_PATH="${PRETRAINED_PATH:-/mnt/afs/zhengmingkai/raozf/models/UnifoLM/UnifoLM-VLA-Libero/checkpoints/pytorch_model.pt}"
-VLM_PRETRAINED_PATH="${VLM_PRETRAINED_PATH:-/mnt/afs/zhengmingkai/raozf/models/UnifoLM/UnifoLM-VLM-Base}"
+PRETRAINED_PATH="${PRETRAINED_PATH:-}"          # set to .../UnifoLM-VLA-Libero/checkpoints/pytorch_model.pt
+VLM_PRETRAINED_PATH="${VLM_PRETRAINED_PATH:-}"  # set to a local UnifoLM-VLM-Base download
 UNNORM_KEY="${UNNORM_KEY:-libero_goal_no_noops}"
 
 EVAL_SCRIPT="$PROJECT_ROOT/experiments/LIBERO/eval_libero_para.py"
@@ -80,7 +80,7 @@ BDDL_DIR="${BDDL_DIR:-$LIBERO_INTERNAL_ROOT/bddl_files/libero_para}"
 INIT_DIR="${INIT_DIR:-$LIBERO_INTERNAL_ROOT/init_files/libero_para}"
 GOAL_BDDL_DIR="${GOAL_BDDL_DIR:-$LIBERO_INTERNAL_ROOT/bddl_files/libero_goal}"
 
-SEED="${SEED:-8}"
+SEED="${SEED:-1}"  # paper protocol: three runs with SEED=1, 7, 42
 MAX_TASKS="${MAX_TASKS:--1}"
 MAX_STEPS="${MAX_STEPS:-300}"
 NUM_STEPS_WAIT="${NUM_STEPS_WAIT:-10}"

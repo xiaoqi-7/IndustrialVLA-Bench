@@ -18,13 +18,13 @@ BENCHMARK_ROOT="${BENCHMARK_ROOT:-$(cd "$SCRIPT_DIR/.." && pwd -P)}"
 # Use the current openpi conda environment by default.  Both values remain
 # overridable via the environment for portability to another installation.
 PYTHON_BIN="${PYTHON_BIN:-/root/miniconda3/envs/openpi/bin/python}"
-MODEL_DIR="${MODEL_DIR:-/mnt/afs/raozf/models/Cosmos-Policy-LIBERO-Predict2-2B}"
+MODEL_DIR="${MODEL_DIR:-}"  # set to the Cosmos-Policy-LIBERO-Predict2-2B checkpoint directory
 # Local copy of the Cosmos Predict2 base model used by the policy config.  The
 # policy checkpoint contains the fine-tuned network weights, but model setup
 # still imports the base checkpoint and VAE paths from the experiment config.
 # Point this at an existing local download on offline evaluation nodes.
-BASE_MODEL_DIR="${BASE_MODEL_DIR:-/mnt/afs/raozf/Cosmos-Predict2-2B-Video2World}"
-LIBERO_PACKAGE_ROOT="${LIBERO_PACKAGE_ROOT:-/mnt/afs/raozf/openpi/LIBERO}"
+BASE_MODEL_DIR="${BASE_MODEL_DIR:-}"  # set to a local Cosmos-Predict2-2B-Video2World download
+LIBERO_PACKAGE_ROOT="${LIBERO_PACKAGE_ROOT:-$(cd "$SCRIPT_DIR/../.." && pwd -P)/LIBERO}"
 LIBERO_INTERNAL_ROOT="$LIBERO_PACKAGE_ROOT/libero/libero"
 SEEDS="${SEEDS:-1 7 42}"
 TASK_SUITES="${TASK_SUITES:-libero_spatial libero_object libero_goal libero_10}"

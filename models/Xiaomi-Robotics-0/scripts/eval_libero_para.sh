@@ -28,7 +28,7 @@ Common environment variables:
   LIBERO_PARA_ROOT       LIBERO-Para repository directory
   CUDA_VISIBLE_DEVICES   GPU visible to the model server (default: 0)
   HOST / PORT            Server address (default: 127.0.0.1 / 10086)
-  SEED                    Evaluation seed (default: 7)
+  SEED                    Evaluation seed (default: 1; paper protocol runs 1, 7, 42)
   OUTPUT_DIR             Result directory (unique timestamped default)
   MAX_TASKS              Number of BDDL tasks; -1 means all (default: -1)
   MAX_STEPS              Maximum environment steps per task (default: 300)
@@ -67,14 +67,14 @@ EXTRA_EVAL_ARGS=("$@")
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 XIAOMI_ROOT="${XIAOMI_ROOT:-$(cd "$SCRIPT_DIR/.." && pwd)}"
 BENCHMARK_ROOT="${BENCHMARK_ROOT:-$(cd "$XIAOMI_ROOT/.." && pwd)}"
-LIBERO_PARA_ROOT="${LIBERO_PARA_ROOT:-$BENCHMARK_ROOT/LIBERO-Para}"
+LIBERO_PARA_ROOT="${LIBERO_PARA_ROOT:-$(cd "$BENCHMARK_ROOT/.." && pwd)/LIBERO-para}"
 CONDA_ENV="${CONDA_ENV:-/root/envs/xiaomi_libero}"
 CONDA_SH="${CONDA_SH:-/opt/conda/etc/profile.d/conda.sh}"
-MODEL_PATH="${MODEL_PATH:-/mnt/afs/zhengmingkai/raozf/models/Xiaomi-Robotics-0-LIBERO}"
+MODEL_PATH="${MODEL_PATH:-}"  # set to the Xiaomi-Robotics-0-LIBERO checkpoint directory
 
 HOST="${HOST:-127.0.0.1}"
 PORT="${PORT:-10086}"
-SEED="${SEED:-43}"
+SEED="${SEED:-1}"  # paper protocol: three runs with SEED=1, 7, 42
 MAX_STEPS="${MAX_STEPS:-300}"
 NUM_STEPS_WAIT="${NUM_STEPS_WAIT:-10}"
 REPLAN_STEPS="${REPLAN_STEPS:-10}"

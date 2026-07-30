@@ -5,7 +5,7 @@ set -euo pipefail
 # User config
 ############################
 
-REPO_DIR="${REPO_DIR:-/mnt/afs/zhengmingkai/raozf/benchmark/Isaac-GR00T}"
+REPO_DIR="${REPO_DIR:-$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd -P)}"
 CONDA_ENV="${CONDA_ENV:-/root/envs/gr00t_libero}"
 
 # suite: libero_10 / goal / object / spatial
@@ -17,14 +17,14 @@ SUITE="${SUITE:-libero_10}"
 #   $MODEL_ROOT/libero_goal
 #   $MODEL_ROOT/libero_object
 #   $MODEL_ROOT/libero_spatial
-MODEL_ROOT="${MODEL_ROOT:-/mnt/afs/zhengmingkai/raozf/models/GR00T-N1.7-libero}"
+MODEL_ROOT="${MODEL_ROOT:-}"  # set to the GR00T-N1.7 LIBERO checkpoint root
 
 # 如果你直接指定 MODEL_PATH，则优先使用 MODEL_PATH。
 MODEL_PATH="${MODEL_PATH:-}"
 
 # 如果你已经把 Cosmos-Reason2-2B 下载在本地，可填这个路径。
 # 脚本会把 checkpoint 配置里的 nvidia/Cosmos-Reason2-2B 替换成本地路径。
-COSMOS_PATH="${COSMOS_PATH:-/mnt/afs/zhengmingkai/raozf/models/Cosmos-Reason2-2B}"
+COSMOS_PATH="${COSMOS_PATH:-}"  # set to a local Cosmos-Reason2-2B download
 PATCH_COSMOS_PATH="${PATCH_COSMOS_PATH:-1}"
 
 CUDA_VISIBLE_DEVICES="${CUDA_VISIBLE_DEVICES:-0}"

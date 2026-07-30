@@ -7,13 +7,13 @@ set -Eeuo pipefail
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd -P)"
 BENCHMARK_ROOT="${BENCHMARK_ROOT:-$(cd "$SCRIPT_DIR/.." && pwd -P)}"
 PYTHON_BIN="${PYTHON_BIN:-/root/envs/unifolm_libero/bin/python}"
-MODEL_PATH="${MODEL_PATH:-/mnt/afs/zhengmingkai/raozf/models/fastwam_libero}"
-LIBERO_PLUS_ROOT="${LIBERO_PLUS_ROOT:-/mnt/afs/zhengmingkai/raozf/benchmark/LIBERO-plus}"
+MODEL_PATH="${MODEL_PATH:-}"  # set to the FastWAM LIBERO checkpoint directory
+LIBERO_PLUS_ROOT="${LIBERO_PLUS_ROOT:-$(cd "$SCRIPT_DIR/../.." && pwd -P)/LIBERO-plus}"
 CLASSIFICATION_PATH="${CLASSIFICATION_PATH:-$LIBERO_PLUS_ROOT/libero/libero/benchmark/task_classification.json}"
 FASTWAM_SOURCE_ROOT="${FASTWAM_SOURCE_ROOT:-$BENCHMARK_ROOT/FastWAM}"
 LEROBOT_ZIP="${LEROBOT_ZIP:-$BENCHMARK_ROOT/unifolm-vla/lerobot.zip}"
 
-SEEDS_TEXT="${SEEDS:-7 42}"
+SEEDS_TEXT="${SEEDS:-1 7 42}"  # paper protocol: three run-level seeds
 TASK_SUITES_TEXT="${TASK_SUITES:-libero_spatial libero_object libero_goal libero_10}"
 NUM_TRIALS_PER_TASK="${NUM_TRIALS_PER_TASK:-1}"
 NUM_STEPS_WAIT="${NUM_STEPS_WAIT:-30}"
