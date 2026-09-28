@@ -1,0 +1,52 @@
+./experiments/libero/eval_libero_plus.py --pretrained-path /mnt/afs/zhengmingkai/raozf/models/unifolm/unifolm-vla-libero/checkpoints/pytorch_model.pt --vlm-pretrained-path /mnt/afs/zhengmingkai/raozf/models/unifolm/unifolm-vlm-base --unnorm-key auto --window-size 2 --libero-plus-root /mnt/afs/zhengmingkai/raozf/benchmark/libero-plus --classification-path /mnt/afs/zhengmingkai/raozf/benchmark/libero-plus/libero/libero/benchmark/task_classification.json --task-suites libero_spatial libero_object libero_goal libero_10 --eval-rank 2 --eval-world-size 16 --num-trials-per-task 1 --video-out-path /mnt/afs/zhengmingkai/raozf/benchmark/unifolm-vla/logs2/libero_plus_eval/libero_plus_16workers_auto/videos/rank_2 --limit-tasks 0 --result-jsonl /mnt/afs/zhengmingkai/raozf/benchmark/unifolm-vla/logs2/libero_plus_eval/libero_plus_16workers_auto/results/rank_2.jsonl --no-save-failure-video
+Using LIBERO constants:
+ in constants.py NUM_ACTIONS_CHUNK = 8
+  ACTION_DIM = 7
+  PROPRIO_DIM = 8
+  ACTION_PROPRIO_NORMALIZATION_TYPE = bounds_q99
+If needed, manually set the correct constants in `training/vla/constants.py`!
+AttributeError: 'MessageFactory' object has no attribute 'GetPrototype'
+AttributeError: 'MessageFactory' object has no attribute 'GetPrototype'
+AttributeError: 'MessageFactory' object has no attribute 'GetPrototype'
+AttributeError: 'MessageFactory' object has no attribute 'GetPrototype'
+AttributeError: 'MessageFactory' object has no attribute 'GetPrototype'
+[INFO] rank=2/16 tasks=627/10030 episodes=627
+[INFO] initial unnorm_key=libero_spatial_no_noops requested=auto
+07/12 [11:36:32] INFO     | >> [*] Loading from local         share_tools.py:199
+                          checkpoint path                                       
+                          `/mnt/afs/zhengmingkai/raozf/models                   
+                          /UnifoLM/UnifoLM-VLA-Libero/checkpo                   
+                          ints/pytorch_model.pt`                                
+/root/envs/unifolm_plus/lib/python3.10/site-packages/torchvision/datapoints/__init__.py:12: UserWarning: The torchvision.datapoints and torchvision.transforms.v2 namespaces are still Beta. While we do not expect major breaking changes, some APIs may still change according to user feedback. Please submit any feedback you may have in this issue: https://github.com/pytorch/vision/issues/6753, and you can also check out https://github.com/pytorch/vision/issues/7319 to learn more about the APIs that we suspect might involve future changes. You can silence this warning by calling torchvision.disable_beta_transforms_warning().
+  warnings.warn(_BETA_TRANSFORMS_WARNING)
+/root/envs/unifolm_plus/lib/python3.10/site-packages/torchvision/transforms/v2/__init__.py:54: UserWarning: The torchvision.datapoints and torchvision.transforms.v2 namespaces are still Beta. While we do not expect major breaking changes, some APIs may still change according to user feedback. Please submit any feedback you may have in this issue: https://github.com/pytorch/vision/issues/6753, and you can also check out https://github.com/pytorch/vision/issues/7319 to learn more about the APIs that we suspect might involve future changes. You can silence this warning by calling torchvision.disable_beta_transforms_warning().
+  warnings.warn(_BETA_TRANSFORMS_WARNING)
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:20<01:00, 20.05s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:45<00:46, 23.31s/it]Loading checkpoint shards:  50%|█████     | 2/4 [01:00<01:00, 30.34s/it]
+Traceback (most recent call last):
+  File "/mnt/afs/zhengmingkai/raozf/benchmark/unifolm-vla/./experiments/LIBERO/eval_libero_plus.py", line 368, in <module>
+    main()
+  File "/mnt/afs/zhengmingkai/raozf/benchmark/unifolm-vla/./experiments/LIBERO/eval_libero_plus.py", line 301, in main
+    model = Unifolm_VLA_Inference(
+  File "/mnt/afs/zhengmingkai/raozf/benchmark/unifolm-vla/experiments/LIBERO/unifolm_vla_inference.py", line 29, in __init__
+    self.vla = Unifolm_VLA.from_pretrained(policy_ckpt_path, vlm_pretrained_path=vlm_pretrained_path)
+  File "/mnt/afs/zhengmingkai/raozf/benchmark/unifolm-vla/src/unifolm_vla/model/framework/base_framework.py", line 78, in from_pretrained
+    FrameworkModel = build_framework(cfg=model_config)
+  File "/mnt/afs/zhengmingkai/raozf/benchmark/unifolm-vla/src/unifolm_vla/model/framework/__init__.py", line 22, in build_framework
+    return Unifolm_VLA(cfg)
+  File "/mnt/afs/zhengmingkai/raozf/benchmark/unifolm-vla/src/unifolm_vla/model/framework/unifolm_vla.py", line 32, in __init__
+    self.qwen_vl_interface = get_vlm_model(config=self.config)
+  File "/mnt/afs/zhengmingkai/raozf/benchmark/unifolm-vla/src/unifolm_vla/model/modules/vlm/__init__.py", line 6, in get_vlm_model
+    return _QWen_VL_Interface(config)
+  File "/mnt/afs/zhengmingkai/raozf/benchmark/unifolm-vla/src/unifolm_vla/model/modules/vlm/QWen2_5.py", line 66, in __init__
+    model = Qwen2_5_VLForConditionalGeneration.from_pretrained(
+  File "/root/envs/unifolm_plus/lib/python3.10/site-packages/transformers/modeling_utils.py", line 309, in _wrapper
+    return func(*args, **kwargs)
+  File "/root/envs/unifolm_plus/lib/python3.10/site-packages/transformers/modeling_utils.py", line 4573, in from_pretrained
+    ) = cls._load_pretrained_model(
+  File "/root/envs/unifolm_plus/lib/python3.10/site-packages/transformers/modeling_utils.py", line 5030, in _load_pretrained_model
+    disk_offload_index, cpu_offload_index = _load_state_dict_into_meta_model(
+  File "/root/envs/unifolm_plus/lib/python3.10/site-packages/torch/utils/_contextlib.py", line 120, in decorate_context
+    return func(*args, **kwargs)
+  File "/root/envs/unifolm_plus/lib/python3.10/site-packages/transformers/modeling_utils.py", line 842, in _load_state_dict_into_meta_model
+    _load_parameter_into_model(model, param_name, param.to(param_device))
+torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 130.00 MiB. GPU 0 has a total capacity of 63.59 GiB of which 0 bytes is free. Of the allocated memory 11.83 GiB is allocated by PyTorch, and 30.56 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)

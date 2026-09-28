@@ -1,0 +1,5 @@
+benchmark_root: /mnt/afs/zhengmingkai/raozf/benchmark/LIBERO-Para/libero/libero
+bddl_files: /mnt/afs/zhengmingkai/raozf/benchmark/LIBERO-Para/libero/libero/bddl_files
+init_states: /mnt/afs/zhengmingkai/raozf/benchmark/LIBERO-Para/libero/libero/init_files
+assets: /mnt/afs/zhengmingkai/raozf/benchmark/LIBERO-Para/libero/libero/assets
+datasets: /mnt/afs/zhengmingkai/raozf/benchmark/FastWAM/results/libero_para_3seeds/20260716_115800/libero_datasets

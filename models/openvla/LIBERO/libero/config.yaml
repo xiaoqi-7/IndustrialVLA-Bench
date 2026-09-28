@@ -1,0 +1,5 @@
+assets: /mnt/afs/zhengmingkai/raozf/benchmark/openvla/LIBERO/libero/libero/./assets
+bddl_files: /mnt/afs/zhengmingkai/raozf/benchmark/openvla/LIBERO/libero/libero/./bddl_files
+benchmark_root: /mnt/afs/zhengmingkai/raozf/benchmark/openvla/LIBERO/libero/libero
+datasets: /mnt/afs/zhengmingkai/raozf/benchmark/datasets
+init_states: /mnt/afs/zhengmingkai/raozf/benchmark/openvla/LIBERO/libero/libero/./init_files

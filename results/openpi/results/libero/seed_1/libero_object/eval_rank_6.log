@@ -1,0 +1,832 @@
+/root/miniconda3/envs/openpi/lib/python3.12/site-packages/torch/cuda/__init__.py:61: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+  import pynvml  # type: ignore[import]
+INFO:root:Task suite: libero_object
+INFO:root:[Eval Split] rank=3, world_size=5, client=127.0.0.1:6669, task_ids=[3, 8]
+INFO:root:Waiting for policy server at ws://127.0.0.1:6669 ...
+INFO:root:Policy server is reachable at ws://127.0.0.1:6669
+INFO:root:[Rank 3] Connecting to policy server 127.0.0.1:6669
+INFO:root:Waiting for server at ws://127.0.0.1:6669...
+[info] using task orders [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+
+rank3: tasks:   0%|          | 0/2 [00:00<?, ?it/s]/mnt/afs/raozf/openpi/LIBERO/libero/libero/benchmark/__init__.py:164: UserWarning: Environment variable TORCH_FORCE_NO_WEIGHTS_ONLY_LOAD detected, since the`weights_only` argument was not explicitly passed to `torch.load`, forcing weights_only=False.
+  init_states = torch.load(init_states_path)
+
+
+rank3: task3:   0%|          | 0/50 [00:00<?, ?it/s][AINFO:root:
+Task 3: pick up the bbq sauce and place it in the basket
+INFO:root:Starting task=3 episode=1 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 1
+INFO:root:# successes on this rank: 1 (100.0%)
+
+
+rank3: task3:   2%|▏         | 1/50 [00:24<20:18, 24.87s/it][AINFO:root:
+Task 3: pick up the bbq sauce and place it in the basket
+INFO:root:Starting task=3 episode=2 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 2
+INFO:root:# successes on this rank: 2 (100.0%)
+
+
+rank3: task3:   4%|▍         | 2/50 [00:56<23:06, 28.89s/it][AINFO:root:
+Task 3: pick up the bbq sauce and place it in the basket
+INFO:root:Starting task=3 episode=3 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 3
+INFO:root:# successes on this rank: 3 (100.0%)
+
+
+rank3: task3:   6%|▌         | 3/50 [01:18<20:13, 25.82s/it][AINFO:root:
+Task 3: pick up the bbq sauce and place it in the basket
+INFO:root:Starting task=3 episode=4 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 4
+INFO:root:# successes on this rank: 4 (100.0%)
+
+
+rank3: task3:   8%|▊         | 4/50 [01:43<19:31, 25.47s/it][AINFO:root:
+Task 3: pick up the bbq sauce and place it in the basket
+INFO:root:Starting task=3 episode=5 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 5
+INFO:root:# successes on this rank: 5 (100.0%)
+
+
+rank3: task3:  10%|█         | 5/50 [02:16<21:08, 28.19s/it][AINFO:root:
+Task 3: pick up the bbq sauce and place it in the basket
+INFO:root:Starting task=3 episode=6 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 6
+INFO:root:# successes on this rank: 6 (100.0%)
+
+
+rank3: task3:  12%|█▏        | 6/50 [02:42<20:08, 27.47s/it][AINFO:root:
+Task 3: pick up the bbq sauce and place it in the basket
+INFO:root:Starting task=3 episode=7 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 7
+INFO:root:# successes on this rank: 7 (100.0%)
+
+
+rank3: task3:  14%|█▍        | 7/50 [03:14<20:37, 28.79s/it][AINFO:root:
+Task 3: pick up the bbq sauce and place it in the basket
+INFO:root:Starting task=3 episode=8 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 8
+INFO:root:# successes on this rank: 8 (100.0%)
+
+
+rank3: task3:  16%|█▌        | 8/50 [03:46<20:55, 29.88s/it][AINFO:root:
+Task 3: pick up the bbq sauce and place it in the basket
+INFO:root:Starting task=3 episode=9 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 9
+INFO:root:# successes on this rank: 9 (100.0%)
+
+
+rank3: task3:  18%|█▊        | 9/50 [04:12<19:29, 28.53s/it][AINFO:root:
+Task 3: pick up the bbq sauce and place it in the basket
+INFO:root:Starting task=3 episode=10 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 10
+INFO:root:# successes on this rank: 10 (100.0%)
+
+
+rank3: task3:  20%|██        | 10/50 [04:42<19:29, 29.24s/it][AINFO:root:
+Task 3: pick up the bbq sauce and place it in the basket
+INFO:root:Starting task=3 episode=11 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 11
+INFO:root:# successes on this rank: 11 (100.0%)
+
+
+rank3: task3:  22%|██▏       | 11/50 [05:08<18:16, 28.11s/it][AINFO:root:
+Task 3: pick up the bbq sauce and place it in the basket
+INFO:root:Starting task=3 episode=12 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 12
+INFO:root:# successes on this rank: 12 (100.0%)
+
+
+rank3: task3:  24%|██▍       | 12/50 [05:35<17:32, 27.71s/it][AINFO:root:
+Task 3: pick up the bbq sauce and place it in the basket
+INFO:root:Starting task=3 episode=13 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 13
+INFO:root:# successes on this rank: 13 (100.0%)
+
+
+rank3: task3:  26%|██▌       | 13/50 [06:03<17:12, 27.91s/it][AINFO:root:
+Task 3: pick up the bbq sauce and place it in the basket
+INFO:root:Starting task=3 episode=14 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 14
+INFO:root:# successes on this rank: 14 (100.0%)
+
+
+rank3: task3:  28%|██▊       | 14/50 [06:27<16:03, 26.76s/it][AINFO:root:
+Task 3: pick up the bbq sauce and place it in the basket
+INFO:root:Starting task=3 episode=15 ...
+INFO:root:Success: False
+INFO:root:# episodes completed on this rank so far: 15
+INFO:root:# successes on this rank: 14 (93.3%)
+
+
+rank3: task3:  30%|███       | 15/50 [07:17<19:36, 33.60s/it][AINFO:root:
+Task 3: pick up the bbq sauce and place it in the basket
+INFO:root:Starting task=3 episode=16 ...
+INFO:root:Success: False
+INFO:root:# episodes completed on this rank so far: 16
+INFO:root:# successes on this rank: 14 (87.5%)
+
+
+rank3: task3:  32%|███▏      | 16/50 [08:05<21:37, 38.17s/it][AINFO:root:
+Task 3: pick up the bbq sauce and place it in the basket
+INFO:root:Starting task=3 episode=17 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 17
+INFO:root:# successes on this rank: 15 (88.2%)
+
+
+rank3: task3:  34%|███▍      | 17/50 [08:36<19:45, 35.93s/it][AINFO:root:
+Task 3: pick up the bbq sauce and place it in the basket
+INFO:root:Starting task=3 episode=18 ...
+INFO:root:Success: False
+INFO:root:# episodes completed on this rank so far: 18
+INFO:root:# successes on this rank: 15 (83.3%)
+
+
+rank3: task3:  36%|███▌      | 18/50 [09:24<21:06, 39.59s/it][AINFO:root:
+Task 3: pick up the bbq sauce and place it in the basket
+INFO:root:Starting task=3 episode=19 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 19
+INFO:root:# successes on this rank: 16 (84.2%)
+
+
+rank3: task3:  38%|███▊      | 19/50 [09:48<18:00, 34.84s/it][AINFO:root:
+Task 3: pick up the bbq sauce and place it in the basket
+INFO:root:Starting task=3 episode=20 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 20
+INFO:root:# successes on this rank: 17 (85.0%)
+
+
+rank3: task3:  40%|████      | 20/50 [10:21<17:09, 34.30s/it][AINFO:root:
+Task 3: pick up the bbq sauce and place it in the basket
+INFO:root:Starting task=3 episode=21 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 21
+INFO:root:# successes on this rank: 18 (85.7%)
+
+
+rank3: task3:  42%|████▏     | 21/50 [10:52<16:06, 33.32s/it][AINFO:root:
+Task 3: pick up the bbq sauce and place it in the basket
+INFO:root:Starting task=3 episode=22 ...
+INFO:root:Success: False
+INFO:root:# episodes completed on this rank so far: 22
+INFO:root:# successes on this rank: 18 (81.8%)
+
+
+rank3: task3:  44%|████▍     | 22/50 [11:41<17:39, 37.85s/it][AINFO:root:
+Task 3: pick up the bbq sauce and place it in the basket
+INFO:root:Starting task=3 episode=23 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 23
+INFO:root:# successes on this rank: 19 (82.6%)
+
+
+rank3: task3:  46%|████▌     | 23/50 [12:05<15:09, 33.69s/it][AINFO:root:
+Task 3: pick up the bbq sauce and place it in the basket
+INFO:root:Starting task=3 episode=24 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 24
+INFO:root:# successes on this rank: 20 (83.3%)
+
+
+rank3: task3:  48%|████▊     | 24/50 [12:34<14:00, 32.34s/it][AINFO:root:
+Task 3: pick up the bbq sauce and place it in the basket
+INFO:root:Starting task=3 episode=25 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 25
+INFO:root:# successes on this rank: 21 (84.0%)
+
+
+rank3: task3:  50%|█████     | 25/50 [13:05<13:24, 32.17s/it][AINFO:root:
+Task 3: pick up the bbq sauce and place it in the basket
+INFO:root:Starting task=3 episode=26 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 26
+INFO:root:# successes on this rank: 22 (84.6%)
+
+
+rank3: task3:  52%|█████▏    | 26/50 [13:29<11:47, 29.48s/it][AINFO:root:
+Task 3: pick up the bbq sauce and place it in the basket
+INFO:root:Starting task=3 episode=27 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 27
+INFO:root:# successes on this rank: 23 (85.2%)
+
+
+rank3: task3:  54%|█████▍    | 27/50 [13:54<10:46, 28.11s/it][AINFO:root:
+Task 3: pick up the bbq sauce and place it in the basket
+INFO:root:Starting task=3 episode=28 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 28
+INFO:root:# successes on this rank: 24 (85.7%)
+
+
+rank3: task3:  56%|█████▌    | 28/50 [14:26<10:45, 29.34s/it][AINFO:root:
+Task 3: pick up the bbq sauce and place it in the basket
+INFO:root:Starting task=3 episode=29 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 29
+INFO:root:# successes on this rank: 25 (86.2%)
+
+
+rank3: task3:  58%|█████▊    | 29/50 [14:49<09:37, 27.48s/it][AINFO:root:
+Task 3: pick up the bbq sauce and place it in the basket
+INFO:root:Starting task=3 episode=30 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 30
+INFO:root:# successes on this rank: 26 (86.7%)
+
+
+rank3: task3:  60%|██████    | 30/50 [15:20<09:28, 28.42s/it][AINFO:root:
+Task 3: pick up the bbq sauce and place it in the basket
+INFO:root:Starting task=3 episode=31 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 31
+INFO:root:# successes on this rank: 27 (87.1%)
+
+
+rank3: task3:  62%|██████▏   | 31/50 [15:42<08:27, 26.69s/it][AINFO:root:
+Task 3: pick up the bbq sauce and place it in the basket
+INFO:root:Starting task=3 episode=32 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 32
+INFO:root:# successes on this rank: 28 (87.5%)
+
+
+rank3: task3:  64%|██████▍   | 32/50 [16:05<07:39, 25.54s/it][AINFO:root:
+Task 3: pick up the bbq sauce and place it in the basket
+INFO:root:Starting task=3 episode=33 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 33
+INFO:root:# successes on this rank: 29 (87.9%)
+
+
+rank3: task3:  66%|██████▌   | 33/50 [16:35<07:35, 26.81s/it][AINFO:root:
+Task 3: pick up the bbq sauce and place it in the basket
+INFO:root:Starting task=3 episode=34 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 34
+INFO:root:# successes on this rank: 30 (88.2%)
+
+
+rank3: task3:  68%|██████▊   | 34/50 [17:05<07:25, 27.83s/it][AINFO:root:
+Task 3: pick up the bbq sauce and place it in the basket
+INFO:root:Starting task=3 episode=35 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 35
+INFO:root:# successes on this rank: 31 (88.6%)
+
+
+rank3: task3:  70%|███████   | 35/50 [17:37<07:14, 28.95s/it][AINFO:root:
+Task 3: pick up the bbq sauce and place it in the basket
+INFO:root:Starting task=3 episode=36 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 36
+INFO:root:# successes on this rank: 32 (88.9%)
+
+
+rank3: task3:  72%|███████▏  | 36/50 [18:01<06:26, 27.58s/it][AINFO:root:
+Task 3: pick up the bbq sauce and place it in the basket
+INFO:root:Starting task=3 episode=37 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 37
+INFO:root:# successes on this rank: 33 (89.2%)
+
+
+rank3: task3:  74%|███████▍  | 37/50 [18:25<05:45, 26.58s/it][AINFO:root:
+Task 3: pick up the bbq sauce and place it in the basket
+INFO:root:Starting task=3 episode=38 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 38
+INFO:root:# successes on this rank: 34 (89.5%)
+
+
+rank3: task3:  76%|███████▌  | 38/50 [18:49<05:08, 25.74s/it][AINFO:root:
+Task 3: pick up the bbq sauce and place it in the basket
+INFO:root:Starting task=3 episode=39 ...
+INFO:root:Success: False
+INFO:root:# episodes completed on this rank so far: 39
+INFO:root:# successes on this rank: 34 (87.2%)
+
+
+rank3: task3:  78%|███████▊  | 39/50 [19:38<06:00, 32.73s/it][AINFO:root:
+Task 3: pick up the bbq sauce and place it in the basket
+INFO:root:Starting task=3 episode=40 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 40
+INFO:root:# successes on this rank: 35 (87.5%)
+
+
+rank3: task3:  80%|████████  | 40/50 [20:06<05:13, 31.33s/it][AINFO:root:
+Task 3: pick up the bbq sauce and place it in the basket
+INFO:root:Starting task=3 episode=41 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 41
+INFO:root:# successes on this rank: 36 (87.8%)
+
+
+rank3: task3:  82%|████████▏ | 41/50 [20:37<04:41, 31.24s/it][AINFO:root:
+Task 3: pick up the bbq sauce and place it in the basket
+INFO:root:Starting task=3 episode=42 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 42
+INFO:root:# successes on this rank: 37 (88.1%)
+
+
+rank3: task3:  84%|████████▍ | 42/50 [21:02<03:53, 29.21s/it][AINFO:root:
+Task 3: pick up the bbq sauce and place it in the basket
+INFO:root:Starting task=3 episode=43 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 43
+INFO:root:# successes on this rank: 38 (88.4%)
+
+
+rank3: task3:  86%|████████▌ | 43/50 [21:25<03:11, 27.36s/it][AINFO:root:
+Task 3: pick up the bbq sauce and place it in the basket
+INFO:root:Starting task=3 episode=44 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 44
+INFO:root:# successes on this rank: 39 (88.6%)
+
+
+rank3: task3:  88%|████████▊ | 44/50 [21:48<02:37, 26.23s/it][AINFO:root:
+Task 3: pick up the bbq sauce and place it in the basket
+INFO:root:Starting task=3 episode=45 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 45
+INFO:root:# successes on this rank: 40 (88.9%)
+
+
+rank3: task3:  90%|█████████ | 45/50 [22:12<02:07, 25.56s/it][AINFO:root:
+Task 3: pick up the bbq sauce and place it in the basket
+INFO:root:Starting task=3 episode=46 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 46
+INFO:root:# successes on this rank: 41 (89.1%)
+
+
+rank3: task3:  92%|█████████▏| 46/50 [22:38<01:42, 25.72s/it][AINFO:root:
+Task 3: pick up the bbq sauce and place it in the basket
+INFO:root:Starting task=3 episode=47 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 47
+INFO:root:# successes on this rank: 42 (89.4%)
+
+
+rank3: task3:  94%|█████████▍| 47/50 [23:02<01:15, 25.00s/it][AINFO:root:
+Task 3: pick up the bbq sauce and place it in the basket
+INFO:root:Starting task=3 episode=48 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 48
+INFO:root:# successes on this rank: 43 (89.6%)
+
+
+rank3: task3:  96%|█████████▌| 48/50 [23:31<00:52, 26.15s/it][AINFO:root:
+Task 3: pick up the bbq sauce and place it in the basket
+INFO:root:Starting task=3 episode=49 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 49
+INFO:root:# successes on this rank: 44 (89.8%)
+
+
+rank3: task3:  98%|█████████▊| 49/50 [23:59<00:26, 26.87s/it][AINFO:root:
+Task 3: pick up the bbq sauce and place it in the basket
+INFO:root:Starting task=3 episode=50 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 50
+INFO:root:# successes on this rank: 45 (90.0%)
+
+
+rank3: task3: 100%|██████████| 50/50 [24:29<00:00, 27.66s/it][A
+
+                                                             [AINFO:root:Current task success rate on rank 3: 0.9
+INFO:root:Current rank success rate: 0.9
+
+rank3: tasks:  50%|█████     | 1/2 [24:31<24:31, 1471.23s/it]/mnt/afs/raozf/openpi/LIBERO/libero/libero/benchmark/__init__.py:164: UserWarning: Environment variable TORCH_FORCE_NO_WEIGHTS_ONLY_LOAD detected, since the`weights_only` argument was not explicitly passed to `torch.load`, forcing weights_only=False.
+  init_states = torch.load(init_states_path)
+
+
+rank3: task8:   0%|          | 0/50 [00:00<?, ?it/s][AINFO:root:
+Task 8: pick up the chocolate pudding and place it in the basket
+INFO:root:Starting task=8 episode=1 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 51
+INFO:root:# successes on this rank: 46 (90.2%)
+
+
+rank3: task8:   2%|▏         | 1/50 [00:25<20:47, 25.46s/it][AINFO:root:
+Task 8: pick up the chocolate pudding and place it in the basket
+INFO:root:Starting task=8 episode=2 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 52
+INFO:root:# successes on this rank: 47 (90.4%)
+
+
+rank3: task8:   4%|▍         | 2/50 [00:54<22:03, 27.57s/it][AINFO:root:
+Task 8: pick up the chocolate pudding and place it in the basket
+INFO:root:Starting task=8 episode=3 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 53
+INFO:root:# successes on this rank: 48 (90.6%)
+
+
+rank3: task8:   6%|▌         | 3/50 [01:20<21:09, 27.01s/it][AINFO:root:
+Task 8: pick up the chocolate pudding and place it in the basket
+INFO:root:Starting task=8 episode=4 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 54
+INFO:root:# successes on this rank: 49 (90.7%)
+
+
+rank3: task8:   8%|▊         | 4/50 [01:53<22:23, 29.20s/it][AINFO:root:
+Task 8: pick up the chocolate pudding and place it in the basket
+INFO:root:Starting task=8 episode=5 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 55
+INFO:root:# successes on this rank: 50 (90.9%)
+
+
+rank3: task8:  10%|█         | 5/50 [02:20<21:22, 28.49s/it][AINFO:root:
+Task 8: pick up the chocolate pudding and place it in the basket
+INFO:root:Starting task=8 episode=6 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 56
+INFO:root:# successes on this rank: 51 (91.1%)
+
+
+rank3: task8:  12%|█▏        | 6/50 [02:46<20:12, 27.55s/it][AINFO:root:
+Task 8: pick up the chocolate pudding and place it in the basket
+INFO:root:Starting task=8 episode=7 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 57
+INFO:root:# successes on this rank: 52 (91.2%)
+
+
+rank3: task8:  14%|█▍        | 7/50 [03:12<19:25, 27.11s/it][AINFO:root:
+Task 8: pick up the chocolate pudding and place it in the basket
+INFO:root:Starting task=8 episode=8 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 58
+INFO:root:# successes on this rank: 53 (91.4%)
+
+
+rank3: task8:  16%|█▌        | 8/50 [03:38<18:48, 26.86s/it][AINFO:root:
+Task 8: pick up the chocolate pudding and place it in the basket
+INFO:root:Starting task=8 episode=9 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 59
+INFO:root:# successes on this rank: 54 (91.5%)
+
+
+rank3: task8:  18%|█▊        | 9/50 [04:13<19:58, 29.23s/it][AINFO:root:
+Task 8: pick up the chocolate pudding and place it in the basket
+INFO:root:Starting task=8 episode=10 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 60
+INFO:root:# successes on this rank: 55 (91.7%)
+
+
+rank3: task8:  20%|██        | 10/50 [04:42<19:25, 29.13s/it][AINFO:root:
+Task 8: pick up the chocolate pudding and place it in the basket
+INFO:root:Starting task=8 episode=11 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 61
+INFO:root:# successes on this rank: 56 (91.8%)
+
+
+rank3: task8:  22%|██▏       | 11/50 [05:11<19:02, 29.30s/it][AINFO:root:
+Task 8: pick up the chocolate pudding and place it in the basket
+INFO:root:Starting task=8 episode=12 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 62
+INFO:root:# successes on this rank: 57 (91.9%)
+
+
+rank3: task8:  24%|██▍       | 12/50 [05:39<18:07, 28.63s/it][AINFO:root:
+Task 8: pick up the chocolate pudding and place it in the basket
+INFO:root:Starting task=8 episode=13 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 63
+INFO:root:# successes on this rank: 58 (92.1%)
+
+
+rank3: task8:  26%|██▌       | 13/50 [06:07<17:41, 28.70s/it][AINFO:root:
+Task 8: pick up the chocolate pudding and place it in the basket
+INFO:root:Starting task=8 episode=14 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 64
+INFO:root:# successes on this rank: 59 (92.2%)
+
+
+rank3: task8:  28%|██▊       | 14/50 [06:37<17:18, 28.86s/it][AINFO:root:
+Task 8: pick up the chocolate pudding and place it in the basket
+INFO:root:Starting task=8 episode=15 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 65
+INFO:root:# successes on this rank: 60 (92.3%)
+
+
+rank3: task8:  30%|███       | 15/50 [07:06<16:52, 28.92s/it][AINFO:root:
+Task 8: pick up the chocolate pudding and place it in the basket
+INFO:root:Starting task=8 episode=16 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 66
+INFO:root:# successes on this rank: 61 (92.4%)
+
+
+rank3: task8:  32%|███▏      | 16/50 [07:34<16:13, 28.64s/it][AINFO:root:
+Task 8: pick up the chocolate pudding and place it in the basket
+INFO:root:Starting task=8 episode=17 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 67
+INFO:root:# successes on this rank: 62 (92.5%)
+
+
+rank3: task8:  34%|███▍      | 17/50 [08:00<15:22, 27.96s/it][AINFO:root:
+Task 8: pick up the chocolate pudding and place it in the basket
+INFO:root:Starting task=8 episode=18 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 68
+INFO:root:# successes on this rank: 63 (92.6%)
+
+
+rank3: task8:  36%|███▌      | 18/50 [08:28<14:50, 27.84s/it][AINFO:root:
+Task 8: pick up the chocolate pudding and place it in the basket
+INFO:root:Starting task=8 episode=19 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 69
+INFO:root:# successes on this rank: 64 (92.8%)
+
+
+rank3: task8:  38%|███▊      | 19/50 [08:54<14:07, 27.33s/it][AINFO:root:
+Task 8: pick up the chocolate pudding and place it in the basket
+INFO:root:Starting task=8 episode=20 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 70
+INFO:root:# successes on this rank: 65 (92.9%)
+
+
+rank3: task8:  40%|████      | 20/50 [09:24<14:04, 28.15s/it][AINFO:root:
+Task 8: pick up the chocolate pudding and place it in the basket
+INFO:root:Starting task=8 episode=21 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 71
+INFO:root:# successes on this rank: 66 (93.0%)
+
+
+rank3: task8:  42%|████▏     | 21/50 [09:49<13:12, 27.33s/it][AINFO:root:
+Task 8: pick up the chocolate pudding and place it in the basket
+INFO:root:Starting task=8 episode=22 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 72
+INFO:root:# successes on this rank: 67 (93.1%)
+
+
+rank3: task8:  44%|████▍     | 22/50 [10:18<12:59, 27.84s/it][AINFO:root:
+Task 8: pick up the chocolate pudding and place it in the basket
+INFO:root:Starting task=8 episode=23 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 73
+INFO:root:# successes on this rank: 68 (93.2%)
+
+
+rank3: task8:  46%|████▌     | 23/50 [10:46<12:29, 27.75s/it][AINFO:root:
+Task 8: pick up the chocolate pudding and place it in the basket
+INFO:root:Starting task=8 episode=24 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 74
+INFO:root:# successes on this rank: 69 (93.2%)
+
+
+rank3: task8:  48%|████▊     | 24/50 [11:14<12:04, 27.87s/it][AINFO:root:
+Task 8: pick up the chocolate pudding and place it in the basket
+INFO:root:Starting task=8 episode=25 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 75
+INFO:root:# successes on this rank: 70 (93.3%)
+
+
+rank3: task8:  50%|█████     | 25/50 [11:43<11:46, 28.26s/it][AINFO:root:
+Task 8: pick up the chocolate pudding and place it in the basket
+INFO:root:Starting task=8 episode=26 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 76
+INFO:root:# successes on this rank: 71 (93.4%)
+
+
+rank3: task8:  52%|█████▏    | 26/50 [12:08<10:56, 27.36s/it][AINFO:root:
+Task 8: pick up the chocolate pudding and place it in the basket
+INFO:root:Starting task=8 episode=27 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 77
+INFO:root:# successes on this rank: 72 (93.5%)
+
+
+rank3: task8:  54%|█████▍    | 27/50 [12:36<10:28, 27.32s/it][AINFO:root:
+Task 8: pick up the chocolate pudding and place it in the basket
+INFO:root:Starting task=8 episode=28 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 78
+INFO:root:# successes on this rank: 73 (93.6%)
+
+
+rank3: task8:  56%|█████▌    | 28/50 [13:04<10:08, 27.68s/it][AINFO:root:
+Task 8: pick up the chocolate pudding and place it in the basket
+INFO:root:Starting task=8 episode=29 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 79
+INFO:root:# successes on this rank: 74 (93.7%)
+
+
+rank3: task8:  58%|█████▊    | 29/50 [13:33<09:48, 28.03s/it][AINFO:root:
+Task 8: pick up the chocolate pudding and place it in the basket
+INFO:root:Starting task=8 episode=30 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 80
+INFO:root:# successes on this rank: 75 (93.8%)
+
+
+rank3: task8:  60%|██████    | 30/50 [14:00<09:15, 27.80s/it][AINFO:root:
+Task 8: pick up the chocolate pudding and place it in the basket
+INFO:root:Starting task=8 episode=31 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 81
+INFO:root:# successes on this rank: 76 (93.8%)
+
+
+rank3: task8:  62%|██████▏   | 31/50 [14:29<08:53, 28.06s/it][AINFO:root:
+Task 8: pick up the chocolate pudding and place it in the basket
+INFO:root:Starting task=8 episode=32 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 82
+INFO:root:# successes on this rank: 77 (93.9%)
+
+
+rank3: task8:  64%|██████▍   | 32/50 [14:57<08:25, 28.10s/it][AINFO:root:
+Task 8: pick up the chocolate pudding and place it in the basket
+INFO:root:Starting task=8 episode=33 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 83
+INFO:root:# successes on this rank: 78 (94.0%)
+
+
+rank3: task8:  66%|██████▌   | 33/50 [15:25<07:55, 27.98s/it][AINFO:root:
+Task 8: pick up the chocolate pudding and place it in the basket
+INFO:root:Starting task=8 episode=34 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 84
+INFO:root:# successes on this rank: 79 (94.0%)
+
+
+rank3: task8:  68%|██████▊   | 34/50 [15:54<07:35, 28.47s/it][AINFO:root:
+Task 8: pick up the chocolate pudding and place it in the basket
+INFO:root:Starting task=8 episode=35 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 85
+INFO:root:# successes on this rank: 80 (94.1%)
+
+
+rank3: task8:  70%|███████   | 35/50 [16:21<06:57, 27.85s/it][AINFO:root:
+Task 8: pick up the chocolate pudding and place it in the basket
+INFO:root:Starting task=8 episode=36 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 86
+INFO:root:# successes on this rank: 81 (94.2%)
+
+
+rank3: task8:  72%|███████▏  | 36/50 [16:48<06:25, 27.53s/it][AINFO:root:
+Task 8: pick up the chocolate pudding and place it in the basket
+INFO:root:Starting task=8 episode=37 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 87
+INFO:root:# successes on this rank: 82 (94.3%)
+
+
+rank3: task8:  74%|███████▍  | 37/50 [17:16<06:03, 27.93s/it][AINFO:root:
+Task 8: pick up the chocolate pudding and place it in the basket
+INFO:root:Starting task=8 episode=38 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 88
+INFO:root:# successes on this rank: 83 (94.3%)
+
+
+rank3: task8:  76%|███████▌  | 38/50 [17:44<05:33, 27.75s/it][AINFO:root:
+Task 8: pick up the chocolate pudding and place it in the basket
+INFO:root:Starting task=8 episode=39 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 89
+INFO:root:# successes on this rank: 84 (94.4%)
+
+
+rank3: task8:  78%|███████▊  | 39/50 [18:14<05:12, 28.43s/it][AINFO:root:
+Task 8: pick up the chocolate pudding and place it in the basket
+INFO:root:Starting task=8 episode=40 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 90
+INFO:root:# successes on this rank: 85 (94.4%)
+
+
+rank3: task8:  80%|████████  | 40/50 [18:42<04:44, 28.46s/it][AINFO:root:
+Task 8: pick up the chocolate pudding and place it in the basket
+INFO:root:Starting task=8 episode=41 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 91
+INFO:root:# successes on this rank: 86 (94.5%)
+
+
+rank3: task8:  82%|████████▏ | 41/50 [19:09<04:12, 28.02s/it][AINFO:root:
+Task 8: pick up the chocolate pudding and place it in the basket
+INFO:root:Starting task=8 episode=42 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 92
+INFO:root:# successes on this rank: 87 (94.6%)
+
+
+rank3: task8:  84%|████████▍ | 42/50 [19:36<03:40, 27.61s/it][AINFO:root:
+Task 8: pick up the chocolate pudding and place it in the basket
+INFO:root:Starting task=8 episode=43 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 93
+INFO:root:# successes on this rank: 88 (94.6%)
+
+
+rank3: task8:  86%|████████▌ | 43/50 [20:06<03:18, 28.30s/it][AINFO:root:
+Task 8: pick up the chocolate pudding and place it in the basket
+INFO:root:Starting task=8 episode=44 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 94
+INFO:root:# successes on this rank: 89 (94.7%)
+
+
+rank3: task8:  88%|████████▊ | 44/50 [20:35<02:51, 28.61s/it][AINFO:root:
+Task 8: pick up the chocolate pudding and place it in the basket
+INFO:root:Starting task=8 episode=45 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 95
+INFO:root:# successes on this rank: 90 (94.7%)
+
+
+rank3: task8:  90%|█████████ | 45/50 [21:03<02:21, 28.36s/it][AINFO:root:
+Task 8: pick up the chocolate pudding and place it in the basket
+INFO:root:Starting task=8 episode=46 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 96
+INFO:root:# successes on this rank: 91 (94.8%)
+
+
+rank3: task8:  92%|█████████▏| 46/50 [21:29<01:50, 27.56s/it][AINFO:root:
+Task 8: pick up the chocolate pudding and place it in the basket
+INFO:root:Starting task=8 episode=47 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 97
+INFO:root:# successes on this rank: 92 (94.8%)
+
+
+rank3: task8:  94%|█████████▍| 47/50 [21:56<01:22, 27.61s/it][AINFO:root:
+Task 8: pick up the chocolate pudding and place it in the basket
+INFO:root:Starting task=8 episode=48 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 98
+INFO:root:# successes on this rank: 93 (94.9%)
+
+
+rank3: task8:  96%|█████████▌| 48/50 [22:23<00:54, 27.32s/it][AINFO:root:
+Task 8: pick up the chocolate pudding and place it in the basket
+INFO:root:Starting task=8 episode=49 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 99
+INFO:root:# successes on this rank: 94 (94.9%)
+
+
+rank3: task8:  98%|█████████▊| 49/50 [22:50<00:27, 27.34s/it][AINFO:root:
+Task 8: pick up the chocolate pudding and place it in the basket
+INFO:root:Starting task=8 episode=50 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 100
+INFO:root:# successes on this rank: 95 (95.0%)
+
+
+rank3: task8: 100%|██████████| 50/50 [23:18<00:00, 27.48s/it][A
+
+                                                             [AINFO:root:Current task success rate on rank 3: 1.0
+INFO:root:Current rank success rate: 0.95
+
+rank3: tasks: 100%|██████████| 2/2 [47:51<00:00, 1429.43s/it]
+rank3: tasks: 100%|██████████| 2/2 [47:51<00:00, 1435.70s/it]
+INFO:root:Rank 3 total success rate: 0.95
+INFO:root:Rank 3 total episodes: 100

@@ -1,0 +1,367 @@
+INFO:root:Task suite: libero_10
+INFO:root:[Eval Split] rank=2, world_size=8, client=127.0.0.1:8002, task_ids=[2]
+INFO:root:Waiting for policy server at ws://127.0.0.1:8002 ...
+INFO:root:Policy server is reachable at ws://127.0.0.1:8002
+INFO:root:[Rank 2] Connecting to policy server 127.0.0.1:8002
+INFO:root:Waiting for server at ws://127.0.0.1:8002...
+[info] using task orders [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+rank2: tasks:   0%|          | 0/1 [00:00<?, ?it/s]
+rank2: task2:   0%|          | 0/50 [00:00<?, ?it/s][AINFO:root:
+Task 2: turn on the stove and put the moka pot on it
+INFO:root:Starting task=2 episode=1 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 1
+INFO:root:# successes on this rank: 1 (100.0%)
+
+rank2: task2:   2%|▏         | 1/50 [14:07<11:32:27, 847.90s/it][AINFO:root:
+Task 2: turn on the stove and put the moka pot on it
+INFO:root:Starting task=2 episode=2 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 2
+INFO:root:# successes on this rank: 2 (100.0%)
+
+rank2: task2:   4%|▍         | 2/50 [28:28<11:24:19, 855.41s/it][AINFO:root:
+Task 2: turn on the stove and put the moka pot on it
+INFO:root:Starting task=2 episode=3 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 3
+INFO:root:# successes on this rank: 3 (100.0%)
+
+rank2: task2:   6%|▌         | 3/50 [43:00<11:16:01, 863.02s/it][AINFO:root:
+Task 2: turn on the stove and put the moka pot on it
+INFO:root:Starting task=2 episode=4 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 4
+INFO:root:# successes on this rank: 4 (100.0%)
+
+rank2: task2:   8%|▊         | 4/50 [57:36<11:05:27, 867.99s/it][AINFO:root:
+Task 2: turn on the stove and put the moka pot on it
+INFO:root:Starting task=2 episode=5 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 5
+INFO:root:# successes on this rank: 5 (100.0%)
+
+rank2: task2:  10%|█         | 5/50 [1:11:00<10:33:48, 845.07s/it][AINFO:root:
+Task 2: turn on the stove and put the moka pot on it
+INFO:root:Starting task=2 episode=6 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 6
+INFO:root:# successes on this rank: 6 (100.0%)
+
+rank2: task2:  12%|█▏        | 6/50 [1:24:12<10:06:31, 827.07s/it][AINFO:root:
+Task 2: turn on the stove and put the moka pot on it
+INFO:root:Starting task=2 episode=7 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 7
+INFO:root:# successes on this rank: 7 (100.0%)
+
+rank2: task2:  14%|█▍        | 7/50 [1:39:07<10:08:31, 849.10s/it][AINFO:root:
+Task 2: turn on the stove and put the moka pot on it
+INFO:root:Starting task=2 episode=8 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 8
+INFO:root:# successes on this rank: 8 (100.0%)
+
+rank2: task2:  16%|█▌        | 8/50 [1:53:13<9:53:49, 848.33s/it] [AINFO:root:
+Task 2: turn on the stove and put the moka pot on it
+INFO:root:Starting task=2 episode=9 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 9
+INFO:root:# successes on this rank: 9 (100.0%)
+
+rank2: task2:  18%|█▊        | 9/50 [2:06:39<9:30:32, 834.94s/it][AINFO:root:
+Task 2: turn on the stove and put the moka pot on it
+INFO:root:Starting task=2 episode=10 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 10
+INFO:root:# successes on this rank: 10 (100.0%)
+
+rank2: task2:  20%|██        | 10/50 [2:20:40<9:17:54, 836.87s/it][AINFO:root:
+Task 2: turn on the stove and put the moka pot on it
+INFO:root:Starting task=2 episode=11 ...
+INFO:root:Success: False
+INFO:root:# episodes completed on this rank so far: 11
+INFO:root:# successes on this rank: 10 (90.9%)
+
+rank2: task2:  22%|██▏       | 11/50 [2:50:19<12:11:20, 1125.15s/it][AINFO:root:
+Task 2: turn on the stove and put the moka pot on it
+INFO:root:Starting task=2 episode=12 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 12
+INFO:root:# successes on this rank: 11 (91.7%)
+
+rank2: task2:  24%|██▍       | 12/50 [3:08:43<11:48:34, 1118.81s/it][AINFO:root:
+Task 2: turn on the stove and put the moka pot on it
+INFO:root:Starting task=2 episode=13 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 13
+INFO:root:# successes on this rank: 12 (92.3%)
+
+rank2: task2:  26%|██▌       | 13/50 [3:21:45<10:26:56, 1016.65s/it][AINFO:root:
+Task 2: turn on the stove and put the moka pot on it
+INFO:root:Starting task=2 episode=14 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 14
+INFO:root:# successes on this rank: 13 (92.9%)
+
+rank2: task2:  28%|██▊       | 14/50 [3:36:23<9:44:54, 974.84s/it]  [AINFO:root:
+Task 2: turn on the stove and put the moka pot on it
+INFO:root:Starting task=2 episode=15 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 15
+INFO:root:# successes on this rank: 14 (93.3%)
+
+rank2: task2:  30%|███       | 15/50 [3:49:50<8:59:03, 924.11s/it][AINFO:root:
+Task 2: turn on the stove and put the moka pot on it
+INFO:root:Starting task=2 episode=16 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 16
+INFO:root:# successes on this rank: 15 (93.8%)
+
+rank2: task2:  32%|███▏      | 16/50 [4:02:24<8:14:47, 873.16s/it][AINFO:root:
+Task 2: turn on the stove and put the moka pot on it
+INFO:root:Starting task=2 episode=17 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 17
+INFO:root:# successes on this rank: 16 (94.1%)
+
+rank2: task2:  34%|███▍      | 17/50 [4:16:20<7:53:56, 861.72s/it][AINFO:root:
+Task 2: turn on the stove and put the moka pot on it
+INFO:root:Starting task=2 episode=18 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 18
+INFO:root:# successes on this rank: 17 (94.4%)
+
+rank2: task2:  36%|███▌      | 18/50 [4:32:51<8:00:26, 900.83s/it][AINFO:root:
+Task 2: turn on the stove and put the moka pot on it
+INFO:root:Starting task=2 episode=19 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 19
+INFO:root:# successes on this rank: 18 (94.7%)
+
+rank2: task2:  38%|███▊      | 19/50 [4:46:59<7:37:14, 884.97s/it][AINFO:root:
+Task 2: turn on the stove and put the moka pot on it
+INFO:root:Starting task=2 episode=20 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 20
+INFO:root:# successes on this rank: 19 (95.0%)
+
+rank2: task2:  40%|████      | 20/50 [5:00:04<7:07:23, 854.78s/it][AINFO:root:
+Task 2: turn on the stove and put the moka pot on it
+INFO:root:Starting task=2 episode=21 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 21
+INFO:root:# successes on this rank: 20 (95.2%)
+
+rank2: task2:  42%|████▏     | 21/50 [5:16:46<7:14:28, 898.92s/it][AINFO:root:
+Task 2: turn on the stove and put the moka pot on it
+INFO:root:Starting task=2 episode=22 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 22
+INFO:root:# successes on this rank: 21 (95.5%)
+
+rank2: task2:  44%|████▍     | 22/50 [5:30:27<6:48:37, 875.64s/it][AINFO:root:
+Task 2: turn on the stove and put the moka pot on it
+INFO:root:Starting task=2 episode=23 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 23
+INFO:root:# successes on this rank: 22 (95.7%)
+
+rank2: task2:  46%|████▌     | 23/50 [5:43:45<6:23:32, 852.30s/it][AINFO:root:
+Task 2: turn on the stove and put the moka pot on it
+INFO:root:Starting task=2 episode=24 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 24
+INFO:root:# successes on this rank: 23 (95.8%)
+
+rank2: task2:  48%|████▊     | 24/50 [5:58:35<6:14:12, 863.55s/it][AINFO:root:
+Task 2: turn on the stove and put the moka pot on it
+INFO:root:Starting task=2 episode=25 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 25
+INFO:root:# successes on this rank: 24 (96.0%)
+
+rank2: task2:  50%|█████     | 25/50 [6:11:50<5:51:13, 842.94s/it][AINFO:root:
+Task 2: turn on the stove and put the moka pot on it
+INFO:root:Starting task=2 episode=26 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 26
+INFO:root:# successes on this rank: 25 (96.2%)
+
+rank2: task2:  52%|█████▏    | 26/50 [6:24:53<5:30:00, 825.01s/it][AINFO:root:
+Task 2: turn on the stove and put the moka pot on it
+INFO:root:Starting task=2 episode=27 ...
+WARNING:root:[Rank 2] client.infer failed, retry=0/2: ConnectionClosedError(None, Close(code=<CloseCode.INTERNAL_ERROR: 1011>, reason='keepalive ping timeout'), None)
+INFO:root:[Rank 2] Connecting to policy server 127.0.0.1:8002
+INFO:root:Waiting for server at ws://127.0.0.1:8002...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 27
+INFO:root:# successes on this rank: 26 (96.3%)
+
+rank2: task2:  54%|█████▍    | 27/50 [6:41:49<5:38:12, 882.28s/it][AINFO:root:
+Task 2: turn on the stove and put the moka pot on it
+INFO:root:Starting task=2 episode=28 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 28
+INFO:root:# successes on this rank: 27 (96.4%)
+
+rank2: task2:  56%|█████▌    | 28/50 [6:58:41<5:37:45, 921.16s/it][AINFO:root:
+Task 2: turn on the stove and put the moka pot on it
+INFO:root:Starting task=2 episode=29 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 29
+INFO:root:# successes on this rank: 28 (96.6%)
+
+rank2: task2:  58%|█████▊    | 29/50 [7:14:32<5:25:34, 930.21s/it][AINFO:root:
+Task 2: turn on the stove and put the moka pot on it
+INFO:root:Starting task=2 episode=30 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 30
+INFO:root:# successes on this rank: 29 (96.7%)
+
+rank2: task2:  60%|██████    | 30/50 [7:29:12<5:05:06, 915.34s/it][AINFO:root:
+Task 2: turn on the stove and put the moka pot on it
+INFO:root:Starting task=2 episode=31 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 31
+INFO:root:# successes on this rank: 30 (96.8%)
+
+rank2: task2:  62%|██████▏   | 31/50 [7:44:39<4:50:55, 918.69s/it][AINFO:root:
+Task 2: turn on the stove and put the moka pot on it
+INFO:root:Starting task=2 episode=32 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 32
+INFO:root:# successes on this rank: 31 (96.9%)
+
+rank2: task2:  64%|██████▍   | 32/50 [7:59:57<4:35:33, 918.55s/it][AINFO:root:
+Task 2: turn on the stove and put the moka pot on it
+INFO:root:Starting task=2 episode=33 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 33
+INFO:root:# successes on this rank: 32 (97.0%)
+
+rank2: task2:  66%|██████▌   | 33/50 [8:14:32<4:16:33, 905.52s/it][AINFO:root:
+Task 2: turn on the stove and put the moka pot on it
+INFO:root:Starting task=2 episode=34 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 34
+INFO:root:# successes on this rank: 33 (97.1%)
+
+rank2: task2:  68%|██████▊   | 34/50 [8:28:53<3:57:54, 892.13s/it][AINFO:root:
+Task 2: turn on the stove and put the moka pot on it
+INFO:root:Starting task=2 episode=35 ...
+INFO:root:Success: False
+INFO:root:# episodes completed on this rank so far: 35
+INFO:root:# successes on this rank: 33 (94.3%)
+
+rank2: task2:  70%|███████   | 35/50 [9:01:48<5:04:15, 1217.06s/it][AINFO:root:
+Task 2: turn on the stove and put the moka pot on it
+INFO:root:Starting task=2 episode=36 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 36
+INFO:root:# successes on this rank: 34 (94.4%)
+
+rank2: task2:  72%|███████▏  | 36/50 [9:23:30<4:49:54, 1242.46s/it][AINFO:root:
+Task 2: turn on the stove and put the moka pot on it
+INFO:root:Starting task=2 episode=37 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 37
+INFO:root:# successes on this rank: 35 (94.6%)
+
+rank2: task2:  74%|███████▍  | 37/50 [9:38:04<4:05:12, 1131.73s/it][AINFO:root:
+Task 2: turn on the stove and put the moka pot on it
+INFO:root:Starting task=2 episode=38 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 38
+INFO:root:# successes on this rank: 36 (94.7%)
+
+rank2: task2:  76%|███████▌  | 38/50 [9:51:45<3:27:42, 1038.51s/it][AINFO:root:
+Task 2: turn on the stove and put the moka pot on it
+INFO:root:Starting task=2 episode=39 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 39
+INFO:root:# successes on this rank: 37 (94.9%)
+
+rank2: task2:  78%|███████▊  | 39/50 [10:05:55<3:00:01, 981.95s/it][AINFO:root:
+Task 2: turn on the stove and put the moka pot on it
+INFO:root:Starting task=2 episode=40 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 40
+INFO:root:# successes on this rank: 38 (95.0%)
+
+rank2: task2:  80%|████████  | 40/50 [10:19:47<2:36:09, 937.00s/it][AINFO:root:
+Task 2: turn on the stove and put the moka pot on it
+INFO:root:Starting task=2 episode=41 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 41
+INFO:root:# successes on this rank: 39 (95.1%)
+
+rank2: task2:  82%|████████▏ | 41/50 [10:34:38<2:18:28, 923.19s/it][AINFO:root:
+Task 2: turn on the stove and put the moka pot on it
+INFO:root:Starting task=2 episode=42 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 42
+INFO:root:# successes on this rank: 40 (95.2%)
+
+rank2: task2:  84%|████████▍ | 42/50 [10:48:23<1:59:09, 893.72s/it][AINFO:root:
+Task 2: turn on the stove and put the moka pot on it
+INFO:root:Starting task=2 episode=43 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 43
+INFO:root:# successes on this rank: 41 (95.3%)
+
+rank2: task2:  86%|████████▌ | 43/50 [11:02:49<1:43:19, 885.58s/it][AINFO:root:
+Task 2: turn on the stove and put the moka pot on it
+INFO:root:Starting task=2 episode=44 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 44
+INFO:root:# successes on this rank: 42 (95.5%)
+
+rank2: task2:  88%|████████▊ | 44/50 [11:17:41<1:28:44, 887.49s/it][AINFO:root:
+Task 2: turn on the stove and put the moka pot on it
+INFO:root:Starting task=2 episode=45 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 45
+INFO:root:# successes on this rank: 43 (95.6%)
+
+rank2: task2:  90%|█████████ | 45/50 [11:30:35<1:11:07, 853.56s/it][AINFO:root:
+Task 2: turn on the stove and put the moka pot on it
+INFO:root:Starting task=2 episode=46 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 46
+INFO:root:# successes on this rank: 44 (95.7%)
+
+rank2: task2:  92%|█████████▏| 46/50 [11:42:48<54:28, 817.14s/it]  [AINFO:root:
+Task 2: turn on the stove and put the moka pot on it
+INFO:root:Starting task=2 episode=47 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 47
+INFO:root:# successes on this rank: 45 (95.7%)
+
+rank2: task2:  94%|█████████▍| 47/50 [11:55:09<39:43, 794.55s/it][AINFO:root:
+Task 2: turn on the stove and put the moka pot on it
+INFO:root:Starting task=2 episode=48 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 48
+INFO:root:# successes on this rank: 46 (95.8%)
+
+rank2: task2:  96%|█████████▌| 48/50 [12:10:44<27:52, 836.49s/it][AINFO:root:
+Task 2: turn on the stove and put the moka pot on it
+INFO:root:Starting task=2 episode=49 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 49
+INFO:root:# successes on this rank: 47 (95.9%)
+
+rank2: task2:  98%|█████████▊| 49/50 [12:22:53<13:24, 804.33s/it][AINFO:root:
+Task 2: turn on the stove and put the moka pot on it
+INFO:root:Starting task=2 episode=50 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 50
+INFO:root:# successes on this rank: 48 (96.0%)
+
+rank2: task2: 100%|██████████| 50/50 [12:32:55<00:00, 743.49s/it][A
+                                                                 [AINFO:root:Current task success rate on rank 2: 0.96
+INFO:root:Current rank success rate: 0.96
+rank2: tasks: 100%|██████████| 1/1 [12:33:09<00:00, 45189.14s/it]rank2: tasks: 100%|██████████| 1/1 [12:33:09<00:00, 45189.14s/it]
+INFO:root:Rank 2 total success rate: 0.96
+INFO:root:Rank 2 total episodes: 50

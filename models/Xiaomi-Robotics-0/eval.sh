@@ -1,0 +1,1 @@
+GPUS="0 1 2 3 4 5 6 7" bash scripts/eval_libero_plus.sh XiaomiRobotics/Xiaomi-Robotics-0-LIBERO 8 8 ./logs

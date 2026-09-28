@@ -1,0 +1,36 @@
+{
+  "model": "Xiaomi-Robotics-0",
+  "timestamp": "2026-07-20T20:22:01+0800",
+  "gpu": "2",
+  "device": "cuda:0",
+  "task_suite": "libero_spatial",
+  "task_id": 0,
+  "warmup": 2,
+  "samples": 8,
+  "action_horizon": 10,
+  "configured_action_length": 30,
+  "replan_steps": 10,
+  "num_inference_steps": 5,
+  "action_shape": [
+    1,
+    10,
+    32
+  ],
+  "call_seconds": [
+    0.2488732673227787,
+    0.2519526183605194,
+    0.2566442508250475,
+    0.2646382562816143,
+    0.25304802879691124,
+    0.2524052169173956,
+    0.25682493671774864,
+    0.2503883019089699
+  ],
+  "call_mean_ms": 254.34685964137316,
+  "call_median_ms": 252.72662285715342,
+  "call_p95_ms": 261.9035944342613,
+  "latency_per_executed_step_ms": 25.434685964137316,
+  "latency_per_executed_step_median_ms": 25.27266228571534,
+  "torch_peak_allocated_mib": 9268.595703125,
+  "torch_peak_reserved_mib": 9366.0
+}

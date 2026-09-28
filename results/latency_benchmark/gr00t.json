@@ -1,0 +1,68 @@
+{
+  "model": "GR00T N1.7",
+  "timestamp": "2026-07-20T20:30:21+0800",
+  "gpu": "1",
+  "device": "cuda:0",
+  "task_suite": "libero_spatial",
+  "task_id": 0,
+  "warmup": 2,
+  "samples": 8,
+  "action_horizon": 16,
+  "configured_max_action_horizon": 40,
+  "replan_steps": 8,
+  "num_inference_steps": 4,
+  "action_shape": {
+    "action.x": [
+      1,
+      16,
+      1
+    ],
+    "action.y": [
+      1,
+      16,
+      1
+    ],
+    "action.z": [
+      1,
+      16,
+      1
+    ],
+    "action.roll": [
+      1,
+      16,
+      1
+    ],
+    "action.pitch": [
+      1,
+      16,
+      1
+    ],
+    "action.yaw": [
+      1,
+      16,
+      1
+    ],
+    "action.gripper": [
+      1,
+      16,
+      1
+    ]
+  },
+  "call_seconds": [
+    0.1566333882510662,
+    0.15803665854036808,
+    0.1581574473530054,
+    0.15792216919362545,
+    0.15740776248276234,
+    0.15709754079580307,
+    0.13889720290899277,
+    0.14008067548274994
+  ],
+  "call_mean_ms": 153.02910562604666,
+  "call_median_ms": 157.2526516392827,
+  "call_p95_ms": 158.11517126858234,
+  "latency_per_executed_step_ms": 19.128638203255832,
+  "latency_per_executed_step_median_ms": 19.656581454910338,
+  "torch_peak_allocated_mib": 6159.96875,
+  "torch_peak_reserved_mib": 6252.0
+}

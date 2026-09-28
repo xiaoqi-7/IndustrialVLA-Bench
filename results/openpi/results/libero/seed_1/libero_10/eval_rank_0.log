@@ -1,0 +1,832 @@
+/root/miniconda3/envs/openpi/lib/python3.12/site-packages/torch/cuda/__init__.py:61: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+  import pynvml  # type: ignore[import]
+INFO:root:Task suite: libero_10
+INFO:root:[Eval Split] rank=0, world_size=5, client=127.0.0.1:6666, task_ids=[0, 5]
+INFO:root:Waiting for policy server at ws://127.0.0.1:6666 ...
+INFO:root:Policy server is reachable at ws://127.0.0.1:6666
+INFO:root:[Rank 0] Connecting to policy server 127.0.0.1:6666
+INFO:root:Waiting for server at ws://127.0.0.1:6666...
+[info] using task orders [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+
+rank0: tasks:   0%|          | 0/2 [00:00<?, ?it/s]/mnt/afs/raozf/openpi/LIBERO/libero/libero/benchmark/__init__.py:164: UserWarning: Environment variable TORCH_FORCE_NO_WEIGHTS_ONLY_LOAD detected, since the`weights_only` argument was not explicitly passed to `torch.load`, forcing weights_only=False.
+  init_states = torch.load(init_states_path)
+
+
+rank0: task0:   0%|          | 0/50 [00:00<?, ?it/s][AINFO:root:
+Task 0: put both the alphabet soup and the tomato sauce in the basket
+INFO:root:Starting task=0 episode=1 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 1
+INFO:root:# successes on this rank: 1 (100.0%)
+
+
+rank0: task0:   2%|▏         | 1/50 [00:50<40:59, 50.19s/it][AINFO:root:
+Task 0: put both the alphabet soup and the tomato sauce in the basket
+INFO:root:Starting task=0 episode=2 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 2
+INFO:root:# successes on this rank: 2 (100.0%)
+
+
+rank0: task0:   4%|▍         | 2/50 [01:42<41:09, 51.44s/it][AINFO:root:
+Task 0: put both the alphabet soup and the tomato sauce in the basket
+INFO:root:Starting task=0 episode=3 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 3
+INFO:root:# successes on this rank: 3 (100.0%)
+
+
+rank0: task0:   6%|▌         | 3/50 [02:32<39:56, 51.00s/it][AINFO:root:
+Task 0: put both the alphabet soup and the tomato sauce in the basket
+INFO:root:Starting task=0 episode=4 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 4
+INFO:root:# successes on this rank: 4 (100.0%)
+
+
+rank0: task0:   8%|▊         | 4/50 [03:36<42:47, 55.82s/it][AINFO:root:
+Task 0: put both the alphabet soup and the tomato sauce in the basket
+INFO:root:Starting task=0 episode=5 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 5
+INFO:root:# successes on this rank: 5 (100.0%)
+
+
+rank0: task0:  10%|█         | 5/50 [04:35<42:56, 57.25s/it][AINFO:root:
+Task 0: put both the alphabet soup and the tomato sauce in the basket
+INFO:root:Starting task=0 episode=6 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 6
+INFO:root:# successes on this rank: 6 (100.0%)
+
+
+rank0: task0:  12%|█▏        | 6/50 [05:27<40:39, 55.43s/it][AINFO:root:
+Task 0: put both the alphabet soup and the tomato sauce in the basket
+INFO:root:Starting task=0 episode=7 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 7
+INFO:root:# successes on this rank: 7 (100.0%)
+
+
+rank0: task0:  14%|█▍        | 7/50 [06:30<41:27, 57.84s/it][AINFO:root:
+Task 0: put both the alphabet soup and the tomato sauce in the basket
+INFO:root:Starting task=0 episode=8 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 8
+INFO:root:# successes on this rank: 8 (100.0%)
+
+
+rank0: task0:  16%|█▌        | 8/50 [07:19<38:31, 55.05s/it][AINFO:root:
+Task 0: put both the alphabet soup and the tomato sauce in the basket
+INFO:root:Starting task=0 episode=9 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 9
+INFO:root:# successes on this rank: 9 (100.0%)
+
+
+rank0: task0:  18%|█▊        | 9/50 [08:08<36:20, 53.18s/it][AINFO:root:
+Task 0: put both the alphabet soup and the tomato sauce in the basket
+INFO:root:Starting task=0 episode=10 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 10
+INFO:root:# successes on this rank: 10 (100.0%)
+
+
+rank0: task0:  20%|██        | 10/50 [08:56<34:14, 51.37s/it][AINFO:root:
+Task 0: put both the alphabet soup and the tomato sauce in the basket
+INFO:root:Starting task=0 episode=11 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 11
+INFO:root:# successes on this rank: 11 (100.0%)
+
+
+rank0: task0:  22%|██▏       | 11/50 [09:51<34:11, 52.60s/it][AINFO:root:
+Task 0: put both the alphabet soup and the tomato sauce in the basket
+INFO:root:Starting task=0 episode=12 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 12
+INFO:root:# successes on this rank: 12 (100.0%)
+
+
+rank0: task0:  24%|██▍       | 12/50 [10:47<33:58, 53.64s/it][AINFO:root:
+Task 0: put both the alphabet soup and the tomato sauce in the basket
+INFO:root:Starting task=0 episode=13 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 13
+INFO:root:# successes on this rank: 13 (100.0%)
+
+
+rank0: task0:  26%|██▌       | 13/50 [11:41<33:03, 53.60s/it][AINFO:root:
+Task 0: put both the alphabet soup and the tomato sauce in the basket
+INFO:root:Starting task=0 episode=14 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 14
+INFO:root:# successes on this rank: 14 (100.0%)
+
+
+rank0: task0:  28%|██▊       | 14/50 [12:33<32:00, 53.36s/it][AINFO:root:
+Task 0: put both the alphabet soup and the tomato sauce in the basket
+INFO:root:Starting task=0 episode=15 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 15
+INFO:root:# successes on this rank: 15 (100.0%)
+
+
+rank0: task0:  30%|███       | 15/50 [13:45<34:22, 58.93s/it][AINFO:root:
+Task 0: put both the alphabet soup and the tomato sauce in the basket
+INFO:root:Starting task=0 episode=16 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 16
+INFO:root:# successes on this rank: 16 (100.0%)
+
+
+rank0: task0:  32%|███▏      | 16/50 [14:36<32:04, 56.59s/it][AINFO:root:
+Task 0: put both the alphabet soup and the tomato sauce in the basket
+INFO:root:Starting task=0 episode=17 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 17
+INFO:root:# successes on this rank: 17 (100.0%)
+
+
+rank0: task0:  34%|███▍      | 17/50 [15:30<30:37, 55.69s/it][AINFO:root:
+Task 0: put both the alphabet soup and the tomato sauce in the basket
+INFO:root:Starting task=0 episode=18 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 18
+INFO:root:# successes on this rank: 18 (100.0%)
+
+
+rank0: task0:  36%|███▌      | 18/50 [16:21<29:01, 54.42s/it][AINFO:root:
+Task 0: put both the alphabet soup and the tomato sauce in the basket
+INFO:root:Starting task=0 episode=19 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 19
+INFO:root:# successes on this rank: 19 (100.0%)
+
+
+rank0: task0:  38%|███▊      | 19/50 [17:42<32:12, 62.32s/it][AINFO:root:
+Task 0: put both the alphabet soup and the tomato sauce in the basket
+INFO:root:Starting task=0 episode=20 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 20
+INFO:root:# successes on this rank: 20 (100.0%)
+
+
+rank0: task0:  40%|████      | 20/50 [18:36<29:56, 59.88s/it][AINFO:root:
+Task 0: put both the alphabet soup and the tomato sauce in the basket
+INFO:root:Starting task=0 episode=21 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 21
+INFO:root:# successes on this rank: 21 (100.0%)
+
+
+rank0: task0:  42%|████▏     | 21/50 [19:34<28:40, 59.31s/it][AINFO:root:
+Task 0: put both the alphabet soup and the tomato sauce in the basket
+INFO:root:Starting task=0 episode=22 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 22
+INFO:root:# successes on this rank: 22 (100.0%)
+
+
+rank0: task0:  44%|████▍     | 22/50 [20:29<26:58, 57.80s/it][AINFO:root:
+Task 0: put both the alphabet soup and the tomato sauce in the basket
+INFO:root:Starting task=0 episode=23 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 23
+INFO:root:# successes on this rank: 23 (100.0%)
+
+
+rank0: task0:  46%|████▌     | 23/50 [21:24<25:38, 57.00s/it][AINFO:root:
+Task 0: put both the alphabet soup and the tomato sauce in the basket
+INFO:root:Starting task=0 episode=24 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 24
+INFO:root:# successes on this rank: 24 (100.0%)
+
+
+rank0: task0:  48%|████▊     | 24/50 [22:16<24:01, 55.46s/it][AINFO:root:
+Task 0: put both the alphabet soup and the tomato sauce in the basket
+INFO:root:Starting task=0 episode=25 ...
+INFO:root:Success: False
+INFO:root:# episodes completed on this rank so far: 25
+INFO:root:# successes on this rank: 24 (96.0%)
+
+
+rank0: task0:  50%|█████     | 25/50 [23:56<28:43, 68.94s/it][AINFO:root:
+Task 0: put both the alphabet soup and the tomato sauce in the basket
+INFO:root:Starting task=0 episode=26 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 26
+INFO:root:# successes on this rank: 25 (96.2%)
+
+
+rank0: task0:  52%|█████▏    | 26/50 [24:53<26:06, 65.28s/it][AINFO:root:
+Task 0: put both the alphabet soup and the tomato sauce in the basket
+INFO:root:Starting task=0 episode=27 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 27
+INFO:root:# successes on this rank: 26 (96.3%)
+
+
+rank0: task0:  54%|█████▍    | 27/50 [25:42<23:11, 60.52s/it][AINFO:root:
+Task 0: put both the alphabet soup and the tomato sauce in the basket
+INFO:root:Starting task=0 episode=28 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 28
+INFO:root:# successes on this rank: 27 (96.4%)
+
+
+rank0: task0:  56%|█████▌    | 28/50 [26:34<21:15, 57.98s/it][AINFO:root:
+Task 0: put both the alphabet soup and the tomato sauce in the basket
+INFO:root:Starting task=0 episode=29 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 29
+INFO:root:# successes on this rank: 28 (96.6%)
+
+
+rank0: task0:  58%|█████▊    | 29/50 [27:26<19:39, 56.19s/it][AINFO:root:
+Task 0: put both the alphabet soup and the tomato sauce in the basket
+INFO:root:Starting task=0 episode=30 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 30
+INFO:root:# successes on this rank: 29 (96.7%)
+
+
+rank0: task0:  60%|██████    | 30/50 [28:16<18:08, 54.43s/it][AINFO:root:
+Task 0: put both the alphabet soup and the tomato sauce in the basket
+INFO:root:Starting task=0 episode=31 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 31
+INFO:root:# successes on this rank: 30 (96.8%)
+
+
+rank0: task0:  62%|██████▏   | 31/50 [29:14<17:34, 55.48s/it][AINFO:root:
+Task 0: put both the alphabet soup and the tomato sauce in the basket
+INFO:root:Starting task=0 episode=32 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 32
+INFO:root:# successes on this rank: 31 (96.9%)
+
+
+rank0: task0:  64%|██████▍   | 32/50 [30:05<16:12, 54.01s/it][AINFO:root:
+Task 0: put both the alphabet soup and the tomato sauce in the basket
+INFO:root:Starting task=0 episode=33 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 33
+INFO:root:# successes on this rank: 32 (97.0%)
+
+
+rank0: task0:  66%|██████▌   | 33/50 [31:01<15:27, 54.57s/it][AINFO:root:
+Task 0: put both the alphabet soup and the tomato sauce in the basket
+INFO:root:Starting task=0 episode=34 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 34
+INFO:root:# successes on this rank: 33 (97.1%)
+
+
+rank0: task0:  68%|██████▊   | 34/50 [32:08<15:31, 58.21s/it][AINFO:root:
+Task 0: put both the alphabet soup and the tomato sauce in the basket
+INFO:root:Starting task=0 episode=35 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 35
+INFO:root:# successes on this rank: 34 (97.1%)
+
+
+rank0: task0:  70%|███████   | 35/50 [33:17<15:22, 61.49s/it][AINFO:root:
+Task 0: put both the alphabet soup and the tomato sauce in the basket
+INFO:root:Starting task=0 episode=36 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 36
+INFO:root:# successes on this rank: 35 (97.2%)
+
+
+rank0: task0:  72%|███████▏  | 36/50 [34:04<13:21, 57.22s/it][AINFO:root:
+Task 0: put both the alphabet soup and the tomato sauce in the basket
+INFO:root:Starting task=0 episode=37 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 37
+INFO:root:# successes on this rank: 36 (97.3%)
+
+
+rank0: task0:  74%|███████▍  | 37/50 [35:04<12:33, 57.97s/it][AINFO:root:
+Task 0: put both the alphabet soup and the tomato sauce in the basket
+INFO:root:Starting task=0 episode=38 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 38
+INFO:root:# successes on this rank: 37 (97.4%)
+
+
+rank0: task0:  76%|███████▌  | 38/50 [35:55<11:10, 55.85s/it][AINFO:root:
+Task 0: put both the alphabet soup and the tomato sauce in the basket
+INFO:root:Starting task=0 episode=39 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 39
+INFO:root:# successes on this rank: 38 (97.4%)
+
+
+rank0: task0:  78%|███████▊  | 39/50 [36:51<10:15, 55.98s/it][AINFO:root:
+Task 0: put both the alphabet soup and the tomato sauce in the basket
+INFO:root:Starting task=0 episode=40 ...
+INFO:root:Success: False
+INFO:root:# episodes completed on this rank so far: 40
+INFO:root:# successes on this rank: 38 (95.0%)
+
+
+rank0: task0:  80%|████████  | 40/50 [38:31<11:32, 69.25s/it][AINFO:root:
+Task 0: put both the alphabet soup and the tomato sauce in the basket
+INFO:root:Starting task=0 episode=41 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 41
+INFO:root:# successes on this rank: 39 (95.1%)
+
+
+rank0: task0:  82%|████████▏ | 41/50 [39:24<09:40, 64.48s/it][AINFO:root:
+Task 0: put both the alphabet soup and the tomato sauce in the basket
+INFO:root:Starting task=0 episode=42 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 42
+INFO:root:# successes on this rank: 40 (95.2%)
+
+
+rank0: task0:  84%|████████▍ | 42/50 [40:21<08:16, 62.06s/it][AINFO:root:
+Task 0: put both the alphabet soup and the tomato sauce in the basket
+INFO:root:Starting task=0 episode=43 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 43
+INFO:root:# successes on this rank: 41 (95.3%)
+
+
+rank0: task0:  86%|████████▌ | 43/50 [41:09<06:45, 57.88s/it][AINFO:root:
+Task 0: put both the alphabet soup and the tomato sauce in the basket
+INFO:root:Starting task=0 episode=44 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 44
+INFO:root:# successes on this rank: 42 (95.5%)
+
+
+rank0: task0:  88%|████████▊ | 44/50 [42:04<05:41, 56.98s/it][AINFO:root:
+Task 0: put both the alphabet soup and the tomato sauce in the basket
+INFO:root:Starting task=0 episode=45 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 45
+INFO:root:# successes on this rank: 43 (95.6%)
+
+
+rank0: task0:  90%|█████████ | 45/50 [43:00<04:43, 56.75s/it][AINFO:root:
+Task 0: put both the alphabet soup and the tomato sauce in the basket
+INFO:root:Starting task=0 episode=46 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 46
+INFO:root:# successes on this rank: 44 (95.7%)
+
+
+rank0: task0:  92%|█████████▏| 46/50 [44:06<03:58, 59.63s/it][AINFO:root:
+Task 0: put both the alphabet soup and the tomato sauce in the basket
+INFO:root:Starting task=0 episode=47 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 47
+INFO:root:# successes on this rank: 45 (95.7%)
+
+
+rank0: task0:  94%|█████████▍| 47/50 [44:59<02:52, 57.40s/it][AINFO:root:
+Task 0: put both the alphabet soup and the tomato sauce in the basket
+INFO:root:Starting task=0 episode=48 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 48
+INFO:root:# successes on this rank: 46 (95.8%)
+
+
+rank0: task0:  96%|█████████▌| 48/50 [45:54<01:53, 56.84s/it][AINFO:root:
+Task 0: put both the alphabet soup and the tomato sauce in the basket
+INFO:root:Starting task=0 episode=49 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 49
+INFO:root:# successes on this rank: 47 (95.9%)
+
+
+rank0: task0:  98%|█████████▊| 49/50 [46:47<00:55, 55.67s/it][AINFO:root:
+Task 0: put both the alphabet soup and the tomato sauce in the basket
+INFO:root:Starting task=0 episode=50 ...
+INFO:root:Success: False
+INFO:root:# episodes completed on this rank so far: 50
+INFO:root:# successes on this rank: 47 (94.0%)
+
+
+rank0: task0: 100%|██████████| 50/50 [48:26<00:00, 68.64s/it][A
+
+                                                             [AINFO:root:Current task success rate on rank 0: 0.94
+INFO:root:Current rank success rate: 0.94
+
+rank0: tasks:  50%|█████     | 1/2 [48:28<48:28, 2908.84s/it]/mnt/afs/raozf/openpi/LIBERO/libero/libero/benchmark/__init__.py:164: UserWarning: Environment variable TORCH_FORCE_NO_WEIGHTS_ONLY_LOAD detected, since the`weights_only` argument was not explicitly passed to `torch.load`, forcing weights_only=False.
+  init_states = torch.load(init_states_path)
+
+
+rank0: task5:   0%|          | 0/50 [00:00<?, ?it/s][AINFO:root:
+Task 5: pick up the book and place it in the back compartment of the caddy
+INFO:root:Starting task=5 episode=1 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 51
+INFO:root:# successes on this rank: 48 (94.1%)
+
+
+rank0: task5:   2%|▏         | 1/50 [00:28<23:37, 28.92s/it][AINFO:root:
+Task 5: pick up the book and place it in the back compartment of the caddy
+INFO:root:Starting task=5 episode=2 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 52
+INFO:root:# successes on this rank: 49 (94.2%)
+
+
+rank0: task5:   4%|▍         | 2/50 [01:02<25:19, 31.65s/it][AINFO:root:
+Task 5: pick up the book and place it in the back compartment of the caddy
+INFO:root:Starting task=5 episode=3 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 53
+INFO:root:# successes on this rank: 50 (94.3%)
+
+
+rank0: task5:   6%|▌         | 3/50 [01:33<24:32, 31.34s/it][AINFO:root:
+Task 5: pick up the book and place it in the back compartment of the caddy
+INFO:root:Starting task=5 episode=4 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 54
+INFO:root:# successes on this rank: 51 (94.4%)
+
+
+rank0: task5:   8%|▊         | 4/50 [02:08<25:06, 32.76s/it][AINFO:root:
+Task 5: pick up the book and place it in the back compartment of the caddy
+INFO:root:Starting task=5 episode=5 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 55
+INFO:root:# successes on this rank: 52 (94.5%)
+
+
+rank0: task5:  10%|█         | 5/50 [02:35<23:08, 30.85s/it][AINFO:root:
+Task 5: pick up the book and place it in the back compartment of the caddy
+INFO:root:Starting task=5 episode=6 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 56
+INFO:root:# successes on this rank: 53 (94.6%)
+
+
+rank0: task5:  12%|█▏        | 6/50 [03:02<21:30, 29.32s/it][AINFO:root:
+Task 5: pick up the book and place it in the back compartment of the caddy
+INFO:root:Starting task=5 episode=7 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 57
+INFO:root:# successes on this rank: 54 (94.7%)
+
+
+rank0: task5:  14%|█▍        | 7/50 [03:28<20:16, 28.28s/it][AINFO:root:
+Task 5: pick up the book and place it in the back compartment of the caddy
+INFO:root:Starting task=5 episode=8 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 58
+INFO:root:# successes on this rank: 55 (94.8%)
+
+
+rank0: task5:  16%|█▌        | 8/50 [03:56<19:40, 28.11s/it][AINFO:root:
+Task 5: pick up the book and place it in the back compartment of the caddy
+INFO:root:Starting task=5 episode=9 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 59
+INFO:root:# successes on this rank: 56 (94.9%)
+
+
+rank0: task5:  18%|█▊        | 9/50 [04:20<18:23, 26.92s/it][AINFO:root:
+Task 5: pick up the book and place it in the back compartment of the caddy
+INFO:root:Starting task=5 episode=10 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 60
+INFO:root:# successes on this rank: 57 (95.0%)
+
+
+rank0: task5:  20%|██        | 10/50 [04:49<18:25, 27.64s/it][AINFO:root:
+Task 5: pick up the book and place it in the back compartment of the caddy
+INFO:root:Starting task=5 episode=11 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 61
+INFO:root:# successes on this rank: 58 (95.1%)
+
+
+rank0: task5:  22%|██▏       | 11/50 [05:16<17:45, 27.32s/it][AINFO:root:
+Task 5: pick up the book and place it in the back compartment of the caddy
+INFO:root:Starting task=5 episode=12 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 62
+INFO:root:# successes on this rank: 59 (95.2%)
+
+
+rank0: task5:  24%|██▍       | 12/50 [05:42<17:04, 26.95s/it][AINFO:root:
+Task 5: pick up the book and place it in the back compartment of the caddy
+INFO:root:Starting task=5 episode=13 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 63
+INFO:root:# successes on this rank: 60 (95.2%)
+
+
+rank0: task5:  26%|██▌       | 13/50 [06:08<16:25, 26.63s/it][AINFO:root:
+Task 5: pick up the book and place it in the back compartment of the caddy
+INFO:root:Starting task=5 episode=14 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 64
+INFO:root:# successes on this rank: 61 (95.3%)
+
+
+rank0: task5:  28%|██▊       | 14/50 [06:31<15:26, 25.74s/it][AINFO:root:
+Task 5: pick up the book and place it in the back compartment of the caddy
+INFO:root:Starting task=5 episode=15 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 65
+INFO:root:# successes on this rank: 62 (95.4%)
+
+
+rank0: task5:  30%|███       | 15/50 [06:57<15:03, 25.82s/it][AINFO:root:
+Task 5: pick up the book and place it in the back compartment of the caddy
+INFO:root:Starting task=5 episode=16 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 66
+INFO:root:# successes on this rank: 63 (95.5%)
+
+
+rank0: task5:  32%|███▏      | 16/50 [07:33<16:12, 28.61s/it][AINFO:root:
+Task 5: pick up the book and place it in the back compartment of the caddy
+INFO:root:Starting task=5 episode=17 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 67
+INFO:root:# successes on this rank: 64 (95.5%)
+
+
+rank0: task5:  34%|███▍      | 17/50 [07:57<15:05, 27.44s/it][AINFO:root:
+Task 5: pick up the book and place it in the back compartment of the caddy
+INFO:root:Starting task=5 episode=18 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 68
+INFO:root:# successes on this rank: 65 (95.6%)
+
+
+rank0: task5:  36%|███▌      | 18/50 [08:23<14:22, 26.96s/it][AINFO:root:
+Task 5: pick up the book and place it in the back compartment of the caddy
+INFO:root:Starting task=5 episode=19 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 69
+INFO:root:# successes on this rank: 66 (95.7%)
+
+
+rank0: task5:  38%|███▊      | 19/50 [08:58<15:14, 29.49s/it][AINFO:root:
+Task 5: pick up the book and place it in the back compartment of the caddy
+INFO:root:Starting task=5 episode=20 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 70
+INFO:root:# successes on this rank: 67 (95.7%)
+
+
+rank0: task5:  40%|████      | 20/50 [09:28<14:49, 29.64s/it][AINFO:root:
+Task 5: pick up the book and place it in the back compartment of the caddy
+INFO:root:Starting task=5 episode=21 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 71
+INFO:root:# successes on this rank: 68 (95.8%)
+
+
+rank0: task5:  42%|████▏     | 21/50 [10:01<14:49, 30.66s/it][AINFO:root:
+Task 5: pick up the book and place it in the back compartment of the caddy
+INFO:root:Starting task=5 episode=22 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 72
+INFO:root:# successes on this rank: 69 (95.8%)
+
+
+rank0: task5:  44%|████▍     | 22/50 [10:31<14:06, 30.23s/it][AINFO:root:
+Task 5: pick up the book and place it in the back compartment of the caddy
+INFO:root:Starting task=5 episode=23 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 73
+INFO:root:# successes on this rank: 70 (95.9%)
+
+
+rank0: task5:  46%|████▌     | 23/50 [10:58<13:12, 29.36s/it][AINFO:root:
+Task 5: pick up the book and place it in the back compartment of the caddy
+INFO:root:Starting task=5 episode=24 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 74
+INFO:root:# successes on this rank: 71 (95.9%)
+
+
+rank0: task5:  48%|████▊     | 24/50 [11:25<12:27, 28.75s/it][AINFO:root:
+Task 5: pick up the book and place it in the back compartment of the caddy
+INFO:root:Starting task=5 episode=25 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 75
+INFO:root:# successes on this rank: 72 (96.0%)
+
+
+rank0: task5:  50%|█████     | 25/50 [11:53<11:53, 28.53s/it][AINFO:root:
+Task 5: pick up the book and place it in the back compartment of the caddy
+INFO:root:Starting task=5 episode=26 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 76
+INFO:root:# successes on this rank: 73 (96.1%)
+
+
+rank0: task5:  52%|█████▏    | 26/50 [12:23<11:35, 29.00s/it][AINFO:root:
+Task 5: pick up the book and place it in the back compartment of the caddy
+INFO:root:Starting task=5 episode=27 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 77
+INFO:root:# successes on this rank: 74 (96.1%)
+
+
+rank0: task5:  54%|█████▍    | 27/50 [12:52<11:05, 28.94s/it][AINFO:root:
+Task 5: pick up the book and place it in the back compartment of the caddy
+INFO:root:Starting task=5 episode=28 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 78
+INFO:root:# successes on this rank: 75 (96.2%)
+
+
+rank0: task5:  56%|█████▌    | 28/50 [13:36<12:15, 33.45s/it][AINFO:root:
+Task 5: pick up the book and place it in the back compartment of the caddy
+INFO:root:Starting task=5 episode=29 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 79
+INFO:root:# successes on this rank: 76 (96.2%)
+
+
+rank0: task5:  58%|█████▊    | 29/50 [14:14<12:06, 34.61s/it][AINFO:root:
+Task 5: pick up the book and place it in the back compartment of the caddy
+INFO:root:Starting task=5 episode=30 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 80
+INFO:root:# successes on this rank: 77 (96.2%)
+
+
+rank0: task5:  60%|██████    | 30/50 [14:38<10:32, 31.65s/it][AINFO:root:
+Task 5: pick up the book and place it in the back compartment of the caddy
+INFO:root:Starting task=5 episode=31 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 81
+INFO:root:# successes on this rank: 78 (96.3%)
+
+
+rank0: task5:  62%|██████▏   | 31/50 [15:06<09:39, 30.52s/it][AINFO:root:
+Task 5: pick up the book and place it in the back compartment of the caddy
+INFO:root:Starting task=5 episode=32 ...
+INFO:root:Success: False
+INFO:root:# episodes completed on this rank so far: 82
+INFO:root:# successes on this rank: 78 (95.1%)
+
+
+rank0: task5:  64%|██████▍   | 32/50 [16:26<13:36, 45.37s/it][AINFO:root:
+Task 5: pick up the book and place it in the back compartment of the caddy
+INFO:root:Starting task=5 episode=33 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 83
+INFO:root:# successes on this rank: 79 (95.2%)
+
+
+rank0: task5:  66%|██████▌   | 33/50 [16:55<11:29, 40.53s/it][AINFO:root:
+Task 5: pick up the book and place it in the back compartment of the caddy
+INFO:root:Starting task=5 episode=34 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 84
+INFO:root:# successes on this rank: 80 (95.2%)
+
+
+rank0: task5:  68%|██████▊   | 34/50 [17:26<09:59, 37.47s/it][AINFO:root:
+Task 5: pick up the book and place it in the back compartment of the caddy
+INFO:root:Starting task=5 episode=35 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 85
+INFO:root:# successes on this rank: 81 (95.3%)
+
+
+rank0: task5:  70%|███████   | 35/50 [17:54<08:39, 34.66s/it][AINFO:root:
+Task 5: pick up the book and place it in the back compartment of the caddy
+INFO:root:Starting task=5 episode=36 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 86
+INFO:root:# successes on this rank: 82 (95.3%)
+
+
+rank0: task5:  72%|███████▏  | 36/50 [18:23<07:42, 33.03s/it][AINFO:root:
+Task 5: pick up the book and place it in the back compartment of the caddy
+INFO:root:Starting task=5 episode=37 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 87
+INFO:root:# successes on this rank: 83 (95.4%)
+
+
+rank0: task5:  74%|███████▍  | 37/50 [18:55<07:04, 32.67s/it][AINFO:root:
+Task 5: pick up the book and place it in the back compartment of the caddy
+INFO:root:Starting task=5 episode=38 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 88
+INFO:root:# successes on this rank: 84 (95.5%)
+
+
+rank0: task5:  76%|███████▌  | 38/50 [19:21<06:08, 30.67s/it][AINFO:root:
+Task 5: pick up the book and place it in the back compartment of the caddy
+INFO:root:Starting task=5 episode=39 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 89
+INFO:root:# successes on this rank: 85 (95.5%)
+
+
+rank0: task5:  78%|███████▊  | 39/50 [19:52<05:37, 30.65s/it][AINFO:root:
+Task 5: pick up the book and place it in the back compartment of the caddy
+INFO:root:Starting task=5 episode=40 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 90
+INFO:root:# successes on this rank: 86 (95.6%)
+
+
+rank0: task5:  80%|████████  | 40/50 [20:20<05:00, 30.05s/it][AINFO:root:
+Task 5: pick up the book and place it in the back compartment of the caddy
+INFO:root:Starting task=5 episode=41 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 91
+INFO:root:# successes on this rank: 87 (95.6%)
+
+
+rank0: task5:  82%|████████▏ | 41/50 [20:46<04:18, 28.76s/it][AINFO:root:
+Task 5: pick up the book and place it in the back compartment of the caddy
+INFO:root:Starting task=5 episode=42 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 92
+INFO:root:# successes on this rank: 88 (95.7%)
+
+
+rank0: task5:  84%|████████▍ | 42/50 [21:17<03:55, 29.43s/it][AINFO:root:
+Task 5: pick up the book and place it in the back compartment of the caddy
+INFO:root:Starting task=5 episode=43 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 93
+INFO:root:# successes on this rank: 89 (95.7%)
+
+
+rank0: task5:  86%|████████▌ | 43/50 [21:42<03:17, 28.20s/it][AINFO:root:
+Task 5: pick up the book and place it in the back compartment of the caddy
+INFO:root:Starting task=5 episode=44 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 94
+INFO:root:# successes on this rank: 90 (95.7%)
+
+
+rank0: task5:  88%|████████▊ | 44/50 [22:10<02:48, 28.07s/it][AINFO:root:
+Task 5: pick up the book and place it in the back compartment of the caddy
+INFO:root:Starting task=5 episode=45 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 95
+INFO:root:# successes on this rank: 91 (95.8%)
+
+
+rank0: task5:  90%|█████████ | 45/50 [22:38<02:20, 28.01s/it][AINFO:root:
+Task 5: pick up the book and place it in the back compartment of the caddy
+INFO:root:Starting task=5 episode=46 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 96
+INFO:root:# successes on this rank: 92 (95.8%)
+
+
+rank0: task5:  92%|█████████▏| 46/50 [23:07<01:52, 28.23s/it][AINFO:root:
+Task 5: pick up the book and place it in the back compartment of the caddy
+INFO:root:Starting task=5 episode=47 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 97
+INFO:root:# successes on this rank: 93 (95.9%)
+
+
+rank0: task5:  94%|█████████▍| 47/50 [23:34<01:23, 27.84s/it][AINFO:root:
+Task 5: pick up the book and place it in the back compartment of the caddy
+INFO:root:Starting task=5 episode=48 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 98
+INFO:root:# successes on this rank: 94 (95.9%)
+
+
+rank0: task5:  96%|█████████▌| 48/50 [24:00<00:55, 27.50s/it][AINFO:root:
+Task 5: pick up the book and place it in the back compartment of the caddy
+INFO:root:Starting task=5 episode=49 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 99
+INFO:root:# successes on this rank: 95 (96.0%)
+
+
+rank0: task5:  98%|█████████▊| 49/50 [24:29<00:27, 27.76s/it][AINFO:root:
+Task 5: pick up the book and place it in the back compartment of the caddy
+INFO:root:Starting task=5 episode=50 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 100
+INFO:root:# successes on this rank: 96 (96.0%)
+
+
+rank0: task5: 100%|██████████| 50/50 [25:00<00:00, 28.90s/it][A
+
+                                                             [AINFO:root:Current task success rate on rank 0: 0.98
+INFO:root:Current rank success rate: 0.96
+
+rank0: tasks: 100%|██████████| 2/2 [1:13:31<00:00, 2081.43s/it]
+rank0: tasks: 100%|██████████| 2/2 [1:13:31<00:00, 2205.54s/it]
+INFO:root:Rank 0 total success rate: 0.96
+INFO:root:Rank 0 total episodes: 100

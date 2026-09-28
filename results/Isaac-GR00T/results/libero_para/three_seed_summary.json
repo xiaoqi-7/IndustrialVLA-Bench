@@ -1,0 +1,69 @@
+{
+  "model_name": "Isaac-GR00T-N1.7-LIBERO-goal",
+  "seeds": [
+    1,
+    0,
+    8
+  ],
+  "seed_results": [
+    {
+      "seed": 1,
+      "num_shards": 8,
+      "server_seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "successes": 3091,
+      "episodes": 4092,
+      "success_rate": 0.7553763440860215,
+      "result_dir": "/mnt/afs/zhengmingkai/raozf/benchmark/Isaac-GR00T/logs/libero_para/gr00t/gr00t_libero_para_3seeds_20260711_134856/seed1"
+    },
+    {
+      "seed": 0,
+      "num_shards": 8,
+      "server_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "successes": 3074,
+      "episodes": 4092,
+      "success_rate": 0.7512218963831867,
+      "result_dir": "/mnt/afs/zhengmingkai/raozf/benchmark/Isaac-GR00T/logs/libero_para/gr00t/gr00t_libero_para_3seeds_20260712_160413/seed0"
+    },
+    {
+      "seed": 8,
+      "num_shards": 8,
+      "server_seeds": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "successes": 2951,
+      "episodes": 4092,
+      "success_rate": 0.7211632453567938,
+      "result_dir": "/mnt/afs/zhengmingkai/raozf/benchmark/Isaac-GR00T/logs/libero_para/gr00t/gr00t_libero_para_3seeds_20260712_160413/seed8"
+    }
+  ],
+  "mean_success_rate": 0.7425871619420006,
+  "std_success_rate": 0.015243643709566827,
+  "pooled_success_rate": 0.7425871619420007,
+  "total_successes": 9116,
+  "total_episodes": 12276
+}

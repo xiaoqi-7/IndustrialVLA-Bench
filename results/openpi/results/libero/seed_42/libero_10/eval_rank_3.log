@@ -1,0 +1,832 @@
+/root/miniconda3/envs/openpi/lib/python3.12/site-packages/torch/cuda/__init__.py:61: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+  import pynvml  # type: ignore[import]
+INFO:root:Task suite: libero_10
+INFO:root:[Eval Split] rank=3, world_size=5, client=127.0.0.1:6669, task_ids=[3, 8]
+INFO:root:Waiting for policy server at ws://127.0.0.1:6669 ...
+INFO:root:Policy server is reachable at ws://127.0.0.1:6669
+INFO:root:[Rank 3] Connecting to policy server 127.0.0.1:6669
+INFO:root:Waiting for server at ws://127.0.0.1:6669...
+[info] using task orders [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+
+rank3: tasks:   0%|          | 0/2 [00:00<?, ?it/s]/mnt/afs/raozf/openpi/LIBERO/libero/libero/benchmark/__init__.py:164: UserWarning: Environment variable TORCH_FORCE_NO_WEIGHTS_ONLY_LOAD detected, since the`weights_only` argument was not explicitly passed to `torch.load`, forcing weights_only=False.
+  init_states = torch.load(init_states_path)
+
+
+rank3: task3:   0%|          | 0/50 [00:00<?, ?it/s][AINFO:root:
+Task 3: put the black bowl in the bottom drawer of the cabinet and close it
+INFO:root:Starting task=3 episode=1 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 1
+INFO:root:# successes on this rank: 1 (100.0%)
+
+
+rank3: task3:   2%|▏         | 1/50 [00:40<33:13, 40.68s/it][AINFO:root:
+Task 3: put the black bowl in the bottom drawer of the cabinet and close it
+INFO:root:Starting task=3 episode=2 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 2
+INFO:root:# successes on this rank: 2 (100.0%)
+
+
+rank3: task3:   4%|▍         | 2/50 [01:22<33:00, 41.26s/it][AINFO:root:
+Task 3: put the black bowl in the bottom drawer of the cabinet and close it
+INFO:root:Starting task=3 episode=3 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 3
+INFO:root:# successes on this rank: 3 (100.0%)
+
+
+rank3: task3:   6%|▌         | 3/50 [02:21<38:38, 49.32s/it][AINFO:root:
+Task 3: put the black bowl in the bottom drawer of the cabinet and close it
+INFO:root:Starting task=3 episode=4 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 4
+INFO:root:# successes on this rank: 4 (100.0%)
+
+
+rank3: task3:   8%|▊         | 4/50 [03:02<35:16, 46.00s/it][AINFO:root:
+Task 3: put the black bowl in the bottom drawer of the cabinet and close it
+INFO:root:Starting task=3 episode=5 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 5
+INFO:root:# successes on this rank: 5 (100.0%)
+
+
+rank3: task3:  10%|█         | 5/50 [03:48<34:30, 46.02s/it][AINFO:root:
+Task 3: put the black bowl in the bottom drawer of the cabinet and close it
+INFO:root:Starting task=3 episode=6 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 6
+INFO:root:# successes on this rank: 6 (100.0%)
+
+
+rank3: task3:  12%|█▏        | 6/50 [04:29<32:35, 44.44s/it][AINFO:root:
+Task 3: put the black bowl in the bottom drawer of the cabinet and close it
+INFO:root:Starting task=3 episode=7 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 7
+INFO:root:# successes on this rank: 7 (100.0%)
+
+
+rank3: task3:  14%|█▍        | 7/50 [05:11<31:15, 43.62s/it][AINFO:root:
+Task 3: put the black bowl in the bottom drawer of the cabinet and close it
+INFO:root:Starting task=3 episode=8 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 8
+INFO:root:# successes on this rank: 8 (100.0%)
+
+
+rank3: task3:  16%|█▌        | 8/50 [05:53<30:14, 43.19s/it][AINFO:root:
+Task 3: put the black bowl in the bottom drawer of the cabinet and close it
+INFO:root:Starting task=3 episode=9 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 9
+INFO:root:# successes on this rank: 9 (100.0%)
+
+
+rank3: task3:  18%|█▊        | 9/50 [06:47<31:50, 46.60s/it][AINFO:root:
+Task 3: put the black bowl in the bottom drawer of the cabinet and close it
+INFO:root:Starting task=3 episode=10 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 10
+INFO:root:# successes on this rank: 10 (100.0%)
+
+
+rank3: task3:  20%|██        | 10/50 [07:30<30:09, 45.25s/it][AINFO:root:
+Task 3: put the black bowl in the bottom drawer of the cabinet and close it
+INFO:root:Starting task=3 episode=11 ...
+INFO:root:Success: False
+INFO:root:# episodes completed on this rank so far: 11
+INFO:root:# successes on this rank: 10 (90.9%)
+
+
+rank3: task3:  22%|██▏       | 11/50 [09:09<40:06, 61.70s/it][AINFO:root:
+Task 3: put the black bowl in the bottom drawer of the cabinet and close it
+INFO:root:Starting task=3 episode=12 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 12
+INFO:root:# successes on this rank: 11 (91.7%)
+
+
+rank3: task3:  24%|██▍       | 12/50 [09:52<35:30, 56.06s/it][AINFO:root:
+Task 3: put the black bowl in the bottom drawer of the cabinet and close it
+INFO:root:Starting task=3 episode=13 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 13
+INFO:root:# successes on this rank: 12 (92.3%)
+
+
+rank3: task3:  26%|██▌       | 13/50 [10:48<34:34, 56.06s/it][AINFO:root:
+Task 3: put the black bowl in the bottom drawer of the cabinet and close it
+INFO:root:Starting task=3 episode=14 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 14
+INFO:root:# successes on this rank: 13 (92.9%)
+
+
+rank3: task3:  28%|██▊       | 14/50 [11:32<31:27, 52.42s/it][AINFO:root:
+Task 3: put the black bowl in the bottom drawer of the cabinet and close it
+INFO:root:Starting task=3 episode=15 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 15
+INFO:root:# successes on this rank: 14 (93.3%)
+
+
+rank3: task3:  30%|███       | 15/50 [12:16<29:12, 50.06s/it][AINFO:root:
+Task 3: put the black bowl in the bottom drawer of the cabinet and close it
+INFO:root:Starting task=3 episode=16 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 16
+INFO:root:# successes on this rank: 15 (93.8%)
+
+
+rank3: task3:  32%|███▏      | 16/50 [12:59<27:00, 47.66s/it][AINFO:root:
+Task 3: put the black bowl in the bottom drawer of the cabinet and close it
+INFO:root:Starting task=3 episode=17 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 17
+INFO:root:# successes on this rank: 16 (94.1%)
+
+
+rank3: task3:  34%|███▍      | 17/50 [13:48<26:29, 48.15s/it][AINFO:root:
+Task 3: put the black bowl in the bottom drawer of the cabinet and close it
+INFO:root:Starting task=3 episode=18 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 18
+INFO:root:# successes on this rank: 17 (94.4%)
+
+
+rank3: task3:  36%|███▌      | 18/50 [14:28<24:22, 45.71s/it][AINFO:root:
+Task 3: put the black bowl in the bottom drawer of the cabinet and close it
+INFO:root:Starting task=3 episode=19 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 19
+INFO:root:# successes on this rank: 18 (94.7%)
+
+
+rank3: task3:  38%|███▊      | 19/50 [15:10<23:06, 44.72s/it][AINFO:root:
+Task 3: put the black bowl in the bottom drawer of the cabinet and close it
+INFO:root:Starting task=3 episode=20 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 20
+INFO:root:# successes on this rank: 19 (95.0%)
+
+
+rank3: task3:  40%|████      | 20/50 [15:52<21:51, 43.70s/it][AINFO:root:
+Task 3: put the black bowl in the bottom drawer of the cabinet and close it
+INFO:root:Starting task=3 episode=21 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 21
+INFO:root:# successes on this rank: 20 (95.2%)
+
+
+rank3: task3:  42%|████▏     | 21/50 [16:33<20:47, 43.01s/it][AINFO:root:
+Task 3: put the black bowl in the bottom drawer of the cabinet and close it
+INFO:root:Starting task=3 episode=22 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 22
+INFO:root:# successes on this rank: 21 (95.5%)
+
+
+rank3: task3:  44%|████▍     | 22/50 [17:17<20:11, 43.26s/it][AINFO:root:
+Task 3: put the black bowl in the bottom drawer of the cabinet and close it
+INFO:root:Starting task=3 episode=23 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 23
+INFO:root:# successes on this rank: 22 (95.7%)
+
+
+rank3: task3:  46%|████▌     | 23/50 [17:59<19:18, 42.91s/it][AINFO:root:
+Task 3: put the black bowl in the bottom drawer of the cabinet and close it
+INFO:root:Starting task=3 episode=24 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 24
+INFO:root:# successes on this rank: 23 (95.8%)
+
+
+rank3: task3:  48%|████▊     | 24/50 [18:49<19:29, 44.99s/it][AINFO:root:
+Task 3: put the black bowl in the bottom drawer of the cabinet and close it
+INFO:root:Starting task=3 episode=25 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 25
+INFO:root:# successes on this rank: 24 (96.0%)
+
+
+rank3: task3:  50%|█████     | 25/50 [19:33<18:38, 44.75s/it][AINFO:root:
+Task 3: put the black bowl in the bottom drawer of the cabinet and close it
+INFO:root:Starting task=3 episode=26 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 26
+INFO:root:# successes on this rank: 25 (96.2%)
+
+
+rank3: task3:  52%|█████▏    | 26/50 [20:18<17:52, 44.69s/it][AINFO:root:
+Task 3: put the black bowl in the bottom drawer of the cabinet and close it
+INFO:root:Starting task=3 episode=27 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 27
+INFO:root:# successes on this rank: 26 (96.3%)
+
+
+rank3: task3:  54%|█████▍    | 27/50 [21:02<17:05, 44.57s/it][AINFO:root:
+Task 3: put the black bowl in the bottom drawer of the cabinet and close it
+INFO:root:Starting task=3 episode=28 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 28
+INFO:root:# successes on this rank: 27 (96.4%)
+
+
+rank3: task3:  56%|█████▌    | 28/50 [21:49<16:37, 45.34s/it][AINFO:root:
+Task 3: put the black bowl in the bottom drawer of the cabinet and close it
+INFO:root:Starting task=3 episode=29 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 29
+INFO:root:# successes on this rank: 28 (96.6%)
+
+
+rank3: task3:  58%|█████▊    | 29/50 [22:31<15:32, 44.42s/it][AINFO:root:
+Task 3: put the black bowl in the bottom drawer of the cabinet and close it
+INFO:root:Starting task=3 episode=30 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 30
+INFO:root:# successes on this rank: 29 (96.7%)
+
+
+rank3: task3:  60%|██████    | 30/50 [23:16<14:52, 44.64s/it][AINFO:root:
+Task 3: put the black bowl in the bottom drawer of the cabinet and close it
+INFO:root:Starting task=3 episode=31 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 31
+INFO:root:# successes on this rank: 30 (96.8%)
+
+
+rank3: task3:  62%|██████▏   | 31/50 [24:01<14:06, 44.56s/it][AINFO:root:
+Task 3: put the black bowl in the bottom drawer of the cabinet and close it
+INFO:root:Starting task=3 episode=32 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 32
+INFO:root:# successes on this rank: 31 (96.9%)
+
+
+rank3: task3:  64%|██████▍   | 32/50 [24:53<14:05, 46.96s/it][AINFO:root:
+Task 3: put the black bowl in the bottom drawer of the cabinet and close it
+INFO:root:Starting task=3 episode=33 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 33
+INFO:root:# successes on this rank: 32 (97.0%)
+
+
+rank3: task3:  66%|██████▌   | 33/50 [25:39<13:13, 46.70s/it][AINFO:root:
+Task 3: put the black bowl in the bottom drawer of the cabinet and close it
+INFO:root:Starting task=3 episode=34 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 34
+INFO:root:# successes on this rank: 33 (97.1%)
+
+
+rank3: task3:  68%|██████▊   | 34/50 [26:21<12:03, 45.21s/it][AINFO:root:
+Task 3: put the black bowl in the bottom drawer of the cabinet and close it
+INFO:root:Starting task=3 episode=35 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 35
+INFO:root:# successes on this rank: 34 (97.1%)
+
+
+rank3: task3:  70%|███████   | 35/50 [27:06<11:17, 45.13s/it][AINFO:root:
+Task 3: put the black bowl in the bottom drawer of the cabinet and close it
+INFO:root:Starting task=3 episode=36 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 36
+INFO:root:# successes on this rank: 35 (97.2%)
+
+
+rank3: task3:  72%|███████▏  | 36/50 [27:51<10:30, 45.06s/it][AINFO:root:
+Task 3: put the black bowl in the bottom drawer of the cabinet and close it
+INFO:root:Starting task=3 episode=37 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 37
+INFO:root:# successes on this rank: 36 (97.3%)
+
+
+rank3: task3:  74%|███████▍  | 37/50 [28:34<09:39, 44.58s/it][AINFO:root:
+Task 3: put the black bowl in the bottom drawer of the cabinet and close it
+INFO:root:Starting task=3 episode=38 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 38
+INFO:root:# successes on this rank: 37 (97.4%)
+
+
+rank3: task3:  76%|███████▌  | 38/50 [29:16<08:43, 43.61s/it][AINFO:root:
+Task 3: put the black bowl in the bottom drawer of the cabinet and close it
+INFO:root:Starting task=3 episode=39 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 39
+INFO:root:# successes on this rank: 38 (97.4%)
+
+
+rank3: task3:  78%|███████▊  | 39/50 [29:57<07:51, 42.88s/it][AINFO:root:
+Task 3: put the black bowl in the bottom drawer of the cabinet and close it
+INFO:root:Starting task=3 episode=40 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 40
+INFO:root:# successes on this rank: 39 (97.5%)
+
+
+rank3: task3:  80%|████████  | 40/50 [30:38<07:03, 42.32s/it][AINFO:root:
+Task 3: put the black bowl in the bottom drawer of the cabinet and close it
+INFO:root:Starting task=3 episode=41 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 41
+INFO:root:# successes on this rank: 40 (97.6%)
+
+
+rank3: task3:  82%|████████▏ | 41/50 [31:32<06:53, 45.94s/it][AINFO:root:
+Task 3: put the black bowl in the bottom drawer of the cabinet and close it
+INFO:root:Starting task=3 episode=42 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 42
+INFO:root:# successes on this rank: 41 (97.6%)
+
+
+rank3: task3:  84%|████████▍ | 42/50 [32:14<05:56, 44.54s/it][AINFO:root:
+Task 3: put the black bowl in the bottom drawer of the cabinet and close it
+INFO:root:Starting task=3 episode=43 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 43
+INFO:root:# successes on this rank: 42 (97.7%)
+
+
+rank3: task3:  86%|████████▌ | 43/50 [33:01<05:17, 45.34s/it][AINFO:root:
+Task 3: put the black bowl in the bottom drawer of the cabinet and close it
+INFO:root:Starting task=3 episode=44 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 44
+INFO:root:# successes on this rank: 43 (97.7%)
+
+
+rank3: task3:  88%|████████▊ | 44/50 [33:48<04:34, 45.81s/it][AINFO:root:
+Task 3: put the black bowl in the bottom drawer of the cabinet and close it
+INFO:root:Starting task=3 episode=45 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 45
+INFO:root:# successes on this rank: 44 (97.8%)
+
+
+rank3: task3:  90%|█████████ | 45/50 [34:32<03:45, 45.19s/it][AINFO:root:
+Task 3: put the black bowl in the bottom drawer of the cabinet and close it
+INFO:root:Starting task=3 episode=46 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 46
+INFO:root:# successes on this rank: 45 (97.8%)
+
+
+rank3: task3:  92%|█████████▏| 46/50 [35:14<02:58, 44.52s/it][AINFO:root:
+Task 3: put the black bowl in the bottom drawer of the cabinet and close it
+INFO:root:Starting task=3 episode=47 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 47
+INFO:root:# successes on this rank: 46 (97.9%)
+
+
+rank3: task3:  94%|█████████▍| 47/50 [35:59<02:13, 44.56s/it][AINFO:root:
+Task 3: put the black bowl in the bottom drawer of the cabinet and close it
+INFO:root:Starting task=3 episode=48 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 48
+INFO:root:# successes on this rank: 47 (97.9%)
+
+
+rank3: task3:  96%|█████████▌| 48/50 [36:43<01:28, 44.48s/it][AINFO:root:
+Task 3: put the black bowl in the bottom drawer of the cabinet and close it
+INFO:root:Starting task=3 episode=49 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 49
+INFO:root:# successes on this rank: 48 (98.0%)
+
+
+rank3: task3:  98%|█████████▊| 49/50 [37:24<00:43, 43.43s/it][AINFO:root:
+Task 3: put the black bowl in the bottom drawer of the cabinet and close it
+INFO:root:Starting task=3 episode=50 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 50
+INFO:root:# successes on this rank: 49 (98.0%)
+
+
+rank3: task3: 100%|██████████| 50/50 [38:10<00:00, 44.17s/it][A
+
+                                                             [AINFO:root:Current task success rate on rank 3: 0.98
+INFO:root:Current rank success rate: 0.98
+
+rank3: tasks:  50%|█████     | 1/2 [38:12<38:12, 2292.76s/it]/mnt/afs/raozf/openpi/LIBERO/libero/libero/benchmark/__init__.py:164: UserWarning: Environment variable TORCH_FORCE_NO_WEIGHTS_ONLY_LOAD detected, since the`weights_only` argument was not explicitly passed to `torch.load`, forcing weights_only=False.
+  init_states = torch.load(init_states_path)
+
+
+rank3: task8:   0%|          | 0/50 [00:00<?, ?it/s][AINFO:root:
+Task 8: put both moka pots on the stove
+INFO:root:Starting task=8 episode=1 ...
+INFO:root:Success: False
+INFO:root:# episodes completed on this rank so far: 51
+INFO:root:# successes on this rank: 49 (96.1%)
+
+
+rank3: task8:   2%|▏         | 1/50 [02:06<1:43:08, 126.29s/it][AINFO:root:
+Task 8: put both moka pots on the stove
+INFO:root:Starting task=8 episode=2 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 52
+INFO:root:# successes on this rank: 50 (96.2%)
+
+
+rank3: task8:   4%|▍         | 2/50 [03:40<1:26:03, 107.56s/it][AINFO:root:
+Task 8: put both moka pots on the stove
+INFO:root:Starting task=8 episode=3 ...
+INFO:root:Success: False
+INFO:root:# episodes completed on this rank so far: 53
+INFO:root:# successes on this rank: 50 (94.3%)
+
+
+rank3: task8:   6%|▌         | 3/50 [05:50<1:32:16, 117.80s/it][AINFO:root:
+Task 8: put both moka pots on the stove
+INFO:root:Starting task=8 episode=4 ...
+INFO:root:Success: False
+INFO:root:# episodes completed on this rank so far: 54
+INFO:root:# successes on this rank: 50 (92.6%)
+
+
+rank3: task8:   8%|▊         | 4/50 [07:59<1:33:35, 122.07s/it][AINFO:root:
+Task 8: put both moka pots on the stove
+INFO:root:Starting task=8 episode=5 ...
+INFO:root:Success: False
+INFO:root:# episodes completed on this rank so far: 55
+INFO:root:# successes on this rank: 50 (90.9%)
+
+
+rank3: task8:  10%|█         | 5/50 [10:09<1:33:39, 124.88s/it][AINFO:root:
+Task 8: put both moka pots on the stove
+INFO:root:Starting task=8 episode=6 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 56
+INFO:root:# successes on this rank: 51 (91.1%)
+
+
+rank3: task8:  12%|█▏        | 6/50 [11:48<1:25:09, 116.12s/it][AINFO:root:
+Task 8: put both moka pots on the stove
+INFO:root:Starting task=8 episode=7 ...
+INFO:root:Success: False
+INFO:root:# episodes completed on this rank so far: 57
+INFO:root:# successes on this rank: 51 (89.5%)
+
+
+rank3: task8:  14%|█▍        | 7/50 [14:09<1:29:00, 124.19s/it][AINFO:root:
+Task 8: put both moka pots on the stove
+INFO:root:Starting task=8 episode=8 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 58
+INFO:root:# successes on this rank: 52 (89.7%)
+
+
+rank3: task8:  16%|█▌        | 8/50 [15:58<1:23:32, 119.36s/it][AINFO:root:
+Task 8: put both moka pots on the stove
+INFO:root:Starting task=8 episode=9 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 59
+INFO:root:# successes on this rank: 53 (89.8%)
+
+
+rank3: task8:  18%|█▊        | 9/50 [18:04<1:23:03, 121.55s/it][AINFO:root:
+Task 8: put both moka pots on the stove
+INFO:root:Starting task=8 episode=10 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 60
+INFO:root:# successes on this rank: 54 (90.0%)
+
+
+rank3: task8:  20%|██        | 10/50 [19:53<1:18:20, 117.52s/it][AINFO:root:
+Task 8: put both moka pots on the stove
+INFO:root:Starting task=8 episode=11 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 61
+INFO:root:# successes on this rank: 55 (90.2%)
+
+
+rank3: task8:  22%|██▏       | 11/50 [21:19<1:10:10, 107.96s/it][AINFO:root:
+Task 8: put both moka pots on the stove
+INFO:root:Starting task=8 episode=12 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 62
+INFO:root:# successes on this rank: 56 (90.3%)
+
+
+rank3: task8:  24%|██▍       | 12/50 [23:15<1:09:58, 110.48s/it][AINFO:root:
+Task 8: put both moka pots on the stove
+INFO:root:Starting task=8 episode=13 ...
+INFO:root:Success: False
+INFO:root:# episodes completed on this rank so far: 63
+INFO:root:# successes on this rank: 56 (88.9%)
+
+
+rank3: task8:  26%|██▌       | 13/50 [25:33<1:13:16, 118.83s/it][AINFO:root:
+Task 8: put both moka pots on the stove
+INFO:root:Starting task=8 episode=14 ...
+INFO:root:Success: False
+INFO:root:# episodes completed on this rank so far: 64
+INFO:root:# successes on this rank: 56 (87.5%)
+
+
+rank3: task8:  28%|██▊       | 14/50 [27:50<1:14:31, 124.20s/it][AINFO:root:
+Task 8: put both moka pots on the stove
+INFO:root:Starting task=8 episode=15 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 65
+INFO:root:# successes on this rank: 57 (87.7%)
+
+
+rank3: task8:  30%|███       | 15/50 [29:46<1:11:04, 121.85s/it][AINFO:root:
+Task 8: put both moka pots on the stove
+INFO:root:Starting task=8 episode=16 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 66
+INFO:root:# successes on this rank: 58 (87.9%)
+
+
+rank3: task8:  32%|███▏      | 16/50 [31:47<1:08:51, 121.52s/it][AINFO:root:
+Task 8: put both moka pots on the stove
+INFO:root:Starting task=8 episode=17 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 67
+INFO:root:# successes on this rank: 59 (88.1%)
+
+
+rank3: task8:  34%|███▍      | 17/50 [33:47<1:06:36, 121.10s/it][AINFO:root:
+Task 8: put both moka pots on the stove
+INFO:root:Starting task=8 episode=18 ...
+INFO:root:Success: False
+INFO:root:# episodes completed on this rank so far: 68
+INFO:root:# successes on this rank: 59 (86.8%)
+
+
+rank3: task8:  36%|███▌      | 18/50 [36:05<1:07:15, 126.10s/it][AINFO:root:
+Task 8: put both moka pots on the stove
+INFO:root:Starting task=8 episode=19 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 69
+INFO:root:# successes on this rank: 60 (87.0%)
+
+
+rank3: task8:  38%|███▊      | 19/50 [37:58<1:03:14, 122.39s/it][AINFO:root:
+Task 8: put both moka pots on the stove
+INFO:root:Starting task=8 episode=20 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 70
+INFO:root:# successes on this rank: 61 (87.1%)
+
+
+rank3: task8:  40%|████      | 20/50 [40:06<1:02:00, 124.01s/it][AINFO:root:
+Task 8: put both moka pots on the stove
+INFO:root:Starting task=8 episode=21 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 71
+INFO:root:# successes on this rank: 62 (87.3%)
+
+
+rank3: task8:  42%|████▏     | 21/50 [42:08<59:39, 123.43s/it]  [AINFO:root:
+Task 8: put both moka pots on the stove
+INFO:root:Starting task=8 episode=22 ...
+INFO:root:Success: False
+INFO:root:# episodes completed on this rank so far: 72
+INFO:root:# successes on this rank: 62 (86.1%)
+
+
+rank3: task8:  44%|████▍     | 22/50 [44:27<59:42, 127.94s/it][AINFO:root:
+Task 8: put both moka pots on the stove
+INFO:root:Starting task=8 episode=23 ...
+INFO:root:Success: False
+INFO:root:# episodes completed on this rank so far: 73
+INFO:root:# successes on this rank: 62 (84.9%)
+
+
+rank3: task8:  46%|████▌     | 23/50 [46:43<58:43, 130.49s/it][AINFO:root:
+Task 8: put both moka pots on the stove
+INFO:root:Starting task=8 episode=24 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 74
+INFO:root:# successes on this rank: 63 (85.1%)
+
+
+rank3: task8:  48%|████▊     | 24/50 [48:37<54:23, 125.51s/it][AINFO:root:
+Task 8: put both moka pots on the stove
+INFO:root:Starting task=8 episode=25 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 75
+INFO:root:# successes on this rank: 64 (85.3%)
+
+
+rank3: task8:  50%|█████     | 25/50 [50:27<50:21, 120.88s/it][AINFO:root:
+Task 8: put both moka pots on the stove
+INFO:root:Starting task=8 episode=26 ...
+INFO:root:Success: False
+INFO:root:# episodes completed on this rank so far: 76
+INFO:root:# successes on this rank: 64 (84.2%)
+
+
+rank3: task8:  52%|█████▏    | 26/50 [52:44<50:18, 125.77s/it][AINFO:root:
+Task 8: put both moka pots on the stove
+INFO:root:Starting task=8 episode=27 ...
+INFO:root:Success: False
+INFO:root:# episodes completed on this rank so far: 77
+INFO:root:# successes on this rank: 64 (83.1%)
+
+
+rank3: task8:  54%|█████▍    | 27/50 [55:13<50:49, 132.60s/it][AINFO:root:
+Task 8: put both moka pots on the stove
+INFO:root:Starting task=8 episode=28 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 78
+INFO:root:# successes on this rank: 65 (83.3%)
+
+
+rank3: task8:  56%|█████▌    | 28/50 [57:02<46:02, 125.55s/it][AINFO:root:
+Task 8: put both moka pots on the stove
+INFO:root:Starting task=8 episode=29 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 79
+INFO:root:# successes on this rank: 66 (83.5%)
+
+
+rank3: task8:  58%|█████▊    | 29/50 [58:55<42:38, 121.84s/it][AINFO:root:
+Task 8: put both moka pots on the stove
+INFO:root:Starting task=8 episode=30 ...
+INFO:root:Success: False
+INFO:root:# episodes completed on this rank so far: 80
+INFO:root:# successes on this rank: 66 (82.5%)
+
+
+rank3: task8:  60%|██████    | 30/50 [1:01:21<42:59, 128.95s/it][AINFO:root:
+Task 8: put both moka pots on the stove
+INFO:root:Starting task=8 episode=31 ...
+INFO:root:Success: False
+INFO:root:# episodes completed on this rank so far: 81
+INFO:root:# successes on this rank: 66 (81.5%)
+
+
+rank3: task8:  62%|██████▏   | 31/50 [1:03:37<41:31, 131.13s/it][AINFO:root:
+Task 8: put both moka pots on the stove
+INFO:root:Starting task=8 episode=32 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 82
+INFO:root:# successes on this rank: 67 (81.7%)
+
+
+rank3: task8:  64%|██████▍   | 32/50 [1:05:45<39:01, 130.09s/it][AINFO:root:
+Task 8: put both moka pots on the stove
+INFO:root:Starting task=8 episode=33 ...
+INFO:root:Success: False
+INFO:root:# episodes completed on this rank so far: 83
+INFO:root:# successes on this rank: 67 (80.7%)
+
+
+rank3: task8:  66%|██████▌   | 33/50 [1:08:10<38:10, 134.74s/it][AINFO:root:
+Task 8: put both moka pots on the stove
+INFO:root:Starting task=8 episode=34 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 84
+INFO:root:# successes on this rank: 68 (81.0%)
+
+
+rank3: task8:  68%|██████▊   | 34/50 [1:10:10<34:43, 130.19s/it][AINFO:root:
+Task 8: put both moka pots on the stove
+INFO:root:Starting task=8 episode=35 ...
+INFO:root:Success: False
+INFO:root:# episodes completed on this rank so far: 85
+INFO:root:# successes on this rank: 68 (80.0%)
+
+
+rank3: task8:  70%|███████   | 35/50 [1:12:36<33:45, 135.01s/it][AINFO:root:
+Task 8: put both moka pots on the stove
+INFO:root:Starting task=8 episode=36 ...
+INFO:root:Success: False
+INFO:root:# episodes completed on this rank so far: 86
+INFO:root:# successes on this rank: 68 (79.1%)
+
+
+rank3: task8:  72%|███████▏  | 36/50 [1:15:02<32:14, 138.17s/it][AINFO:root:
+Task 8: put both moka pots on the stove
+INFO:root:Starting task=8 episode=37 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 87
+INFO:root:# successes on this rank: 69 (79.3%)
+
+
+rank3: task8:  74%|███████▍  | 37/50 [1:16:50<27:59, 129.19s/it][AINFO:root:
+Task 8: put both moka pots on the stove
+INFO:root:Starting task=8 episode=38 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 88
+INFO:root:# successes on this rank: 70 (79.5%)
+
+
+rank3: task8:  76%|███████▌  | 38/50 [1:18:38<24:36, 123.04s/it][AINFO:root:
+Task 8: put both moka pots on the stove
+INFO:root:Starting task=8 episode=39 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 89
+INFO:root:# successes on this rank: 71 (79.8%)
+
+
+rank3: task8:  78%|███████▊  | 39/50 [1:20:46<22:47, 124.35s/it][AINFO:root:
+Task 8: put both moka pots on the stove
+INFO:root:Starting task=8 episode=40 ...
+INFO:root:Success: False
+INFO:root:# episodes completed on this rank so far: 90
+INFO:root:# successes on this rank: 71 (78.9%)
+
+
+rank3: task8:  80%|████████  | 40/50 [1:23:01<21:16, 127.68s/it][AINFO:root:
+Task 8: put both moka pots on the stove
+INFO:root:Starting task=8 episode=41 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 91
+INFO:root:# successes on this rank: 72 (79.1%)
+
+
+rank3: task8:  82%|████████▏ | 41/50 [1:24:50<18:17, 121.97s/it][AINFO:root:
+Task 8: put both moka pots on the stove
+INFO:root:Starting task=8 episode=42 ...
+INFO:root:Success: False
+INFO:root:# episodes completed on this rank so far: 92
+INFO:root:# successes on this rank: 72 (78.3%)
+
+
+rank3: task8:  84%|████████▍ | 42/50 [1:27:12<17:03, 127.90s/it][AINFO:root:
+Task 8: put both moka pots on the stove
+INFO:root:Starting task=8 episode=43 ...
+INFO:root:Success: False
+INFO:root:# episodes completed on this rank so far: 93
+INFO:root:# successes on this rank: 72 (77.4%)
+
+
+rank3: task8:  86%|████████▌ | 43/50 [1:29:36<15:30, 132.86s/it][AINFO:root:
+Task 8: put both moka pots on the stove
+INFO:root:Starting task=8 episode=44 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 94
+INFO:root:# successes on this rank: 73 (77.7%)
+
+
+rank3: task8:  88%|████████▊ | 44/50 [1:31:23<12:30, 125.05s/it][AINFO:root:
+Task 8: put both moka pots on the stove
+INFO:root:Starting task=8 episode=45 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 95
+INFO:root:# successes on this rank: 74 (77.9%)
+
+
+rank3: task8:  90%|█████████ | 45/50 [1:33:10<09:58, 119.63s/it][AINFO:root:
+Task 8: put both moka pots on the stove
+INFO:root:Starting task=8 episode=46 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 96
+INFO:root:# successes on this rank: 75 (78.1%)
+
+
+rank3: task8:  92%|█████████▏| 46/50 [1:35:00<07:47, 116.84s/it][AINFO:root:
+Task 8: put both moka pots on the stove
+INFO:root:Starting task=8 episode=47 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 97
+INFO:root:# successes on this rank: 76 (78.4%)
+
+
+rank3: task8:  94%|█████████▍| 47/50 [1:36:53<05:46, 115.45s/it][AINFO:root:
+Task 8: put both moka pots on the stove
+INFO:root:Starting task=8 episode=48 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 98
+INFO:root:# successes on this rank: 77 (78.6%)
+
+
+rank3: task8:  96%|█████████▌| 48/50 [1:38:42<03:47, 113.75s/it][AINFO:root:
+Task 8: put both moka pots on the stove
+INFO:root:Starting task=8 episode=49 ...
+INFO:root:Success: False
+INFO:root:# episodes completed on this rank so far: 99
+INFO:root:# successes on this rank: 77 (77.8%)
+
+
+rank3: task8:  98%|█████████▊| 49/50 [1:41:04<02:02, 122.12s/it][AINFO:root:
+Task 8: put both moka pots on the stove
+INFO:root:Starting task=8 episode=50 ...
+INFO:root:Success: False
+INFO:root:# episodes completed on this rank so far: 100
+INFO:root:# successes on this rank: 77 (77.0%)
+
+
+rank3: task8: 100%|██████████| 50/50 [1:43:21<00:00, 126.74s/it][A
+
+                                                                [AINFO:root:Current task success rate on rank 3: 0.56
+INFO:root:Current rank success rate: 0.77
+
+rank3: tasks: 100%|██████████| 2/2 [2:21:35<00:00, 4592.99s/it]
+rank3: tasks: 100%|██████████| 2/2 [2:21:35<00:00, 4247.95s/it]
+INFO:root:Rank 3 total success rate: 0.77
+INFO:root:Rank 3 total episodes: 100

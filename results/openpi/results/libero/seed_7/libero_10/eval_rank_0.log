@@ -1,0 +1,721 @@
+INFO:root:Task suite: libero_10
+INFO:root:[Eval Split] rank=0, world_size=8, client=127.0.0.1:8000, task_ids=[0, 8]
+INFO:root:Waiting for policy server at ws://127.0.0.1:8000 ...
+INFO:root:Policy server is reachable at ws://127.0.0.1:8000
+INFO:root:[Rank 0] Connecting to policy server 127.0.0.1:8000
+INFO:root:Waiting for server at ws://127.0.0.1:8000...
+[info] using task orders [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+rank0: tasks:   0%|          | 0/2 [00:00<?, ?it/s]
+rank0: task0:   0%|          | 0/50 [00:00<?, ?it/s][AINFO:root:
+Task 0: put both the alphabet soup and the tomato sauce in the basket
+INFO:root:Starting task=0 episode=1 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 1
+INFO:root:# successes on this rank: 1 (100.0%)
+
+rank0: task0:   2%|▏         | 1/50 [15:33<12:42:42, 933.92s/it][AINFO:root:
+Task 0: put both the alphabet soup and the tomato sauce in the basket
+INFO:root:Starting task=0 episode=2 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 2
+INFO:root:# successes on this rank: 2 (100.0%)
+
+rank0: task0:   4%|▍         | 2/50 [31:05<12:26:01, 932.54s/it][AINFO:root:
+Task 0: put both the alphabet soup and the tomato sauce in the basket
+INFO:root:Starting task=0 episode=3 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 3
+INFO:root:# successes on this rank: 3 (100.0%)
+
+rank0: task0:   6%|▌         | 3/50 [45:02<11:36:14, 888.81s/it][AINFO:root:
+Task 0: put both the alphabet soup and the tomato sauce in the basket
+INFO:root:Starting task=0 episode=4 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 4
+INFO:root:# successes on this rank: 4 (100.0%)
+
+rank0: task0:   8%|▊         | 4/50 [59:47<11:20:13, 887.24s/it][AINFO:root:
+Task 0: put both the alphabet soup and the tomato sauce in the basket
+INFO:root:Starting task=0 episode=5 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 5
+INFO:root:# successes on this rank: 5 (100.0%)
+
+rank0: task0:  10%|█         | 5/50 [1:17:13<11:48:20, 944.46s/it][AINFO:root:
+Task 0: put both the alphabet soup and the tomato sauce in the basket
+INFO:root:Starting task=0 episode=6 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 6
+INFO:root:# successes on this rank: 6 (100.0%)
+
+rank0: task0:  12%|█▏        | 6/50 [1:31:46<11:15:00, 920.47s/it][AINFO:root:
+Task 0: put both the alphabet soup and the tomato sauce in the basket
+INFO:root:Starting task=0 episode=7 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 7
+INFO:root:# successes on this rank: 7 (100.0%)
+
+rank0: task0:  14%|█▍        | 7/50 [1:50:37<11:48:57, 989.25s/it][AINFO:root:
+Task 0: put both the alphabet soup and the tomato sauce in the basket
+INFO:root:Starting task=0 episode=8 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 8
+INFO:root:# successes on this rank: 8 (100.0%)
+
+rank0: task0:  16%|█▌        | 8/50 [2:04:49<11:01:47, 945.41s/it][AINFO:root:
+Task 0: put both the alphabet soup and the tomato sauce in the basket
+INFO:root:Starting task=0 episode=9 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 9
+INFO:root:# successes on this rank: 9 (100.0%)
+
+rank0: task0:  18%|█▊        | 9/50 [2:19:06<10:27:13, 917.90s/it][AINFO:root:
+Task 0: put both the alphabet soup and the tomato sauce in the basket
+INFO:root:Starting task=0 episode=10 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 10
+INFO:root:# successes on this rank: 10 (100.0%)
+
+rank0: task0:  20%|██        | 10/50 [2:32:27<9:47:48, 881.71s/it][AINFO:root:
+Task 0: put both the alphabet soup and the tomato sauce in the basket
+INFO:root:Starting task=0 episode=11 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 11
+INFO:root:# successes on this rank: 11 (100.0%)
+
+rank0: task0:  22%|██▏       | 11/50 [2:47:23<9:36:03, 886.24s/it][AINFO:root:
+Task 0: put both the alphabet soup and the tomato sauce in the basket
+INFO:root:Starting task=0 episode=12 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 12
+INFO:root:# successes on this rank: 12 (100.0%)
+
+rank0: task0:  24%|██▍       | 12/50 [3:02:23<9:23:54, 890.39s/it][AINFO:root:
+Task 0: put both the alphabet soup and the tomato sauce in the basket
+INFO:root:Starting task=0 episode=13 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 13
+INFO:root:# successes on this rank: 13 (100.0%)
+
+rank0: task0:  26%|██▌       | 13/50 [3:18:59<9:28:44, 922.27s/it][AINFO:root:
+Task 0: put both the alphabet soup and the tomato sauce in the basket
+INFO:root:Starting task=0 episode=14 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 14
+INFO:root:# successes on this rank: 14 (100.0%)
+
+rank0: task0:  28%|██▊       | 14/50 [3:35:28<9:25:26, 942.41s/it][AINFO:root:
+Task 0: put both the alphabet soup and the tomato sauce in the basket
+INFO:root:Starting task=0 episode=15 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 15
+INFO:root:# successes on this rank: 15 (100.0%)
+
+rank0: task0:  30%|███       | 15/50 [3:52:44<9:26:08, 970.52s/it][AINFO:root:
+Task 0: put both the alphabet soup and the tomato sauce in the basket
+INFO:root:Starting task=0 episode=16 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 16
+INFO:root:# successes on this rank: 16 (100.0%)
+
+rank0: task0:  32%|███▏      | 16/50 [4:08:32<9:06:06, 963.73s/it][AINFO:root:
+Task 0: put both the alphabet soup and the tomato sauce in the basket
+INFO:root:Starting task=0 episode=17 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 17
+INFO:root:# successes on this rank: 17 (100.0%)
+
+rank0: task0:  34%|███▍      | 17/50 [4:25:00<8:54:04, 971.04s/it][AINFO:root:
+Task 0: put both the alphabet soup and the tomato sauce in the basket
+INFO:root:Starting task=0 episode=18 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 18
+INFO:root:# successes on this rank: 18 (100.0%)
+
+rank0: task0:  36%|███▌      | 18/50 [4:41:32<8:41:21, 977.56s/it][AINFO:root:
+Task 0: put both the alphabet soup and the tomato sauce in the basket
+INFO:root:Starting task=0 episode=19 ...
+INFO:root:Success: False
+INFO:root:# episodes completed on this rank so far: 19
+INFO:root:# successes on this rank: 18 (94.7%)
+
+rank0: task0:  38%|███▊      | 19/50 [5:11:10<10:29:11, 1217.80s/it][AINFO:root:
+Task 0: put both the alphabet soup and the tomato sauce in the basket
+INFO:root:Starting task=0 episode=20 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 20
+INFO:root:# successes on this rank: 19 (95.0%)
+
+rank0: task0:  40%|████      | 20/50 [5:29:29<9:51:02, 1182.09s/it] [AINFO:root:
+Task 0: put both the alphabet soup and the tomato sauce in the basket
+INFO:root:Starting task=0 episode=21 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 21
+INFO:root:# successes on this rank: 20 (95.2%)
+
+rank0: task0:  42%|████▏     | 21/50 [5:45:26<8:58:43, 1114.59s/it][AINFO:root:
+Task 0: put both the alphabet soup and the tomato sauce in the basket
+INFO:root:Starting task=0 episode=22 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 22
+INFO:root:# successes on this rank: 21 (95.5%)
+
+rank0: task0:  44%|████▍     | 22/50 [6:01:36<8:19:54, 1071.22s/it][AINFO:root:
+Task 0: put both the alphabet soup and the tomato sauce in the basket
+INFO:root:Starting task=0 episode=23 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 23
+INFO:root:# successes on this rank: 22 (95.7%)
+
+rank0: task0:  46%|████▌     | 23/50 [6:17:03<7:42:34, 1027.96s/it][AINFO:root:
+Task 0: put both the alphabet soup and the tomato sauce in the basket
+INFO:root:Starting task=0 episode=24 ...
+WARNING:root:[Rank 0] client.infer failed, retry=0/2: ConnectionClosedError(None, Close(code=<CloseCode.INTERNAL_ERROR: 1011>, reason='keepalive ping timeout'), None)
+INFO:root:[Rank 0] Connecting to policy server 127.0.0.1:8000
+INFO:root:Waiting for server at ws://127.0.0.1:8000...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 24
+INFO:root:# successes on this rank: 23 (95.8%)
+
+rank0: task0:  48%|████▊     | 24/50 [6:33:46<7:22:09, 1020.35s/it][AINFO:root:
+Task 0: put both the alphabet soup and the tomato sauce in the basket
+INFO:root:Starting task=0 episode=25 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 25
+INFO:root:# successes on this rank: 24 (96.0%)
+
+rank0: task0:  50%|█████     | 25/50 [6:50:44<7:04:56, 1019.85s/it][AINFO:root:
+Task 0: put both the alphabet soup and the tomato sauce in the basket
+INFO:root:Starting task=0 episode=26 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 26
+INFO:root:# successes on this rank: 25 (96.2%)
+
+rank0: task0:  52%|█████▏    | 26/50 [7:08:24<6:52:45, 1031.90s/it][AINFO:root:
+Task 0: put both the alphabet soup and the tomato sauce in the basket
+INFO:root:Starting task=0 episode=27 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 27
+INFO:root:# successes on this rank: 26 (96.3%)
+
+rank0: task0:  54%|█████▍    | 27/50 [7:26:36<6:42:24, 1049.77s/it][AINFO:root:
+Task 0: put both the alphabet soup and the tomato sauce in the basket
+INFO:root:Starting task=0 episode=28 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 28
+INFO:root:# successes on this rank: 27 (96.4%)
+
+rank0: task0:  56%|█████▌    | 28/50 [7:44:55<6:30:24, 1064.74s/it][AINFO:root:
+Task 0: put both the alphabet soup and the tomato sauce in the basket
+INFO:root:Starting task=0 episode=29 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 29
+INFO:root:# successes on this rank: 28 (96.6%)
+
+rank0: task0:  58%|█████▊    | 29/50 [8:01:27<6:04:56, 1042.71s/it][AINFO:root:
+Task 0: put both the alphabet soup and the tomato sauce in the basket
+INFO:root:Starting task=0 episode=30 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 30
+INFO:root:# successes on this rank: 29 (96.7%)
+
+rank0: task0:  60%|██████    | 30/50 [8:21:34<6:04:02, 1092.14s/it][AINFO:root:
+Task 0: put both the alphabet soup and the tomato sauce in the basket
+INFO:root:Starting task=0 episode=31 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 31
+INFO:root:# successes on this rank: 30 (96.8%)
+
+rank0: task0:  62%|██████▏   | 31/50 [8:41:32<5:55:55, 1124.00s/it][AINFO:root:
+Task 0: put both the alphabet soup and the tomato sauce in the basket
+INFO:root:Starting task=0 episode=32 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 32
+INFO:root:# successes on this rank: 31 (96.9%)
+
+rank0: task0:  64%|██████▍   | 32/50 [8:59:07<5:30:57, 1103.21s/it][AINFO:root:
+Task 0: put both the alphabet soup and the tomato sauce in the basket
+INFO:root:Starting task=0 episode=33 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 33
+INFO:root:# successes on this rank: 32 (97.0%)
+
+rank0: task0:  66%|██████▌   | 33/50 [9:19:06<5:20:43, 1131.95s/it][AINFO:root:
+Task 0: put both the alphabet soup and the tomato sauce in the basket
+INFO:root:Starting task=0 episode=34 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 34
+INFO:root:# successes on this rank: 33 (97.1%)
+
+rank0: task0:  68%|██████▊   | 34/50 [9:33:08<4:38:39, 1044.97s/it][AINFO:root:
+Task 0: put both the alphabet soup and the tomato sauce in the basket
+INFO:root:Starting task=0 episode=35 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 35
+INFO:root:# successes on this rank: 34 (97.1%)
+
+rank0: task0:  70%|███████   | 35/50 [9:48:05<4:10:05, 1000.38s/it][AINFO:root:
+Task 0: put both the alphabet soup and the tomato sauce in the basket
+INFO:root:Starting task=0 episode=36 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 36
+INFO:root:# successes on this rank: 35 (97.2%)
+
+rank0: task0:  72%|███████▏  | 36/50 [10:02:10<3:42:36, 954.04s/it][AINFO:root:
+Task 0: put both the alphabet soup and the tomato sauce in the basket
+INFO:root:Starting task=0 episode=37 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 37
+INFO:root:# successes on this rank: 36 (97.3%)
+
+rank0: task0:  74%|███████▍  | 37/50 [10:18:45<3:29:22, 966.34s/it][AINFO:root:
+Task 0: put both the alphabet soup and the tomato sauce in the basket
+INFO:root:Starting task=0 episode=38 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 38
+INFO:root:# successes on this rank: 37 (97.4%)
+
+rank0: task0:  76%|███████▌  | 38/50 [10:34:32<3:12:04, 960.40s/it][AINFO:root:
+Task 0: put both the alphabet soup and the tomato sauce in the basket
+INFO:root:Starting task=0 episode=39 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 39
+INFO:root:# successes on this rank: 38 (97.4%)
+
+rank0: task0:  78%|███████▊  | 39/50 [10:50:03<2:54:25, 951.44s/it][AINFO:root:
+Task 0: put both the alphabet soup and the tomato sauce in the basket
+INFO:root:Starting task=0 episode=40 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 40
+INFO:root:# successes on this rank: 39 (97.5%)
+
+rank0: task0:  80%|████████  | 40/50 [11:06:04<2:39:04, 954.40s/it][AINFO:root:
+Task 0: put both the alphabet soup and the tomato sauce in the basket
+INFO:root:Starting task=0 episode=41 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 41
+INFO:root:# successes on this rank: 40 (97.6%)
+
+rank0: task0:  82%|████████▏ | 41/50 [11:23:08<2:26:16, 975.22s/it][AINFO:root:
+Task 0: put both the alphabet soup and the tomato sauce in the basket
+INFO:root:Starting task=0 episode=42 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 42
+INFO:root:# successes on this rank: 41 (97.6%)
+
+rank0: task0:  84%|████████▍ | 42/50 [11:38:22<2:07:36, 957.06s/it][AINFO:root:
+Task 0: put both the alphabet soup and the tomato sauce in the basket
+INFO:root:Starting task=0 episode=43 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 43
+INFO:root:# successes on this rank: 42 (97.7%)
+
+rank0: task0:  86%|████████▌ | 43/50 [11:49:41<1:41:54, 873.54s/it][AINFO:root:
+Task 0: put both the alphabet soup and the tomato sauce in the basket
+INFO:root:Starting task=0 episode=44 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 44
+INFO:root:# successes on this rank: 43 (97.7%)
+
+rank0: task0:  88%|████████▊ | 44/50 [12:01:54<1:23:08, 831.40s/it][AINFO:root:
+Task 0: put both the alphabet soup and the tomato sauce in the basket
+INFO:root:Starting task=0 episode=45 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 45
+INFO:root:# successes on this rank: 44 (97.8%)
+
+rank0: task0:  90%|█████████ | 45/50 [12:13:37<1:06:03, 792.70s/it][AINFO:root:
+Task 0: put both the alphabet soup and the tomato sauce in the basket
+INFO:root:Starting task=0 episode=46 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 46
+INFO:root:# successes on this rank: 45 (97.8%)
+
+rank0: task0:  92%|█████████▏| 46/50 [12:25:31<51:17, 769.37s/it]  [AINFO:root:
+Task 0: put both the alphabet soup and the tomato sauce in the basket
+INFO:root:Starting task=0 episode=47 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 47
+INFO:root:# successes on this rank: 46 (97.9%)
+
+rank0: task0:  94%|█████████▍| 47/50 [12:35:37<36:00, 720.20s/it][AINFO:root:
+Task 0: put both the alphabet soup and the tomato sauce in the basket
+INFO:root:Starting task=0 episode=48 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 48
+INFO:root:# successes on this rank: 47 (97.9%)
+
+rank0: task0:  96%|█████████▌| 48/50 [12:44:33<22:10, 665.01s/it][AINFO:root:
+Task 0: put both the alphabet soup and the tomato sauce in the basket
+INFO:root:Starting task=0 episode=49 ...
+INFO:root:Success: False
+INFO:root:# episodes completed on this rank so far: 49
+INFO:root:# successes on this rank: 47 (95.9%)
+
+rank0: task0:  98%|█████████▊| 49/50 [12:58:30<11:56, 716.47s/it][AINFO:root:
+Task 0: put both the alphabet soup and the tomato sauce in the basket
+INFO:root:Starting task=0 episode=50 ...
+INFO:root:Success: False
+INFO:root:# episodes completed on this rank so far: 50
+INFO:root:# successes on this rank: 47 (94.0%)
+
+rank0: task0: 100%|██████████| 50/50 [13:11:54<00:00, 742.80s/it][A
+                                                                 [AINFO:root:Current task success rate on rank 0: 0.94
+INFO:root:Current rank success rate: 0.94
+rank0: tasks:  50%|█████     | 1/2 [13:12:13<13:12:13, 47533.35s/it]
+rank0: task8:   0%|          | 0/50 [00:00<?, ?it/s][AINFO:root:
+Task 8: put both moka pots on the stove
+INFO:root:Starting task=8 episode=1 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 51
+INFO:root:# successes on this rank: 48 (94.1%)
+
+rank0: task8:   2%|▏         | 1/50 [13:49<11:17:22, 829.43s/it][AINFO:root:
+Task 8: put both moka pots on the stove
+INFO:root:Starting task=8 episode=2 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 52
+INFO:root:# successes on this rank: 49 (94.2%)
+
+rank0: task8:   4%|▍         | 2/50 [25:56<10:15:33, 769.45s/it][AINFO:root:
+Task 8: put both moka pots on the stove
+INFO:root:Starting task=8 episode=3 ...
+INFO:root:Success: False
+INFO:root:# episodes completed on this rank so far: 53
+INFO:root:# successes on this rank: 49 (92.5%)
+
+rank0: task8:   6%|▌         | 3/50 [39:54<10:27:09, 800.62s/it][AINFO:root:
+Task 8: put both moka pots on the stove
+INFO:root:Starting task=8 episode=4 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 54
+INFO:root:# successes on this rank: 50 (92.6%)
+
+rank0: task8:   8%|▊         | 4/50 [50:47<9:29:13, 742.47s/it] [AINFO:root:
+Task 8: put both moka pots on the stove
+INFO:root:Starting task=8 episode=5 ...
+INFO:root:Success: False
+INFO:root:# episodes completed on this rank so far: 55
+INFO:root:# successes on this rank: 50 (90.9%)
+
+rank0: task8:  10%|█         | 5/50 [1:04:47<9:43:06, 777.48s/it][AINFO:root:
+Task 8: put both moka pots on the stove
+INFO:root:Starting task=8 episode=6 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 56
+INFO:root:# successes on this rank: 51 (91.1%)
+
+rank0: task8:  12%|█▏        | 6/50 [1:15:39<8:58:45, 734.68s/it][AINFO:root:
+Task 8: put both moka pots on the stove
+INFO:root:Starting task=8 episode=7 ...
+INFO:root:Success: False
+INFO:root:# episodes completed on this rank so far: 57
+INFO:root:# successes on this rank: 51 (89.5%)
+
+rank0: task8:  14%|█▍        | 7/50 [1:29:49<9:13:40, 772.58s/it][AINFO:root:
+Task 8: put both moka pots on the stove
+INFO:root:Starting task=8 episode=8 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 58
+INFO:root:# successes on this rank: 52 (89.7%)
+
+rank0: task8:  16%|█▌        | 8/50 [1:42:19<8:55:47, 765.42s/it][AINFO:root:
+Task 8: put both moka pots on the stove
+INFO:root:Starting task=8 episode=9 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 59
+INFO:root:# successes on this rank: 53 (89.8%)
+
+rank0: task8:  18%|█▊        | 9/50 [1:53:31<8:22:55, 736.00s/it][AINFO:root:
+Task 8: put both moka pots on the stove
+INFO:root:Starting task=8 episode=10 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 60
+INFO:root:# successes on this rank: 54 (90.0%)
+
+rank0: task8:  20%|██        | 10/50 [2:03:49<7:46:22, 699.57s/it][AINFO:root:
+Task 8: put both moka pots on the stove
+INFO:root:Starting task=8 episode=11 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 61
+INFO:root:# successes on this rank: 55 (90.2%)
+
+rank0: task8:  22%|██▏       | 11/50 [2:13:59<7:16:53, 672.15s/it][AINFO:root:
+Task 8: put both moka pots on the stove
+INFO:root:Starting task=8 episode=12 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 62
+INFO:root:# successes on this rank: 56 (90.3%)
+
+rank0: task8:  24%|██▍       | 12/50 [2:24:28<6:57:26, 659.13s/it][AINFO:root:
+Task 8: put both moka pots on the stove
+INFO:root:Starting task=8 episode=13 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 63
+INFO:root:# successes on this rank: 57 (90.5%)
+
+rank0: task8:  26%|██▌       | 13/50 [2:36:30<6:58:14, 678.23s/it][AINFO:root:
+Task 8: put both moka pots on the stove
+INFO:root:Starting task=8 episode=14 ...
+INFO:root:Success: False
+INFO:root:# episodes completed on this rank so far: 64
+INFO:root:# successes on this rank: 57 (89.1%)
+
+rank0: task8:  28%|██▊       | 14/50 [2:50:34<7:16:59, 728.31s/it][AINFO:root:
+Task 8: put both moka pots on the stove
+INFO:root:Starting task=8 episode=15 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 65
+INFO:root:# successes on this rank: 58 (89.2%)
+
+rank0: task8:  30%|███       | 15/50 [3:02:58<7:07:36, 733.05s/it][AINFO:root:
+Task 8: put both moka pots on the stove
+INFO:root:Starting task=8 episode=16 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 66
+INFO:root:# successes on this rank: 59 (89.4%)
+
+rank0: task8:  32%|███▏      | 16/50 [3:12:50<6:31:15, 690.46s/it][AINFO:root:
+Task 8: put both moka pots on the stove
+INFO:root:Starting task=8 episode=17 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 67
+INFO:root:# successes on this rank: 60 (89.6%)
+
+rank0: task8:  34%|███▍      | 17/50 [3:24:06<6:17:28, 686.31s/it][AINFO:root:
+Task 8: put both moka pots on the stove
+INFO:root:Starting task=8 episode=18 ...
+INFO:root:Success: False
+INFO:root:# episodes completed on this rank so far: 68
+INFO:root:# successes on this rank: 60 (88.2%)
+
+rank0: task8:  36%|███▌      | 18/50 [3:38:23<6:33:15, 737.35s/it][AINFO:root:
+Task 8: put both moka pots on the stove
+INFO:root:Starting task=8 episode=19 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 69
+INFO:root:# successes on this rank: 61 (88.4%)
+
+rank0: task8:  38%|███▊      | 19/50 [3:49:49<6:13:01, 721.99s/it][AINFO:root:
+Task 8: put both moka pots on the stove
+INFO:root:Starting task=8 episode=20 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 70
+INFO:root:# successes on this rank: 62 (88.6%)
+
+rank0: task8:  40%|████      | 20/50 [4:00:42<5:50:42, 701.42s/it][AINFO:root:
+Task 8: put both moka pots on the stove
+INFO:root:Starting task=8 episode=21 ...
+INFO:root:Success: False
+INFO:root:# episodes completed on this rank so far: 71
+INFO:root:# successes on this rank: 62 (87.3%)
+
+rank0: task8:  42%|████▏     | 21/50 [4:14:57<6:01:14, 747.39s/it][AINFO:root:
+Task 8: put both moka pots on the stove
+INFO:root:Starting task=8 episode=22 ...
+INFO:root:Success: False
+INFO:root:# episodes completed on this rank so far: 72
+INFO:root:# successes on this rank: 62 (86.1%)
+
+rank0: task8:  44%|████▍     | 22/50 [4:29:15<6:04:16, 780.59s/it][AINFO:root:
+Task 8: put both moka pots on the stove
+INFO:root:Starting task=8 episode=23 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 73
+INFO:root:# successes on this rank: 63 (86.3%)
+
+rank0: task8:  46%|████▌     | 23/50 [4:41:35<5:45:49, 768.50s/it][AINFO:root:
+Task 8: put both moka pots on the stove
+INFO:root:Starting task=8 episode=24 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 74
+INFO:root:# successes on this rank: 64 (86.5%)
+
+rank0: task8:  48%|████▊     | 24/50 [4:52:43<5:19:59, 738.43s/it][AINFO:root:
+Task 8: put both moka pots on the stove
+INFO:root:Starting task=8 episode=25 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 75
+INFO:root:# successes on this rank: 65 (86.7%)
+
+rank0: task8:  50%|█████     | 25/50 [5:04:11<5:01:17, 723.08s/it][AINFO:root:
+Task 8: put both moka pots on the stove
+INFO:root:Starting task=8 episode=26 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 76
+INFO:root:# successes on this rank: 66 (86.8%)
+
+rank0: task8:  52%|█████▏    | 26/50 [5:16:28<4:50:57, 727.40s/it][AINFO:root:
+Task 8: put both moka pots on the stove
+INFO:root:Starting task=8 episode=27 ...
+INFO:root:Success: False
+INFO:root:# episodes completed on this rank so far: 77
+INFO:root:# successes on this rank: 66 (85.7%)
+
+rank0: task8:  54%|█████▍    | 27/50 [5:30:45<4:53:44, 766.28s/it][AINFO:root:
+Task 8: put both moka pots on the stove
+INFO:root:Starting task=8 episode=28 ...
+INFO:root:Success: False
+INFO:root:# episodes completed on this rank so far: 78
+INFO:root:# successes on this rank: 66 (84.6%)
+
+rank0: task8:  56%|█████▌    | 28/50 [5:44:22<4:46:30, 781.38s/it][AINFO:root:
+Task 8: put both moka pots on the stove
+INFO:root:Starting task=8 episode=29 ...
+INFO:root:Success: False
+INFO:root:# episodes completed on this rank so far: 79
+INFO:root:# successes on this rank: 66 (83.5%)
+
+rank0: task8:  58%|█████▊    | 29/50 [5:55:59<4:24:35, 756.00s/it][AINFO:root:
+Task 8: put both moka pots on the stove
+INFO:root:Starting task=8 episode=30 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 80
+INFO:root:# successes on this rank: 67 (83.8%)
+
+rank0: task8:  60%|██████    | 30/50 [6:05:28<3:53:18, 699.93s/it][AINFO:root:
+Task 8: put both moka pots on the stove
+INFO:root:Starting task=8 episode=31 ...
+INFO:root:Success: False
+INFO:root:# episodes completed on this rank so far: 81
+INFO:root:# successes on this rank: 67 (82.7%)
+
+rank0: task8:  62%|██████▏   | 31/50 [6:17:04<3:41:21, 699.01s/it][AINFO:root:
+Task 8: put both moka pots on the stove
+INFO:root:Starting task=8 episode=32 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 82
+INFO:root:# successes on this rank: 68 (82.9%)
+
+rank0: task8:  64%|██████▍   | 32/50 [6:25:47<3:13:48, 646.00s/it][AINFO:root:
+Task 8: put both moka pots on the stove
+INFO:root:Starting task=8 episode=33 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 83
+INFO:root:# successes on this rank: 69 (83.1%)
+
+rank0: task8:  66%|██████▌   | 33/50 [6:35:15<2:56:22, 622.52s/it][AINFO:root:
+Task 8: put both moka pots on the stove
+INFO:root:Starting task=8 episode=34 ...
+INFO:root:Success: False
+INFO:root:# episodes completed on this rank so far: 84
+INFO:root:# successes on this rank: 69 (82.1%)
+
+rank0: task8:  68%|██████▊   | 34/50 [6:46:47<2:51:36, 643.55s/it][AINFO:root:
+Task 8: put both moka pots on the stove
+INFO:root:Starting task=8 episode=35 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 85
+INFO:root:# successes on this rank: 70 (82.4%)
+
+rank0: task8:  70%|███████   | 35/50 [6:55:19<2:30:59, 603.99s/it][AINFO:root:
+Task 8: put both moka pots on the stove
+INFO:root:Starting task=8 episode=36 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 86
+INFO:root:# successes on this rank: 71 (82.6%)
+
+rank0: task8:  72%|███████▏  | 36/50 [7:06:11<2:24:17, 618.39s/it][AINFO:root:
+Task 8: put both moka pots on the stove
+INFO:root:Starting task=8 episode=37 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 87
+INFO:root:# successes on this rank: 72 (82.8%)
+
+rank0: task8:  74%|███████▍  | 37/50 [7:14:56<2:07:54, 590.37s/it][AINFO:root:
+Task 8: put both moka pots on the stove
+INFO:root:Starting task=8 episode=38 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 88
+INFO:root:# successes on this rank: 73 (83.0%)
+
+rank0: task8:  76%|███████▌  | 38/50 [7:25:26<2:00:26, 602.18s/it][AINFO:root:
+Task 8: put both moka pots on the stove
+INFO:root:Starting task=8 episode=39 ...
+INFO:root:Success: False
+INFO:root:# episodes completed on this rank so far: 89
+INFO:root:# successes on this rank: 73 (82.0%)
+
+rank0: task8:  78%|███████▊  | 39/50 [7:36:48<1:54:48, 626.26s/it][AINFO:root:
+Task 8: put both moka pots on the stove
+INFO:root:Starting task=8 episode=40 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 90
+INFO:root:# successes on this rank: 74 (82.2%)
+
+rank0: task8:  80%|████████  | 40/50 [7:46:32<1:42:16, 613.63s/it][AINFO:root:
+Task 8: put both moka pots on the stove
+INFO:root:Starting task=8 episode=41 ...
+INFO:root:Success: False
+INFO:root:# episodes completed on this rank so far: 91
+INFO:root:# successes on this rank: 74 (81.3%)
+
+rank0: task8:  82%|████████▏ | 41/50 [7:57:53<1:35:05, 633.92s/it][AINFO:root:
+Task 8: put both moka pots on the stove
+INFO:root:Starting task=8 episode=42 ...
+INFO:root:Success: False
+INFO:root:# episodes completed on this rank so far: 92
+INFO:root:# successes on this rank: 74 (80.4%)
+
+rank0: task8:  84%|████████▍ | 42/50 [8:09:15<1:26:24, 648.10s/it][AINFO:root:
+Task 8: put both moka pots on the stove
+INFO:root:Starting task=8 episode=43 ...
+INFO:root:Success: False
+INFO:root:# episodes completed on this rank so far: 93
+INFO:root:# successes on this rank: 74 (79.6%)
+
+rank0: task8:  86%|████████▌ | 43/50 [8:20:34<1:16:42, 657.57s/it][AINFO:root:
+Task 8: put both moka pots on the stove
+INFO:root:Starting task=8 episode=44 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 94
+INFO:root:# successes on this rank: 75 (79.8%)
+
+rank0: task8:  88%|████████▊ | 44/50 [8:29:42<1:02:27, 624.66s/it][AINFO:root:
+Task 8: put both moka pots on the stove
+INFO:root:Starting task=8 episode=45 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 95
+INFO:root:# successes on this rank: 76 (80.0%)
+
+rank0: task8:  90%|█████████ | 45/50 [8:38:04<48:58, 587.68s/it]  [AINFO:root:
+Task 8: put both moka pots on the stove
+INFO:root:Starting task=8 episode=46 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 96
+INFO:root:# successes on this rank: 77 (80.2%)
+
+rank0: task8:  92%|█████████▏| 46/50 [8:46:11<37:09, 557.47s/it][AINFO:root:
+Task 8: put both moka pots on the stove
+INFO:root:Starting task=8 episode=47 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 97
+INFO:root:# successes on this rank: 78 (80.4%)
+
+rank0: task8:  94%|█████████▍| 47/50 [8:55:17<27:42, 554.30s/it][AINFO:root:
+Task 8: put both moka pots on the stove
+INFO:root:Starting task=8 episode=48 ...
+INFO:root:Success: False
+INFO:root:# episodes completed on this rank so far: 98
+INFO:root:# successes on this rank: 78 (79.6%)
+
+rank0: task8:  96%|█████████▌| 48/50 [9:07:48<20:26, 613.07s/it][AINFO:root:
+Task 8: put both moka pots on the stove
+INFO:root:Starting task=8 episode=49 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 99
+INFO:root:# successes on this rank: 79 (79.8%)
+
+rank0: task8:  98%|█████████▊| 49/50 [9:19:16<10:35, 635.64s/it][AINFO:root:
+Task 8: put both moka pots on the stove
+INFO:root:Starting task=8 episode=50 ...
+INFO:root:Success: False
+INFO:root:# episodes completed on this rank so far: 100
+INFO:root:# successes on this rank: 79 (79.0%)
+
+rank0: task8: 100%|██████████| 50/50 [9:32:10<00:00, 677.04s/it][A
+                                                                [AINFO:root:Current task success rate on rank 0: 0.64
+INFO:root:Current rank success rate: 0.79
+rank0: tasks: 100%|██████████| 2/2 [22:44:24<00:00, 39767.60s/it]   rank0: tasks: 100%|██████████| 2/2 [22:44:24<00:00, 40932.47s/it]
+INFO:root:Rank 0 total success rate: 0.79
+INFO:root:Rank 0 total episodes: 100

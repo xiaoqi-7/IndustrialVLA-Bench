@@ -1,0 +1,5 @@
+benchmark_root: /mnt/afs/raozf/openpi/LIBERO-plus/libero/libero
+bddl_files: /mnt/afs/raozf/openpi/LIBERO-plus/libero/libero/bddl_files
+init_states: /mnt/afs/raozf/openpi/LIBERO-plus/libero/libero/init_files
+assets: /mnt/afs/raozf/openpi/LIBERO-plus/libero/libero/assets
+datasets: /mnt/afs/raozf/cosmos-policy/results/libero_plus_3seeds/cosmos_libero_plus_3seeds_20260719_082355/datasets

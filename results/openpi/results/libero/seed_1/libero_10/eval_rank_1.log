@@ -1,0 +1,832 @@
+/root/miniconda3/envs/openpi/lib/python3.12/site-packages/torch/cuda/__init__.py:61: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+  import pynvml  # type: ignore[import]
+INFO:root:Task suite: libero_10
+INFO:root:[Eval Split] rank=1, world_size=5, client=127.0.0.1:6667, task_ids=[1, 6]
+INFO:root:Waiting for policy server at ws://127.0.0.1:6667 ...
+INFO:root:Policy server is reachable at ws://127.0.0.1:6667
+INFO:root:[Rank 1] Connecting to policy server 127.0.0.1:6667
+INFO:root:Waiting for server at ws://127.0.0.1:6667...
+[info] using task orders [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+
+rank1: tasks:   0%|          | 0/2 [00:00<?, ?it/s]/mnt/afs/raozf/openpi/LIBERO/libero/libero/benchmark/__init__.py:164: UserWarning: Environment variable TORCH_FORCE_NO_WEIGHTS_ONLY_LOAD detected, since the`weights_only` argument was not explicitly passed to `torch.load`, forcing weights_only=False.
+  init_states = torch.load(init_states_path)
+
+
+rank1: task1:   0%|          | 0/50 [00:00<?, ?it/s][AINFO:root:
+Task 1: put both the cream cheese box and the butter in the basket
+INFO:root:Starting task=1 episode=1 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 1
+INFO:root:# successes on this rank: 1 (100.0%)
+
+
+rank1: task1:   2%|▏         | 1/50 [00:47<38:47, 47.51s/it][AINFO:root:
+Task 1: put both the cream cheese box and the butter in the basket
+INFO:root:Starting task=1 episode=2 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 2
+INFO:root:# successes on this rank: 2 (100.0%)
+
+
+rank1: task1:   4%|▍         | 2/50 [01:34<37:57, 47.44s/it][AINFO:root:
+Task 1: put both the cream cheese box and the butter in the basket
+INFO:root:Starting task=1 episode=3 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 3
+INFO:root:# successes on this rank: 3 (100.0%)
+
+
+rank1: task1:   6%|▌         | 3/50 [02:22<37:04, 47.34s/it][AINFO:root:
+Task 1: put both the cream cheese box and the butter in the basket
+INFO:root:Starting task=1 episode=4 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 4
+INFO:root:# successes on this rank: 4 (100.0%)
+
+
+rank1: task1:   8%|▊         | 4/50 [03:17<38:40, 50.45s/it][AINFO:root:
+Task 1: put both the cream cheese box and the butter in the basket
+INFO:root:Starting task=1 episode=5 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 5
+INFO:root:# successes on this rank: 5 (100.0%)
+
+
+rank1: task1:  10%|█         | 5/50 [04:03<36:33, 48.74s/it][AINFO:root:
+Task 1: put both the cream cheese box and the butter in the basket
+INFO:root:Starting task=1 episode=6 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 6
+INFO:root:# successes on this rank: 6 (100.0%)
+
+
+rank1: task1:  12%|█▏        | 6/50 [04:52<35:48, 48.83s/it][AINFO:root:
+Task 1: put both the cream cheese box and the butter in the basket
+INFO:root:Starting task=1 episode=7 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 7
+INFO:root:# successes on this rank: 7 (100.0%)
+
+
+rank1: task1:  14%|█▍        | 7/50 [05:41<35:05, 48.97s/it][AINFO:root:
+Task 1: put both the cream cheese box and the butter in the basket
+INFO:root:Starting task=1 episode=8 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 8
+INFO:root:# successes on this rank: 8 (100.0%)
+
+
+rank1: task1:  16%|█▌        | 8/50 [06:28<33:54, 48.44s/it][AINFO:root:
+Task 1: put both the cream cheese box and the butter in the basket
+INFO:root:Starting task=1 episode=9 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 9
+INFO:root:# successes on this rank: 9 (100.0%)
+
+
+rank1: task1:  18%|█▊        | 9/50 [07:15<32:42, 47.87s/it][AINFO:root:
+Task 1: put both the cream cheese box and the butter in the basket
+INFO:root:Starting task=1 episode=10 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 10
+INFO:root:# successes on this rank: 10 (100.0%)
+
+
+rank1: task1:  20%|██        | 10/50 [08:04<32:16, 48.42s/it][AINFO:root:
+Task 1: put both the cream cheese box and the butter in the basket
+INFO:root:Starting task=1 episode=11 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 11
+INFO:root:# successes on this rank: 11 (100.0%)
+
+
+rank1: task1:  22%|██▏       | 11/50 [08:50<30:58, 47.64s/it][AINFO:root:
+Task 1: put both the cream cheese box and the butter in the basket
+INFO:root:Starting task=1 episode=12 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 12
+INFO:root:# successes on this rank: 12 (100.0%)
+
+
+rank1: task1:  24%|██▍       | 12/50 [09:37<29:55, 47.25s/it][AINFO:root:
+Task 1: put both the cream cheese box and the butter in the basket
+INFO:root:Starting task=1 episode=13 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 13
+INFO:root:# successes on this rank: 13 (100.0%)
+
+
+rank1: task1:  26%|██▌       | 13/50 [10:25<29:18, 47.52s/it][AINFO:root:
+Task 1: put both the cream cheese box and the butter in the basket
+INFO:root:Starting task=1 episode=14 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 14
+INFO:root:# successes on this rank: 14 (100.0%)
+
+
+rank1: task1:  28%|██▊       | 14/50 [11:09<27:52, 46.44s/it][AINFO:root:
+Task 1: put both the cream cheese box and the butter in the basket
+INFO:root:Starting task=1 episode=15 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 15
+INFO:root:# successes on this rank: 15 (100.0%)
+
+
+rank1: task1:  30%|███       | 15/50 [11:58<27:38, 47.38s/it][AINFO:root:
+Task 1: put both the cream cheese box and the butter in the basket
+INFO:root:Starting task=1 episode=16 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 16
+INFO:root:# successes on this rank: 16 (100.0%)
+
+
+rank1: task1:  32%|███▏      | 16/50 [12:54<28:19, 49.98s/it][AINFO:root:
+Task 1: put both the cream cheese box and the butter in the basket
+INFO:root:Starting task=1 episode=17 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 17
+INFO:root:# successes on this rank: 17 (100.0%)
+
+
+rank1: task1:  34%|███▍      | 17/50 [13:39<26:40, 48.50s/it][AINFO:root:
+Task 1: put both the cream cheese box and the butter in the basket
+INFO:root:Starting task=1 episode=18 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 18
+INFO:root:# successes on this rank: 18 (100.0%)
+
+
+rank1: task1:  36%|███▌      | 18/50 [14:25<25:20, 47.53s/it][AINFO:root:
+Task 1: put both the cream cheese box and the butter in the basket
+INFO:root:Starting task=1 episode=19 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 19
+INFO:root:# successes on this rank: 19 (100.0%)
+
+
+rank1: task1:  38%|███▊      | 19/50 [15:12<24:27, 47.35s/it][AINFO:root:
+Task 1: put both the cream cheese box and the butter in the basket
+INFO:root:Starting task=1 episode=20 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 20
+INFO:root:# successes on this rank: 20 (100.0%)
+
+
+rank1: task1:  40%|████      | 20/50 [16:00<23:51, 47.72s/it][AINFO:root:
+Task 1: put both the cream cheese box and the butter in the basket
+INFO:root:Starting task=1 episode=21 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 21
+INFO:root:# successes on this rank: 21 (100.0%)
+
+
+rank1: task1:  42%|████▏     | 21/50 [16:48<23:03, 47.72s/it][AINFO:root:
+Task 1: put both the cream cheese box and the butter in the basket
+INFO:root:Starting task=1 episode=22 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 22
+INFO:root:# successes on this rank: 22 (100.0%)
+
+
+rank1: task1:  44%|████▍     | 22/50 [17:38<22:34, 48.37s/it][AINFO:root:
+Task 1: put both the cream cheese box and the butter in the basket
+INFO:root:Starting task=1 episode=23 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 23
+INFO:root:# successes on this rank: 23 (100.0%)
+
+
+rank1: task1:  46%|████▌     | 23/50 [18:35<22:58, 51.05s/it][AINFO:root:
+Task 1: put both the cream cheese box and the butter in the basket
+INFO:root:Starting task=1 episode=24 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 24
+INFO:root:# successes on this rank: 24 (100.0%)
+
+
+rank1: task1:  48%|████▊     | 24/50 [19:20<21:20, 49.27s/it][AINFO:root:
+Task 1: put both the cream cheese box and the butter in the basket
+INFO:root:Starting task=1 episode=25 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 25
+INFO:root:# successes on this rank: 25 (100.0%)
+
+
+rank1: task1:  50%|█████     | 25/50 [20:15<21:11, 50.85s/it][AINFO:root:
+Task 1: put both the cream cheese box and the butter in the basket
+INFO:root:Starting task=1 episode=26 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 26
+INFO:root:# successes on this rank: 26 (100.0%)
+
+
+rank1: task1:  52%|█████▏    | 26/50 [21:02<19:52, 49.68s/it][AINFO:root:
+Task 1: put both the cream cheese box and the butter in the basket
+INFO:root:Starting task=1 episode=27 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 27
+INFO:root:# successes on this rank: 27 (100.0%)
+
+
+rank1: task1:  54%|█████▍    | 27/50 [21:48<18:41, 48.76s/it][AINFO:root:
+Task 1: put both the cream cheese box and the butter in the basket
+INFO:root:Starting task=1 episode=28 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 28
+INFO:root:# successes on this rank: 28 (100.0%)
+
+
+rank1: task1:  56%|█████▌    | 28/50 [22:39<18:08, 49.49s/it][AINFO:root:
+Task 1: put both the cream cheese box and the butter in the basket
+INFO:root:Starting task=1 episode=29 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 29
+INFO:root:# successes on this rank: 29 (100.0%)
+
+
+rank1: task1:  58%|█████▊    | 29/50 [23:26<16:59, 48.55s/it][AINFO:root:
+Task 1: put both the cream cheese box and the butter in the basket
+INFO:root:Starting task=1 episode=30 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 30
+INFO:root:# successes on this rank: 30 (100.0%)
+
+
+rank1: task1:  60%|██████    | 30/50 [24:13<16:00, 48.03s/it][AINFO:root:
+Task 1: put both the cream cheese box and the butter in the basket
+INFO:root:Starting task=1 episode=31 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 31
+INFO:root:# successes on this rank: 31 (100.0%)
+
+
+rank1: task1:  62%|██████▏   | 31/50 [25:00<15:11, 47.95s/it][AINFO:root:
+Task 1: put both the cream cheese box and the butter in the basket
+INFO:root:Starting task=1 episode=32 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 32
+INFO:root:# successes on this rank: 32 (100.0%)
+
+
+rank1: task1:  64%|██████▍   | 32/50 [25:48<14:19, 47.78s/it][AINFO:root:
+Task 1: put both the cream cheese box and the butter in the basket
+INFO:root:Starting task=1 episode=33 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 33
+INFO:root:# successes on this rank: 33 (100.0%)
+
+
+rank1: task1:  66%|██████▌   | 33/50 [26:38<13:44, 48.51s/it][AINFO:root:
+Task 1: put both the cream cheese box and the butter in the basket
+INFO:root:Starting task=1 episode=34 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 34
+INFO:root:# successes on this rank: 34 (100.0%)
+
+
+rank1: task1:  68%|██████▊   | 34/50 [27:25<12:50, 48.17s/it][AINFO:root:
+Task 1: put both the cream cheese box and the butter in the basket
+INFO:root:Starting task=1 episode=35 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 35
+INFO:root:# successes on this rank: 35 (100.0%)
+
+
+rank1: task1:  70%|███████   | 35/50 [28:15<12:07, 48.50s/it][AINFO:root:
+Task 1: put both the cream cheese box and the butter in the basket
+INFO:root:Starting task=1 episode=36 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 36
+INFO:root:# successes on this rank: 36 (100.0%)
+
+
+rank1: task1:  72%|███████▏  | 36/50 [29:05<11:25, 48.97s/it][AINFO:root:
+Task 1: put both the cream cheese box and the butter in the basket
+INFO:root:Starting task=1 episode=37 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 37
+INFO:root:# successes on this rank: 37 (100.0%)
+
+
+rank1: task1:  74%|███████▍  | 37/50 [29:53<10:35, 48.90s/it][AINFO:root:
+Task 1: put both the cream cheese box and the butter in the basket
+INFO:root:Starting task=1 episode=38 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 38
+INFO:root:# successes on this rank: 38 (100.0%)
+
+
+rank1: task1:  76%|███████▌  | 38/50 [30:38<09:31, 47.62s/it][AINFO:root:
+Task 1: put both the cream cheese box and the butter in the basket
+INFO:root:Starting task=1 episode=39 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 39
+INFO:root:# successes on this rank: 39 (100.0%)
+
+
+rank1: task1:  78%|███████▊  | 39/50 [31:24<08:37, 47.02s/it][AINFO:root:
+Task 1: put both the cream cheese box and the butter in the basket
+INFO:root:Starting task=1 episode=40 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 40
+INFO:root:# successes on this rank: 40 (100.0%)
+
+
+rank1: task1:  80%|████████  | 40/50 [32:11<07:52, 47.24s/it][AINFO:root:
+Task 1: put both the cream cheese box and the butter in the basket
+INFO:root:Starting task=1 episode=41 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 41
+INFO:root:# successes on this rank: 41 (100.0%)
+
+
+rank1: task1:  82%|████████▏ | 41/50 [32:58<07:03, 47.02s/it][AINFO:root:
+Task 1: put both the cream cheese box and the butter in the basket
+INFO:root:Starting task=1 episode=42 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 42
+INFO:root:# successes on this rank: 42 (100.0%)
+
+
+rank1: task1:  84%|████████▍ | 42/50 [33:45<06:16, 47.11s/it][AINFO:root:
+Task 1: put both the cream cheese box and the butter in the basket
+INFO:root:Starting task=1 episode=43 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 43
+INFO:root:# successes on this rank: 43 (100.0%)
+
+
+rank1: task1:  86%|████████▌ | 43/50 [34:36<05:36, 48.06s/it][AINFO:root:
+Task 1: put both the cream cheese box and the butter in the basket
+INFO:root:Starting task=1 episode=44 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 44
+INFO:root:# successes on this rank: 44 (100.0%)
+
+
+rank1: task1:  88%|████████▊ | 44/50 [35:23<04:47, 47.85s/it][AINFO:root:
+Task 1: put both the cream cheese box and the butter in the basket
+INFO:root:Starting task=1 episode=45 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 45
+INFO:root:# successes on this rank: 45 (100.0%)
+
+
+rank1: task1:  90%|█████████ | 45/50 [36:12<04:01, 48.33s/it][AINFO:root:
+Task 1: put both the cream cheese box and the butter in the basket
+INFO:root:Starting task=1 episode=46 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 46
+INFO:root:# successes on this rank: 46 (100.0%)
+
+
+rank1: task1:  92%|█████████▏| 46/50 [37:04<03:17, 49.41s/it][AINFO:root:
+Task 1: put both the cream cheese box and the butter in the basket
+INFO:root:Starting task=1 episode=47 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 47
+INFO:root:# successes on this rank: 47 (100.0%)
+
+
+rank1: task1:  94%|█████████▍| 47/50 [37:51<02:25, 48.51s/it][AINFO:root:
+Task 1: put both the cream cheese box and the butter in the basket
+INFO:root:Starting task=1 episode=48 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 48
+INFO:root:# successes on this rank: 48 (100.0%)
+
+
+rank1: task1:  96%|█████████▌| 48/50 [38:40<01:37, 48.89s/it][AINFO:root:
+Task 1: put both the cream cheese box and the butter in the basket
+INFO:root:Starting task=1 episode=49 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 49
+INFO:root:# successes on this rank: 49 (100.0%)
+
+
+rank1: task1:  98%|█████████▊| 49/50 [39:29<00:48, 48.92s/it][AINFO:root:
+Task 1: put both the cream cheese box and the butter in the basket
+INFO:root:Starting task=1 episode=50 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 50
+INFO:root:# successes on this rank: 50 (100.0%)
+
+
+rank1: task1: 100%|██████████| 50/50 [40:18<00:00, 48.83s/it][A
+
+                                                             [AINFO:root:Current task success rate on rank 1: 1.0
+INFO:root:Current rank success rate: 1.0
+
+rank1: tasks:  50%|█████     | 1/2 [40:20<40:20, 2420.92s/it]/mnt/afs/raozf/openpi/LIBERO/libero/libero/benchmark/__init__.py:164: UserWarning: Environment variable TORCH_FORCE_NO_WEIGHTS_ONLY_LOAD detected, since the`weights_only` argument was not explicitly passed to `torch.load`, forcing weights_only=False.
+  init_states = torch.load(init_states_path)
+
+
+rank1: task6:   0%|          | 0/50 [00:00<?, ?it/s][AINFO:root:
+Task 6: put the white mug on the plate and put the chocolate pudding to the right of the plate
+INFO:root:Starting task=6 episode=1 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 51
+INFO:root:# successes on this rank: 51 (100.0%)
+
+
+rank1: task6:   2%|▏         | 1/50 [00:30<25:03, 30.67s/it][AINFO:root:
+Task 6: put the white mug on the plate and put the chocolate pudding to the right of the plate
+INFO:root:Starting task=6 episode=2 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 52
+INFO:root:# successes on this rank: 52 (100.0%)
+
+
+rank1: task6:   4%|▍         | 2/50 [01:02<25:09, 31.45s/it][AINFO:root:
+Task 6: put the white mug on the plate and put the chocolate pudding to the right of the plate
+INFO:root:Starting task=6 episode=3 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 53
+INFO:root:# successes on this rank: 53 (100.0%)
+
+
+rank1: task6:   6%|▌         | 3/50 [01:37<25:44, 32.85s/it][AINFO:root:
+Task 6: put the white mug on the plate and put the chocolate pudding to the right of the plate
+INFO:root:Starting task=6 episode=4 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 54
+INFO:root:# successes on this rank: 54 (100.0%)
+
+
+rank1: task6:   8%|▊         | 4/50 [02:07<24:32, 32.01s/it][AINFO:root:
+Task 6: put the white mug on the plate and put the chocolate pudding to the right of the plate
+INFO:root:Starting task=6 episode=5 ...
+INFO:root:Success: False
+INFO:root:# episodes completed on this rank so far: 55
+INFO:root:# successes on this rank: 54 (98.2%)
+
+
+rank1: task6:  10%|█         | 5/50 [03:22<35:31, 47.36s/it][AINFO:root:
+Task 6: put the white mug on the plate and put the chocolate pudding to the right of the plate
+INFO:root:Starting task=6 episode=6 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 56
+INFO:root:# successes on this rank: 55 (98.2%)
+
+
+rank1: task6:  12%|█▏        | 6/50 [03:55<31:13, 42.58s/it][AINFO:root:
+Task 6: put the white mug on the plate and put the chocolate pudding to the right of the plate
+INFO:root:Starting task=6 episode=7 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 57
+INFO:root:# successes on this rank: 56 (98.2%)
+
+
+rank1: task6:  14%|█▍        | 7/50 [04:29<28:19, 39.52s/it][AINFO:root:
+Task 6: put the white mug on the plate and put the chocolate pudding to the right of the plate
+INFO:root:Starting task=6 episode=8 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 58
+INFO:root:# successes on this rank: 57 (98.3%)
+
+
+rank1: task6:  16%|█▌        | 8/50 [05:08<27:42, 39.59s/it][AINFO:root:
+Task 6: put the white mug on the plate and put the chocolate pudding to the right of the plate
+INFO:root:Starting task=6 episode=9 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 59
+INFO:root:# successes on this rank: 58 (98.3%)
+
+
+rank1: task6:  18%|█▊        | 9/50 [05:40<25:18, 37.03s/it][AINFO:root:
+Task 6: put the white mug on the plate and put the chocolate pudding to the right of the plate
+INFO:root:Starting task=6 episode=10 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 60
+INFO:root:# successes on this rank: 59 (98.3%)
+
+
+rank1: task6:  20%|██        | 10/50 [06:17<24:44, 37.11s/it][AINFO:root:
+Task 6: put the white mug on the plate and put the chocolate pudding to the right of the plate
+INFO:root:Starting task=6 episode=11 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 61
+INFO:root:# successes on this rank: 60 (98.4%)
+
+
+rank1: task6:  22%|██▏       | 11/50 [06:49<23:04, 35.51s/it][AINFO:root:
+Task 6: put the white mug on the plate and put the chocolate pudding to the right of the plate
+INFO:root:Starting task=6 episode=12 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 62
+INFO:root:# successes on this rank: 61 (98.4%)
+
+
+rank1: task6:  24%|██▍       | 12/50 [07:22<22:05, 34.87s/it][AINFO:root:
+Task 6: put the white mug on the plate and put the chocolate pudding to the right of the plate
+INFO:root:Starting task=6 episode=13 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 63
+INFO:root:# successes on this rank: 62 (98.4%)
+
+
+rank1: task6:  26%|██▌       | 13/50 [08:03<22:36, 36.65s/it][AINFO:root:
+Task 6: put the white mug on the plate and put the chocolate pudding to the right of the plate
+INFO:root:Starting task=6 episode=14 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 64
+INFO:root:# successes on this rank: 63 (98.4%)
+
+
+rank1: task6:  28%|██▊       | 14/50 [08:36<21:16, 35.47s/it][AINFO:root:
+Task 6: put the white mug on the plate and put the chocolate pudding to the right of the plate
+INFO:root:Starting task=6 episode=15 ...
+INFO:root:Success: False
+INFO:root:# episodes completed on this rank so far: 65
+INFO:root:# successes on this rank: 63 (96.9%)
+
+
+rank1: task6:  30%|███       | 15/50 [09:53<28:02, 48.07s/it][AINFO:root:
+Task 6: put the white mug on the plate and put the chocolate pudding to the right of the plate
+INFO:root:Starting task=6 episode=16 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 66
+INFO:root:# successes on this rank: 64 (97.0%)
+
+
+rank1: task6:  32%|███▏      | 16/50 [10:25<24:32, 43.32s/it][AINFO:root:
+Task 6: put the white mug on the plate and put the chocolate pudding to the right of the plate
+INFO:root:Starting task=6 episode=17 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 67
+INFO:root:# successes on this rank: 65 (97.0%)
+
+
+rank1: task6:  34%|███▍      | 17/50 [10:58<22:05, 40.18s/it][AINFO:root:
+Task 6: put the white mug on the plate and put the chocolate pudding to the right of the plate
+INFO:root:Starting task=6 episode=18 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 68
+INFO:root:# successes on this rank: 66 (97.1%)
+
+
+rank1: task6:  36%|███▌      | 18/50 [11:31<20:11, 37.86s/it][AINFO:root:
+Task 6: put the white mug on the plate and put the chocolate pudding to the right of the plate
+INFO:root:Starting task=6 episode=19 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 69
+INFO:root:# successes on this rank: 67 (97.1%)
+
+
+rank1: task6:  38%|███▊      | 19/50 [12:06<19:06, 36.98s/it][AINFO:root:
+Task 6: put the white mug on the plate and put the chocolate pudding to the right of the plate
+INFO:root:Starting task=6 episode=20 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 70
+INFO:root:# successes on this rank: 68 (97.1%)
+
+
+rank1: task6:  40%|████      | 20/50 [12:38<17:48, 35.62s/it][AINFO:root:
+Task 6: put the white mug on the plate and put the chocolate pudding to the right of the plate
+INFO:root:Starting task=6 episode=21 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 71
+INFO:root:# successes on this rank: 69 (97.2%)
+
+
+rank1: task6:  42%|████▏     | 21/50 [13:42<21:17, 44.05s/it][AINFO:root:
+Task 6: put the white mug on the plate and put the chocolate pudding to the right of the plate
+INFO:root:Starting task=6 episode=22 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 72
+INFO:root:# successes on this rank: 70 (97.2%)
+
+
+rank1: task6:  44%|████▍     | 22/50 [14:14<18:54, 40.52s/it][AINFO:root:
+Task 6: put the white mug on the plate and put the chocolate pudding to the right of the plate
+INFO:root:Starting task=6 episode=23 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 73
+INFO:root:# successes on this rank: 71 (97.3%)
+
+
+rank1: task6:  46%|████▌     | 23/50 [14:44<16:46, 37.26s/it][AINFO:root:
+Task 6: put the white mug on the plate and put the chocolate pudding to the right of the plate
+INFO:root:Starting task=6 episode=24 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 74
+INFO:root:# successes on this rank: 72 (97.3%)
+
+
+rank1: task6:  48%|████▊     | 24/50 [15:16<15:29, 35.76s/it][AINFO:root:
+Task 6: put the white mug on the plate and put the chocolate pudding to the right of the plate
+INFO:root:Starting task=6 episode=25 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 75
+INFO:root:# successes on this rank: 73 (97.3%)
+
+
+rank1: task6:  50%|█████     | 25/50 [15:49<14:37, 35.10s/it][AINFO:root:
+Task 6: put the white mug on the plate and put the chocolate pudding to the right of the plate
+INFO:root:Starting task=6 episode=26 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 76
+INFO:root:# successes on this rank: 74 (97.4%)
+
+
+rank1: task6:  52%|█████▏    | 26/50 [16:27<14:20, 35.84s/it][AINFO:root:
+Task 6: put the white mug on the plate and put the chocolate pudding to the right of the plate
+INFO:root:Starting task=6 episode=27 ...
+INFO:root:Success: False
+INFO:root:# episodes completed on this rank so far: 77
+INFO:root:# successes on this rank: 74 (96.1%)
+
+
+rank1: task6:  54%|█████▍    | 27/50 [17:40<18:02, 47.06s/it][AINFO:root:
+Task 6: put the white mug on the plate and put the chocolate pudding to the right of the plate
+INFO:root:Starting task=6 episode=28 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 78
+INFO:root:# successes on this rank: 75 (96.2%)
+
+
+rank1: task6:  56%|█████▌    | 28/50 [18:19<16:17, 44.45s/it][AINFO:root:
+Task 6: put the white mug on the plate and put the chocolate pudding to the right of the plate
+INFO:root:Starting task=6 episode=29 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 79
+INFO:root:# successes on this rank: 76 (96.2%)
+
+
+rank1: task6:  58%|█████▊    | 29/50 [18:51<14:18, 40.89s/it][AINFO:root:
+Task 6: put the white mug on the plate and put the chocolate pudding to the right of the plate
+INFO:root:Starting task=6 episode=30 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 80
+INFO:root:# successes on this rank: 77 (96.2%)
+
+
+rank1: task6:  60%|██████    | 30/50 [19:22<12:39, 37.99s/it][AINFO:root:
+Task 6: put the white mug on the plate and put the chocolate pudding to the right of the plate
+INFO:root:Starting task=6 episode=31 ...
+INFO:root:Success: False
+INFO:root:# episodes completed on this rank so far: 81
+INFO:root:# successes on this rank: 77 (95.1%)
+
+
+rank1: task6:  62%|██████▏   | 31/50 [20:38<15:34, 49.18s/it][AINFO:root:
+Task 6: put the white mug on the plate and put the chocolate pudding to the right of the plate
+INFO:root:Starting task=6 episode=32 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 82
+INFO:root:# successes on this rank: 78 (95.1%)
+
+
+rank1: task6:  64%|██████▍   | 32/50 [21:12<13:23, 44.62s/it][AINFO:root:
+Task 6: put the white mug on the plate and put the chocolate pudding to the right of the plate
+INFO:root:Starting task=6 episode=33 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 83
+INFO:root:# successes on this rank: 79 (95.2%)
+
+
+rank1: task6:  66%|██████▌   | 33/50 [21:48<11:56, 42.14s/it][AINFO:root:
+Task 6: put the white mug on the plate and put the chocolate pudding to the right of the plate
+INFO:root:Starting task=6 episode=34 ...
+INFO:root:Success: False
+INFO:root:# episodes completed on this rank so far: 84
+INFO:root:# successes on this rank: 79 (94.0%)
+
+
+rank1: task6:  68%|██████▊   | 34/50 [23:03<13:53, 52.08s/it][AINFO:root:
+Task 6: put the white mug on the plate and put the chocolate pudding to the right of the plate
+INFO:root:Starting task=6 episode=35 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 85
+INFO:root:# successes on this rank: 80 (94.1%)
+
+
+rank1: task6:  70%|███████   | 35/50 [23:33<11:20, 45.38s/it][AINFO:root:
+Task 6: put the white mug on the plate and put the chocolate pudding to the right of the plate
+INFO:root:Starting task=6 episode=36 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 86
+INFO:root:# successes on this rank: 81 (94.2%)
+
+
+rank1: task6:  72%|███████▏  | 36/50 [24:14<10:14, 43.89s/it][AINFO:root:
+Task 6: put the white mug on the plate and put the chocolate pudding to the right of the plate
+INFO:root:Starting task=6 episode=37 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 87
+INFO:root:# successes on this rank: 82 (94.3%)
+
+
+rank1: task6:  74%|███████▍  | 37/50 [24:47<08:50, 40.80s/it][AINFO:root:
+Task 6: put the white mug on the plate and put the chocolate pudding to the right of the plate
+INFO:root:Starting task=6 episode=38 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 88
+INFO:root:# successes on this rank: 83 (94.3%)
+
+
+rank1: task6:  76%|███████▌  | 38/50 [25:19<07:37, 38.08s/it][AINFO:root:
+Task 6: put the white mug on the plate and put the chocolate pudding to the right of the plate
+INFO:root:Starting task=6 episode=39 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 89
+INFO:root:# successes on this rank: 84 (94.4%)
+
+
+rank1: task6:  78%|███████▊  | 39/50 [25:56<06:55, 37.75s/it][AINFO:root:
+Task 6: put the white mug on the plate and put the chocolate pudding to the right of the plate
+INFO:root:Starting task=6 episode=40 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 90
+INFO:root:# successes on this rank: 85 (94.4%)
+
+
+rank1: task6:  80%|████████  | 40/50 [26:26<05:53, 35.40s/it][AINFO:root:
+Task 6: put the white mug on the plate and put the chocolate pudding to the right of the plate
+INFO:root:Starting task=6 episode=41 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 91
+INFO:root:# successes on this rank: 86 (94.5%)
+
+
+rank1: task6:  82%|████████▏ | 41/50 [26:59<05:13, 34.78s/it][AINFO:root:
+Task 6: put the white mug on the plate and put the chocolate pudding to the right of the plate
+INFO:root:Starting task=6 episode=42 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 92
+INFO:root:# successes on this rank: 87 (94.6%)
+
+
+rank1: task6:  84%|████████▍ | 42/50 [27:31<04:31, 33.98s/it][AINFO:root:
+Task 6: put the white mug on the plate and put the chocolate pudding to the right of the plate
+INFO:root:Starting task=6 episode=43 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 93
+INFO:root:# successes on this rank: 88 (94.6%)
+
+
+rank1: task6:  86%|████████▌ | 43/50 [28:07<04:01, 34.56s/it][AINFO:root:
+Task 6: put the white mug on the plate and put the chocolate pudding to the right of the plate
+INFO:root:Starting task=6 episode=44 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 94
+INFO:root:# successes on this rank: 89 (94.7%)
+
+
+rank1: task6:  88%|████████▊ | 44/50 [28:39<03:22, 33.71s/it][AINFO:root:
+Task 6: put the white mug on the plate and put the chocolate pudding to the right of the plate
+INFO:root:Starting task=6 episode=45 ...
+INFO:root:Success: False
+INFO:root:# episodes completed on this rank so far: 95
+INFO:root:# successes on this rank: 89 (93.7%)
+
+
+rank1: task6:  90%|█████████ | 45/50 [29:53<03:48, 45.78s/it][AINFO:root:
+Task 6: put the white mug on the plate and put the chocolate pudding to the right of the plate
+INFO:root:Starting task=6 episode=46 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 96
+INFO:root:# successes on this rank: 90 (93.8%)
+
+
+rank1: task6:  92%|█████████▏| 46/50 [30:24<02:45, 41.38s/it][AINFO:root:
+Task 6: put the white mug on the plate and put the chocolate pudding to the right of the plate
+INFO:root:Starting task=6 episode=47 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 97
+INFO:root:# successes on this rank: 91 (93.8%)
+
+
+rank1: task6:  94%|█████████▍| 47/50 [31:02<02:01, 40.44s/it][AINFO:root:
+Task 6: put the white mug on the plate and put the chocolate pudding to the right of the plate
+INFO:root:Starting task=6 episode=48 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 98
+INFO:root:# successes on this rank: 92 (93.9%)
+
+
+rank1: task6:  96%|█████████▌| 48/50 [31:37<01:17, 38.62s/it][AINFO:root:
+Task 6: put the white mug on the plate and put the chocolate pudding to the right of the plate
+INFO:root:Starting task=6 episode=49 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 99
+INFO:root:# successes on this rank: 93 (93.9%)
+
+
+rank1: task6:  98%|█████████▊| 49/50 [32:08<00:36, 36.50s/it][AINFO:root:
+Task 6: put the white mug on the plate and put the chocolate pudding to the right of the plate
+INFO:root:Starting task=6 episode=50 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 100
+INFO:root:# successes on this rank: 94 (94.0%)
+
+
+rank1: task6: 100%|██████████| 50/50 [32:39<00:00, 34.96s/it][A
+
+                                                             [AINFO:root:Current task success rate on rank 1: 0.88
+INFO:root:Current rank success rate: 0.94
+
+rank1: tasks: 100%|██████████| 2/2 [1:13:02<00:00, 2150.69s/it]
+rank1: tasks: 100%|██████████| 2/2 [1:13:02<00:00, 2191.22s/it]
+INFO:root:Rank 1 total success rate: 0.94
+INFO:root:Rank 1 total episodes: 100

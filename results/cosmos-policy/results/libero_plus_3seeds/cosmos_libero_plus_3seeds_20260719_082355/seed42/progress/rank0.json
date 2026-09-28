@@ -1,0 +1,43 @@
+{
+  "category_stats": {
+    "Background Textures": {
+      "completed": 154,
+      "successes": 130
+    },
+    "Camera Viewpoints": {
+      "completed": 228,
+      "successes": 163
+    },
+    "Language Instructions": {
+      "completed": 220,
+      "successes": 196
+    },
+    "Light Conditions": {
+      "completed": 162,
+      "successes": 158
+    },
+    "Objects Layout": {
+      "completed": 218,
+      "successes": 187
+    },
+    "Robot Initial States": {
+      "completed": 222,
+      "successes": 123
+    },
+    "Sensor Noise": {
+      "completed": 229,
+      "successes": 202
+    }
+  },
+  "completed": 1433,
+  "rank": 0,
+  "seed": 42,
+  "started_at": 1784508955.2907794,
+  "status": "done",
+  "success_rate": 0.8087927424982554,
+  "successes": 1159,
+  "task_errors": 0,
+  "total": 1433,
+  "updated_at": 1784538969.1541371,
+  "world_size": 7
+}

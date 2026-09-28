@@ -1,0 +1,15 @@
+2026-07-18 13:01:52,049 [rank 2] INFO No OpenGL_accelerate module loaded: No module named 'OpenGL_accelerate'
+2026-07-18 13:02:00,248 [rank 2] INFO Could not find package transformer_engine_jax. Install transformer-engine using 'pip3 install transformer-engine[jax]==VERSION'
+2026-07-18 13:02:00,441 [rank 2] INFO The multistorageclient package is available.
+2026-07-18 13:02:00,550 [rank 2] INFO Detected Megatron Core, using Megatron-FSDP with Megatron.
+2026-07-18 13:02:00,552 [rank 2] INFO Detected Megatron Core, using Megatron-FSDP with Megatron.
+2026-07-18 13:02:04,573 [rank 2] INFO eval0 -> open_the_middle_drawer_of_the_cabinet.bddl (84 tasks on this rank)
+2026-07-18 13:02:06,059 [rank 2] INFO eval1 -> open_the_top_drawer_and_put_the_bowl_inside.bddl (82 tasks on this rank)
+2026-07-18 13:02:07,749 [rank 2] INFO eval2 -> push_the_plate_to_the_front_of_the_stove.bddl (78 tasks on this rank)
+2026-07-18 13:02:09,369 [rank 2] INFO eval3 -> put_the_bowl_on_the_plate.bddl (78 tasks on this rank)
+2026-07-18 13:02:10,788 [rank 2] INFO eval4 -> put_the_bowl_on_the_stove.bddl (80 tasks on this rank)
+2026-07-18 13:02:12,193 [rank 2] INFO eval5 -> put_the_bowl_on_top_of_the_cabinet.bddl (83 tasks on this rank)
+2026-07-18 13:02:13,572 [rank 2] INFO eval6 -> put_the_cream_cheese_in_the_bowl.bddl (82 tasks on this rank)
+2026-07-18 13:02:14,964 [rank 2] INFO eval7 -> put_the_wine_bottle_on_the_rack.bddl (83 tasks on this rank)
+2026-07-18 13:02:16,311 [rank 2] INFO eval8 -> put_the_wine_bottle_on_top_of_the_cabinet.bddl (85 tasks on this rank)
+2026-07-18 13:02:17,764 [rank 2] INFO eval9 -> turn_on_the_stove.bddl (83 tasks on this rank)

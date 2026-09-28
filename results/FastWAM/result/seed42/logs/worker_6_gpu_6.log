@@ -1,0 +1,284 @@
+[info] using task orders [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+[info] using task orders [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+[info] using task orders [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+[info] using task orders [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+[info] using task orders [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+[info] using task orders [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+[info] using task orders [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+[info] using task orders [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+2026-07-17 03:03:23,946 [INFO] worker rank=6/8 physical_gpu=6 device=cuda:0 tasks=5 model=/mnt/afs/zhengmingkai/raozf/models/fastwam_libero
+2026-07-17 03:03:59,474 [INFO] Initialized MoT with experts: ['video', 'action'], num_layers=30
+2026-07-17 03:03:59,478 [INFO]   Expert 'video': num_params=5.00 B
+2026-07-17 03:03:59,479 [INFO]   Expert 'action': num_params=1.02 B
+2026-07-17 03:04:56,744 [INFO] Loading UMT5 sidecar: /mnt/afs/zhengmingkai/raozf/models/fastwam_libero/models_t5_umt5-xxl-enc-bf16.safetensors
+2026-07-17 03:06:05,387 [INFO] Loading Wan VAE sidecar: /mnt/afs/zhengmingkai/raozf/models/fastwam_libero/Wan2.2_VAE.safetensors
+2026-07-17 03:06:13,834 [INFO] Loading policy weights: /mnt/afs/zhengmingkai/raozf/models/fastwam_libero/model.safetensors
+[info] using task orders [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+2026-07-17 03:07:34,532 [INFO] No OpenGL_accelerate module loaded: No module named 'OpenGL_accelerate'
+/root/envs/fastwam_libero/lib/python3.10/site-packages/torch/nn/functional.py:5991: UserWarning: 1Torch was not compiled with memory efficient attention. (Triggered internally at /workspace/framework/mcPytorch/aten/src/ATen/native/transformers/cuda/sdp_utils.cpp:725.)
+  return _scaled_dot_product_attention(query, key, value, attn_mask, dropout_p, is_causal, scale = scale, enable_gqa = enable_gqa)
+2026-07-17 03:08:22,224 [INFO] seed=42 suite=libero_spatial task=6 episode=0 success=True
+2026-07-17 03:08:58,624 [INFO] seed=42 suite=libero_spatial task=6 episode=1 success=True
+2026-07-17 03:09:33,149 [INFO] seed=42 suite=libero_spatial task=6 episode=2 success=True
+2026-07-17 03:10:07,380 [INFO] seed=42 suite=libero_spatial task=6 episode=3 success=True
+2026-07-17 03:10:40,868 [INFO] seed=42 suite=libero_spatial task=6 episode=4 success=True
+2026-07-17 03:11:16,248 [INFO] seed=42 suite=libero_spatial task=6 episode=5 success=True
+2026-07-17 03:11:52,045 [INFO] seed=42 suite=libero_spatial task=6 episode=6 success=True
+2026-07-17 03:12:26,719 [INFO] seed=42 suite=libero_spatial task=6 episode=7 success=True
+2026-07-17 03:14:14,869 [INFO] seed=42 suite=libero_spatial task=6 episode=8 success=False
+2026-07-17 03:14:49,984 [INFO] seed=42 suite=libero_spatial task=6 episode=9 success=True
+2026-07-17 03:15:25,776 [INFO] seed=42 suite=libero_spatial task=6 episode=10 success=True
+2026-07-17 03:16:02,483 [INFO] seed=42 suite=libero_spatial task=6 episode=11 success=True
+2026-07-17 03:16:39,607 [INFO] seed=42 suite=libero_spatial task=6 episode=12 success=True
+2026-07-17 03:17:14,112 [INFO] seed=42 suite=libero_spatial task=6 episode=13 success=True
+2026-07-17 03:17:51,928 [INFO] seed=42 suite=libero_spatial task=6 episode=14 success=True
+2026-07-17 03:18:27,147 [INFO] seed=42 suite=libero_spatial task=6 episode=15 success=True
+2026-07-17 03:19:04,112 [INFO] seed=42 suite=libero_spatial task=6 episode=16 success=True
+2026-07-17 03:19:40,564 [INFO] seed=42 suite=libero_spatial task=6 episode=17 success=True
+2026-07-17 03:20:16,663 [INFO] seed=42 suite=libero_spatial task=6 episode=18 success=True
+2026-07-17 03:20:50,424 [INFO] seed=42 suite=libero_spatial task=6 episode=19 success=True
+2026-07-17 03:21:25,322 [INFO] seed=42 suite=libero_spatial task=6 episode=20 success=True
+2026-07-17 03:22:00,120 [INFO] seed=42 suite=libero_spatial task=6 episode=21 success=True
+2026-07-17 03:22:34,620 [INFO] seed=42 suite=libero_spatial task=6 episode=22 success=True
+2026-07-17 03:23:10,780 [INFO] seed=42 suite=libero_spatial task=6 episode=23 success=True
+2026-07-17 03:23:45,491 [INFO] seed=42 suite=libero_spatial task=6 episode=24 success=True
+2026-07-17 03:24:20,863 [INFO] seed=42 suite=libero_spatial task=6 episode=25 success=True
+2026-07-17 03:24:54,869 [INFO] seed=42 suite=libero_spatial task=6 episode=26 success=True
+2026-07-17 03:25:27,994 [INFO] seed=42 suite=libero_spatial task=6 episode=27 success=True
+2026-07-17 03:26:02,312 [INFO] seed=42 suite=libero_spatial task=6 episode=28 success=True
+2026-07-17 03:26:37,372 [INFO] seed=42 suite=libero_spatial task=6 episode=29 success=True
+2026-07-17 03:27:12,205 [INFO] seed=42 suite=libero_spatial task=6 episode=30 success=True
+2026-07-17 03:27:46,377 [INFO] seed=42 suite=libero_spatial task=6 episode=31 success=True
+2026-07-17 03:28:19,460 [INFO] seed=42 suite=libero_spatial task=6 episode=32 success=True
+2026-07-17 03:28:53,071 [INFO] seed=42 suite=libero_spatial task=6 episode=33 success=True
+2026-07-17 03:29:24,130 [INFO] seed=42 suite=libero_spatial task=6 episode=34 success=True
+2026-07-17 03:29:56,093 [INFO] seed=42 suite=libero_spatial task=6 episode=35 success=True
+2026-07-17 03:30:29,007 [INFO] seed=42 suite=libero_spatial task=6 episode=36 success=True
+2026-07-17 03:31:01,081 [INFO] seed=42 suite=libero_spatial task=6 episode=37 success=True
+2026-07-17 03:31:33,735 [INFO] seed=42 suite=libero_spatial task=6 episode=38 success=True
+2026-07-17 03:32:05,984 [INFO] seed=42 suite=libero_spatial task=6 episode=39 success=True
+2026-07-17 03:32:36,914 [INFO] seed=42 suite=libero_spatial task=6 episode=40 success=True
+2026-07-17 03:33:09,696 [INFO] seed=42 suite=libero_spatial task=6 episode=41 success=True
+2026-07-17 03:33:41,105 [INFO] seed=42 suite=libero_spatial task=6 episode=42 success=True
+2026-07-17 03:34:12,612 [INFO] seed=42 suite=libero_spatial task=6 episode=43 success=True
+2026-07-17 03:34:44,257 [INFO] seed=42 suite=libero_spatial task=6 episode=44 success=True
+2026-07-17 03:35:17,476 [INFO] seed=42 suite=libero_spatial task=6 episode=45 success=True
+2026-07-17 03:35:49,975 [INFO] seed=42 suite=libero_spatial task=6 episode=46 success=True
+2026-07-17 03:36:23,909 [INFO] seed=42 suite=libero_spatial task=6 episode=47 success=True
+2026-07-17 03:36:55,363 [INFO] seed=42 suite=libero_spatial task=6 episode=48 success=True
+2026-07-17 03:37:28,422 [INFO] seed=42 suite=libero_spatial task=6 episode=49 success=True
+[info] using task orders [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+2026-07-17 03:38:00,873 [INFO] seed=42 suite=libero_object task=4 episode=0 success=True
+2026-07-17 03:38:26,676 [INFO] seed=42 suite=libero_object task=4 episode=1 success=True
+2026-07-17 03:38:53,987 [INFO] seed=42 suite=libero_object task=4 episode=2 success=True
+2026-07-17 03:39:21,976 [INFO] seed=42 suite=libero_object task=4 episode=3 success=True
+2026-07-17 03:39:50,447 [INFO] seed=42 suite=libero_object task=4 episode=4 success=True
+2026-07-17 03:40:17,843 [INFO] seed=42 suite=libero_object task=4 episode=5 success=True
+2026-07-17 03:40:45,082 [INFO] seed=42 suite=libero_object task=4 episode=6 success=True
+2026-07-17 03:41:12,662 [INFO] seed=42 suite=libero_object task=4 episode=7 success=True
+2026-07-17 03:41:40,499 [INFO] seed=42 suite=libero_object task=4 episode=8 success=True
+2026-07-17 03:42:08,758 [INFO] seed=42 suite=libero_object task=4 episode=9 success=True
+2026-07-17 03:42:36,706 [INFO] seed=42 suite=libero_object task=4 episode=10 success=True
+2026-07-17 03:43:03,358 [INFO] seed=42 suite=libero_object task=4 episode=11 success=True
+2026-07-17 03:43:29,421 [INFO] seed=42 suite=libero_object task=4 episode=12 success=True
+2026-07-17 03:43:58,401 [INFO] seed=42 suite=libero_object task=4 episode=13 success=True
+2026-07-17 03:44:26,841 [INFO] seed=42 suite=libero_object task=4 episode=14 success=True
+2026-07-17 03:44:55,495 [INFO] seed=42 suite=libero_object task=4 episode=15 success=True
+2026-07-17 03:45:22,661 [INFO] seed=42 suite=libero_object task=4 episode=16 success=True
+2026-07-17 03:45:50,268 [INFO] seed=42 suite=libero_object task=4 episode=17 success=True
+2026-07-17 03:46:17,668 [INFO] seed=42 suite=libero_object task=4 episode=18 success=True
+2026-07-17 03:46:46,033 [INFO] seed=42 suite=libero_object task=4 episode=19 success=True
+2026-07-17 03:47:13,449 [INFO] seed=42 suite=libero_object task=4 episode=20 success=True
+2026-07-17 03:47:41,484 [INFO] seed=42 suite=libero_object task=4 episode=21 success=True
+2026-07-17 03:48:10,635 [INFO] seed=42 suite=libero_object task=4 episode=22 success=True
+2026-07-17 03:48:42,489 [INFO] seed=42 suite=libero_object task=4 episode=23 success=True
+2026-07-17 03:49:15,069 [INFO] seed=42 suite=libero_object task=4 episode=24 success=True
+2026-07-17 03:49:47,677 [INFO] seed=42 suite=libero_object task=4 episode=25 success=True
+2026-07-17 03:50:18,274 [INFO] seed=42 suite=libero_object task=4 episode=26 success=True
+2026-07-17 03:50:49,087 [INFO] seed=42 suite=libero_object task=4 episode=27 success=True
+2026-07-17 03:51:21,255 [INFO] seed=42 suite=libero_object task=4 episode=28 success=True
+2026-07-17 03:51:52,808 [INFO] seed=42 suite=libero_object task=4 episode=29 success=True
+2026-07-17 03:52:27,474 [INFO] seed=42 suite=libero_object task=4 episode=30 success=True
+2026-07-17 03:53:00,732 [INFO] seed=42 suite=libero_object task=4 episode=31 success=True
+2026-07-17 03:53:33,486 [INFO] seed=42 suite=libero_object task=4 episode=32 success=True
+2026-07-17 03:54:09,164 [INFO] seed=42 suite=libero_object task=4 episode=33 success=True
+2026-07-17 03:54:41,598 [INFO] seed=42 suite=libero_object task=4 episode=34 success=True
+2026-07-17 03:55:15,054 [INFO] seed=42 suite=libero_object task=4 episode=35 success=True
+2026-07-17 03:55:49,364 [INFO] seed=42 suite=libero_object task=4 episode=36 success=True
+2026-07-17 03:56:23,036 [INFO] seed=42 suite=libero_object task=4 episode=37 success=True
+2026-07-17 03:56:56,007 [INFO] seed=42 suite=libero_object task=4 episode=38 success=True
+2026-07-17 03:57:28,715 [INFO] seed=42 suite=libero_object task=4 episode=39 success=True
+2026-07-17 03:58:01,824 [INFO] seed=42 suite=libero_object task=4 episode=40 success=True
+2026-07-17 03:58:34,541 [INFO] seed=42 suite=libero_object task=4 episode=41 success=True
+2026-07-17 03:59:07,892 [INFO] seed=42 suite=libero_object task=4 episode=42 success=True
+2026-07-17 03:59:41,454 [INFO] seed=42 suite=libero_object task=4 episode=43 success=True
+2026-07-17 04:00:15,467 [INFO] seed=42 suite=libero_object task=4 episode=44 success=True
+2026-07-17 04:01:37,076 [INFO] seed=42 suite=libero_object task=4 episode=45 success=False
+2026-07-17 04:02:10,244 [INFO] seed=42 suite=libero_object task=4 episode=46 success=True
+2026-07-17 04:02:43,695 [INFO] seed=42 suite=libero_object task=4 episode=47 success=True
+2026-07-17 04:03:16,130 [INFO] seed=42 suite=libero_object task=4 episode=48 success=True
+2026-07-17 04:03:50,891 [INFO] seed=42 suite=libero_object task=4 episode=49 success=True
+[info] using task orders [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+2026-07-17 04:04:22,259 [INFO] seed=42 suite=libero_goal task=2 episode=0 success=True
+2026-07-17 04:04:51,478 [INFO] seed=42 suite=libero_goal task=2 episode=1 success=True
+2026-07-17 04:05:25,018 [INFO] seed=42 suite=libero_goal task=2 episode=2 success=True
+2026-07-17 04:05:56,404 [INFO] seed=42 suite=libero_goal task=2 episode=3 success=True
+2026-07-17 04:06:26,668 [INFO] seed=42 suite=libero_goal task=2 episode=4 success=True
+2026-07-17 04:06:58,665 [INFO] seed=42 suite=libero_goal task=2 episode=5 success=True
+2026-07-17 04:07:29,849 [INFO] seed=42 suite=libero_goal task=2 episode=6 success=True
+2026-07-17 04:08:01,430 [INFO] seed=42 suite=libero_goal task=2 episode=7 success=True
+2026-07-17 04:08:32,962 [INFO] seed=42 suite=libero_goal task=2 episode=8 success=True
+2026-07-17 04:09:08,106 [INFO] seed=42 suite=libero_goal task=2 episode=9 success=True
+2026-07-17 04:09:45,723 [INFO] seed=42 suite=libero_goal task=2 episode=10 success=True
+2026-07-17 04:10:22,975 [INFO] seed=42 suite=libero_goal task=2 episode=11 success=True
+2026-07-17 04:10:59,890 [INFO] seed=42 suite=libero_goal task=2 episode=12 success=True
+2026-07-17 04:11:38,885 [INFO] seed=42 suite=libero_goal task=2 episode=13 success=True
+2026-07-17 04:12:16,740 [INFO] seed=42 suite=libero_goal task=2 episode=14 success=True
+2026-07-17 04:12:54,420 [INFO] seed=42 suite=libero_goal task=2 episode=15 success=True
+2026-07-17 04:13:31,047 [INFO] seed=42 suite=libero_goal task=2 episode=16 success=True
+2026-07-17 04:14:09,232 [INFO] seed=42 suite=libero_goal task=2 episode=17 success=True
+2026-07-17 04:14:47,052 [INFO] seed=42 suite=libero_goal task=2 episode=18 success=True
+2026-07-17 04:15:22,755 [INFO] seed=42 suite=libero_goal task=2 episode=19 success=True
+2026-07-17 04:16:03,079 [INFO] seed=42 suite=libero_goal task=2 episode=20 success=True
+2026-07-17 04:16:40,034 [INFO] seed=42 suite=libero_goal task=2 episode=21 success=True
+2026-07-17 04:18:48,287 [INFO] seed=42 suite=libero_goal task=2 episode=22 success=False
+2026-07-17 04:19:18,037 [INFO] seed=42 suite=libero_goal task=2 episode=23 success=True
+2026-07-17 04:19:49,239 [INFO] seed=42 suite=libero_goal task=2 episode=24 success=True
+2026-07-17 04:20:19,470 [INFO] seed=42 suite=libero_goal task=2 episode=25 success=True
+2026-07-17 04:20:52,163 [INFO] seed=42 suite=libero_goal task=2 episode=26 success=True
+2026-07-17 04:21:22,895 [INFO] seed=42 suite=libero_goal task=2 episode=27 success=True
+2026-07-17 04:21:51,673 [INFO] seed=42 suite=libero_goal task=2 episode=28 success=True
+2026-07-17 04:22:17,427 [INFO] seed=42 suite=libero_goal task=2 episode=29 success=True
+2026-07-17 04:22:45,823 [INFO] seed=42 suite=libero_goal task=2 episode=30 success=True
+2026-07-17 04:23:14,400 [INFO] seed=42 suite=libero_goal task=2 episode=31 success=True
+2026-07-17 04:23:41,007 [INFO] seed=42 suite=libero_goal task=2 episode=32 success=True
+2026-07-17 04:24:09,845 [INFO] seed=42 suite=libero_goal task=2 episode=33 success=True
+2026-07-17 04:24:43,865 [INFO] seed=42 suite=libero_goal task=2 episode=34 success=True
+2026-07-17 04:26:37,769 [INFO] seed=42 suite=libero_goal task=2 episode=35 success=False
+2026-07-17 04:27:11,800 [INFO] seed=42 suite=libero_goal task=2 episode=36 success=True
+2026-07-17 04:27:47,262 [INFO] seed=42 suite=libero_goal task=2 episode=37 success=True
+2026-07-17 04:28:20,428 [INFO] seed=42 suite=libero_goal task=2 episode=38 success=True
+2026-07-17 04:28:56,650 [INFO] seed=42 suite=libero_goal task=2 episode=39 success=True
+2026-07-17 04:29:31,311 [INFO] seed=42 suite=libero_goal task=2 episode=40 success=True
+2026-07-17 04:30:03,795 [INFO] seed=42 suite=libero_goal task=2 episode=41 success=True
+2026-07-17 04:30:37,987 [INFO] seed=42 suite=libero_goal task=2 episode=42 success=True
+2026-07-17 04:31:11,415 [INFO] seed=42 suite=libero_goal task=2 episode=43 success=True
+2026-07-17 04:31:42,178 [INFO] seed=42 suite=libero_goal task=2 episode=44 success=True
+2026-07-17 04:32:11,920 [INFO] seed=42 suite=libero_goal task=2 episode=45 success=True
+2026-07-17 04:32:43,723 [INFO] seed=42 suite=libero_goal task=2 episode=46 success=True
+2026-07-17 04:33:15,359 [INFO] seed=42 suite=libero_goal task=2 episode=47 success=True
+2026-07-17 04:33:49,307 [INFO] seed=42 suite=libero_goal task=2 episode=48 success=True
+2026-07-17 04:34:21,650 [INFO] seed=42 suite=libero_goal task=2 episode=49 success=True
+[info] using task orders [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+2026-07-17 04:35:50,383 [INFO] seed=42 suite=libero_10 task=0 episode=0 success=True
+2026-07-17 04:36:52,849 [INFO] seed=42 suite=libero_10 task=0 episode=1 success=True
+2026-07-17 04:37:56,378 [INFO] seed=42 suite=libero_10 task=0 episode=2 success=True
+2026-07-17 04:39:05,090 [INFO] seed=42 suite=libero_10 task=0 episode=3 success=True
+2026-07-17 04:40:10,822 [INFO] seed=42 suite=libero_10 task=0 episode=4 success=True
+2026-07-17 04:41:47,372 [INFO] seed=42 suite=libero_10 task=0 episode=5 success=True
+2026-07-17 04:42:51,464 [INFO] seed=42 suite=libero_10 task=0 episode=6 success=True
+2026-07-17 04:43:51,473 [INFO] seed=42 suite=libero_10 task=0 episode=7 success=True
+2026-07-17 04:44:59,331 [INFO] seed=42 suite=libero_10 task=0 episode=8 success=True
+2026-07-17 04:46:17,051 [INFO] seed=42 suite=libero_10 task=0 episode=9 success=True
+2026-07-17 04:47:33,376 [INFO] seed=42 suite=libero_10 task=0 episode=10 success=True
+2026-07-17 04:48:54,737 [INFO] seed=42 suite=libero_10 task=0 episode=11 success=True
+2026-07-17 04:50:13,027 [INFO] seed=42 suite=libero_10 task=0 episode=12 success=True
+2026-07-17 04:51:33,888 [INFO] seed=42 suite=libero_10 task=0 episode=13 success=True
+2026-07-17 04:55:08,345 [INFO] seed=42 suite=libero_10 task=0 episode=14 success=False
+2026-07-17 04:56:28,955 [INFO] seed=42 suite=libero_10 task=0 episode=15 success=True
+2026-07-17 04:57:43,116 [INFO] seed=42 suite=libero_10 task=0 episode=16 success=True
+2026-07-17 04:59:06,228 [INFO] seed=42 suite=libero_10 task=0 episode=17 success=True
+2026-07-17 05:00:57,573 [INFO] seed=42 suite=libero_10 task=0 episode=18 success=True
+2026-07-17 05:02:18,289 [INFO] seed=42 suite=libero_10 task=0 episode=19 success=True
+2026-07-17 05:03:43,240 [INFO] seed=42 suite=libero_10 task=0 episode=20 success=True
+2026-07-17 05:05:06,541 [INFO] seed=42 suite=libero_10 task=0 episode=21 success=True
+2026-07-17 05:06:28,861 [INFO] seed=42 suite=libero_10 task=0 episode=22 success=True
+2026-07-17 05:07:45,500 [INFO] seed=42 suite=libero_10 task=0 episode=23 success=True
+2026-07-17 05:09:03,093 [INFO] seed=42 suite=libero_10 task=0 episode=24 success=True
+2026-07-17 05:10:21,146 [INFO] seed=42 suite=libero_10 task=0 episode=25 success=True
+2026-07-17 05:13:53,360 [INFO] seed=42 suite=libero_10 task=0 episode=26 success=False
+2026-07-17 05:15:30,913 [INFO] seed=42 suite=libero_10 task=0 episode=27 success=True
+2026-07-17 05:17:20,631 [INFO] seed=42 suite=libero_10 task=0 episode=28 success=True
+2026-07-17 05:18:40,705 [INFO] seed=42 suite=libero_10 task=0 episode=29 success=True
+2026-07-17 05:20:01,892 [INFO] seed=42 suite=libero_10 task=0 episode=30 success=True
+2026-07-17 05:21:21,386 [INFO] seed=42 suite=libero_10 task=0 episode=31 success=True
+2026-07-17 05:22:42,047 [INFO] seed=42 suite=libero_10 task=0 episode=32 success=True
+2026-07-17 05:23:57,740 [INFO] seed=42 suite=libero_10 task=0 episode=33 success=True
+2026-07-17 05:25:14,271 [INFO] seed=42 suite=libero_10 task=0 episode=34 success=True
+2026-07-17 05:26:37,661 [INFO] seed=42 suite=libero_10 task=0 episode=35 success=True
+2026-07-17 05:27:56,602 [INFO] seed=42 suite=libero_10 task=0 episode=36 success=True
+2026-07-17 05:29:17,410 [INFO] seed=42 suite=libero_10 task=0 episode=37 success=True
+2026-07-17 05:30:34,841 [INFO] seed=42 suite=libero_10 task=0 episode=38 success=True
+2026-07-17 05:34:06,808 [INFO] seed=42 suite=libero_10 task=0 episode=39 success=False
+2026-07-17 05:35:33,782 [INFO] seed=42 suite=libero_10 task=0 episode=40 success=True
+2026-07-17 05:36:54,586 [INFO] seed=42 suite=libero_10 task=0 episode=41 success=True
+2026-07-17 05:38:20,758 [INFO] seed=42 suite=libero_10 task=0 episode=42 success=True
+2026-07-17 05:39:39,617 [INFO] seed=42 suite=libero_10 task=0 episode=43 success=True
+2026-07-17 05:41:02,882 [INFO] seed=42 suite=libero_10 task=0 episode=44 success=True
+2026-07-17 05:42:24,134 [INFO] seed=42 suite=libero_10 task=0 episode=45 success=True
+2026-07-17 05:43:41,609 [INFO] seed=42 suite=libero_10 task=0 episode=46 success=True
+2026-07-17 05:45:01,583 [INFO] seed=42 suite=libero_10 task=0 episode=47 success=True
+2026-07-17 05:46:22,800 [INFO] seed=42 suite=libero_10 task=0 episode=48 success=True
+2026-07-17 05:49:58,191 [INFO] seed=42 suite=libero_10 task=0 episode=49 success=False
+[info] using task orders [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+2026-07-17 05:52:12,670 [INFO] seed=42 suite=libero_10 task=8 episode=0 success=True
+2026-07-17 05:54:31,561 [INFO] seed=42 suite=libero_10 task=8 episode=1 success=True
+2026-07-17 05:56:41,603 [INFO] seed=42 suite=libero_10 task=8 episode=2 success=True
+2026-07-17 05:58:49,717 [INFO] seed=42 suite=libero_10 task=8 episode=3 success=True
+2026-07-17 06:01:01,376 [INFO] seed=42 suite=libero_10 task=8 episode=4 success=True
+2026-07-17 06:03:27,091 [INFO] seed=42 suite=libero_10 task=8 episode=5 success=True
+2026-07-17 06:07:28,550 [INFO] seed=42 suite=libero_10 task=8 episode=6 success=False
+2026-07-17 06:09:36,309 [INFO] seed=42 suite=libero_10 task=8 episode=7 success=True
+2026-07-17 06:13:37,417 [INFO] seed=42 suite=libero_10 task=8 episode=8 success=False
+2026-07-17 06:15:45,695 [INFO] seed=42 suite=libero_10 task=8 episode=9 success=True
+2026-07-17 06:17:49,989 [INFO] seed=42 suite=libero_10 task=8 episode=10 success=True
+2026-07-17 06:19:50,785 [INFO] seed=42 suite=libero_10 task=8 episode=11 success=True
+2026-07-17 06:21:57,583 [INFO] seed=42 suite=libero_10 task=8 episode=12 success=True
+2026-07-17 06:24:04,335 [INFO] seed=42 suite=libero_10 task=8 episode=13 success=True
+2026-07-17 06:26:06,953 [INFO] seed=42 suite=libero_10 task=8 episode=14 success=True
+2026-07-17 06:28:07,600 [INFO] seed=42 suite=libero_10 task=8 episode=15 success=True
+2026-07-17 06:30:44,529 [INFO] seed=42 suite=libero_10 task=8 episode=16 success=True
+2026-07-17 06:32:49,454 [INFO] seed=42 suite=libero_10 task=8 episode=17 success=True
+2026-07-17 06:34:55,970 [INFO] seed=42 suite=libero_10 task=8 episode=18 success=True
+2026-07-17 06:36:59,033 [INFO] seed=42 suite=libero_10 task=8 episode=19 success=True
+2026-07-17 06:38:57,620 [INFO] seed=42 suite=libero_10 task=8 episode=20 success=True
+2026-07-17 06:40:59,037 [INFO] seed=42 suite=libero_10 task=8 episode=21 success=True
+2026-07-17 06:43:04,115 [INFO] seed=42 suite=libero_10 task=8 episode=22 success=True
+2026-07-17 12:52:03,945 [INFO] === RESUME START seed=42 rank=6/8 gpu=6 remaining_episodes=27 ===
+2026-07-17 12:53:49,543 [INFO] Loading UMT5 sidecar: /mnt/afs/zhengmingkai/raozf/models/fastwam_libero/models_t5_umt5-xxl-enc-bf16.safetensors
+2026-07-17 12:54:37,586 [INFO] Loading Wan VAE sidecar: /mnt/afs/zhengmingkai/raozf/models/fastwam_libero/Wan2.2_VAE.safetensors
+2026-07-17 12:54:41,579 [INFO] Loading policy weights: /mnt/afs/zhengmingkai/raozf/models/fastwam_libero/model.safetensors
+2026-07-17 12:55:36,094 [INFO] Resuming seed=42 suite=libero_10 task=8 episodes=[23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49]
+2026-07-17 12:56:55,471 [INFO] === RESUME START seed=42 rank=6/8 gpu=6 remaining_episodes=27 ===
+2026-07-17 12:58:42,219 [INFO] Loading UMT5 sidecar: /mnt/afs/zhengmingkai/raozf/models/fastwam_libero/models_t5_umt5-xxl-enc-bf16.safetensors
+2026-07-17 12:59:41,745 [INFO] Loading Wan VAE sidecar: /mnt/afs/zhengmingkai/raozf/models/fastwam_libero/Wan2.2_VAE.safetensors
+2026-07-17 12:59:48,013 [INFO] Loading policy weights: /mnt/afs/zhengmingkai/raozf/models/fastwam_libero/model.safetensors
+2026-07-17 13:00:51,471 [INFO] Resuming seed=42 suite=libero_10 task=8 episodes=[23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49]
+2026-07-17 13:02:37,548 [INFO] seed=42 suite=libero_10 task=8 episode=23 success=True
+2026-07-17 13:04:11,590 [INFO] seed=42 suite=libero_10 task=8 episode=24 success=True
+2026-07-17 13:05:44,930 [INFO] seed=42 suite=libero_10 task=8 episode=25 success=True
+2026-07-17 13:08:33,464 [INFO] seed=42 suite=libero_10 task=8 episode=26 success=False
+2026-07-17 13:10:13,324 [INFO] seed=42 suite=libero_10 task=8 episode=27 success=True
+2026-07-17 13:11:52,622 [INFO] seed=42 suite=libero_10 task=8 episode=28 success=True
+2026-07-17 13:13:25,554 [INFO] seed=42 suite=libero_10 task=8 episode=29 success=True
+2026-07-17 13:15:01,523 [INFO] seed=42 suite=libero_10 task=8 episode=30 success=True
+2026-07-17 13:16:38,079 [INFO] seed=42 suite=libero_10 task=8 episode=31 success=True
+2026-07-17 13:18:13,040 [INFO] seed=42 suite=libero_10 task=8 episode=32 success=True
+2026-07-17 13:19:48,252 [INFO] seed=42 suite=libero_10 task=8 episode=33 success=True
+2026-07-17 13:21:26,601 [INFO] seed=42 suite=libero_10 task=8 episode=34 success=True
+2026-07-17 13:23:00,429 [INFO] seed=42 suite=libero_10 task=8 episode=35 success=True
+2026-07-17 13:24:36,525 [INFO] seed=42 suite=libero_10 task=8 episode=36 success=True
+2026-07-17 13:26:07,277 [INFO] seed=42 suite=libero_10 task=8 episode=37 success=True
+2026-07-17 13:27:37,912 [INFO] seed=42 suite=libero_10 task=8 episode=38 success=True
+2026-07-17 13:29:20,532 [INFO] seed=42 suite=libero_10 task=8 episode=39 success=True
+2026-07-17 13:30:54,723 [INFO] seed=42 suite=libero_10 task=8 episode=40 success=True
+2026-07-17 13:32:28,768 [INFO] seed=42 suite=libero_10 task=8 episode=41 success=True
+2026-07-17 13:34:03,756 [INFO] seed=42 suite=libero_10 task=8 episode=42 success=True
+2026-07-17 13:35:41,423 [INFO] seed=42 suite=libero_10 task=8 episode=43 success=True
+2026-07-17 13:37:12,193 [INFO] seed=42 suite=libero_10 task=8 episode=44 success=True
+2026-07-17 13:38:41,117 [INFO] seed=42 suite=libero_10 task=8 episode=45 success=True
+2026-07-17 13:40:20,876 [INFO] seed=42 suite=libero_10 task=8 episode=46 success=True
+2026-07-17 13:43:19,579 [INFO] seed=42 suite=libero_10 task=8 episode=47 success=False
+2026-07-17 13:44:57,406 [INFO] seed=42 suite=libero_10 task=8 episode=48 success=True
+2026-07-17 13:46:28,052 [INFO] seed=42 suite=libero_10 task=8 episode=49 success=True
+2026-07-17 13:46:28,290 [INFO] === RESUME COMPLETE wrote=/mnt/afs/zhengmingkai/raozf/benchmark/FastWAM/result/libero_3seeds/20260716_194717/seed42/worker_006.json successes=238/250 rate=0.9520 ===
