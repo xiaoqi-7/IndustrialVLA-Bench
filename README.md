@@ -27,7 +27,7 @@ Vision-Language-Action (VLA) and World-Action Models (WAMs).</i></p>
 
 ## News
 
-- **[2026-07]** Paper *"IndustrialVLA-Bench: A Traceable Multi-Axis Evaluation of Open Robot Policy Models"* (arXiv ID pending).
+- **[2026-09]** Paper *"IndustrialVLA-Bench: A Traceable Multi-Axis Evaluation of Open Robot Policy Models"* ([arXiv:2609.25562](https://arxiv.org/abs/2609.25562)).
 - **[2026-07]** Reproducible experiment archive released: raw logs, per-seed results, latency benchmarks, and standardized launch scripts for all six evaluated models.
 - **[2026-07]** Added [`PAPER_CODE_MAP.md`](PAPER_CODE_MAP.md) — a section-by-section map from the paper to this repository, including a verified artifact-traceability audit.
 
