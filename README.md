@@ -4,7 +4,7 @@
 <h3>A Traceable Multi-Axis Evaluation of Open Robot Policy Models</h3>
 
 <p>
-Yiqi Wang<sup>*</sup>, Zhifeng Rao<sup>*</sup>, Jiaqi Zhang, Zhangkai Wu, Xiaoyang Li,<br>
+Yiqi Wang<sup>*</sup>, Zhifeng Rao<sup>*</sup>, Jiaqi Zhang, Xiaoyang Li, Zhangkai Wu,<br>
 Yiqun Duan, Mingkai Zheng, Fei Wang, Shan You, Taotao Cai
 </p>
 <p><sup>*</sup>Equal contribution.</p>
@@ -257,8 +257,7 @@ If you find IndustrialVLA-Bench useful, please cite:
 @article{industrialvlabench2026,
   title   = {IndustrialVLA-Bench: A Traceable Multi-Axis Evaluation of Open Robot Policy Models},
   author  = {Wang, Yiqi and Rao, Zhifeng and Zhang, Jiaqi and Li, Xiaoyang and Wu, Zhangkai and Duan, Yiqun and Zheng, Mingkai and Wang, Fei and You, Shan and Cai, Taotao},
-  journal = {arXiv preprint},
-  note    = {arXiv ID pending},
+  journal = {arXiv preprint arXiv:2609.25562},
   year    = {2026}
 }
 ```
