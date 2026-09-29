@@ -172,7 +172,7 @@ All values are mean ± population standard deviation over three independent eval
 ### Key findings
 
 <div align="center">
-<img src="figs/cross_axis_profiles (1).png" width="850">
+<img src="figs/cross_axis_profiles.png" width="850">
 <p><i><b>Figure 2.</b> Cross-axis profiles: clean capability vs. (a) robustness and (b) language sensitivity.
 The number in each marker is peak VRAM in GiB; circles are VLAs, squares are WAMs.</i></p>
 </div>
