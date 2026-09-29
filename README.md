@@ -17,7 +17,6 @@ Yiqun Duan, Mingkai Zheng, Fei Wang, Shan You, Taotao Cai
   <img src="https://img.shields.io/badge/Topic-VLA%20%26%20WAM%20Evaluation-1f6f6f" alt="Topic">
   <img src="https://img.shields.io/badge/Suites-LIBERO%20%7C%20Plus%20%7C%20Para-2B6CB0" alt="Suites">
   <img src="https://img.shields.io/badge/Models-6%20Open%20Policies-27ae60" alt="Models">
-  <img src="https://img.shields.io/badge/Seeds-1%20%7C%207%20%7C%2042-777777" alt="Seeds">
 </p>
 
 <p><i>Comparable, reproducible, and deployment-aware evaluation of open<br>
