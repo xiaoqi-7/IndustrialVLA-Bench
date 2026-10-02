@@ -9,7 +9,6 @@ Yiqun Duan, Mingkai Zheng, Fei Wang, Shan You, Taotao Cai
 </p>
 <p><sup>*</sup>Equal contribution.</p>
 
-
 <p>
   <a href="https://arxiv.org/abs/2609.25562">
     <img src="https://img.shields.io/badge/arXiv-2609.25562-B31B1B?logo=arxiv&logoColor=white" alt="arXiv:2609.25562">
@@ -30,7 +29,6 @@ Vision-Language-Action (VLA) and World-Action Models (WAMs).</i></p>
 
 - **[2026-09]** Paper *"IndustrialVLA-Bench: A Traceable Multi-Axis Evaluation of Open Robot Policy Models"* ([arXiv:2609.25562](https://arxiv.org/abs/2609.25562)).
 - **[2026-07]** Reproducible experiment archive released: raw logs, per-seed results, latency benchmarks, and standardized launch scripts for all six evaluated models.
-- **[2026-07]** Added [`PAPER_CODE_MAP.md`](PAPER_CODE_MAP.md) — a section-by-section map from the paper to this repository, including a verified artifact-traceability audit.
 
 ## Contents
 
@@ -40,9 +38,9 @@ Vision-Language-Action (VLA) and World-Action Models (WAMs).</i></p>
 - [Evaluated Models](#evaluated-models)
 - [Benchmark Tracks](#benchmark-tracks)
 - [Results](#results)
+- [Deployability and hardware](#deployability-and-hardware)
 - [Getting Started](#getting-started)
 - [Repository Structure](#repository-structure)
-- [Paper ↔ Code Map](PAPER_CODE_MAP.md)
 - [What Is Not Included](#what-is-not-included)
 - [Citation](#citation)
 - [Acknowledgements](#acknowledgements)
@@ -57,65 +55,62 @@ harness, organizes evidence into tiers, and reports results along capability, ro
 language grounding, and deployability axes — each backed by raw logs and traceable metadata.</i></p>
 </div>
 
-Open VLA and WAM systems are advancing rapidly, yet their reported results are hard to compare: checkpoints, evaluation protocols, action interfaces, and deployment settings all differ across releases. **IndustrialVLA-Bench** evaluates six publicly executable robot policy models under a single controlled protocol:
+Open VLA and WAM systems are advancing rapidly, yet their reported results are hard to compare: checkpoints, evaluation protocols, action interfaces, and deployment settings differ across releases. **IndustrialVLA-Bench** evaluates six publicly executable robot policy models under a unified protocol:
 
 - **LIBERO** for clean manipulation capability,
 - **LIBERO-Plus** for robustness under controlled perturbations,
 - **LIBERO-Para** for sensitivity to paraphrased instructions,
 - a **deployability harness** for latency, peak VRAM, runtime mode, and setup burden.
 
-Every configuration is run with three fixed seeds `{1, 7, 42}`, and every reported number is traceable to raw logs, per-seed summaries, and launch commands preserved in this repository.
+Every model-benchmark configuration uses three fixed run-level seeds `{1, 7, 42}` with the checkpoint and inference configuration held fixed. Reported uncertainty is the population standard deviation across the three run-level results. Raw logs, per-seed summaries, and launch commands are preserved in this repository.
 
 ## Why an Official-First Benchmark?
 
-**1. Fragmented evaluation.** Even within the same benchmark family, results differ because of checkpoints, prompt formats, observation-action interfaces, action normalization, inference scripts, trial counts, and aggregation rules. Apparent gains may reflect evaluation assumptions rather than stronger policies.
+**1. Fragmented evaluation.** Even within the same benchmark family, results can differ because of checkpoints, prompt formats, observation-action interfaces, action normalization, inference scripts, trial counts, and aggregation rules. Apparent gains may therefore reflect evaluation assumptions rather than stronger policies.
 
-**2. Clean success is not reliability.** A model performing well under standard conditions may still fail under changes to cameras, robots, backgrounds, layouts, or instruction wording. Clean success alone cannot distinguish faithful language grounding from memorized layouts and benchmark regularities.
+**2. Clean success is not reliability.** A model performing well under standard conditions may still fail under changes to cameras, robots, backgrounds, layouts, or instruction wording. Clean success alone cannot expose these differences.
 
-**3. Deployability is rarely reported.** VLA models operate inside robotic execution loops. Inference latency, peak VRAM, runtime architecture, and setup complexity substantially affect practical reuse, yet they are rarely measured consistently.
+**3. Deployability is rarely reported consistently.** VLA and WAM models operate inside robotic execution loops. Policy-call latency, amortized action latency, peak VRAM, runtime architecture, action chunking, and replanning configuration materially affect practical reuse.
 
-IndustrialVLA-Bench treats VLA evaluation as a **multi-axis diagnostic and reproducibility problem**, not a single success-rate ranking problem: only official-checkpoint results obtained through official or protocol-faithful evaluation paths are eligible for the main leaderboard, and capability, robustness, language grounding, and deployability are reported as separate evidence views rather than one aggregate score.
+IndustrialVLA-Bench treats robot-policy evaluation as a **multi-axis diagnostic and reproducibility problem**, not a single success-rate ranking problem. Capability, robustness, language grounding, and deployability are reported as separate evidence views.
 
 ## Core Concepts
 
 | Concept | Meaning |
 | --- | --- |
-| **Official-first execution** | For each model, the official repository, checkpoint, inference path, and evaluation script are prioritized. Wrappers are limited to engineering functions (logging, path forwarding, device placement) and must not alter benchmark semantics. |
-| **Protocol-faithful** | A reproduced run that preserves task definitions, observation/action semantics, instruction meaning, success rules, episode horizon, and aggregation procedures. |
-| **Tiered evidence policy** | Results are classified as main, secondary, diagnostic, appendix-only, or sanity-check evidence. Non-comparable numbers are never collapsed into a single ranking. |
-| **Three-seed protocol** | Each model-benchmark configuration runs three independent evaluations with fixed run-level seeds `{1, 7, 42}`; tables report mean ± population standard deviation across runs. |
-| **Multi-axis profile** | Capability, robustness, language grounding, and deployability are reported jointly but never merged into one scalar score. |
-| **Traceability** | Every number links back to a launch command, environment description, raw log, and normalized per-seed summary preserved in `results/` and `scripts/`. |
+| **Official-first execution** | For each model, the official repository, checkpoint, inference path, and evaluation script are prioritized. Wrappers are limited to engineering functions and must not alter benchmark semantics. |
+| **Protocol-faithful (PF)** | A reproduced path that preserves task definitions, observation/action semantics, success rules, episode horizon, trial counts, and aggregation procedures. |
+| **Three-seed protocol** | Each model-benchmark configuration is evaluated with fixed run-level seeds `{1, 7, 42}`; tables report mean ± population standard deviation across the three runs. |
+| **Multi-axis profile** | Capability, robustness, language grounding, and deployability are reported jointly but are not collapsed into one scalar score. |
+| **Traceability** | Results are linked to launch commands, environments, raw logs, per-seed summaries, and aggregation rules preserved in the artifact. |
 
 ## Evaluated Models
 
-Six publicly executable systems spanning two design families. All are evaluated with public checkpoints; per-model source code and evaluation code live in [`models/`](models/), and environment materials in [`envs/`](envs/).
+Six publicly executable systems spanning two design families are included. Following the rebuttal-stage verification audit, **all six evaluated systems now satisfy the protocol-faithful checklist**.
 
 | Model | Family | Params | Representative design | LIBERO | LIBERO-Plus | LIBERO-Para | Evidence status |
 | --- | :---: | :---: | --- | :---: | :---: | :---: | :---: |
 | π<sub>0.5</sub> / OpenPI | VLA | 3.6B | Unified single-policy VLA | ✅ | ✅ | ✅ | PF |
-| UnifoLM-VLA-0 | VLA | 8.9B | Industrial VLA, model-specific action generation | ✅ | ✅ | ✅ | NR |
-| Xiaomi-Robotics-0 | VLA | 4.7B | Industrial VLA, diffusion-based action prediction | ✅ | ✅ | ✅ | PV |
+| UnifoLM-VLA-0 | VLA | 8.9B | Industrial VLA, model-specific action generation | ✅ | ✅ | ✅ | PF |
+| Xiaomi-Robotics-0 | VLA | 4.7B | Industrial VLA, diffusion-based action prediction | ✅ | ✅ | ✅ | PF |
 | GR00T-N1.7 | VLA | 3.4B | Modular vision-language + action architecture | ✅ | ✅ | ✅ | PF |
 | FastWAM | WAM | 12.4B | Video-latent-conditioned action prediction | ✅ | ✅ | ✅ | PF |
-| Cosmos Policy | WAM | 2.0B | Multi-step video-diffusion world-action prediction | ✅ | ✅ | ✅ | PV |
+| Cosmos Policy | WAM | 2.0B | Multi-step video-diffusion world-action prediction | ✅ | ✅ | ✅ | PF |
 
-<sub>Evidence status (per the paper's evidence policy): <b>PF</b> = protocol-faithful, <b>NR</b> = near-reproduction, <b>PV</b> = pending verification. Only PF rows are eligible for strict comparisons; NR/PV rows are reported for diagnostic coverage.</sub>
-
-> OpenVLA source code and standard-LIBERO launch scripts are kept in [`models/openvla/`](models/openvla/) and [`scripts/openvla/`](scripts/openvla/), but OpenVLA is not part of the six-model comparison.
+<sub>The submission-time NR/PV labels reflected incomplete verification evidence. The rebuttal-stage audit completed checkpoint provenance, task-definition, observation/action-semantics, inference-configuration, termination, success-criterion, and aggregation verification without changing checkpoints, inference settings, or mean success rates.</sub>
 
 ## Benchmark Tracks
 
 | Track | Question | Suite | Episodes / seed | Metric |
 | --- | --- | --- | :---: | --- |
 | Capability | Can the model complete clean manipulation tasks? | LIBERO (Spatial / Object / Goal / Long) | 2,000 (50/task) | Success rate |
-| Robustness | Does performance survive visual & embodiment shifts? | LIBERO-Plus (camera, robot, language, light, background, noise, layout) | 10,030 | Success rate, drop, retention |
-| Language grounding | Does the model follow paraphrased instructions? | LIBERO-Para (4,092 official paraphrases) | 4,092 | Success rate, clean-to-para drop |
-| Deployability | Can the model run practically? | Harness measurements | — | Latency/step, peak VRAM, runtime mode, setup burden |
+| Robustness | Does performance survive visual and embodiment shifts? | LIBERO-Plus | 10,030 | Success rate, drop, retention |
+| Language grounding | Does the model follow paraphrased instructions? | LIBERO-Para | 4,092 | Success rate, clean-to-Para drop |
+| Deployability | Can the model run practically? | Evaluation harness | — | Policy-call latency, amortized action latency, effective control frequency, peak VRAM |
 
 ## Results
 
-All values are mean ± population standard deviation over three independent evaluation runs with seeds `{1, 7, 42}`, matching the paper tables. Per-suite, per-perturbation, and per-seed breakdowns are preserved under [`results/`](results/).
+Unless otherwise stated, values are **mean ± population standard deviation over the three run-level seeds `{1, 7, 42}`**. The values below incorporate the rebuttal-stage corrections to the affected OpenPI SD entries.
 
 ### Clean capability — LIBERO
 
@@ -126,9 +121,9 @@ All values are mean ± population standard deviation over three independent eval
 | GR00T-N1.7 | 97.60 ± 1.50 | 99.30 ± 0.50 | 99.30 ± 0.50 | 95.30 ± 1.00 | **97.88 ± 0.65** |
 | Cosmos Policy | 96.40 ± 0.33 | 99.60 ± 0.33 | 97.93 ± 0.34 | 96.60 ± 0.28 | **97.63 ± 0.23** |
 | FastWAM | 97.07 ± 0.25 | 99.13 ± 0.09 | 96.47 ± 0.50 | 93.53 ± 0.41 | **96.55 ± 0.16** |
-| π<sub>0.5</sub> / OpenPI | 98.33 ± 0.09 | 98.73 ± 0.52 | 97.60 ± 0.43 | 91.40 ± 0.65 | **96.52 ± 0.62** |
+| π<sub>0.5</sub> / OpenPI | 98.33 ± 0.09 | 98.73 ± 0.52 | 97.60 ± 0.43 | 91.40 ± 0.65 | **96.52 ± 0.22** |
 
-<sub>6,000 episodes per model (50 trials/task × 3 seeds). Average is the unweighted mean of the four suite-level success rates.</sub>
+<sub>6,000 episodes per model (50 trials/task × 3 seeds). Average is the unweighted mean of the four suite-level success rates. The OpenPI average SD is corrected from 0.62 to 0.22 after rechecking the released per-seed records using the Appendix-D population-SD definition.</sub>
 
 ### Robustness — LIBERO-Plus
 
@@ -141,117 +136,124 @@ All values are mean ± population standard deviation over three independent eval
 | Xiaomi-Robotics-0 | 40.22 | 55.63 | 89.02 | 94.51 | 90.43 | 86.78 | 75.87 | **73.91 ± 0.13** | 24.19 |
 | FastWAM | 44.65 | 72.04 | 66.99 | 94.22 | 66.57 | 67.17 | 79.45 | **70.69 ± 0.52** | 25.86 |
 
-<sub>Robust Avg. is the unweighted mean over the six non-linguistic perturbation dimensions (Language is analyzed separately under language grounding). Drop is measured in percentage points against the clean LIBERO average. Per-dimension standard deviations are in the paper and per-seed summaries.</sub>
+<sub>Robust Avg. is the unweighted mean over the six non-linguistic perturbation dimensions; the LIBERO-Plus language condition is shown separately and excluded from Robust Avg. and Drop.</sub>
 
 ### Language grounding — LIBERO-Para
 
 | Model | Para success (%) | Clean-to-Para drop (pp) |
 | --- | ---: | ---: |
-| UnifoLM-VLA-0 | **82.24 ± 0.48** | 15.67 |
-| Xiaomi-Robotics-0 | **75.73 ± 0.16** | 22.37 |
-| GR00T-N1.7 | **74.26 ± 1.52** | 23.62 |
-| π<sub>0.5</sub> / OpenPI | **71.33 ± 0.05** | 25.19 |
-| Cosmos Policy | **70.50 ± 0.26** | 27.13 |
-| FastWAM | **51.16 ± 0.38** | 45.39 |
+| UnifoLM-VLA-0 | **82.24 ± 0.48** | 15.67 ± 0.53 |
+| Xiaomi-Robotics-0 | **75.73 ± 0.16** | 22.37 ± 0.48 |
+| GR00T-N1.7 | **74.26 ± 1.52** | 23.62 ± 1.52 |
+| π<sub>0.5</sub> / OpenPI | **71.33 ± 0.05** | **25.19 ± 0.18** |
+| Cosmos Policy | **70.50 ± 0.26** | 27.13 ± 0.18 |
+| FastWAM | **51.16 ± 0.38** | 45.39 ± 0.32 |
 
-<sub>Same checkpoints as the clean LIBERO evaluation; no model is adapted or fine-tuned on LIBERO-Para.</sub>
-
-### Deployability
-
-| Model | Peak VRAM (MiB) | Latency (ms/step) | Params | Diffusion steps | Runtime mode | Reproduction status |
-| --- | ---: | ---: | :---: | :---: | --- | --- |
-| GR00T-N1.7 | 7,810 | 19.13 | 3.4B | 4 | Deployment-oriented | Protocol-faithful |
-| Cosmos Policy | 8,654 | 21.26 | 2.0B | 5 | Deployment-oriented | Pending verification |
-| Xiaomi-Robotics-0 | 10,294 | 25.44 | 4.7B | 5 | Model-specific | Pending verification |
-| π<sub>0.5</sub> / OpenPI | 14,550 | 58.80 | 3.6B | 10 | Local / server-client | Protocol-faithful |
-| UnifoLM-VLA-0 | 18,332 | 19.82 | 8.9B | 4 | Local / model-specific | Near-reproduction |
-| FastWAM | 26,902 | 45.33 | 12.4B | 10 | Deployment-oriented | Protocol-faithful |
-
-<sub>Peak VRAM measured during evaluation-time inference after warm-up; latency excludes environment reset and is amortized per executed action step (`latency_per_executed_step_ms` in the measurement JSONs; one policy call emits a chunk of actions). Raw measurements and scripts: [`results/latency_benchmark/`](results/latency_benchmark/). See [`PAPER_CODE_MAP.md`](PAPER_CODE_MAP.md) §8 for the provenance of each column.</sub>
+<sub>Same checkpoints as the clean LIBERO evaluation; no model is adapted or fine-tuned on LIBERO-Para. The OpenPI clean-to-Para drop SD is corrected from 0.12 to 0.18.</sub>
 
 ### Key findings
 
-<div align="center">
-<img src="figs/cross_axis_profiles.png" width="850">
-<p><i><b>Figure 2.</b> Cross-axis profiles: clean capability vs. (a) robustness and (b) language sensitivity.
-The number in each marker is peak VRAM in GiB; circles are VLAs, squares are WAMs.</i></p>
-</div>
+1. **Clean LIBERO is close to saturation** — averages span only **1.58 pp** (96.52–98.10%).
+2. **Robustness separates models much more strongly** — LIBERO-Plus robustness spans **14.62 pp**.
+3. **Language sensitivity is even more discriminative** — LIBERO-Para spans **31.08 pp**.
+4. **Clean ranking does not predict robustness** — the clean leader does not lead under perturbations.
+5. **Language sensitivity is partially decoupled from clean capability** — models with similar clean scores can diverge sharply under paraphrases.
+6. **All six systems now satisfy the PF checklist**, so the reported six-system comparisons no longer mix evidence tiers.
 
-1. **Clean LIBERO is close to saturation** — averages span only 1.58 pp (96.52–98.10%), providing limited discrimination.
-2. **Clean ranking does not predict robustness** — the clean leader falls below OpenPI and Cosmos Policy under perturbations; OpenPI tops robustness at 85.31% despite the lowest clean average.
-3. **Camera and robot shifts are the dominant failure modes** (cross-model averages 58.26% and 60.35%); illumination changes are comparatively harmless (95.42%).
-4. **Language sensitivity is decoupled from clean capability** — FastWAM matches others on clean LIBERO yet loses 45.39 pp under paraphrases, while UnifoLM-VLA-0 retains 82.24%.
-5. **No model dominates every axis** — strongest robustness comes with the highest latency (OpenPI, 58.80 ms/step); strongest language grounding with the highest VLA VRAM (UnifoLM-VLA-0, 18.3 GiB).
+## Deployability and hardware
+
+All six models were measured on a **single MetaX C500 GPU with batch size 1**. Because dtype, action chunk length, and replanning configuration differ across models, these measurements are **observational deployment profiles**, not a controlled intrinsic-efficiency ranking.
+
+| Model | Device | Peak VRAM | Dtype | Batch size | Action chunk | Replan / open-loop steps | Latency / call | Amortized policy latency / action | Effective control frequency |
+| --- | --- | ---: | --- | ---: | ---: | ---: | ---: | ---: | ---: |
+| GR00T N1.7 | MetaX C500 | 7,810 MiB | BF16 | 1 | 16 | 8 | 153.03 ms | 19.13 ms | 52.3 Hz |
+| Cosmos Policy | MetaX C500 | 8,654 MiB | BF16 autocast | 1 | 16 | 16 | 340.16 ms | 21.26 ms | 47.0 Hz |
+| Xiaomi-Robotics-0 | MetaX C500 | 10,294 MiB | BF16 | 1 | 10 | 10 | 254.35 ms | 25.43 ms | 39.3 Hz |
+| OpenPI π0.5 | MetaX C500 | 14,550 MiB | BF16 | 1 | 10 | 5 | 294.02 ms | 58.80 ms | 17.0 Hz |
+| UnifoLM-VLA-0 | MetaX C500 | 18,332 MiB | BF16/FP32 mixed | 1 | 8 | 8 | 158.54 ms | 19.82 ms | 50.5 Hz |
+| FastWAM | MetaX C500 | 26,902 MiB | BF16 | 1 | 32 | 10 | 453.33 ms | 45.33 ms | 22.1 Hz |
+
+**Latency definitions**
+- **Latency / call**: wall-clock latency of one policy invocation.
+- **Amortized policy latency / action**: policy-call latency divided by the number of actions executed before replanning.
+- **Effective control frequency**: inverse of the amortized policy-side latency per executed action.
+
+Peak VRAM is measured with `nvidia-smi` during evaluation-time inference after warm-up. Environment reset time is excluded.
+
+### Runtime and reproducibility summary
+
+| Model | Params | Runtime mode | Evidence status |
+| --- | ---: | --- | :---: |
+| GR00T-N1.7 | 3.4B | Deployment-oriented | PF |
+| Cosmos Policy | 2.0B | Deployment-oriented | PF |
+| Xiaomi-Robotics-0 | 4.7B | Model-specific | PF |
+| π<sub>0.5</sub> / OpenPI | 3.6B | Local / server-client | PF |
+| UnifoLM-VLA-0 | 8.9B | Local / model-specific | PF |
+| FastWAM | 12.4B | Deployment-oriented | PF |
 
 ## Getting Started
 
 This repository is a **reproducible experiment archive**. To re-run evaluations on a new machine:
 
-**1. Install benchmark environments** (see [`envs/README.md`](envs/README.md)):
+**1. Install benchmark environments**
 
 ```bash
-# Convenience entry points using the official requirements
 bash envs/libero/install.sh
 bash envs/libero-plus/install.sh
 bash envs/libero-para/install.sh
 ```
 
-**2. Prepare simulation assets** (not shipped with this archive):
+**2. Prepare simulation assets**
 
 ```bash
-# LIBERO-plus: download the official assets.zip anywhere, then
 ARCHIVE=/path/to/assets.zip bash LIBERO-plus/prepare_assets.sh
 ```
 
-See [`LIBERO-plus/PREPARE_ASSETS.md`](LIBERO-plus/PREPARE_ASSETS.md) and each benchmark's official instructions.
+**3. Install the model environment** following the per-model materials in `envs/<model>/`.
 
-**3. Install the model environment** you want to evaluate, following the per-model materials in [`envs/<model>/`](envs/).
-
-**4. Launch an evaluation** through the standardized scripts, overriding local paths via environment variables:
+**4. Launch an evaluation**
 
 ```bash
-# scripts/<model>/eval_<model>_<suite>.sh, suite ∈ {libero, libero_plus, libero-para}
 MODEL_PATH=/path/to/checkpoint \
 LIBERO_PLUS_ROOT=/path/to/LIBERO-plus \
 bash scripts/openpi/eval_openpi_libero_plus.sh
 ```
 
-Unified entry points write outputs to `results/<model>/` by default; override with `RESULT_ROOT`, `OUTPUT_DIR`, `LOG_ROOT`, or `LOG_BASE`. All source and benchmark paths accept `*_ROOT` overrides (`LIBERO_ROOT`, `LIBERO_PLUS_ROOT`, `LIBERO_PARA_ROOT`, `PYTHON`, ...). The scripts only set paths and call each model's original launcher — evaluation logic is never rewritten; the original launchers are preserved under `scripts/<model>/original/`.
+Unified entry points write outputs to `results/<model>/` by default. Local source and benchmark paths can be overridden through the documented environment variables.
 
 ## Repository Structure
 
-```
+```text
 IndustrialVLA-Bench/
-├── LIBERO/                  # Official LIBERO code & task definitions
-├── LIBERO-plus/             # Official LIBERO-plus code & task definitions
-│   └── PREPARE_ASSETS.md    #   how to install the official assets.zip
-├── LIBERO-para/             # Official LIBERO-Para code, paraphrases & PRIDE metric
-├── models/                  # Source code + eval code for 7 models
-│   ├── openpi/  unifolm-vla/  Xiaomi-Robotics-0/  Isaac-GR00T/
-│   ├── FastWAM/  cosmos-policy/  openvla/
-├── results/                 # Raw logs, per-seed results, three-seed summaries
-│   ├── <model>/             #   seed / suite / summary hierarchy per model
-│   └── latency_benchmark/   #   latency & VRAM measurement scripts + JSON
-├── scripts/                 # Standardized launchers: eval_<model>_<suite>.sh
-│   └── <model>/original/    #   unmodified copies of official launch scripts
-├── envs/                    # Per-model & per-benchmark installation materials
-├── figs/                    # Figures used in this README
-└── PAPER_CODE_MAP.md        # Paper ↔ code reference map + traceability audit
+├── LIBERO/
+├── LIBERO-plus/
+├── LIBERO-para/
+├── models/
+├── results/
+│   ├── <model>/
+│   └── latency_benchmark/
+├── scripts/
+│   └── <model>/original/
+├── envs/
+└── figs/
 ```
+
+- `results/` contains raw logs, per-seed outputs, and summary records.
+- `scripts/` contains standardized launchers and preserved model-specific launch paths.
+- `envs/` contains per-model and per-benchmark environment materials.
+- `results/latency_benchmark/` contains deployment measurements.
 
 ## What Is Not Included
 
-To keep the archive lightweight, the following are **not** shipped and must be re-downloaded per each project's official instructions:
+To keep the archive lightweight, the following are not redistributed:
 
-- LIBERO / LIBERO-plus / LIBERO-Para simulation assets (see [Getting Started](#getting-started));
-- model checkpoints (launch scripts default to source-machine paths — override with `MODEL_PATH`);
+- model checkpoints,
+- large simulation assets,
 - evaluation rollout videos and demo GIFs.
 
-All JSON/JSONL results, logs, text summaries, and latency benchmarks for the six compared models **are** preserved.
+These should be obtained from the corresponding official releases. The repository preserves the evaluation code, launch paths, logs, summaries, and deployment measurements used by the benchmark.
 
 ## Citation
-
-If you find IndustrialVLA-Bench useful, please cite:
 
 ```bibtex
 @article{industrialvlabench2026,
@@ -262,16 +264,9 @@ If you find IndustrialVLA-Bench useful, please cite:
 }
 ```
 
-## License
-
-The IndustrialVLA-Bench harness, scripts, result archives, and documentation are released
-under the [MIT License](LICENSE). Vendored third-party components (`LIBERO/`, `LIBERO-plus/`,
-`LIBERO-para/`, `models/*`) retain their own licenses — see
-[THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md). Model checkpoints are not redistributed.
-
 ## Acknowledgements
 
-This benchmark builds on [LIBERO](https://github.com/Lifelong-Robot-Learning/LIBERO), [LIBERO-plus](https://github.com/HuangJanuary/LIBERO-plus), and [LIBERO-Para](https://github.com/CAU-HAI-Lab/LIBERO-Para), and evaluates the official releases of [OpenPI](https://github.com/Physical-Intelligence/openpi), [UnifoLM-VLA](https://github.com/unitreerobotics/unifolm-vla), [Xiaomi-Robotics-0](https://github.com/XiaomiRobotics/Xiaomi-Robotics-0), [Isaac-GR00T](https://github.com/NVIDIA/Isaac-GR00T), FastWAM, [Cosmos Policy](https://github.com/nvidia-cosmos), and [OpenVLA](https://github.com/openvla/openvla). We thank the authors of these projects for their open-source contributions.
+This benchmark builds on LIBERO, LIBERO-Plus, and LIBERO-Para and evaluates the released OpenPI, UnifoLM-VLA-0, Xiaomi-Robotics-0, GR00T-N1.7, FastWAM, and Cosmos Policy systems.
 
 ## Contact
 
