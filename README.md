@@ -138,7 +138,6 @@ Where `±` is reported, it denotes the **population standard deviation across th
 These deviations describe run-to-run variation under a fixed evaluation configuration set; they are not confidence intervals over task configurations.
 
 ### Clean Capability — LIBERO
-
 | Model | Spatial | Object | Goal | Long | **Average** |
 | --- | ---: | ---: | ---: | ---: | ---: |
 | Xiaomi-Robotics-0 | 98.67 ± 0.09 | 100.00 ± 0.00 | 97.93 ± 0.94 | 95.80 ± 0.91 | **98.10 ± 0.43** |
@@ -146,7 +145,8 @@ These deviations describe run-to-run variation under a fixed evaluation configur
 | GR00T-N1.7 | 97.60 ± 1.50 | 99.30 ± 0.50 | 99.30 ± 0.50 | 95.30 ± 1.00 | **97.88 ± 0.65** |
 | Cosmos Policy | 96.40 ± 0.33 | 99.60 ± 0.33 | 97.93 ± 0.34 | 96.60 ± 0.28 | **97.63 ± 0.23** |
 | FastWAM | 97.07 ± 0.25 | 99.13 ± 0.09 | 96.47 ± 0.50 | 93.53 ± 0.41 | **96.55 ± 0.16** |
-| π<sub>0.5</sub> / OpenPI | 98.33 ± 0.09 | 98.67 ± 0.50 | 97.93 ± 0.09 | 91.40 ± 0.65 | **96.52 ± 0.22** |
+| π<sub>0.5</sub> / OpenPI | 98.33 ± 0.09 | 98.73 ± 0.52 | 97.60 ± 0.43 | 91.40 ± 0.65 | **96.52 ± 0.22** |
+<sub>6,000 episodes per model (50 trials/task × 3 seeds). Average is the unweighted mean of the four suite-level success rates.</sub>
 
 <sub>6,000 episodes per model (50 trials/task × 3 seeds). Average is the unweighted mean of the four suite-level success rates.</sub>
 
