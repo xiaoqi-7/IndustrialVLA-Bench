@@ -4,15 +4,6 @@
 <h3>A Traceable Multi-Axis Evaluation of Open Robot Policy Models</h3>
 
 <p>
-Yiqi Wang<sup>*</sup>, Zhifeng Rao<sup>*</sup>, Jiaqi Zhang, Xiaoyang Li, Zhangkai Wu,<br>
-Yiqun Duan, Mingkai Zheng, Fei Wang, Shan You, Taotao Cai
-</p>
-<p><sup>*</sup>Equal contribution.</p>
-
-<p>
-  <a href="https://arxiv.org/abs/2609.25562">
-    <img src="https://img.shields.io/badge/arXiv-2609.25562-B31B1B?logo=arxiv&logoColor=white" alt="arXiv:2609.25562">
-  </a>
   <img src="https://img.shields.io/badge/Topic-VLA%20%26%20WAM%20Evaluation-1f6f6f" alt="Topic">
   <img src="https://img.shields.io/badge/Suites-LIBERO%20%7C%20Plus%20%7C%20Para-2B6CB0" alt="Suites">
   <img src="https://img.shields.io/badge/Models-6%20Open%20Policies-27ae60" alt="Models">
@@ -27,7 +18,6 @@ Vision-Language-Action (VLA) and World-Action Models (WAMs).</i></p>
 
 ## News
 
-- **[2026-09]** Paper *"IndustrialVLA-Bench: A Traceable Multi-Axis Evaluation of Open Robot Policy Models"* ([arXiv:2609.25562](https://arxiv.org/abs/2609.25562)).
 - **[2026-07]** Reproducible experiment archive released: per-seed results, latency benchmarks, and standardized launch scripts for all six evaluated models.
 
 ## Contents
@@ -42,7 +32,6 @@ Vision-Language-Action (VLA) and World-Action Models (WAMs).</i></p>
 - [Getting Started](#getting-started)
 - [Repository Structure](#repository-structure)
 - [What Is Not Included](#what-is-not-included)
-- [Citation](#citation)
 - [Acknowledgements](#acknowledgements)
 - [Contact](#contact)
 
