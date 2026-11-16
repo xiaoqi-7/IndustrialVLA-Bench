@@ -1,0 +1,366 @@
+INFO:root:Task suite: libero_goal
+INFO:root:[Eval Split] rank=7, world_size=4, client=127.0.0.1:8012, task_ids=[7]
+INFO:root:Waiting for policy server at ws://127.0.0.1:8012 ...
+INFO:root:Policy server is reachable at ws://127.0.0.1:8012
+INFO:root:[Rank 7] Connecting to policy server 127.0.0.1:8012
+INFO:root:Waiting for server at ws://127.0.0.1:8012...
+[info] using task orders [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+rank7: tasks:   0%|          | 0/1 [00:00<?, ?it/s][Warning]: datasets path /mnt/afs/wuzhongbo/project_teamwork/RoboMemArena/evaluation_benchmark/libero_fork/libero/../datasets does not exist!
+[Warning]: datasets path /mnt/afs/wuzhongbo/project_teamwork/RoboMemArena/evaluation_benchmark/libero_fork/libero/../datasets does not exist!
+
+rank7: task7:   0%|          | 0/50 [00:00<?, ?it/s][AINFO:root:
+Task 7: turn on the stove
+INFO:root:Starting task=7 episode=1 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 1
+INFO:root:# successes on this rank: 1 (100.0%)
+
+rank7: task7:   2%|▏         | 1/50 [06:15<5:06:42, 375.56s/it][AINFO:root:
+Task 7: turn on the stove
+INFO:root:Starting task=7 episode=2 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 2
+INFO:root:# successes on this rank: 2 (100.0%)
+
+rank7: task7:   4%|▍         | 2/50 [11:07<4:21:15, 326.58s/it][AINFO:root:
+Task 7: turn on the stove
+INFO:root:Starting task=7 episode=3 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 3
+INFO:root:# successes on this rank: 3 (100.0%)
+
+rank7: task7:   6%|▌         | 3/50 [15:50<4:00:01, 306.42s/it][AINFO:root:
+Task 7: turn on the stove
+INFO:root:Starting task=7 episode=4 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 4
+INFO:root:# successes on this rank: 4 (100.0%)
+
+rank7: task7:   8%|▊         | 4/50 [20:48<3:52:18, 303.02s/it][AINFO:root:
+Task 7: turn on the stove
+INFO:root:Starting task=7 episode=5 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 5
+INFO:root:# successes on this rank: 5 (100.0%)
+
+rank7: task7:  10%|█         | 5/50 [26:16<3:54:06, 312.14s/it][AINFO:root:
+Task 7: turn on the stove
+INFO:root:Starting task=7 episode=6 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 6
+INFO:root:# successes on this rank: 6 (100.0%)
+
+rank7: task7:  12%|█▏        | 6/50 [32:42<4:07:25, 337.41s/it][AINFO:root:
+Task 7: turn on the stove
+INFO:root:Starting task=7 episode=7 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 7
+INFO:root:# successes on this rank: 7 (100.0%)
+
+rank7: task7:  14%|█▍        | 7/50 [38:06<3:58:39, 333.01s/it][AINFO:root:
+Task 7: turn on the stove
+INFO:root:Starting task=7 episode=8 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 8
+INFO:root:# successes on this rank: 8 (100.0%)
+
+rank7: task7:  16%|█▌        | 8/50 [43:31<3:51:10, 330.25s/it][AINFO:root:
+Task 7: turn on the stove
+INFO:root:Starting task=7 episode=9 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 9
+INFO:root:# successes on this rank: 9 (100.0%)
+
+rank7: task7:  18%|█▊        | 9/50 [48:51<3:43:30, 327.10s/it][AINFO:root:
+Task 7: turn on the stove
+INFO:root:Starting task=7 episode=10 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 10
+INFO:root:# successes on this rank: 10 (100.0%)
+
+rank7: task7:  20%|██        | 10/50 [54:01<3:34:37, 321.93s/it][AINFO:root:
+Task 7: turn on the stove
+INFO:root:Starting task=7 episode=11 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 11
+INFO:root:# successes on this rank: 11 (100.0%)
+
+rank7: task7:  22%|██▏       | 11/50 [59:50<3:34:36, 330.17s/it][AINFO:root:
+Task 7: turn on the stove
+INFO:root:Starting task=7 episode=12 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 12
+INFO:root:# successes on this rank: 12 (100.0%)
+
+rank7: task7:  24%|██▍       | 12/50 [1:06:29<3:42:22, 351.13s/it][AINFO:root:
+Task 7: turn on the stove
+INFO:root:Starting task=7 episode=13 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 13
+INFO:root:# successes on this rank: 13 (100.0%)
+
+rank7: task7:  26%|██▌       | 13/50 [1:11:57<3:32:10, 344.07s/it][AINFO:root:
+Task 7: turn on the stove
+INFO:root:Starting task=7 episode=14 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 14
+INFO:root:# successes on this rank: 14 (100.0%)
+
+rank7: task7:  28%|██▊       | 14/50 [1:16:54<3:17:55, 329.87s/it][AINFO:root:
+Task 7: turn on the stove
+INFO:root:Starting task=7 episode=15 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 15
+INFO:root:# successes on this rank: 15 (100.0%)
+
+rank7: task7:  30%|███       | 15/50 [1:21:20<3:01:16, 310.75s/it][AINFO:root:
+Task 7: turn on the stove
+INFO:root:Starting task=7 episode=16 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 16
+INFO:root:# successes on this rank: 16 (100.0%)
+
+rank7: task7:  32%|███▏      | 16/50 [1:25:53<2:49:38, 299.36s/it][AINFO:root:
+Task 7: turn on the stove
+INFO:root:Starting task=7 episode=17 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 17
+INFO:root:# successes on this rank: 17 (100.0%)
+
+rank7: task7:  34%|███▍      | 17/50 [1:30:23<2:39:47, 290.54s/it][AINFO:root:
+Task 7: turn on the stove
+INFO:root:Starting task=7 episode=18 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 18
+INFO:root:# successes on this rank: 18 (100.0%)
+
+rank7: task7:  36%|███▌      | 18/50 [1:34:40<2:29:26, 280.21s/it][AINFO:root:
+Task 7: turn on the stove
+INFO:root:Starting task=7 episode=19 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 19
+INFO:root:# successes on this rank: 19 (100.0%)
+
+rank7: task7:  38%|███▊      | 19/50 [1:39:29<2:26:09, 282.87s/it][AINFO:root:
+Task 7: turn on the stove
+INFO:root:Starting task=7 episode=20 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 20
+INFO:root:# successes on this rank: 20 (100.0%)
+
+rank7: task7:  40%|████      | 20/50 [1:44:00<2:19:47, 279.57s/it][AINFO:root:
+Task 7: turn on the stove
+INFO:root:Starting task=7 episode=21 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 21
+INFO:root:# successes on this rank: 21 (100.0%)
+
+rank7: task7:  42%|████▏     | 21/50 [1:48:01<2:09:27, 267.86s/it][AINFO:root:
+Task 7: turn on the stove
+INFO:root:Starting task=7 episode=22 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 22
+INFO:root:# successes on this rank: 22 (100.0%)
+
+rank7: task7:  44%|████▍     | 22/50 [1:52:15<2:03:02, 263.66s/it][AINFO:root:
+Task 7: turn on the stove
+INFO:root:Starting task=7 episode=23 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 23
+INFO:root:# successes on this rank: 23 (100.0%)
+
+rank7: task7:  46%|████▌     | 23/50 [1:56:29<1:57:24, 260.90s/it][AINFO:root:
+Task 7: turn on the stove
+INFO:root:Starting task=7 episode=24 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 24
+INFO:root:# successes on this rank: 24 (100.0%)
+
+rank7: task7:  48%|████▊     | 24/50 [2:00:45<1:52:22, 259.33s/it][AINFO:root:
+Task 7: turn on the stove
+INFO:root:Starting task=7 episode=25 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 25
+INFO:root:# successes on this rank: 25 (100.0%)
+
+rank7: task7:  50%|█████     | 25/50 [2:05:31<1:51:26, 267.45s/it][AINFO:root:
+Task 7: turn on the stove
+INFO:root:Starting task=7 episode=26 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 26
+INFO:root:# successes on this rank: 26 (100.0%)
+
+rank7: task7:  52%|█████▏    | 26/50 [2:10:05<1:47:41, 269.25s/it][AINFO:root:
+Task 7: turn on the stove
+INFO:root:Starting task=7 episode=27 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 27
+INFO:root:# successes on this rank: 27 (100.0%)
+
+rank7: task7:  54%|█████▍    | 27/50 [2:14:55<1:45:36, 275.52s/it][AINFO:root:
+Task 7: turn on the stove
+INFO:root:Starting task=7 episode=28 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 28
+INFO:root:# successes on this rank: 28 (100.0%)
+
+rank7: task7:  56%|█████▌    | 28/50 [2:19:24<1:40:18, 273.58s/it][AINFO:root:
+Task 7: turn on the stove
+INFO:root:Starting task=7 episode=29 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 29
+INFO:root:# successes on this rank: 29 (100.0%)
+
+rank7: task7:  58%|█████▊    | 29/50 [2:23:40<1:33:52, 268.21s/it][AINFO:root:
+Task 7: turn on the stove
+INFO:root:Starting task=7 episode=30 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 30
+INFO:root:# successes on this rank: 30 (100.0%)
+
+rank7: task7:  60%|██████    | 30/50 [2:28:13<1:29:54, 269.73s/it][AINFO:root:
+Task 7: turn on the stove
+INFO:root:Starting task=7 episode=31 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 31
+INFO:root:# successes on this rank: 31 (100.0%)
+
+rank7: task7:  62%|██████▏   | 31/50 [2:32:12<1:22:29, 260.50s/it][AINFO:root:
+Task 7: turn on the stove
+INFO:root:Starting task=7 episode=32 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 32
+INFO:root:# successes on this rank: 32 (100.0%)
+
+rank7: task7:  64%|██████▍   | 32/50 [2:36:46<1:19:20, 264.45s/it][AINFO:root:
+Task 7: turn on the stove
+INFO:root:Starting task=7 episode=33 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 33
+INFO:root:# successes on this rank: 33 (100.0%)
+
+rank7: task7:  66%|██████▌   | 33/50 [2:40:57<1:13:49, 260.58s/it][AINFO:root:
+Task 7: turn on the stove
+INFO:root:Starting task=7 episode=34 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 34
+INFO:root:# successes on this rank: 34 (100.0%)
+
+rank7: task7:  68%|██████▊   | 34/50 [2:44:51<1:07:21, 252.57s/it][AINFO:root:
+Task 7: turn on the stove
+INFO:root:Starting task=7 episode=35 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 35
+INFO:root:# successes on this rank: 35 (100.0%)
+
+rank7: task7:  70%|███████   | 35/50 [2:49:08<1:03:26, 253.75s/it][AINFO:root:
+Task 7: turn on the stove
+INFO:root:Starting task=7 episode=36 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 36
+INFO:root:# successes on this rank: 36 (100.0%)
+
+rank7: task7:  72%|███████▏  | 36/50 [2:53:43<1:00:42, 260.16s/it][AINFO:root:
+Task 7: turn on the stove
+INFO:root:Starting task=7 episode=37 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 37
+INFO:root:# successes on this rank: 37 (100.0%)
+
+rank7: task7:  74%|███████▍  | 37/50 [2:57:22<53:43, 247.93s/it]  [AINFO:root:
+Task 7: turn on the stove
+INFO:root:Starting task=7 episode=38 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 38
+INFO:root:# successes on this rank: 38 (100.0%)
+
+rank7: task7:  76%|███████▌  | 38/50 [3:01:18<48:51, 244.33s/it][AINFO:root:
+Task 7: turn on the stove
+INFO:root:Starting task=7 episode=39 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 39
+INFO:root:# successes on this rank: 39 (100.0%)
+
+rank7: task7:  78%|███████▊  | 39/50 [3:05:51<46:21, 252.82s/it][AINFO:root:
+Task 7: turn on the stove
+INFO:root:Starting task=7 episode=40 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 40
+INFO:root:# successes on this rank: 40 (100.0%)
+
+rank7: task7:  80%|████████  | 40/50 [3:10:00<41:56, 251.69s/it][AINFO:root:
+Task 7: turn on the stove
+INFO:root:Starting task=7 episode=41 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 41
+INFO:root:# successes on this rank: 41 (100.0%)
+
+rank7: task7:  82%|████████▏ | 41/50 [3:14:19<38:04, 253.87s/it][AINFO:root:
+Task 7: turn on the stove
+INFO:root:Starting task=7 episode=42 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 42
+INFO:root:# successes on this rank: 42 (100.0%)
+
+rank7: task7:  84%|████████▍ | 42/50 [3:19:10<35:20, 265.02s/it][AINFO:root:
+Task 7: turn on the stove
+INFO:root:Starting task=7 episode=43 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 43
+INFO:root:# successes on this rank: 43 (100.0%)
+
+rank7: task7:  86%|████████▌ | 43/50 [3:23:06<29:55, 256.49s/it][AINFO:root:
+Task 7: turn on the stove
+INFO:root:Starting task=7 episode=44 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 44
+INFO:root:# successes on this rank: 44 (100.0%)
+
+rank7: task7:  88%|████████▊ | 44/50 [3:27:05<25:06, 251.10s/it][AINFO:root:
+Task 7: turn on the stove
+INFO:root:Starting task=7 episode=45 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 45
+INFO:root:# successes on this rank: 45 (100.0%)
+
+rank7: task7:  90%|█████████ | 45/50 [3:31:08<20:43, 248.63s/it][AINFO:root:
+Task 7: turn on the stove
+INFO:root:Starting task=7 episode=46 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 46
+INFO:root:# successes on this rank: 46 (100.0%)
+
+rank7: task7:  92%|█████████▏| 46/50 [3:35:41<17:04, 256.07s/it][AINFO:root:
+Task 7: turn on the stove
+INFO:root:Starting task=7 episode=47 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 47
+INFO:root:# successes on this rank: 47 (100.0%)
+
+rank7: task7:  94%|█████████▍| 47/50 [3:40:15<13:04, 261.38s/it][AINFO:root:
+Task 7: turn on the stove
+INFO:root:Starting task=7 episode=48 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 48
+INFO:root:# successes on this rank: 48 (100.0%)
+
+rank7: task7:  96%|█████████▌| 48/50 [3:44:50<08:50, 265.36s/it][AINFO:root:
+Task 7: turn on the stove
+INFO:root:Starting task=7 episode=49 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 49
+INFO:root:# successes on this rank: 49 (100.0%)
+
+rank7: task7:  98%|█████████▊| 49/50 [3:49:16<04:25, 265.78s/it][AINFO:root:
+Task 7: turn on the stove
+INFO:root:Starting task=7 episode=50 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 50
+INFO:root:# successes on this rank: 50 (100.0%)
+
+rank7: task7: 100%|██████████| 50/50 [3:53:36<00:00, 263.88s/it][A
+                                                                [AINFO:root:Current task success rate on rank 7: 1.0
+INFO:root:Current rank success rate: 1.0
+rank7: tasks: 100%|██████████| 1/1 [3:53:42<00:00, 14022.69s/it]rank7: tasks: 100%|██████████| 1/1 [3:53:42<00:00, 14022.69s/it]
+INFO:root:Rank 7 total success rate: 1.0
+INFO:root:Rank 7 total episodes: 50

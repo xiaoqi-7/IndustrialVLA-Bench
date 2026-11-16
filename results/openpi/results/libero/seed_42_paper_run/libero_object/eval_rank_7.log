@@ -1,0 +1,366 @@
+INFO:root:Task suite: libero_object
+INFO:root:[Eval Split] rank=7, world_size=4, client=127.0.0.1:8012, task_ids=[7]
+INFO:root:Waiting for policy server at ws://127.0.0.1:8012 ...
+INFO:root:Policy server is reachable at ws://127.0.0.1:8012
+INFO:root:[Rank 7] Connecting to policy server 127.0.0.1:8012
+INFO:root:Waiting for server at ws://127.0.0.1:8012...
+[info] using task orders [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+rank7: tasks:   0%|          | 0/1 [00:00<?, ?it/s][Warning]: datasets path /mnt/afs/wuzhongbo/project_teamwork/RoboMemArena/evaluation_benchmark/libero_fork/libero/../datasets does not exist!
+[Warning]: datasets path /mnt/afs/wuzhongbo/project_teamwork/RoboMemArena/evaluation_benchmark/libero_fork/libero/../datasets does not exist!
+
+rank7: task7:   0%|          | 0/50 [00:00<?, ?it/s][AINFO:root:
+Task 7: pick up the milk and place it in the basket
+INFO:root:Starting task=7 episode=1 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 1
+INFO:root:# successes on this rank: 1 (100.0%)
+
+rank7: task7:   2%|▏         | 1/50 [06:02<4:56:00, 362.45s/it][AINFO:root:
+Task 7: pick up the milk and place it in the basket
+INFO:root:Starting task=7 episode=2 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 2
+INFO:root:# successes on this rank: 2 (100.0%)
+
+rank7: task7:   4%|▍         | 2/50 [20:46<8:55:36, 669.52s/it][AINFO:root:
+Task 7: pick up the milk and place it in the basket
+INFO:root:Starting task=7 episode=3 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 3
+INFO:root:# successes on this rank: 3 (100.0%)
+
+rank7: task7:   6%|▌         | 3/50 [28:29<7:30:33, 575.19s/it][AINFO:root:
+Task 7: pick up the milk and place it in the basket
+INFO:root:Starting task=7 episode=4 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 4
+INFO:root:# successes on this rank: 4 (100.0%)
+
+rank7: task7:   8%|▊         | 4/50 [38:49<7:34:19, 592.60s/it][AINFO:root:
+Task 7: pick up the milk and place it in the basket
+INFO:root:Starting task=7 episode=5 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 5
+INFO:root:# successes on this rank: 5 (100.0%)
+
+rank7: task7:  10%|█         | 5/50 [46:22<6:46:48, 542.42s/it][AINFO:root:
+Task 7: pick up the milk and place it in the basket
+INFO:root:Starting task=7 episode=6 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 6
+INFO:root:# successes on this rank: 6 (100.0%)
+
+rank7: task7:  12%|█▏        | 6/50 [53:09<6:04:04, 496.47s/it][AINFO:root:
+Task 7: pick up the milk and place it in the basket
+INFO:root:Starting task=7 episode=7 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 7
+INFO:root:# successes on this rank: 7 (100.0%)
+
+rank7: task7:  14%|█▍        | 7/50 [1:00:29<5:42:24, 477.78s/it][AINFO:root:
+Task 7: pick up the milk and place it in the basket
+INFO:root:Starting task=7 episode=8 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 8
+INFO:root:# successes on this rank: 8 (100.0%)
+
+rank7: task7:  16%|█▌        | 8/50 [1:07:32<5:22:25, 460.60s/it][AINFO:root:
+Task 7: pick up the milk and place it in the basket
+INFO:root:Starting task=7 episode=9 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 9
+INFO:root:# successes on this rank: 9 (100.0%)
+
+rank7: task7:  18%|█▊        | 9/50 [1:14:21<5:03:38, 444.36s/it][AINFO:root:
+Task 7: pick up the milk and place it in the basket
+INFO:root:Starting task=7 episode=10 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 10
+INFO:root:# successes on this rank: 10 (100.0%)
+
+rank7: task7:  20%|██        | 10/50 [1:22:10<5:01:17, 451.94s/it][AINFO:root:
+Task 7: pick up the milk and place it in the basket
+INFO:root:Starting task=7 episode=11 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 11
+INFO:root:# successes on this rank: 11 (100.0%)
+
+rank7: task7:  22%|██▏       | 11/50 [1:29:26<4:50:34, 447.04s/it][AINFO:root:
+Task 7: pick up the milk and place it in the basket
+INFO:root:Starting task=7 episode=12 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 12
+INFO:root:# successes on this rank: 12 (100.0%)
+
+rank7: task7:  24%|██▍       | 12/50 [1:36:54<4:43:18, 447.32s/it][AINFO:root:
+Task 7: pick up the milk and place it in the basket
+INFO:root:Starting task=7 episode=13 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 13
+INFO:root:# successes on this rank: 13 (100.0%)
+
+rank7: task7:  26%|██▌       | 13/50 [1:43:37<4:27:36, 433.95s/it][AINFO:root:
+Task 7: pick up the milk and place it in the basket
+INFO:root:Starting task=7 episode=14 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 14
+INFO:root:# successes on this rank: 14 (100.0%)
+
+rank7: task7:  28%|██▊       | 14/50 [1:51:44<4:29:54, 449.84s/it][AINFO:root:
+Task 7: pick up the milk and place it in the basket
+INFO:root:Starting task=7 episode=15 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 15
+INFO:root:# successes on this rank: 15 (100.0%)
+
+rank7: task7:  30%|███       | 15/50 [1:58:43<4:16:57, 440.51s/it][AINFO:root:
+Task 7: pick up the milk and place it in the basket
+INFO:root:Starting task=7 episode=16 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 16
+INFO:root:# successes on this rank: 16 (100.0%)
+
+rank7: task7:  32%|███▏      | 16/50 [2:05:45<4:06:32, 435.07s/it][AINFO:root:
+Task 7: pick up the milk and place it in the basket
+INFO:root:Starting task=7 episode=17 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 17
+INFO:root:# successes on this rank: 17 (100.0%)
+
+rank7: task7:  34%|███▍      | 17/50 [2:13:53<4:08:05, 451.08s/it][AINFO:root:
+Task 7: pick up the milk and place it in the basket
+INFO:root:Starting task=7 episode=18 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 18
+INFO:root:# successes on this rank: 18 (100.0%)
+
+rank7: task7:  36%|███▌      | 18/50 [2:21:37<4:02:36, 454.88s/it][AINFO:root:
+Task 7: pick up the milk and place it in the basket
+INFO:root:Starting task=7 episode=19 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 19
+INFO:root:# successes on this rank: 19 (100.0%)
+
+rank7: task7:  38%|███▊      | 19/50 [2:29:04<3:53:46, 452.46s/it][AINFO:root:
+Task 7: pick up the milk and place it in the basket
+INFO:root:Starting task=7 episode=20 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 20
+INFO:root:# successes on this rank: 20 (100.0%)
+
+rank7: task7:  40%|████      | 20/50 [2:37:23<3:53:12, 466.41s/it][AINFO:root:
+Task 7: pick up the milk and place it in the basket
+INFO:root:Starting task=7 episode=21 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 21
+INFO:root:# successes on this rank: 21 (100.0%)
+
+rank7: task7:  42%|████▏     | 21/50 [2:44:39<3:41:06, 457.47s/it][AINFO:root:
+Task 7: pick up the milk and place it in the basket
+INFO:root:Starting task=7 episode=22 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 22
+INFO:root:# successes on this rank: 22 (100.0%)
+
+rank7: task7:  44%|████▍     | 22/50 [2:51:56<3:30:30, 451.09s/it][AINFO:root:
+Task 7: pick up the milk and place it in the basket
+INFO:root:Starting task=7 episode=23 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 23
+INFO:root:# successes on this rank: 23 (100.0%)
+
+rank7: task7:  46%|████▌     | 23/50 [2:58:58<3:19:07, 442.50s/it][AINFO:root:
+Task 7: pick up the milk and place it in the basket
+INFO:root:Starting task=7 episode=24 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 24
+INFO:root:# successes on this rank: 24 (100.0%)
+
+rank7: task7:  48%|████▊     | 24/50 [3:05:51<3:07:57, 433.74s/it][AINFO:root:
+Task 7: pick up the milk and place it in the basket
+INFO:root:Starting task=7 episode=25 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 25
+INFO:root:# successes on this rank: 25 (100.0%)
+
+rank7: task7:  50%|█████     | 25/50 [3:13:01<3:00:14, 432.56s/it][AINFO:root:
+Task 7: pick up the milk and place it in the basket
+INFO:root:Starting task=7 episode=26 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 26
+INFO:root:# successes on this rank: 26 (100.0%)
+
+rank7: task7:  52%|█████▏    | 26/50 [3:19:54<2:50:39, 426.67s/it][AINFO:root:
+Task 7: pick up the milk and place it in the basket
+INFO:root:Starting task=7 episode=27 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 27
+INFO:root:# successes on this rank: 27 (100.0%)
+
+rank7: task7:  54%|█████▍    | 27/50 [3:26:50<2:42:20, 423.51s/it][AINFO:root:
+Task 7: pick up the milk and place it in the basket
+INFO:root:Starting task=7 episode=28 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 28
+INFO:root:# successes on this rank: 28 (100.0%)
+
+rank7: task7:  56%|█████▌    | 28/50 [3:33:16<2:31:09, 412.26s/it][AINFO:root:
+Task 7: pick up the milk and place it in the basket
+INFO:root:Starting task=7 episode=29 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 29
+INFO:root:# successes on this rank: 29 (100.0%)
+
+rank7: task7:  58%|█████▊    | 29/50 [3:41:33<2:33:10, 437.64s/it][AINFO:root:
+Task 7: pick up the milk and place it in the basket
+INFO:root:Starting task=7 episode=30 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 30
+INFO:root:# successes on this rank: 30 (100.0%)
+
+rank7: task7:  60%|██████    | 30/50 [3:48:14<2:22:12, 426.62s/it][AINFO:root:
+Task 7: pick up the milk and place it in the basket
+INFO:root:Starting task=7 episode=31 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 31
+INFO:root:# successes on this rank: 31 (100.0%)
+
+rank7: task7:  62%|██████▏   | 31/50 [3:55:23<2:15:20, 427.40s/it][AINFO:root:
+Task 7: pick up the milk and place it in the basket
+INFO:root:Starting task=7 episode=32 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 32
+INFO:root:# successes on this rank: 32 (100.0%)
+
+rank7: task7:  64%|██████▍   | 32/50 [4:02:04<2:05:47, 419.28s/it][AINFO:root:
+Task 7: pick up the milk and place it in the basket
+INFO:root:Starting task=7 episode=33 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 33
+INFO:root:# successes on this rank: 33 (100.0%)
+
+rank7: task7:  66%|██████▌   | 33/50 [4:08:59<1:58:28, 418.18s/it][AINFO:root:
+Task 7: pick up the milk and place it in the basket
+INFO:root:Starting task=7 episode=34 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 34
+INFO:root:# successes on this rank: 34 (100.0%)
+
+rank7: task7:  68%|██████▊   | 34/50 [4:16:10<1:52:29, 421.83s/it][AINFO:root:
+Task 7: pick up the milk and place it in the basket
+INFO:root:Starting task=7 episode=35 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 35
+INFO:root:# successes on this rank: 35 (100.0%)
+
+rank7: task7:  70%|███████   | 35/50 [4:23:06<1:45:03, 420.21s/it][AINFO:root:
+Task 7: pick up the milk and place it in the basket
+INFO:root:Starting task=7 episode=36 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 36
+INFO:root:# successes on this rank: 36 (100.0%)
+
+rank7: task7:  72%|███████▏  | 36/50 [4:30:35<1:40:03, 428.85s/it][AINFO:root:
+Task 7: pick up the milk and place it in the basket
+INFO:root:Starting task=7 episode=37 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 37
+INFO:root:# successes on this rank: 37 (100.0%)
+
+rank7: task7:  74%|███████▍  | 37/50 [4:37:08<1:30:35, 418.13s/it][AINFO:root:
+Task 7: pick up the milk and place it in the basket
+INFO:root:Starting task=7 episode=38 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 38
+INFO:root:# successes on this rank: 38 (100.0%)
+
+rank7: task7:  76%|███████▌  | 38/50 [4:44:08<1:23:44, 418.69s/it][AINFO:root:
+Task 7: pick up the milk and place it in the basket
+INFO:root:Starting task=7 episode=39 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 39
+INFO:root:# successes on this rank: 39 (100.0%)
+
+rank7: task7:  78%|███████▊  | 39/50 [4:51:02<1:16:28, 417.10s/it][AINFO:root:
+Task 7: pick up the milk and place it in the basket
+INFO:root:Starting task=7 episode=40 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 40
+INFO:root:# successes on this rank: 40 (100.0%)
+
+rank7: task7:  80%|████████  | 40/50 [4:57:57<1:09:25, 416.56s/it][AINFO:root:
+Task 7: pick up the milk and place it in the basket
+INFO:root:Starting task=7 episode=41 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 41
+INFO:root:# successes on this rank: 41 (100.0%)
+
+rank7: task7:  82%|████████▏ | 41/50 [5:04:54<1:02:32, 416.90s/it][AINFO:root:
+Task 7: pick up the milk and place it in the basket
+INFO:root:Starting task=7 episode=42 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 42
+INFO:root:# successes on this rank: 42 (100.0%)
+
+rank7: task7:  84%|████████▍ | 42/50 [5:12:54<58:05, 435.75s/it]  [AINFO:root:
+Task 7: pick up the milk and place it in the basket
+INFO:root:Starting task=7 episode=43 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 43
+INFO:root:# successes on this rank: 43 (100.0%)
+
+rank7: task7:  86%|████████▌ | 43/50 [5:20:39<51:51, 444.50s/it][AINFO:root:
+Task 7: pick up the milk and place it in the basket
+INFO:root:Starting task=7 episode=44 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 44
+INFO:root:# successes on this rank: 44 (100.0%)
+
+rank7: task7:  88%|████████▊ | 44/50 [5:27:39<43:42, 437.01s/it][AINFO:root:
+Task 7: pick up the milk and place it in the basket
+INFO:root:Starting task=7 episode=45 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 45
+INFO:root:# successes on this rank: 45 (100.0%)
+
+rank7: task7:  90%|█████████ | 45/50 [5:34:52<36:19, 435.94s/it][AINFO:root:
+Task 7: pick up the milk and place it in the basket
+INFO:root:Starting task=7 episode=46 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 46
+INFO:root:# successes on this rank: 46 (100.0%)
+
+rank7: task7:  92%|█████████▏| 46/50 [5:42:03<28:58, 434.54s/it][AINFO:root:
+Task 7: pick up the milk and place it in the basket
+INFO:root:Starting task=7 episode=47 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 47
+INFO:root:# successes on this rank: 47 (100.0%)
+
+rank7: task7:  94%|█████████▍| 47/50 [5:49:48<22:10, 443.65s/it][AINFO:root:
+Task 7: pick up the milk and place it in the basket
+INFO:root:Starting task=7 episode=48 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 48
+INFO:root:# successes on this rank: 48 (100.0%)
+
+rank7: task7:  96%|█████████▌| 48/50 [5:56:18<14:14, 427.49s/it][AINFO:root:
+Task 7: pick up the milk and place it in the basket
+INFO:root:Starting task=7 episode=49 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 49
+INFO:root:# successes on this rank: 49 (100.0%)
+
+rank7: task7:  98%|█████████▊| 49/50 [6:03:01<07:00, 420.14s/it][AINFO:root:
+Task 7: pick up the milk and place it in the basket
+INFO:root:Starting task=7 episode=50 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 50
+INFO:root:# successes on this rank: 50 (100.0%)
+
+rank7: task7: 100%|██████████| 50/50 [6:10:45<00:00, 433.42s/it][A
+                                                                [AINFO:root:Current task success rate on rank 7: 1.0
+INFO:root:Current rank success rate: 1.0
+rank7: tasks: 100%|██████████| 1/1 [6:10:49<00:00, 22249.24s/it]rank7: tasks: 100%|██████████| 1/1 [6:10:49<00:00, 22249.24s/it]
+INFO:root:Rank 7 total success rate: 1.0
+INFO:root:Rank 7 total episodes: 50
