@@ -13,11 +13,13 @@ The calculations below use the listed inputs and the population standard deviati
 | OpenPI            |   96.52 +/- 0.22 |  85.31 +/- 0.32 |  71.33 +/- 0.05 |
 | UnifoLM-VLA-0     |   97.92 +/- 0.06 |  78.78 +/- 0.30 |  82.24 +/- 0.48 |
 | Xiaomi-Robotics-0 |   98.10 +/- 0.43 |  73.91 +/- 0.13 |  75.72 +/- 0.16 |
-| GR00T-N1.7        |   97.88 +/- 0.65 |  75.12 +/- 0.28 |  74.26 +/- 1.52 |
+| GR00T-N1.7        |   96.50 (1 run)  |  75.12 +/- 0.28 |  74.26 +/- 1.52 |
 | FastWAM           |   96.55 +/- 0.16 |  70.69 +/- 0.52 |  51.16 +/- 0.38 |
 | Cosmos Policy     |   97.63 +/- 0.23 |  80.47 +/- 0.23 |  70.50 +/- 0.26 |
 +-------------------+------------------+-----------------+-----------------+
 ```
+
+GR00T-N1.7 clean LIBERO is a single run of about 150 episodes on the first task of each suite (92.00 / 99.34 / 99.33 / 95.33; see `results/Isaac-GR00T/results/libero/three_seed_average.md`), so no standard deviation is computed.
 
 ## 2. Formulas and calculation order
 
