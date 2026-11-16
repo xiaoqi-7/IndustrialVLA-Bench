@@ -145,9 +145,9 @@ These deviations describe run-to-run variation under a fixed evaluation configur
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
 | π<sub>0.5</sub> / OpenPI | 70.63 | 75.12 | 85.97 | 96.76 | 95.82 | 87.05 | 86.47 | **85.31 ± 0.32** | 11.21 |
 | Cosmos Policy | 72.65 | 52.56 | 89.07 | 98.48 | 84.94 | 90.21 | 84.00 | **80.47 ± 0.23** | 17.16 |
-| UnifoLM-VLA-0 | 57.03 | 68.37 | 91.09 | 93.70 | 95.14 | 79.26 | 79.19 | **78.78 ± 0.30** | 19.14 |
+| UnifoLM-VLA-0 | 57.03 | 68.37 | 91.08 | 93.70 | 95.14 | 79.25 | 79.19 | **78.78 ± 0.30** | 19.14 |
 | GR00T-N1.7 | 64.40 | 38.40 | 83.88 | 94.87 | 93.72 | 84.36 | 74.94 | **75.12 ± 0.28** | 22.76 |
-| Xiaomi-Robotics-0 | 40.22 | 55.63 | 89.02 | 94.51 | 90.43 | 86.78 | 75.87 | **73.91 ± 0.13** | 24.19 |
+| Xiaomi-Robotics-0 | 40.21 | 55.63 | 89.03 | 94.51 | 90.43 | 86.78 | 75.87 | **73.91 ± 0.13** | 24.19 |
 | FastWAM | 44.65 | 72.04 | 66.99 | 94.22 | 66.57 | 67.17 | 79.45 | **70.69 ± 0.52** | 25.86 |
 
 <sub>Robust Avg. is the unweighted mean over the six non-linguistic perturbation dimensions. The LIBERO-Plus language condition is shown separately and excluded from Robust Avg.</sub>
@@ -157,7 +157,7 @@ These deviations describe run-to-run variation under a fixed evaluation configur
 | Model | Para success (%) | Clean-to-Para drop (pp) |
 | --- | ---: | ---: |
 | UnifoLM-VLA-0 | **82.24 ± 0.48** | 15.67 ± 0.53 |
-| Xiaomi-Robotics-0 | **75.73 ± 0.16** | 22.37 ± 0.48 |
+| Xiaomi-Robotics-0 | **75.72 ± 0.16** | 22.38 ± 0.48 |
 | GR00T-N1.7 | **74.26 ± 1.52** | 23.62 ± 1.52 |
 | π<sub>0.5</sub> / OpenPI | **71.33 ± 0.05** | **25.19 ± 0.18** |
 | Cosmos Policy | **70.50 ± 0.26** | 27.13 ± 0.18 |
