@@ -40,11 +40,7 @@ Vision-Language-Action (VLA) and World-Action Models (WAMs).</i></p>
 - [Results](#results)
 - [Deployability and Hardware](#deployability-and-hardware)
 - [Getting Started](#getting-started)
-- [Repository Structure](#repository-structure)
-- [What Is Not Included](#what-is-not-included)
 - [Citation](#citation)
-- [Acknowledgements](#acknowledgements)
-- [Contact](#contact)
 
 ## Overview
 
@@ -228,3 +224,10 @@ This repository is a **reproducible experiment archive**.
 bash envs/libero/install.sh
 bash envs/libero-plus/install.sh
 bash envs/libero-para/install.sh
+```
+
+LIBERO-Plus task assets are not stored in this repository. Download `assets.zip` from <https://huggingface.co/datasets/Sylvest/LIBERO-plus/tree/main> and restore them with `ARCHIVE=/path/to/assets.zip bash LIBERO-plus/prepare_assets.sh` (see `LIBERO-plus/PREPARE_ASSETS.md`).
+
+### 2. Reproduce the reported numbers
+
+Per-model results, per-seed records, and three-seed summaries are under `results/<model>/`. The aggregation formulas and every reported mean and standard deviation are worked out in `results/Mean_and_Standard_Deviation_Calculations.md`.
