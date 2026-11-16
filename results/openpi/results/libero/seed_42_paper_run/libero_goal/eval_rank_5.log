@@ -1,0 +1,728 @@
+INFO:root:Task suite: libero_goal
+INFO:root:[Eval Split] rank=5, world_size=4, client=127.0.0.1:8010, task_ids=[5, 9]
+INFO:root:Waiting for policy server at ws://127.0.0.1:8010 ...
+INFO:root:Policy server is reachable at ws://127.0.0.1:8010
+INFO:root:[Rank 5] Connecting to policy server 127.0.0.1:8010
+INFO:root:Waiting for server at ws://127.0.0.1:8010...
+[info] using task orders [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+rank5: tasks:   0%|          | 0/2 [00:00<?, ?it/s][Warning]: datasets path /mnt/afs/wuzhongbo/project_teamwork/RoboMemArena/evaluation_benchmark/libero_fork/libero/../datasets does not exist!
+[Warning]: datasets path /mnt/afs/wuzhongbo/project_teamwork/RoboMemArena/evaluation_benchmark/libero_fork/libero/../datasets does not exist!
+
+rank5: task5:   0%|          | 0/50 [00:00<?, ?it/s][AINFO:root:
+Task 5: push the plate to the front of the stove
+INFO:root:Starting task=5 episode=1 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 1
+INFO:root:# successes on this rank: 1 (100.0%)
+
+rank5: task5:   2%|▏         | 1/50 [08:11<6:41:32, 491.69s/it][AINFO:root:
+Task 5: push the plate to the front of the stove
+INFO:root:Starting task=5 episode=2 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 2
+INFO:root:# successes on this rank: 2 (100.0%)
+
+rank5: task5:   4%|▍         | 2/50 [16:24<6:33:52, 492.34s/it][AINFO:root:
+Task 5: push the plate to the front of the stove
+INFO:root:Starting task=5 episode=3 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 3
+INFO:root:# successes on this rank: 3 (100.0%)
+
+rank5: task5:   6%|▌         | 3/50 [24:14<6:17:45, 482.24s/it][AINFO:root:
+Task 5: push the plate to the front of the stove
+INFO:root:Starting task=5 episode=4 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 4
+INFO:root:# successes on this rank: 4 (100.0%)
+
+rank5: task5:   8%|▊         | 4/50 [33:12<6:26:32, 504.18s/it][AINFO:root:
+Task 5: push the plate to the front of the stove
+INFO:root:Starting task=5 episode=5 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 5
+INFO:root:# successes on this rank: 5 (100.0%)
+
+rank5: task5:  10%|█         | 5/50 [49:20<8:23:38, 671.52s/it][AINFO:root:
+Task 5: push the plate to the front of the stove
+INFO:root:Starting task=5 episode=6 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 6
+INFO:root:# successes on this rank: 6 (100.0%)
+
+rank5: task5:  12%|█▏        | 6/50 [59:06<7:50:58, 642.24s/it][AINFO:root:
+Task 5: push the plate to the front of the stove
+INFO:root:Starting task=5 episode=7 ...
+WARNING:root:[Rank 5] client.infer failed, retry=0/2: ConnectionClosedError(None, Close(code=<CloseCode.INTERNAL_ERROR: 1011>, reason='keepalive ping timeout'), None)
+INFO:root:[Rank 5] Connecting to policy server 127.0.0.1:8010
+INFO:root:Waiting for server at ws://127.0.0.1:8010...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 7
+INFO:root:# successes on this rank: 7 (100.0%)
+
+rank5: task5:  14%|█▍        | 7/50 [1:09:30<7:36:04, 636.38s/it][AINFO:root:
+Task 5: push the plate to the front of the stove
+INFO:root:Starting task=5 episode=8 ...
+WARNING:root:[Rank 5] client.infer failed, retry=0/2: ConnectionClosedError(None, Close(code=<CloseCode.INTERNAL_ERROR: 1011>, reason='keepalive ping timeout'), None)
+INFO:root:[Rank 5] Connecting to policy server 127.0.0.1:8010
+INFO:root:Waiting for server at ws://127.0.0.1:8010...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 8
+INFO:root:# successes on this rank: 8 (100.0%)
+
+rank5: task5:  16%|█▌        | 8/50 [1:17:34<6:51:25, 587.75s/it][AINFO:root:
+Task 5: push the plate to the front of the stove
+INFO:root:Starting task=5 episode=9 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 9
+INFO:root:# successes on this rank: 9 (100.0%)
+
+rank5: task5:  18%|█▊        | 9/50 [1:25:27<6:17:11, 551.99s/it][AINFO:root:
+Task 5: push the plate to the front of the stove
+INFO:root:Starting task=5 episode=10 ...
+INFO:root:Success: False
+INFO:root:# episodes completed on this rank so far: 10
+INFO:root:# successes on this rank: 9 (90.0%)
+
+rank5: task5:  20%|██        | 10/50 [1:42:10<7:40:52, 691.31s/it][AINFO:root:
+Task 5: push the plate to the front of the stove
+INFO:root:Starting task=5 episode=11 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 11
+INFO:root:# successes on this rank: 10 (90.9%)
+
+rank5: task5:  22%|██▏       | 11/50 [1:49:57<6:44:37, 622.50s/it][AINFO:root:
+Task 5: push the plate to the front of the stove
+INFO:root:Starting task=5 episode=12 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 12
+INFO:root:# successes on this rank: 11 (91.7%)
+
+rank5: task5:  24%|██▍       | 12/50 [1:57:31<6:01:51, 571.35s/it][AINFO:root:
+Task 5: push the plate to the front of the stove
+INFO:root:Starting task=5 episode=13 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 13
+INFO:root:# successes on this rank: 12 (92.3%)
+
+rank5: task5:  26%|██▌       | 13/50 [2:05:23<5:33:41, 541.13s/it][AINFO:root:
+Task 5: push the plate to the front of the stove
+INFO:root:Starting task=5 episode=14 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 14
+INFO:root:# successes on this rank: 13 (92.9%)
+
+rank5: task5:  28%|██▊       | 14/50 [2:15:12<5:33:19, 555.55s/it][AINFO:root:
+Task 5: push the plate to the front of the stove
+INFO:root:Starting task=5 episode=15 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 15
+INFO:root:# successes on this rank: 14 (93.3%)
+
+rank5: task5:  30%|███       | 15/50 [2:25:47<5:38:09, 579.71s/it][AINFO:root:
+Task 5: push the plate to the front of the stove
+INFO:root:Starting task=5 episode=16 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 16
+INFO:root:# successes on this rank: 15 (93.8%)
+
+rank5: task5:  32%|███▏      | 16/50 [2:33:04<5:04:03, 536.58s/it][AINFO:root:
+Task 5: push the plate to the front of the stove
+INFO:root:Starting task=5 episode=17 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 17
+INFO:root:# successes on this rank: 16 (94.1%)
+
+rank5: task5:  34%|███▍      | 17/50 [2:40:05<4:36:08, 502.08s/it][AINFO:root:
+Task 5: push the plate to the front of the stove
+INFO:root:Starting task=5 episode=18 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 18
+INFO:root:# successes on this rank: 17 (94.4%)
+
+rank5: task5:  36%|███▌      | 18/50 [2:47:14<4:16:03, 480.10s/it][AINFO:root:
+Task 5: push the plate to the front of the stove
+INFO:root:Starting task=5 episode=19 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 19
+INFO:root:# successes on this rank: 18 (94.7%)
+
+rank5: task5:  38%|███▊      | 19/50 [2:54:17<3:59:04, 462.74s/it][AINFO:root:
+Task 5: push the plate to the front of the stove
+INFO:root:Starting task=5 episode=20 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 20
+INFO:root:# successes on this rank: 19 (95.0%)
+
+rank5: task5:  40%|████      | 20/50 [3:01:02<3:42:44, 445.50s/it][AINFO:root:
+Task 5: push the plate to the front of the stove
+INFO:root:Starting task=5 episode=21 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 21
+INFO:root:# successes on this rank: 20 (95.2%)
+
+rank5: task5:  42%|████▏     | 21/50 [3:07:47<3:29:30, 433.48s/it][AINFO:root:
+Task 5: push the plate to the front of the stove
+INFO:root:Starting task=5 episode=22 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 22
+INFO:root:# successes on this rank: 21 (95.5%)
+
+rank5: task5:  44%|████▍     | 22/50 [3:14:36<3:18:45, 425.92s/it][AINFO:root:
+Task 5: push the plate to the front of the stove
+INFO:root:Starting task=5 episode=23 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 23
+INFO:root:# successes on this rank: 22 (95.7%)
+
+rank5: task5:  46%|████▌     | 23/50 [3:22:16<3:16:18, 436.23s/it][AINFO:root:
+Task 5: push the plate to the front of the stove
+INFO:root:Starting task=5 episode=24 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 24
+INFO:root:# successes on this rank: 23 (95.8%)
+
+rank5: task5:  48%|████▊     | 24/50 [3:31:10<3:21:42, 465.47s/it][AINFO:root:
+Task 5: push the plate to the front of the stove
+INFO:root:Starting task=5 episode=25 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 25
+INFO:root:# successes on this rank: 24 (96.0%)
+
+rank5: task5:  50%|█████     | 25/50 [3:38:25<3:10:08, 456.33s/it][AINFO:root:
+Task 5: push the plate to the front of the stove
+INFO:root:Starting task=5 episode=26 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 26
+INFO:root:# successes on this rank: 25 (96.2%)
+
+rank5: task5:  52%|█████▏    | 26/50 [3:45:43<3:00:23, 451.00s/it][AINFO:root:
+Task 5: push the plate to the front of the stove
+INFO:root:Starting task=5 episode=27 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 27
+INFO:root:# successes on this rank: 26 (96.3%)
+
+rank5: task5:  54%|█████▍    | 27/50 [3:52:12<2:45:46, 432.45s/it][AINFO:root:
+Task 5: push the plate to the front of the stove
+INFO:root:Starting task=5 episode=28 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 28
+INFO:root:# successes on this rank: 27 (96.4%)
+
+rank5: task5:  56%|█████▌    | 28/50 [4:01:40<2:53:25, 472.99s/it][AINFO:root:
+Task 5: push the plate to the front of the stove
+INFO:root:Starting task=5 episode=29 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 29
+INFO:root:# successes on this rank: 28 (96.6%)
+
+rank5: task5:  58%|█████▊    | 29/50 [4:07:40<2:33:43, 439.22s/it][AINFO:root:
+Task 5: push the plate to the front of the stove
+INFO:root:Starting task=5 episode=30 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 30
+INFO:root:# successes on this rank: 29 (96.7%)
+
+rank5: task5:  60%|██████    | 30/50 [4:14:24<2:22:52, 428.62s/it][AINFO:root:
+Task 5: push the plate to the front of the stove
+INFO:root:Starting task=5 episode=31 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 31
+INFO:root:# successes on this rank: 30 (96.8%)
+
+rank5: task5:  62%|██████▏   | 31/50 [4:20:54<2:12:02, 417.00s/it][AINFO:root:
+Task 5: push the plate to the front of the stove
+INFO:root:Starting task=5 episode=32 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 32
+INFO:root:# successes on this rank: 31 (96.9%)
+
+rank5: task5:  64%|██████▍   | 32/50 [4:27:54<2:05:19, 417.75s/it][AINFO:root:
+Task 5: push the plate to the front of the stove
+INFO:root:Starting task=5 episode=33 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 33
+INFO:root:# successes on this rank: 32 (97.0%)
+
+rank5: task5:  66%|██████▌   | 33/50 [4:34:51<1:58:17, 417.48s/it][AINFO:root:
+Task 5: push the plate to the front of the stove
+INFO:root:Starting task=5 episode=34 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 34
+INFO:root:# successes on this rank: 33 (97.1%)
+
+rank5: task5:  68%|██████▊   | 34/50 [4:41:34<1:50:13, 413.34s/it][AINFO:root:
+Task 5: push the plate to the front of the stove
+INFO:root:Starting task=5 episode=35 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 35
+INFO:root:# successes on this rank: 34 (97.1%)
+
+rank5: task5:  70%|███████   | 35/50 [4:48:20<1:42:43, 410.91s/it][AINFO:root:
+Task 5: push the plate to the front of the stove
+INFO:root:Starting task=5 episode=36 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 36
+INFO:root:# successes on this rank: 35 (97.2%)
+
+rank5: task5:  72%|███████▏  | 36/50 [4:54:45<1:34:07, 403.37s/it][AINFO:root:
+Task 5: push the plate to the front of the stove
+INFO:root:Starting task=5 episode=37 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 37
+INFO:root:# successes on this rank: 36 (97.3%)
+
+rank5: task5:  74%|███████▍  | 37/50 [5:04:34<1:39:25, 458.92s/it][AINFO:root:
+Task 5: push the plate to the front of the stove
+INFO:root:Starting task=5 episode=38 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 38
+INFO:root:# successes on this rank: 37 (97.4%)
+
+rank5: task5:  76%|███████▌  | 38/50 [5:10:42<1:26:19, 431.66s/it][AINFO:root:
+Task 5: push the plate to the front of the stove
+INFO:root:Starting task=5 episode=39 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 39
+INFO:root:# successes on this rank: 38 (97.4%)
+
+rank5: task5:  78%|███████▊  | 39/50 [5:16:59<1:16:08, 415.32s/it][AINFO:root:
+Task 5: push the plate to the front of the stove
+INFO:root:Starting task=5 episode=40 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 40
+INFO:root:# successes on this rank: 39 (97.5%)
+
+rank5: task5:  80%|████████  | 40/50 [5:22:36<1:05:17, 391.78s/it][AINFO:root:
+Task 5: push the plate to the front of the stove
+INFO:root:Starting task=5 episode=41 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 41
+INFO:root:# successes on this rank: 40 (97.6%)
+
+rank5: task5:  82%|████████▏ | 41/50 [5:28:28<56:59, 379.93s/it]  [AINFO:root:
+Task 5: push the plate to the front of the stove
+INFO:root:Starting task=5 episode=42 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 42
+INFO:root:# successes on this rank: 41 (97.6%)
+
+rank5: task5:  84%|████████▍ | 42/50 [5:34:36<50:10, 376.33s/it][AINFO:root:
+Task 5: push the plate to the front of the stove
+INFO:root:Starting task=5 episode=43 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 43
+INFO:root:# successes on this rank: 42 (97.7%)
+
+rank5: task5:  86%|████████▌ | 43/50 [5:42:04<46:25, 397.89s/it][AINFO:root:
+Task 5: push the plate to the front of the stove
+INFO:root:Starting task=5 episode=44 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 44
+INFO:root:# successes on this rank: 43 (97.7%)
+
+rank5: task5:  88%|████████▊ | 44/50 [5:48:51<40:02, 400.44s/it][AINFO:root:
+Task 5: push the plate to the front of the stove
+INFO:root:Starting task=5 episode=45 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 45
+INFO:root:# successes on this rank: 44 (97.8%)
+
+rank5: task5:  90%|█████████ | 45/50 [5:55:23<33:09, 397.91s/it][AINFO:root:
+Task 5: push the plate to the front of the stove
+INFO:root:Starting task=5 episode=46 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 46
+INFO:root:# successes on this rank: 45 (97.8%)
+
+rank5: task5:  92%|█████████▏| 46/50 [6:01:39<26:06, 391.53s/it][AINFO:root:
+Task 5: push the plate to the front of the stove
+INFO:root:Starting task=5 episode=47 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 47
+INFO:root:# successes on this rank: 46 (97.9%)
+
+rank5: task5:  94%|█████████▍| 47/50 [6:07:43<19:09, 383.14s/it][AINFO:root:
+Task 5: push the plate to the front of the stove
+INFO:root:Starting task=5 episode=48 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 48
+INFO:root:# successes on this rank: 47 (97.9%)
+
+rank5: task5:  96%|█████████▌| 48/50 [6:13:53<12:38, 379.25s/it][AINFO:root:
+Task 5: push the plate to the front of the stove
+INFO:root:Starting task=5 episode=49 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 49
+INFO:root:# successes on this rank: 48 (98.0%)
+
+rank5: task5:  98%|█████████▊| 49/50 [6:19:54<06:13, 373.67s/it][AINFO:root:
+Task 5: push the plate to the front of the stove
+INFO:root:Starting task=5 episode=50 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 50
+INFO:root:# successes on this rank: 49 (98.0%)
+
+rank5: task5: 100%|██████████| 50/50 [6:25:38<00:00, 364.88s/it][A
+                                                                [AINFO:root:Current task success rate on rank 5: 0.98
+INFO:root:Current rank success rate: 0.98
+rank5: tasks:  50%|█████     | 1/2 [6:25:45<6:25:45, 23145.13s/it][Warning]: datasets path /mnt/afs/wuzhongbo/project_teamwork/RoboMemArena/evaluation_benchmark/libero_fork/libero/../datasets does not exist!
+[Warning]: datasets path /mnt/afs/wuzhongbo/project_teamwork/RoboMemArena/evaluation_benchmark/libero_fork/libero/../datasets does not exist!
+
+rank5: task9:   0%|          | 0/50 [00:00<?, ?it/s][AINFO:root:
+Task 9: put the wine bottle on the rack
+INFO:root:Starting task=9 episode=1 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 51
+INFO:root:# successes on this rank: 50 (98.0%)
+
+rank5: task9:   2%|▏         | 1/50 [06:16<5:07:05, 376.02s/it][AINFO:root:
+Task 9: put the wine bottle on the rack
+INFO:root:Starting task=9 episode=2 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 52
+INFO:root:# successes on this rank: 51 (98.1%)
+
+rank5: task9:   4%|▍         | 2/50 [12:59<5:13:33, 391.95s/it][AINFO:root:
+Task 9: put the wine bottle on the rack
+INFO:root:Starting task=9 episode=3 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 53
+INFO:root:# successes on this rank: 52 (98.1%)
+
+rank5: task9:   6%|▌         | 3/50 [20:15<5:22:46, 412.04s/it][AINFO:root:
+Task 9: put the wine bottle on the rack
+INFO:root:Starting task=9 episode=4 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 54
+INFO:root:# successes on this rank: 53 (98.1%)
+
+rank5: task9:   8%|▊         | 4/50 [26:18<5:01:11, 392.85s/it][AINFO:root:
+Task 9: put the wine bottle on the rack
+INFO:root:Starting task=9 episode=5 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 55
+INFO:root:# successes on this rank: 54 (98.2%)
+
+rank5: task9:  10%|█         | 5/50 [33:14<5:01:00, 401.35s/it][AINFO:root:
+Task 9: put the wine bottle on the rack
+INFO:root:Starting task=9 episode=6 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 56
+INFO:root:# successes on this rank: 55 (98.2%)
+
+rank5: task9:  12%|█▏        | 6/50 [42:06<5:26:50, 445.69s/it][AINFO:root:
+Task 9: put the wine bottle on the rack
+INFO:root:Starting task=9 episode=7 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 57
+INFO:root:# successes on this rank: 56 (98.2%)
+
+rank5: task9:  14%|█▍        | 7/50 [48:14<5:01:14, 420.33s/it][AINFO:root:
+Task 9: put the wine bottle on the rack
+INFO:root:Starting task=9 episode=8 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 58
+INFO:root:# successes on this rank: 57 (98.3%)
+
+rank5: task9:  16%|█▌        | 8/50 [54:39<4:46:16, 408.97s/it][AINFO:root:
+Task 9: put the wine bottle on the rack
+INFO:root:Starting task=9 episode=9 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 59
+INFO:root:# successes on this rank: 58 (98.3%)
+
+rank5: task9:  18%|█▊        | 9/50 [1:01:15<4:36:43, 404.97s/it][AINFO:root:
+Task 9: put the wine bottle on the rack
+INFO:root:Starting task=9 episode=10 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 60
+INFO:root:# successes on this rank: 59 (98.3%)
+
+rank5: task9:  20%|██        | 10/50 [1:07:44<4:26:35, 399.88s/it][AINFO:root:
+Task 9: put the wine bottle on the rack
+INFO:root:Starting task=9 episode=11 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 61
+INFO:root:# successes on this rank: 60 (98.4%)
+
+rank5: task9:  22%|██▏       | 11/50 [1:14:10<4:17:14, 395.75s/it][AINFO:root:
+Task 9: put the wine bottle on the rack
+INFO:root:Starting task=9 episode=12 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 62
+INFO:root:# successes on this rank: 61 (98.4%)
+
+rank5: task9:  24%|██▍       | 12/50 [1:21:02<4:13:51, 400.82s/it][AINFO:root:
+Task 9: put the wine bottle on the rack
+INFO:root:Starting task=9 episode=13 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 63
+INFO:root:# successes on this rank: 62 (98.4%)
+
+rank5: task9:  26%|██▌       | 13/50 [1:27:56<4:09:29, 404.57s/it][AINFO:root:
+Task 9: put the wine bottle on the rack
+INFO:root:Starting task=9 episode=14 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 64
+INFO:root:# successes on this rank: 63 (98.4%)
+
+rank5: task9:  28%|██▊       | 14/50 [1:36:08<4:18:38, 431.07s/it][AINFO:root:
+Task 9: put the wine bottle on the rack
+INFO:root:Starting task=9 episode=15 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 65
+INFO:root:# successes on this rank: 64 (98.5%)
+
+rank5: task9:  30%|███       | 15/50 [1:41:45<3:54:57, 402.77s/it][AINFO:root:
+Task 9: put the wine bottle on the rack
+INFO:root:Starting task=9 episode=16 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 66
+INFO:root:# successes on this rank: 65 (98.5%)
+
+rank5: task9:  32%|███▏      | 16/50 [1:46:41<3:30:02, 370.65s/it][AINFO:root:
+Task 9: put the wine bottle on the rack
+INFO:root:Starting task=9 episode=17 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 67
+INFO:root:# successes on this rank: 66 (98.5%)
+
+rank5: task9:  34%|███▍      | 17/50 [1:51:50<3:13:39, 352.10s/it][AINFO:root:
+Task 9: put the wine bottle on the rack
+INFO:root:Starting task=9 episode=18 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 68
+INFO:root:# successes on this rank: 67 (98.5%)
+
+rank5: task9:  36%|███▌      | 18/50 [1:58:38<3:16:41, 368.81s/it][AINFO:root:
+Task 9: put the wine bottle on the rack
+INFO:root:Starting task=9 episode=19 ...
+INFO:root:Success: False
+INFO:root:# episodes completed on this rank so far: 69
+INFO:root:# successes on this rank: 67 (97.1%)
+
+rank5: task9:  38%|███▊      | 19/50 [2:10:57<4:08:00, 480.02s/it][AINFO:root:
+Task 9: put the wine bottle on the rack
+INFO:root:Starting task=9 episode=20 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 70
+INFO:root:# successes on this rank: 68 (97.1%)
+
+rank5: task9:  40%|████      | 20/50 [2:17:32<3:47:12, 454.43s/it][AINFO:root:
+Task 9: put the wine bottle on the rack
+INFO:root:Starting task=9 episode=21 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 71
+INFO:root:# successes on this rank: 69 (97.2%)
+
+rank5: task9:  42%|████▏     | 21/50 [2:23:08<3:22:26, 418.85s/it][AINFO:root:
+Task 9: put the wine bottle on the rack
+INFO:root:Starting task=9 episode=22 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 72
+INFO:root:# successes on this rank: 70 (97.2%)
+
+rank5: task9:  44%|████▍     | 22/50 [2:31:14<3:24:57, 439.21s/it][AINFO:root:
+Task 9: put the wine bottle on the rack
+INFO:root:Starting task=9 episode=23 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 73
+INFO:root:# successes on this rank: 71 (97.3%)
+
+rank5: task9:  46%|████▌     | 23/50 [2:38:11<3:14:39, 432.57s/it][AINFO:root:
+Task 9: put the wine bottle on the rack
+INFO:root:Starting task=9 episode=24 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 74
+INFO:root:# successes on this rank: 72 (97.3%)
+
+rank5: task9:  48%|████▊     | 24/50 [2:45:29<3:08:03, 433.98s/it][AINFO:root:
+Task 9: put the wine bottle on the rack
+INFO:root:Starting task=9 episode=25 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 75
+INFO:root:# successes on this rank: 73 (97.3%)
+
+rank5: task9:  50%|█████     | 25/50 [2:53:16<3:04:58, 443.93s/it][AINFO:root:
+Task 9: put the wine bottle on the rack
+INFO:root:Starting task=9 episode=26 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 76
+INFO:root:# successes on this rank: 74 (97.4%)
+
+rank5: task9:  52%|█████▏    | 26/50 [3:01:02<3:00:13, 450.55s/it][AINFO:root:
+Task 9: put the wine bottle on the rack
+INFO:root:Starting task=9 episode=27 ...
+INFO:root:Success: False
+INFO:root:# episodes completed on this rank so far: 77
+INFO:root:# successes on this rank: 74 (96.1%)
+
+rank5: task9:  54%|█████▍    | 27/50 [3:14:09<3:31:24, 551.48s/it][AINFO:root:
+Task 9: put the wine bottle on the rack
+INFO:root:Starting task=9 episode=28 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 78
+INFO:root:# successes on this rank: 75 (96.2%)
+
+rank5: task9:  56%|█████▌    | 28/50 [3:19:18<2:55:35, 478.87s/it][AINFO:root:
+Task 9: put the wine bottle on the rack
+INFO:root:Starting task=9 episode=29 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 79
+INFO:root:# successes on this rank: 76 (96.2%)
+
+rank5: task9:  58%|█████▊    | 29/50 [3:26:27<2:42:20, 463.84s/it][AINFO:root:
+Task 9: put the wine bottle on the rack
+INFO:root:Starting task=9 episode=30 ...
+INFO:root:Success: False
+INFO:root:# episodes completed on this rank so far: 80
+INFO:root:# successes on this rank: 76 (95.0%)
+
+rank5: task9:  60%|██████    | 30/50 [3:38:35<3:01:03, 543.16s/it][AINFO:root:
+Task 9: put the wine bottle on the rack
+INFO:root:Starting task=9 episode=31 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 81
+INFO:root:# successes on this rank: 77 (95.1%)
+
+rank5: task9:  62%|██████▏   | 31/50 [3:46:41<2:46:33, 525.98s/it][AINFO:root:
+Task 9: put the wine bottle on the rack
+INFO:root:Starting task=9 episode=32 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 82
+INFO:root:# successes on this rank: 78 (95.1%)
+
+rank5: task9:  64%|██████▍   | 32/50 [3:51:51<2:18:19, 461.07s/it][AINFO:root:
+Task 9: put the wine bottle on the rack
+INFO:root:Starting task=9 episode=33 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 83
+INFO:root:# successes on this rank: 79 (95.2%)
+
+rank5: task9:  66%|██████▌   | 33/50 [3:57:51<2:02:01, 430.69s/it][AINFO:root:
+Task 9: put the wine bottle on the rack
+INFO:root:Starting task=9 episode=34 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 84
+INFO:root:# successes on this rank: 80 (95.2%)
+
+rank5: task9:  68%|██████▊   | 34/50 [4:04:53<1:54:09, 428.11s/it][AINFO:root:
+Task 9: put the wine bottle on the rack
+INFO:root:Starting task=9 episode=35 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 85
+INFO:root:# successes on this rank: 81 (95.3%)
+
+rank5: task9:  70%|███████   | 35/50 [4:10:03<1:38:09, 392.66s/it][AINFO:root:
+Task 9: put the wine bottle on the rack
+INFO:root:Starting task=9 episode=36 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 86
+INFO:root:# successes on this rank: 82 (95.3%)
+
+rank5: task9:  72%|███████▏  | 36/50 [4:15:51<1:28:33, 379.50s/it][AINFO:root:
+Task 9: put the wine bottle on the rack
+INFO:root:Starting task=9 episode=37 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 87
+INFO:root:# successes on this rank: 83 (95.4%)
+
+rank5: task9:  74%|███████▍  | 37/50 [4:22:16<1:22:32, 380.96s/it][AINFO:root:
+Task 9: put the wine bottle on the rack
+INFO:root:Starting task=9 episode=38 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 88
+INFO:root:# successes on this rank: 84 (95.5%)
+
+rank5: task9:  76%|███████▌  | 38/50 [4:27:57<1:13:47, 368.97s/it][AINFO:root:
+Task 9: put the wine bottle on the rack
+INFO:root:Starting task=9 episode=39 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 89
+INFO:root:# successes on this rank: 85 (95.5%)
+
+rank5: task9:  78%|███████▊  | 39/50 [4:36:45<1:16:25, 416.82s/it][AINFO:root:
+Task 9: put the wine bottle on the rack
+INFO:root:Starting task=9 episode=40 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 90
+INFO:root:# successes on this rank: 86 (95.6%)
+
+rank5: task9:  80%|████████  | 40/50 [4:42:24<1:05:35, 393.51s/it][AINFO:root:
+Task 9: put the wine bottle on the rack
+INFO:root:Starting task=9 episode=41 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 91
+INFO:root:# successes on this rank: 87 (95.6%)
+
+rank5: task9:  82%|████████▏ | 41/50 [4:49:35<1:00:40, 404.55s/it][AINFO:root:
+Task 9: put the wine bottle on the rack
+INFO:root:Starting task=9 episode=42 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 92
+INFO:root:# successes on this rank: 88 (95.7%)
+
+rank5: task9:  84%|████████▍ | 42/50 [4:54:36<49:49, 373.70s/it]  [AINFO:root:
+Task 9: put the wine bottle on the rack
+INFO:root:Starting task=9 episode=43 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 93
+INFO:root:# successes on this rank: 89 (95.7%)
+
+rank5: task9:  86%|████████▌ | 43/50 [4:59:18<40:22, 346.13s/it][AINFO:root:
+Task 9: put the wine bottle on the rack
+INFO:root:Starting task=9 episode=44 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 94
+INFO:root:# successes on this rank: 90 (95.7%)
+
+rank5: task9:  88%|████████▊ | 44/50 [5:03:53<32:28, 324.69s/it][AINFO:root:
+Task 9: put the wine bottle on the rack
+INFO:root:Starting task=9 episode=45 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 95
+INFO:root:# successes on this rank: 91 (95.8%)
+
+rank5: task9:  90%|█████████ | 45/50 [5:08:56<26:31, 318.30s/it][AINFO:root:
+Task 9: put the wine bottle on the rack
+INFO:root:Starting task=9 episode=46 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 96
+INFO:root:# successes on this rank: 92 (95.8%)
+
+rank5: task9:  92%|█████████▏| 46/50 [5:13:19<20:06, 301.68s/it][AINFO:root:
+Task 9: put the wine bottle on the rack
+INFO:root:Starting task=9 episode=47 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 97
+INFO:root:# successes on this rank: 93 (95.9%)
+
+rank5: task9:  94%|█████████▍| 47/50 [5:17:14<14:05, 281.78s/it][AINFO:root:
+Task 9: put the wine bottle on the rack
+INFO:root:Starting task=9 episode=48 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 98
+INFO:root:# successes on this rank: 94 (95.9%)
+
+rank5: task9:  96%|█████████▌| 48/50 [5:21:18<09:00, 270.43s/it][AINFO:root:
+Task 9: put the wine bottle on the rack
+INFO:root:Starting task=9 episode=49 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 99
+INFO:root:# successes on this rank: 95 (96.0%)
+
+rank5: task9:  98%|█████████▊| 49/50 [5:25:57<04:32, 272.83s/it][AINFO:root:
+Task 9: put the wine bottle on the rack
+INFO:root:Starting task=9 episode=50 ...
+INFO:root:Success: True
+INFO:root:# episodes completed on this rank so far: 100
+INFO:root:# successes on this rank: 96 (96.0%)
+
+rank5: task9: 100%|██████████| 50/50 [5:30:28<00:00, 272.29s/it][A
+                                                                [AINFO:root:Current task success rate on rank 5: 0.94
+INFO:root:Current rank success rate: 0.96
+rank5: tasks: 100%|██████████| 2/2 [11:56:15<00:00, 21195.56s/it] rank5: tasks: 100%|██████████| 2/2 [11:56:15<00:00, 21488.00s/it]
+INFO:root:Rank 5 total success rate: 0.96
+INFO:root:Rank 5 total episodes: 100

@@ -135,9 +135,8 @@ These deviations describe run-to-run variation under a fixed evaluation configur
 | Cosmos Policy | 96.40 ± 0.33 | 99.60 ± 0.33 | 97.93 ± 0.34 | 96.60 ± 0.28 | **97.63 ± 0.23** |
 | FastWAM | 97.07 ± 0.25 | 99.13 ± 0.09 | 96.47 ± 0.50 | 93.53 ± 0.41 | **96.55 ± 0.16** |
 | π<sub>0.5</sub> / OpenPI | 98.33 ± 0.09 | 98.73 ± 0.52 | 97.60 ± 0.43 | 91.40 ± 0.65 | **96.52 ± 0.22** |
-<sub>6,000 episodes per model (50 trials/task × 3 seeds). Average is the unweighted mean of the four suite-level success rates.</sub>
 
-<sub>6,000 episodes per model (50 trials/task × 3 seeds). Average is the unweighted mean of the four suite-level success rates.</sub>
+<sub>6,000 episodes per model (50 trials/task × 3 seeds), except OpenPI, whose seed-42 Object and Goal runs completed 300/500 episodes each (5,600 in total; see `results/openpi/results/libero/summary.md`). Average is the unweighted mean of the four suite-level success rates.</sub>
 
 ### Robustness — LIBERO-Plus
 
@@ -150,7 +149,7 @@ These deviations describe run-to-run variation under a fixed evaluation configur
 | Xiaomi-Robotics-0 | 40.21 | 55.63 | 89.03 | 94.51 | 90.43 | 86.78 | 75.87 | **73.91 ± 0.13** | 24.19 |
 | FastWAM | 44.65 | 72.04 | 66.99 | 94.22 | 66.57 | 67.17 | 79.45 | **70.69 ± 0.52** | 25.86 |
 
-<sub>Robust Avg. is the unweighted mean over the six non-linguistic perturbation dimensions. The LIBERO-Plus language condition is shown separately and excluded from Robust Avg.</sub>
+<sub>Robust Avg. is the unweighted mean over the six non-linguistic perturbation dimensions. The LIBERO-Plus language condition is shown separately and excluded from Robust Avg. For UnifoLM-VLA-0, one LIBERO-Plus run completed 5,015 of 10,030 configurations because of a CUDA out-of-memory failure; its rates are computed over the completed configurations.</sub>
 
 ### Language Grounding — LIBERO-Para
 
