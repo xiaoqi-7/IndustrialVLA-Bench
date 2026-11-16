@@ -53,7 +53,7 @@ Open VLA and WAM systems are advancing rapidly, yet their reported results are d
 - **LIBERO-Para** for sensitivity to paraphrased instructions,
 - a **deployability harness** for latency, peak VRAM, runtime mode, and execution configuration.
 
-Every model-benchmark configuration uses three fixed run-level seeds `{1, 7, 42}` with the checkpoint and inference configuration held fixed.
+Every model-benchmark configuration aggregates three complete runs with distinct run-level random seeds, with the checkpoint and inference configuration held fixed.
 
 Reported uncertainty is the **population standard deviation across the three run-level results**.
 
@@ -76,7 +76,7 @@ IndustrialVLA-Bench therefore treats robot-policy evaluation as a **multi-axis d
 | --- | --- |
 | **Official-first execution** | For each model, the official repository, checkpoint, inference path, and evaluation implementation are prioritized. |
 | **Protocol-faithful evaluation** | Task definitions, observation/action semantics, success rules, episode horizon, trial counts, and aggregation procedures are preserved. |
-| **Three-seed protocol** | Each model-benchmark configuration uses fixed run-level seeds `{1, 7, 42}`. |
+| **Three-seed protocol** | Each model-benchmark configuration aggregates three runs with distinct run-level random seeds; the seeds average out evaluation randomness and the seed actually used is recorded with each run. |
 | **Run-level uncertainty** | Reported `±` values are population standard deviations across the three run-level results. |
 | **Multi-axis profile** | Capability, robustness, language grounding, and deployability are reported separately rather than collapsed into one scalar score. |
 | **Traceability** | Results are linked to launch commands, environments, per-seed records, and aggregation rules preserved in the artifact. |
@@ -109,7 +109,7 @@ Protocol verification covers checkpoint provenance, task definitions, observatio
 
 ## Results
 
-All success-rate summaries are based on the three run-level seeds `{1, 7, 42}`.
+All success-rate summaries aggregate three runs with distinct run-level random seeds.
 
 Where `±` is reported, it denotes the **population standard deviation across the three run-level results**:
 
