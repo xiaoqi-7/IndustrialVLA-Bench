@@ -137,12 +137,12 @@ These deviations describe run-to-run variation under a fixed evaluation configur
 | --- | ---: | ---: | ---: | ---: | ---: |
 | Xiaomi-Robotics-0 | 98.67 ± 0.09 | 100.00 ± 0.00 | 97.93 ± 0.94 | 95.80 ± 0.91 | **98.10 ± 0.43** |
 | UnifoLM-VLA-0 | 98.67 ± 0.66 | 100.00 ± 0.00 | 97.73 ± 0.25 | 95.27 ± 0.41 | **97.92 ± 0.06** |
-| GR00T-N1.7 | 97.60 ± 1.50 | 99.30 ± 0.50 | 99.30 ± 0.50 | 95.30 ± 1.00 | **97.88 ± 0.65** |
 | Cosmos Policy | 96.40 ± 0.33 | 99.60 ± 0.33 | 97.93 ± 0.34 | 96.60 ± 0.28 | **97.63 ± 0.23** |
 | FastWAM | 97.07 ± 0.25 | 99.13 ± 0.09 | 96.47 ± 0.50 | 93.53 ± 0.41 | **96.55 ± 0.16** |
 | π<sub>0.5</sub> / OpenPI | 98.33 ± 0.09 | 98.73 ± 0.52 | 97.60 ± 0.43 | 91.40 ± 0.65 | **96.52 ± 0.22** |
+| GR00T-N1.7 | 92.00 | 99.34 | 99.33 | 95.33 | **96.50** |
 
-<sub>6,000 episodes per model (50 trials/task × 3 seeds), except OpenPI, whose seed-42 Object and Goal runs completed 300/500 episodes each (5,600 in total; see `results/openpi/results/libero/summary.md`). Average is the unweighted mean of the four suite-level success rates.</sub>
+<sub>6,000 episodes per model (50 trials/task × 3 seeds), except OpenPI, whose seed-42 Object and Goal runs completed 300/500 episodes each (5,600 in total; see `results/openpi/results/libero/summary.md`). GR00T-N1.7 values are single runs of about 150 episodes on the first task of each suite (see `results/Isaac-GR00T/results/libero/`), so no ± is reported. Average is the unweighted mean of the four suite-level success rates.</sub>
 
 ### Robustness — LIBERO-Plus
 
@@ -151,7 +151,7 @@ These deviations describe run-to-run variation under a fixed evaluation configur
 | π<sub>0.5</sub> / OpenPI | 70.63 | 75.12 | 85.97 | 96.76 | 95.82 | 87.05 | 86.47 | **85.31 ± 0.32** | 11.21 |
 | Cosmos Policy | 72.65 | 52.56 | 89.07 | 98.48 | 84.94 | 90.21 | 84.00 | **80.47 ± 0.23** | 17.16 |
 | UnifoLM-VLA-0 | 57.03 | 68.37 | 91.08 | 93.70 | 95.14 | 79.25 | 79.19 | **78.78 ± 0.30** | 19.14 |
-| GR00T-N1.7 | 64.40 | 38.40 | 83.88 | 94.87 | 93.72 | 84.36 | 74.94 | **75.12 ± 0.28** | 22.76 |
+| GR00T-N1.7 | 64.40 | 38.40 | 83.88 | 94.87 | 93.72 | 84.36 | 74.94 | **75.12 ± 0.28** | 21.38 |
 | Xiaomi-Robotics-0 | 40.21 | 55.63 | 89.03 | 94.51 | 90.43 | 86.78 | 75.87 | **73.91 ± 0.13** | 24.19 |
 | FastWAM | 44.65 | 72.04 | 66.99 | 94.22 | 66.57 | 67.17 | 79.45 | **70.69 ± 0.52** | 25.86 |
 
@@ -163,7 +163,7 @@ These deviations describe run-to-run variation under a fixed evaluation configur
 | --- | ---: | ---: |
 | UnifoLM-VLA-0 | **82.24 ± 0.48** | 15.67 ± 0.53 |
 | Xiaomi-Robotics-0 | **75.72 ± 0.16** | 22.38 ± 0.48 |
-| GR00T-N1.7 | **74.26 ± 1.52** | 23.62 ± 1.52 |
+| GR00T-N1.7 | **74.26 ± 1.52** | 22.24 ± 1.52 |
 | π<sub>0.5</sub> / OpenPI | **71.33 ± 0.05** | **25.19 ± 0.18** |
 | Cosmos Policy | **70.50 ± 0.26** | 27.13 ± 0.18 |
 | FastWAM | **51.16 ± 0.38** | 45.39 ± 0.32 |
@@ -172,7 +172,7 @@ These deviations describe run-to-run variation under a fixed evaluation configur
 
 ### Key Findings
 
-1. **Clean LIBERO is close to saturation** — averages span only **1.58 pp** (96.52–98.10%).
+1. **Clean LIBERO is close to saturation** — averages span only **1.60 pp** (96.50–98.10%).
 2. **Robustness separates models substantially more strongly** — LIBERO-Plus robustness spans **14.62 pp**.
 3. **Language sensitivity is even more discriminative** — LIBERO-Para spans **31.08 pp**.
 4. **Clean ranking does not predict robustness** — the highest clean score does not correspond to the strongest perturbation robustness.
