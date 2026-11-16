@@ -40,7 +40,6 @@ Vision-Language-Action (VLA) and World-Action Models (WAMs).</i></p>
 - [Results](#results)
 - [Deployability and Hardware](#deployability-and-hardware)
 - [Getting Started](#getting-started)
-- [Citation](#citation)
 
 ## Overview
 
