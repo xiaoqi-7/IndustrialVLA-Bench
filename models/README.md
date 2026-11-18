@@ -6,7 +6,6 @@
 | `Isaac-GR00T/` | NVIDIA Isaac GR00T N1.7 |
 | `Xiaomi-Robotics-0/` | Xiaomi Robotics-0 |
 | `openpi/` | OpenPI π0.5 |
-| `openvla/` | OpenVLA |
 | `unifolm-vla/` | UnifoLM-VLA |
 | `cosmos-policy/` | Cosmos Policy Predict2-2B |
 

@@ -17,7 +17,6 @@ assets are **not** redistributed here and remain subject to their original terms
 | Isaac-GR00T | `models/Isaac-GR00T/` | https://github.com/NVIDIA/Isaac-GR00T | Apache-2.0 (`models/Isaac-GR00T/LICENSE`) |
 | FastWAM | `models/FastWAM/` | (upstream release) | MIT (`models/FastWAM/LICENSE`, © 2026 The FastWAM Authors) |
 | Cosmos Policy | `models/cosmos-policy/` | https://github.com/nvidia-cosmos | Apache-2.0 (`models/cosmos-policy/LICENSE`) |
-| OpenVLA | `models/openvla/` | https://github.com/openvla/openvla | MIT (`models/openvla/LICENSE`, © 2024 Moo Jin Kim, Karl Pertsch, Siddharth Karamcheti) |
 
 Additional notes:
 
